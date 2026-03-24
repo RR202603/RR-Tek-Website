@@ -44,7 +44,7 @@ const languages = {
                 database2: "铝合金数据库",
                 database3: "硬质合金数据库",
                 database4: "铁基合金数据库",
-                database5: "稀土永磁体数据库"
+                database5: "稀土数据库"
             },
             service: {
                 title: "服务",
@@ -57,15 +57,15 @@ const languages = {
     }
 };
 
-// This function will update the content in the HTML based on the selected language
+let currentLanguage = 'en';
+
+function toggleLanguage() {
+    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en';
+    updateContent();
+    updateLogo();
+    updateFooter();
+}
+
 function updateContent() {
     document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        const keys = key.split('.');
-        let translation = languages[currentLanguage];
-
-        keys.forEach(k => translation = translation[k]);
-
-        element.innerText = translation || key;
-    });
-}
+        const key = element.getAttribute('data-i

@@ -38,7 +38,11 @@
     <section id="about">
         <div class="container">
             <h2 data-i18n="about.title">About Us</h2>
-            <p data-i18n="about.description">RR-Tek Technology is a high-tech enterprise focused on R&D and innovative solutions for industries like materials science, intelligent design, and industrial automation.</p>
+            <p data-i18n="about.description">
+                长沙锐睿科技有限公司成立于2021年4月，专业从事科研软件开发和销售、材料热力学和热物性数据库开发和销售、行业培训和学术会议、新材料技术开发和咨询等科技服务业务。
+                公司拥有专业的技术开发人才、优秀的科研软件开发团队，以及国内外知名教授专家组成的顾问团队，构建了以研发、销售和售后服务为一体的高效、精简的运营模式。
+                致力于打造具有国际一流水平和完全自主知识产权的材料智能设计软件、数据库及材料设计服务平台，引领多尺度和制备全流程的材料设计及开发技术，成为国内外科研院所和企业开展科技和新材料开发的首选合作伙伴。
+            </p>
         </div>
     </section>
 
@@ -136,7 +140,7 @@
 
     <!-- Footer -->
     <footer>
-        <p id="footer-text">© 2026 RR-Tek Technology Co., Ltd. All Rights Reserved. | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com</p> <!-- Changed footer text dynamically -->
+        <p id="footer-text">© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com</p> <!-- Changed footer text dynamically -->
     </footer>
 
     <!-- JavaScript -->
@@ -153,7 +157,7 @@
             zh: {
                 nav: { home: "首页", about: "关于我们", products: "产品与服务", news: "新闻资讯", contact: "联系我们" },
                 hero: { title: "欢迎来到锐睿科技", description: "我们在全球范围内引领创新技术解决方案。", learnMore: "了解更多" },
-                about: { title: "关于我们", description: "锐睿科技是一家专注于材料科学、智能设计和工业自动化领域的创新技术解决方案公司。" },
+                about: { title: "关于我们", description: "长沙锐睿科技有限公司成立于2021年4月，专业从事科研软件开发和销售、材料热力学和热物性数据库开发和销售、行业培训和学术会议、新材料技术开发和咨询等科技服务业务。\n公司拥有专业的技术开发人才、优秀的科研软件开发团队，以及国内外知名教授专家组成的顾问团队，构建了以研发、销售和售后服务为一体的高效、精简的运营模式。\n致力于打造具有国际一流水平和完全自主知识产权的材料智能设计软件、数据库及材料设计服务平台，引领多尺度和制备全流程的材料设计及开发技术，成为国内外科研院所和企业开展科技和新材料开发的首选合作伙伴。" },
                 products: { title: "我们的产品与服务", description: "探索我们帮助转型行业的创新产品与解决方案。", product1: "热物性计算软件 CALTPP", product1desc: "创新的软件工具，旨在优化制造过程。", product2: "相图热力学计算软件 ICALPHAD", product2desc: "利用大数据为工业决策提供智能支持。" },
                 news: { title: "新闻资讯", description: "了解锐睿科技的最新动态。" },
                 contact: { title: "联系我们", description: "我们很乐意听取您的意见！请联系我们获取更多信息。", form: { name: "您的姓名", email: "您的电子邮件", message: "您的留言", submit: "提交" } }
@@ -193,9 +197,9 @@
         function updateFooter() {
             const footerText = document.getElementById('footer-text');
             if (currentLanguage === 'zh') {
-                footerText.innerText = "© 2026 锐睿科技有限公司 版权所有 | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com";
+                footerText.innerText = "© 2025 锐睿科技有限公司 版权所有 | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com";
             } else {
-                footerText.innerText = "© 2026 RR-Tek Technology Co., Ltd. All Rights Reserved. | Address: 806, Building 5, Aux, Yuelu District, Changsha | Email: rrui_info@163.com";
+                footerText.innerText = "© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | Address: 806, Building 5, Aux, Yuelu District, Changsha | Email: rrui_info@163.com";
             }
         }
 

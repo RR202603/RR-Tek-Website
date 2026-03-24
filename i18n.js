@@ -55,15 +55,17 @@ const languages = {
     }
 };
 
-let currentLanguage = 'zh'; // 默认语言为中文
+let currentLanguage = 'zh'; // 默认语言是中文
 
+// Function to toggle between languages
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en';
-    updateContent();
-    updateLogo();
-    updateFooter();
+    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en'; // 切换语言
+    updateContent(); // 更新页面内容
+    updateLogo(); // 更新 logo
+    updateFooter(); // 更新底部内容
 }
 
+// Function to update content on the page
 function updateContent() {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -76,15 +78,13 @@ function updateContent() {
     });
 }
 
+// Function to update the company logo
 function updateLogo() {
     const logo = document.getElementById('company-logo');
-    if (currentLanguage === 'zh') {
-        logo.innerText = "锐睿科技有限公司";
-    } else {
-        logo.innerText = "RR-Tek";
-    }
+    logo.innerText = currentLanguage === 'zh' ? "锐睿科技有限公司" : "RR-Tek";
 }
 
+// Function to update the footer content
 function updateFooter() {
     const footerText = document.getElementById('footer-text');
     if (currentLanguage === 'zh') {
@@ -94,6 +94,7 @@ function updateFooter() {
     }
 }
 
+// 初次加载时就更新页面内容
 updateContent();
 updateLogo();
 updateFooter();

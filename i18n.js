@@ -55,11 +55,13 @@ const languages = {
     }
 };
 
-let currentLanguage = 'zh'; // Default language is Chinese
+let currentLanguage = 'zh'; // 默认语言为中文
 
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
+    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en';
     updateContent();
+    updateLogo();
+    updateFooter();
 }
 
 function updateContent() {
@@ -74,4 +76,24 @@ function updateContent() {
     });
 }
 
-updateContent(); // Initialize with default language (Chinese)
+function updateLogo() {
+    const logo = document.getElementById('company-logo');
+    if (currentLanguage === 'zh') {
+        logo.innerText = "锐睿科技有限公司";
+    } else {
+        logo.innerText = "RR-Tek";
+    }
+}
+
+function updateFooter() {
+    const footerText = document.getElementById('footer-text');
+    if (currentLanguage === 'zh') {
+        footerText.innerText = "© 2025 锐睿科技有限公司 版权所有 | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com";
+    } else {
+        footerText.innerText = "© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | Address: 806, Building 5, Aux, Yuelu District, Changsha | Email: rrui_info@163.com";
+    }
+}
+
+updateContent();
+updateLogo();
+updateFooter();

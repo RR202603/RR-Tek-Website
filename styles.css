@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -10,98 +11,171 @@ body {
     background-color: #f5f5f5;
 }
 
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Header */
 header {
     background-color: #003366;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
-header nav ul {
+nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+nav ul li {
+    margin: 0 15px;
 }
 
-header nav ul li button {
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li button {
     background-color: #0099cc;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-header nav ul li button:hover {
+nav ul li button:hover {
     background-color: #0077b3;
 }
 
+/* Hero Section */
 #hero {
-    background-image: url('assets/hero-image.jpg');
-    background-size: cover;
-    height: 400px;
-    color: white;
-    text-align: center;
+    background: url('assets/hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#hero .hero-content {
-    max-width: 80%;
-}
-
-#hero h1 {
-    font-size: 3rem;
-}
-
-section {
-    padding: 40px 20px;
+    color: white;
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    background-color: #0056b3;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Products Section */
+#products {
+    background-color: #f0f0f0;
 }
 
 .product-cards {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 30px;
 }
 
-.card {
-    background-color: white;
+.product-card {
+    background-color: #fff;
     padding: 20px;
-    width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-.card h3 {
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card h3 {
     font-size: 1.5rem;
+}
+
+.btn-secondary {
+    background-color: #f1c40f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #f39c12;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form input, form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 form button {
     background-color: #003366;
     color: white;
-    padding: 10px;
+    padding: 15px 30px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #003366;
     color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
 }

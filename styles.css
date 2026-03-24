@@ -1,3 +1,4 @@
+/* 基本样式 */
 * {
     margin: 0;
     padding: 0;
@@ -110,8 +111,9 @@ section {
     margin-bottom: 40px;
 }
 
+/* 增大"我们的产品与服务"的字体 */
 .product-section h3 {
-    font-size: 2.5rem;  /* Increase the font size of 'Our Products & Services' */
+    font-size: 2.8rem;  /* Increase the font size */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -123,7 +125,7 @@ section {
 .product-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;  /* Left align the cards */
+    justify-content: flex-start;  /* Left-align the cards */
     gap: 20px;
 }
 
@@ -132,7 +134,7 @@ section {
     padding: 20px;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;  /* 左对齐 */
     transition: transform 0.3s ease;
 }
 
@@ -174,7 +176,7 @@ section {
     padding: 20px;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
 }
 
 .product-card h4 {

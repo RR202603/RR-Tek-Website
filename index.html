@@ -11,7 +11,7 @@
     <!-- Header with Navigation -->
     <header>
         <nav>
-            <div class="logo">RR-Tek</div>
+            <div class="logo" id="company-logo">RR-Tek</div> <!-- Changed the logo text dynamically -->
             <ul>
                 <li><a href="#home" data-i18n="nav.home">Home</a></li>
                 <li><a href="#about" data-i18n="nav.about">About Us</a></li>
@@ -49,14 +49,58 @@
             <p data-i18n="products.description">Explore our cutting-edge solutions and products that help transform industries.</p>
             <div class="product-cards">
                 <div class="product-card">
-                    <h3 data-i18n="products.product1">Industrial Software Solutions</h3>
+                    <h3 data-i18n="products.product1">热物性计算软件 CALTPP</h3>
                     <p data-i18n="products.product1desc">Innovative software tools designed to optimize manufacturing processes.</p>
                     <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
                 </div>
                 <div class="product-card">
-                    <h3 data-i18n="products.product2">Smart Data Solutions</h3>
+                    <h3 data-i18n="products.product2">相图热力学计算软件 ICALPHAD</h3>
                     <p data-i18n="products.product2desc">Using big data to power smarter decisions in industrial operations.</p>
                     <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.product3">相场软件 MID-NANO</h3>
+                    <p data-i18n="products.product3desc">Simulation software for advanced material behavior analysis.</p>
+                    <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.product4">相场软件 MID-MESO</h3>
+                    <p data-i18n="products.product4desc">Modeling complex material interactions and behavior.</p>
+                    <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.product5">析出模拟软件 PreCalc</h3>
+                    <p data-i18n="products.product5desc">Predict phase precipitation and evolution in materials.</p>
+                    <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.product6">有限元计算模拟软件 CPCP</h3>
+                    <p data-i18n="products.product6desc">Finite element method software for structural analysis.</p>
+                    <a href="#details" class="btn-secondary" data-i18n="products.learnMore">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.database1">铜合金数据库</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.database2">铝合金数据库</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.database3">硬质合金数据库</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.database4">铁基合金数据库</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.service1">材料计算服务</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.service2">项目申请指导服务</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.service3">材料表征检测服务</h3>
+                </div>
+                <div class="product-card">
+                    <h3 data-i18n="products.service4">会议服务</h3>
                 </div>
             </div>
         </div>
@@ -67,9 +111,6 @@
         <div class="container">
             <h2 data-i18n="news.title">News & Announcements</h2>
             <p data-i18n="news.description">Stay updated with the latest developments at RR-Tek Technology.</p>
-            <div class="news-cards">
-                <!-- News Items can go here -->
-            </div>
         </div>
     </section>
 
@@ -95,7 +136,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 RR-Tek Technology Co., Ltd. All Rights Reserved.</p>
+        <p id="footer-text">© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com</p> <!-- Changed footer text dynamically -->
     </footer>
 
     <!-- JavaScript -->
@@ -105,7 +146,7 @@
                 nav: { home: "Home", about: "About Us", products: "Products & Services", news: "News", contact: "Contact" },
                 hero: { title: "Welcome to RR-Tek Technology", description: "Leading the way in innovative technology solutions for industries worldwide.", learnMore: "Learn More" },
                 about: { title: "About Us", description: "RR-Tek Technology is a high-tech enterprise focused on R&D and innovative solutions for industries like materials science, intelligent design, and industrial automation." },
-                products: { title: "Our Products & Services", description: "Explore our cutting-edge solutions and products that help transform industries.", product1: "Industrial Software Solutions", product1desc: "Innovative software tools designed to optimize manufacturing processes.", product2: "Smart Data Solutions", product2desc: "Using big data to power smarter decisions." },
+                products: { title: "Our Products & Services", description: "Explore our cutting-edge solutions and products that help transform industries.", product1: "Industrial Software Solutions", product1desc: "Innovative software tools designed to optimize manufacturing processes.", product2: "Smart Data Solutions", product2desc: "Using big data to power smarter decisions in industrial operations." },
                 news: { title: "News & Announcements", description: "Stay updated with the latest developments at RR-Tek Technology." },
                 contact: { title: "Contact Us", description: "We would love to hear from you! Get in touch with us for more information.", form: { name: "Your Name", email: "Your Email", message: "Your Message", submit: "Submit" } }
             },
@@ -113,7 +154,7 @@
                 nav: { home: "首页", about: "关于我们", products: "产品与服务", news: "新闻资讯", contact: "联系我们" },
                 hero: { title: "欢迎来到锐睿科技", description: "我们在全球范围内引领创新技术解决方案。", learnMore: "了解更多" },
                 about: { title: "关于我们", description: "锐睿科技是一家专注于材料科学、智能设计和工业自动化领域的创新技术解决方案公司。" },
-                products: { title: "我们的产品与服务", description: "探索我们帮助转型行业的创新产品与解决方案。", product1: "工业软件解决方案", product1desc: "创新的软件工具，旨在优化制造过程。", product2: "智能数据解决方案", product2desc: "利用大数据为工业决策提供智能支持。" },
+                products: { title: "我们的产品与服务", description: "探索我们帮助转型行业的创新产品与解决方案。", product1: "热物性计算软件 CALTPP", product1desc: "创新的软件工具，旨在优化制造过程。", product2: "相图热力学计算软件 ICALPHAD", product2desc: "利用大数据为工业决策提供智能支持。" },
                 news: { title: "新闻资讯", description: "了解锐睿科技的最新动态。" },
                 contact: { title: "联系我们", description: "我们很乐意听取您的意见！请联系我们获取更多信息。", form: { name: "您的姓名", email: "您的电子邮件", message: "您的留言", submit: "提交" } }
             }
@@ -124,6 +165,8 @@
         function toggleLanguage() {
             currentLanguage = currentLanguage === 'en' ? 'zh' : 'en';
             updateContent();
+            updateLogo();
+            updateFooter();
         }
 
         function updateContent() {
@@ -131,14 +174,34 @@
                 const key = element.getAttribute('data-i18n');
                 const keys = key.split('.');
                 let translation = languages[currentLanguage];
-
+                
                 keys.forEach(k => translation = translation[k]);
 
                 element.innerText = translation || key;
             });
         }
 
+        function updateLogo() {
+            const logo = document.getElementById('company-logo');
+            if (currentLanguage === 'zh') {
+                logo.innerText = "锐睿科技有限公司";
+            } else {
+                logo.innerText = "RR-Tek";
+            }
+        }
+
+        function updateFooter() {
+            const footerText = document.getElementById('footer-text');
+            if (currentLanguage === 'zh') {
+                footerText.innerText = "© 2025 锐睿科技有限公司 版权所有 | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com";
+            } else {
+                footerText.innerText = "© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | Address: 806, Building 5, Aux, Yuelu District, Changsha | Email: rrui_info@163.com";
+            }
+        }
+
         updateContent();
+        updateLogo();
+        updateFooter();
     </script>
 
 </body>

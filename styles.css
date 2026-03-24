@@ -111,9 +111,9 @@ section {
     margin-bottom: 40px;
 }
 
-/* 增大"我们的产品与服务"的字体 */
+/* 调整“我们的产品与服务”标题字号 */
 .product-section h3 {
-    font-size: 2.8rem;  /* Increase the font size */
+    font-size: 2.8rem;  /* 增大“我们的产品与服务”的字体 */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -157,6 +157,11 @@ section {
 
 .btn-secondary:hover {
     background-color: #f39c12;
+}
+
+/* 服务模块的卡片填充具体服务名称 */
+.product-cards .product-card h4 {
+    font-size: 1.3rem;
 }
 
 /* Services Section */

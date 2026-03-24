@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR-Tek Technology - Official Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="i18n.js" defer></script>
+</head>
+<body>
+    <!-- Header with Language Toggle -->
+    <header>
+        <nav>
+            <div class="logo">RR-Tek</div>
+            <ul>
+                <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+                <li><a href="#products" data-i18n="nav.products">Products & Services</a></li>
+                <li><a href="#news" data-i18n="nav.news">News</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact Us</a></li>
+                <li>
+                    <button onclick="toggleLanguage()">切换语言</button> <!-- Switch Language Button -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">Welcome to RR-Tek Technology</h1>
+            <p data-i18n="hero.description">Leading the way in innovative technology solutions for industries worldwide.</p>
+            <a href="#about" class="btn" data-i18n="hero.learnMore">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2 data-i18n="about.title">About Us</h2>
+        <p data-i18n="about.description">RR-Tek Technology is a high-tech enterprise focused on R&D and innovative solutions for industries like materials science, intelligent design, and industrial automation.</p>
+    </section>
+
+    <!-- Products & Services Section -->
+    <section id="products">
+        <h2 data-i18n="products.title">Our Products & Services</h2>
+        <p data-i18n="products.description">Explore our cutting-edge solutions and products that help transform industries.</p>
+        <div class="product-cards">
+            <div class="card">
+                <h3 data-i18n="products.product1">Industrial Software Solutions</h3>
+                <p data-i18n="products.product1desc">Innovative software tools designed to optimize manufacturing processes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+        <h2 data-i18n="news.title">News & Announcements</h2>
+        <p data-i18n="news.description">Stay updated with the latest developments at RR-Tek Technology.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2 data-i18n="contact.title">Contact Us</h2>
+        <p data-i18n="contact.description">We would love to hear from you! Get in touch with us for more information.</p>
+        <form>
+            <label for="name" data-i18n="contact.form.name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email" data-i18n="contact.form.email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message" data-i18n="contact.form.message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+            <button type="submit" data-i18n="contact.form.submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 RR-Tek Technology Co., Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

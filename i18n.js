@@ -5,7 +5,8 @@ const languages = {
             about: "About Us",
             products: "Products & Services",
             news: "News",
-            contact: "Contact"
+            contact: "Contact",
+            switchLang: "Switch to Chinese"
         },
         hero: {
             title: "Welcome to RR-Tek Technology",
@@ -53,7 +54,8 @@ const languages = {
             about: "关于我们",
             products: "产品与服务",
             news: "新闻",
-            contact: "联系方式"
+            contact: "联系方式",
+            switchLang: "切换至英文"
         },
         hero: {
             title: "欢迎来到锐睿科技",
@@ -97,16 +99,18 @@ const languages = {
     }
 };
 
-// Function to toggle between languages
-let currentLanguage = 'zh'; // Default language is Chinese
+// 默认语言设置为中文
+let currentLanguage = 'zh'; 
+
+// 切换语言
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en'; // Toggle language
+    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en'; // 切换语言
     updateContent();
     updateLogo();
     updateFooter();
 }
 
-// Function to update content based on selected language
+// 更新页面内容
 function updateContent() {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -119,19 +123,19 @@ function updateContent() {
     });
 }
 
-// Function to update the company logo
+// 更新 logo
 function updateLogo() {
     const logo = document.getElementById('company-logo');
     logo.innerText = currentLanguage === 'zh' ? "锐睿科技有限公司" : "RR-Tek";
 }
 
-// Function to update the footer content
+// 更新 footer 内容
 function updateFooter() {
     const footerText = document.getElementById('footer-text');
     footerText.innerText = languages[currentLanguage].footer.text;
 }
 
-// Initialize content
+// 页面加载后更新内容
 updateContent();
 updateLogo();
 updateFooter();

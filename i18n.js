@@ -55,7 +55,13 @@ const languages = {
     }
 };
 
-// Function to update content based on selected language
+let currentLanguage = 'zh'; // Default language is Chinese
+
+function toggleLanguage() {
+    currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
+    updateContent();
+}
+
 function updateContent() {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -67,3 +73,5 @@ function updateContent() {
         element.innerText = translation || key;
     });
 }
+
+updateContent(); // Initialize with default language (Chinese)

@@ -1,300 +1,307 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>数据库详情 - 长沙锐睿科技有限公司</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .lang-switch {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .lang-btn {
-      padding: 6px 12px;
-      border: 1px solid #ccc;
-      background: #fff;
-      cursor: pointer;
-      border-radius: 6px;
-      transition: all 0.2s ease;
-    }
-
-    .lang-btn.active {
-      background: #0d6efd;
-      color: #fff;
-      border-color: #0d6efd;
-    }
-
-    .database-hero {
-      padding: 80px 20px 50px;
-      text-align: center;
-      background: linear-gradient(135deg, #f5f9ff, #eef4ff);
-    }
-
-    .database-hero h1 {
-      font-size: 40px;
-      margin-bottom: 16px;
-    }
-
-    .database-hero p {
-      max-width: 900px;
-      margin: 0 auto;
-      line-height: 1.8;
-      color: #555;
-      font-size: 18px;
-    }
-
-    .database-section {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    .database-section h2 {
-      font-size: 30px;
-      margin-bottom: 24px;
-      text-align: center;
-    }
-
-    .database-section .section-desc {
-      max-width: 900px;
-      margin: 0 auto 30px;
-      text-align: center;
-      line-height: 1.8;
-      color: #666;
-    }
-
-    .database-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .database-card {
-      background: #fff;
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .database-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-    }
-
-    .database-card h3 {
-      font-size: 22px;
-      margin-bottom: 12px;
-      color: #222;
-    }
-
-    .database-card p {
-      color: #666;
-      line-height: 1.8;
-    }
-
-    .advantage-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-top: 24px;
-      list-style: none;
-      padding: 0;
-    }
-
-    .advantage-list li {
-      background: #f8f9fa;
-      border-radius: 12px;
-      padding: 18px 20px;
-      text-align: center;
-      font-weight: 600;
-    }
-
-    .cta-box {
-      text-align: center;
-      padding: 60px 20px 80px;
-      background: #f8fbff;
-    }
-
-    .cta-box h2 {
-      font-size: 30px;
-      margin-bottom: 16px;
-    }
-
-    .cta-box p {
-      max-width: 800px;
-      margin: 0 auto 24px;
-      color: #666;
-      line-height: 1.8;
-    }
-
-    .cta-btn {
-      display: inline-block;
-      padding: 12px 26px;
-      border-radius: 8px;
-      background: #0d6efd;
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.2s ease;
-    }
-
-    .cta-btn:hover {
-      background: #0b5ed7;
-    }
-
-    @media (max-width: 768px) {
-      .database-hero h1 {
-        font-size: 30px;
-      }
-
-      .database-section h2,
-      .cta-box h2 {
-        font-size: 24px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">长沙锐睿科技有限公司 | 材料科学智能计算解决方案提供商</title>
+    <meta
+        id="page-description"
+        name="description"
+        content="长沙锐睿科技有限公司专注于科研软件、材料热力学数据库及材料智能设计技术服务，提供科研软件、数据库平台与工程咨询服务。"
+    />
+    <meta
+        id="page-keywords"
+        name="keywords"
+        content="长沙锐睿科技, 锐睿科技, RR-Tek, 科研软件, 热力学数据库, 材料数据库, 材料计算, 材料智能设计, CALTPP, ICALPHAD"
+    />
+    <meta name="author" content="Changsha RR-Tek Technology Co., Ltd." />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <nav class="navbar" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;max-width:1200px;margin:0 auto;">
-      <div class="nav-left" style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
-        <a href="index.html" data-i18n="nav.home">首页</a>
-        <a href="service.html" data-i18n="nav.service">服务</a>
-        <a href="software.html" data-i18n="nav.software">软件开发</a>
-        <a href="database.html" data-i18n="nav.database">数据库</a>
-        <a href="index.html#contact" data-i18n="nav.contact">联系我们</a>
-      </div>
+    <header>
+        <nav class="nav-container">
+            <a href="#hero" class="brand" aria-label="RR-Tek Home">
+                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name" id="company-logo-text">锐睿科技</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注软件、数据库、材料智能设计</span>
+                </div>
+            </a>
 
-      <div class="lang-switch">
-        <button class="lang-btn" type="button" data-lang="zh">中文</button>
-        <button class="lang-btn" type="button" data-lang="en">EN</button>
-      </div>
-    </nav>
-  </header>
+            <ul class="nav-menu">
+                <li><a href="#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="#products" data-i18n="nav.products">解决方案</a></li>
+                <li><a href="#news" data-i18n="nav.news">新闻中心</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="database-hero">
-      <h1 data-i18n="database.hero.title">数据库详情</h1>
-      <p data-i18n="database.hero.desc">
-        为企业提供稳定、高效、安全的数据管理与应用支持。
-      </p>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="hero-overlay">
+                <div class="hero-content container">
+                    <p class="hero-kicker" data-i18n="hero.kicker">RR-Tek Technology</p>
+                    <h1 data-i18n="hero.title">面向材料科学的智能计算解决方案</h1>
+                    <p class="hero-description" data-i18n="hero.description">
+                        锐睿科技致力于提供科研软件、材料热力学数据库及工程技术服务，助力材料设计、性能预测与产业化应用。
+                    </p>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">
+                        Materials Software · Thermodynamic Database · Intelligent Design
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn-primary" data-i18n="hero.learnMore">了解更多</a>
+                        <a href="#contact" class="btn-secondary" data-i18n="hero.contactBtn">联系咨询</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="database-section">
-      <h2 data-i18n="database.section.overview">服务概述</h2>
-      <p class="section-desc" data-i18n="database.overview.text">
-        我们提供数据库设计、部署、优化、迁移、备份和运维服务，帮助企业构建高性能、可扩展的数据平台。
-      </p>
-    </section>
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="about.tag">Company Profile</p>
+                    <h2 data-i18n="about.title">关于锐睿科技</h2>
+                </div>
 
-    <section class="database-section">
-      <h2 data-i18n="database.section.features">核心功能</h2>
-      <div class="database-grid" id="database-feature-list"></div>
-    </section>
+                <div class="about-grid">
+                    <div class="about-card about-main">
+                        <p data-i18n="about.description">
+                            长沙锐睿科技有限公司成立于2021年，是一家专注于科研计算软件、材料热力学及热物性数据库开发，以及材料智能设计技术服务的高新技术企业。公司汇聚了专业的软件开发团队，并由国内外知名高校教授和行业专家组成顾问团队，构建了集软件研发、数据库建设与工程服务于一体的技术体系。锐睿科技致力于打造具有自主知识产权的材料设计软件与数据库平台，推动多尺度模拟、材料工艺优化及工程应用的发展，为科研机构及企业提供高效可靠的技术支撑。
+                        </p>
+                    </div>
 
-    <section class="database-section">
-      <h2 data-i18n="database.section.advantages">服务优势</h2>
-      <ul class="advantage-list">
-        <li data-i18n="database.advantages.item1">高可靠性</li>
-        <li data-i18n="database.advantages.item2">安全可控</li>
-        <li data-i18n="database.advantages.item3">灵活扩展</li>
-        <li data-i18n="database.advantages.item4">专业运维支持</li>
-      </ul>
-    </section>
+                    <div class="about-card">
+                        <h3 data-i18n="about.missionTitle">我们的使命</h3>
+                        <p data-i18n="about.missionText">
+                            以先进的软件与数据库平台推动材料研发效率提升，赋能科研创新与产业升级。
+                        </p>
+                    </div>
 
-    <section class="cta-box" id="contact">
-      <h2 data-i18n="database.section.contact">咨询我们</h2>
-      <p data-i18n="database.contact.desc">
-        无论您需要数据库架构设计、性能优化、数据迁移还是长期运维支持，我们都可以为您提供专业服务。
-      </p>
-      <a class="cta-btn" href="index.html#contact" data-i18n="database.contact.button">立即咨询</a>
-    </section>
-  </main>
+                    <div class="about-card">
+                        <h3 data-i18n="about.visionTitle">我们的愿景</h3>
+                        <p data-i18n="about.visionText">
+                            成为材料计算、数据库与智能设计领域值得信赖的技术合作伙伴。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <script src="i18n.js"></script>
-  <script>
-    const databaseFeatureData = {
-      zh: [
-        {
-          title: "数据库设计",
-          desc: "根据业务场景设计合理的数据结构与存储方案，兼顾性能、扩展性与维护成本。"
-        },
-        {
-          title: "性能优化",
-          desc: "针对慢查询、索引设计、SQL 调优和资源瓶颈进行系统化优化，提升整体效率。"
-        },
-        {
-          title: "数据迁移",
-          desc: "支持多种数据库之间的迁移、升级和数据同步，降低系统切换风险。"
-        },
-        {
-          title: "备份与恢复",
-          desc: "建立可靠的数据备份机制和灾难恢复方案，提升业务连续性与安全性。"
-        },
-        {
-          title: "安全管理",
-          desc: "通过权限控制、日志审计、访问隔离和数据保护机制提升数据库安全水平。"
-        },
-        {
-          title: "运维支持",
-          desc: "提供日常巡检、故障排查、监控预警和持续维护服务，保障系统长期稳定运行。"
-        }
-      ],
-      en: [
-        {
-          title: "Database Design",
-          desc: "Design proper data structures and storage solutions based on business scenarios, balancing performance, scalability, and maintenance cost."
-        },
-        {
-          title: "Performance Optimization",
-          desc: "Systematically optimize slow queries, index design, SQL execution, and resource bottlenecks to improve overall efficiency."
-        },
-        {
-          title: "Data Migration",
-          desc: "Support migration, upgrades, and synchronization across multiple database systems while reducing switching risks."
-        },
-        {
-          title: "Backup and Recovery",
-          desc: "Build reliable backup mechanisms and disaster recovery plans to improve business continuity and data safety."
-        },
-        {
-          title: "Security Management",
-          desc: "Improve database security through access control, audit logs, isolation strategies, and data protection mechanisms."
-        },
-        {
-          title: "Maintenance Support",
-          desc: "Provide routine inspection, troubleshooting, monitoring alerts, and ongoing maintenance to ensure long-term stable operation."
-        }
-      ]
-    };
+        <section id="products">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="products.tag">Solutions</p>
+                    <h2 data-i18n="products.title">解决方案与服务</h2>
+                    <p class="section-description" data-i18n="products.description">
+                        覆盖科研软件、材料数据库及工程服务的完整产品体系，支撑材料研发全流程。
+                    </p>
+                </div>
 
-    function renderDatabaseFeatures(lang) {
-      const container = document.getElementById("database-feature-list");
-      if (!container) return;
+                <div class="product-section">
+                    <div class="section-row">
+                        <h3 data-i18n="products.software.title">科研软件</h3>
+                        <a href="javascript:void(0)" class="more-link" data-i18n="products.more">查看详情</a>
+                    </div>
+                    <div class="product-cards">
+                        <div class="product-card">
+                            <h4 data-i18n="products.software.product1">热物性计算平台 CALTPP</h4>
+                            <p data-i18n="products.software.desc1">用于材料热物性参数的高效计算与分析。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.software.product2">相图智能计算系统 ICALPHAD</h4>
+                            <p data-i18n="products.software.desc2">支持相图计算、热力学分析与材料设计研究。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.software.product3">多相组织模拟软件 MID</h4>
+                            <p data-i18n="products.software.desc3">面向多相组织演化与显微组织模拟分析。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.software.product4">析出行为模拟软件 PreCalc</h4>
+                            <p data-i18n="products.software.desc4">用于析出动力学及组织演化过程模拟。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.software.product5">晶体塑性模拟软件 CPCP</h4>
+                            <p data-i18n="products.software.desc5">用于晶体塑性与材料力学行为模拟计算。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                    </div>
+                </div>
 
-      const data = databaseFeatureData[lang] || databaseFeatureData.zh;
+                <div class="product-section">
+                    <div class="section-row">
+                        <h3 data-i18n="products.database.title">材料数据库</h3>
+                        <a href="javascript:void(0)" class="more-link" data-i18n="products.more">查看详情</a>
+                    </div>
+                    <div class="product-cards">
+                        <div class="product-card">
+                            <h4 data-i18n="products.database.database1">铜合金热力学数据库</h4>
+                            <p data-i18n="products.database.desc1">覆盖铜合金体系热力学与相关材料设计需求。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.database.database2">铝合金热力学数据库</h4>
+                            <p data-i18n="products.database.desc2">服务于铝合金研发、相图分析与工艺优化。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.database.database3">硬质合金数据库</h4>
+                            <p data-i18n="products.database.desc3">支持硬质合金成分设计与性能分析研究。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.database.database4">铁基合金数据库</h4>
+                            <p data-i18n="products.database.desc4">适用于铁基材料体系的计算与数据库支撑。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.database.database5">稀土永磁材料数据库</h4>
+                            <p data-i18n="products.database.desc5">服务于稀土永磁材料设计、开发与分析。</p>
+                            <a href="javascript:void(0)" class="card-link" data-i18n="products.detailBtn">产品详情</a>
+                        </div>
+                    </div>
+                </div>
 
-      container.innerHTML = data.map(item => `
-        <div class="database-card">
-          <h3>${item.title}</h3>
-          <p>${item.desc}</p>
+                <div class="product-section">
+                    <div class="section-row">
+                        <h3 data-i18n="products.service.title">技术服务</h3>
+                        <a href="javascript:void(0)" class="more-link" data-i18n="products.more">查看详情</a>
+                    </div>
+                    <div class="product-cards">
+                        <div class="product-card">
+                            <h4 data-i18n="products.service.service1">材料计算与模拟分析服务</h4>
+                            <p data-i18n="products.service.desc1">提供面向科研和工程应用的材料计算与模拟支撑。</p>
+                            <a href="#contact" class="card-link" data-i18n="products.contactBtn">立即咨询</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.service.service2">科研项目申报与技术咨询服务</h4>
+                            <p data-i18n="products.service.desc2">提供项目申报支持、技术路线咨询与方案建议。</p>
+                            <a href="#contact" class="card-link" data-i18n="products.contactBtn">立即咨询</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.service.service3">材料表征与检测服务</h4>
+                            <p data-i18n="products.service.desc3">提供材料测试、表征分析及实验技术支持。</p>
+                            <a href="#contact" class="card-link" data-i18n="products.contactBtn">立即咨询</a>
+                        </div>
+                        <div class="product-card">
+                            <h4 data-i18n="products.service.service4">学术会议与技术培训服务</h4>
+                            <p data-i18n="products.service.desc4">支持会议组织、专业培训与行业技术交流活动。</p>
+                            <a href="#contact" class="card-link" data-i18n="products.contactBtn">立即咨询</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="news.tag">News & Insights</p>
+                    <h2 data-i18n="news.title">新闻动态</h2>
+                    <p class="section-description" data-i18n="news.description">
+                        及时了解锐睿科技的最新动态、产品发布及行业发展趋势。
+                    </p>
+                </div>
+
+                <div class="news-list">
+                    <article class="news-item">
+                        <div class="news-date">2025-01-15</div>
+                        <div class="news-body">
+                            <h3 data-i18n="news.card1Title">产品与技术信息持续更新</h3>
+                            <p data-i18n="news.card1Text">官网将陆续发布公司公告、软件更新、数据库进展及行业资讯等内容。</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-date">2025-02-20</div>
+                        <div class="news-body">
+                            <h3 data-i18n="news.card2Title">欢迎关注公司最新动态</h3>
+                            <p data-i18n="news.card2Text">未来可在此展示产品发布、会议活动、合作进展及技术成果。</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-date">2025-03-10</div>
+                        <div class="news-body">
+                            <h3 data-i18n="news.card3Title">持续完善官网内容与产品展示</h3>
+                            <p data-i18n="news.card3Text">后续将上线更详细的产品介绍页面、新闻发布模块及联系入口。</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="contact.tag">Contact</p>
+                    <h2 data-i18n="contact.title">联系我们</h2>
+                    <p class="section-description" data-i18n="contact.description">
+                        欢迎与我们联系，了解产品信息、数据库服务及项目合作机会。
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <h3 data-i18n="contact.addressTitle">办公地址</h3>
+                            <p data-i18n="contact.address">地址：长沙市岳麓区奥克斯广场5栋806室</p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="contact.emailTitle">电子邮箱</h3>
+                            <p data-i18n="contact.email">邮箱：rrui_info@163.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="contact.cooperationTitle">合作咨询</h3>
+                            <p data-i18n="contact.cooperationText">欢迎科研合作、产品咨询与技术交流。</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="#" method="post">
+                        <h3 data-i18n="contact.formTitle">在线留言</h3>
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.formName">姓名</label>
+                            <input type="text" id="name" name="name" placeholder="请输入您的姓名" data-i18n-placeholder="contact.placeholderName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.formEmail">邮箱</label>
+                            <input type="email" id="email" name="email" placeholder="请输入您的邮箱" data-i18n-placeholder="contact.placeholderEmail" />
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-i18n="contact.formCompany">单位 / 公司</label>
+                            <input type="text" id="company" name="company" placeholder="请输入您的单位或公司名称" data-i18n-placeholder="contact.placeholderCompany" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.formMessage">留言内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请输入您的需求或留言内容" data-i18n-placeholder="contact.placeholderMessage"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" data-i18n="contact.formSubmit">提交信息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
+            </div>
+            <p id="footer-text" data-i18n="footer.text">© 2025 长沙锐睿科技有限公司 版权所有</p>
         </div>
-      `).join("");
-    }
+    </footer>
 
-    document.addEventListener("DOMContentLoaded", function () {
-      const lang = localStorage.getItem("siteLanguage") || "zh";
-      renderDatabaseFeatures(lang);
-    });
-
-    window.addEventListener("languageChanged", function (e) {
-      renderDatabaseFeatures(e.detail.lang);
-    });
-  </script>
+    <script src="i18n.js"></script>
 </body>
 </html>

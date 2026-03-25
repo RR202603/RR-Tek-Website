@@ -130,6 +130,11 @@ const languages = {
             description: "Introduction to RR-Tek technical services, including materials computation and simulation analysis, research project consulting, materials characterization and testing, as well as conference and training services."
         },
 
+        pmagMeta: {
+            title: "Permanent Magnetic Materials Database | Changsha RR-Tek Technology Co., Ltd.",
+            description: "PMAG is a thermodynamic and property database for NdFeB-based permanent magnet alloys, supporting phase equilibria, Curie temperature, thermodynamic properties, and equilibrium/Scheil solidification simulation."
+        },
+
         databasePage: {
             kicker: "Materials Databases",
             title: "Materials Databases",
@@ -244,6 +249,48 @@ const languages = {
                 feature2: "Provides professional technical training services",
                 feature3: "Promotes collaboration between research and industry"
             }
+        },
+
+        pmagPage: {
+            kicker: "PMAG Database",
+            title: "Permanent Magnetic Materials Database",
+            description: "PMAG is a thermodynamic and property database for NdFeB-based rare-earth permanent magnet alloys, supporting phase diagram and thermodynamic property calculation, phase equilibrium prediction, Curie temperature analysis, and both equilibrium and non-equilibrium solidification simulation.",
+            section1: {
+                title: "Database Positioning",
+                desc: "PMAG is applicable to a wide composition range from pure Nd₂Fe₁₄B to complex commercial NdFeB permanent magnets. It predicts fundamental thermodynamic and phase-equilibrium behavior based on composition and temperature, supporting new magnet design, process analysis, and service-performance studies.",
+                feature1: "Designed for NdFeB-based rare-earth permanent magnet alloy development",
+                feature2: "Supports prediction from basic systems to industrial multicomponent alloys",
+                feature3: "Suitable for composition design, process optimization, and high-temperature performance studies"
+            },
+            section2: {
+                title: "Core Capabilities",
+                desc: "The database supports multicomponent phase-equilibrium calculation, equilibrium solidification simulation, and Scheil solidification simulation, providing key outputs such as phase fraction, phase composition, solubility limits, activity, liquidus, solidus, solidification path, microsegregation, latent heat, and Curie temperature.",
+                feature1: "Supports phase equilibria, phase diagrams, and thermodynamic property calculations",
+                feature2: "Supports Curie temperature prediction and magnetic-property-related analysis",
+                feature3: "Supports equilibrium and Scheil solidification simulation"
+            },
+            section3: {
+                title: "Coverage",
+                desc: "PMAG currently covers 14 elements: Al, B, Ce, Co, Cu, Dy, Fe, Ga, La, Nb, Nd, Pr, Tb, and Ti, and includes 71 assessed binary systems together with a set of key ternary systems for industrial applications.",
+                feature1: "Covers the Nd-Fe-B main phase, rare-earth-rich phases/liquid, and grain-boundary-related phases",
+                feature2: "Includes Co-containing temperature-tuning systems, Cu/Al/Ga grain-boundary diffusion systems, and Nb/Ti microalloying-related systems",
+                feature3: "Supports extrapolation from binary systems to higher-order industrial multicomponent alloys"
+            },
+            section4: {
+                title: "Key Systems and Typical Phases",
+                desc: "The database is built around key systems such as B-Fe-Nd, Co-Fe-Nd, Cu-Fe-Nd, B-Ce-Fe, Al-Fe-Nd, and Fe-Ga-Nd. It includes the T1 main hard magnetic phase Re₂Fe₁₄B, the T2 boron-rich phase ReFe₄B₄, Fe₂B, FeB, rare-earth-rich phases, and multiple rare-earth-cobalt-boron related phases.",
+                feature1: "Supports main-phase stability, secondary-phase control, and grain-boundary phase analysis",
+                feature2: "Suitable for Co alloying, high-temperature magnets, and low-cost rare-earth substitution studies",
+                feature3: "Suitable for grain-boundary diffusion, grain refinement, and additive-effect analysis"
+            },
+            section5: {
+                title: "Technical Validation",
+                desc: "PMAG has been validated through phase-stability prediction of the Nd₂Fe₁₄B–Dy₂Fe₁₄B vertical section, Curie temperature prediction of Nd₂Fe₁₄B (T1), heat-capacity calculation of Nd₂Fe₁₄B (T1), and phase-diagram examples for systems such as Fe-B, Fe-Nd, Nd-B, Nd-Pr, Fe-Nd-B, Dy-Fe-B, and Fe-Pr-B.",
+                feature1: "Supports phase-stability prediction and comparison with experimental results",
+                feature2: "The calculated Curie temperature of Nd₂Fe₁₄B (T1) differs from experiment by less than 5%",
+                feature3: "Supports validation through heat capacity, binary phase diagrams, and ternary phase diagrams"
+            },
+            backBtn: "Back to Materials Databases"
         },
 
         detailPage: {
@@ -389,6 +436,11 @@ const languages = {
             description: "锐睿科技技术服务介绍，包括材料计算与模拟分析、科研项目申报咨询、材料表征检测以及会议培训服务。"
         },
 
+        pmagMeta: {
+            title: "稀土永磁材料数据库 | 长沙锐睿科技有限公司",
+            description: "PMAG 稀土永磁材料数据库面向 NdFeB 基永磁合金，支持相平衡、居里温度、热力学性质、平衡凝固与 Scheil 凝固模拟。"
+        },
+
         databasePage: {
             kicker: "Materials Databases",
             title: "材料数据库",
@@ -503,6 +555,48 @@ const languages = {
                 feature2: "提供专业技术培训服务",
                 feature3: "促进科研与产业交流合作"
             }
+        },
+
+        pmagPage: {
+            kicker: "PMAG Database",
+            title: "稀土永磁材料数据库",
+            description: "PMAG 是一套面向 NdFeB 基稀土永磁合金的热力学与性质数据库，支持相图与热力学性质计算、相平衡预测、居里温度分析，以及平衡与非平衡凝固过程模拟。",
+            section1: {
+                title: "数据库定位",
+                desc: "PMAG 适用于从纯 Nd₂Fe₁₄B 到复杂商业 NdFeB 永磁材料的广泛成分范围，可根据化学成分与温度预测基础热力学与相平衡行为，服务于新型磁体材料设计、加工过程分析与服役性能研究。",
+                feature1: "面向 NdFeB 基稀土永磁合金开发",
+                feature2: "支持从基础体系到工业多元合金预测",
+                feature3: "适用于成分设计、工艺优化与高温性能研究"
+            },
+            section2: {
+                title: "核心能力",
+                desc: "数据库支持多组分相平衡计算、平衡凝固模拟与 Scheil 凝固模拟，可输出相数量、相成分、溶解度极限、活度、液相线、固相线、凝固路径、微偏析、潜热及居里温度等关键结果。",
+                feature1: "支持相平衡、相图与热力学性质计算",
+                feature2: "支持居里温度预测与磁性相关分析",
+                feature3: "支持平衡凝固与 Scheil 凝固过程模拟"
+            },
+            section3: {
+                title: "覆盖范围",
+                desc: "PMAG 当前覆盖 Al、B、Ce、Co、Cu、Dy、Fe、Ga、La、Nb、Nd、Pr、Tb、Ti 共 14 种元素，并包含 71 个已评估二元体系以及一批面向工业应用的关键三元体系。",
+                feature1: "覆盖 Nd-Fe-B 主相、稀土富相/液相与晶界相关相",
+                feature2: "包含 Co 调温、Cu/Al/Ga 晶界扩散与 Nb/Ti 微合金化相关体系",
+                feature3: "支持从二元体系到高阶多元工业合金的外推分析"
+            },
+            section4: {
+                title: "关键体系与典型相",
+                desc: "数据库围绕 B-Fe-Nd、Co-Fe-Nd、Cu-Fe-Nd、B-Ce-Fe、Al-Fe-Nd、Fe-Ga-Nd 等关键体系展开建模，覆盖 T1 主硬磁相 Re₂Fe₁₄B、T2 富硼相 ReFe₄B₄、Fe₂B、FeB、稀土富集相及多类稀土-钴-硼相关相。",
+                feature1: "支持主相稳定区、副相控制与晶界相形成分析",
+                feature2: "适用于 Co 掺杂、高温磁体与低成本稀土替代研究",
+                feature3: "适用于晶界扩散、抑晶与添加剂效应分析"
+            },
+            section5: {
+                title: "技术验证",
+                desc: "PMAG 已通过 Nd₂Fe₁₄B–Dy₂Fe₁₄B 垂直截面的相稳定性预测、Nd₂Fe₁₄B(T1) 居里温度预测、Nd₂Fe₁₄B(T1) 热容计算，以及 Fe-B、Fe-Nd、Nd-B、Nd-Pr、Fe-Nd-B、Dy-Fe-B 和 Fe-Pr-B 等体系相图示例进行验证。",
+                feature1: "支持相稳定性预测与实验结果对比",
+                feature2: "Nd₂Fe₁₄B(T1) 居里温度计算与实验偏差小于 5%",
+                feature3: "支持热容、二元相图与三元相图等多类案例验证"
+            },
+            backBtn: "返回材料数据库"
         },
 
         detailPage: {

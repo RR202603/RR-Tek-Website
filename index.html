@@ -1,60 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RR-Tek Technology - Official Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>长沙锐睿科技有限公司 | 官方网站</title>
+    <meta name="description" content="长沙锐睿科技有限公司官方网站，提供科研软件、热力学数据库及材料技术服务，支持中英文切换。" />
+    <meta name="keywords" content="长沙锐睿科技, 锐睿科技, 科研软件, 热力学数据库, 材料计算, 技术服务, RR-Tek" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-    <!-- Header with Navigation -->
+    <!-- Header -->
     <header>
-        <nav>
-            <div class="logo" id="company-logo" data-i18n="nav.home">RR-Tek</div>
-            <ul>
-                <li><a href="#home" data-i18n="nav.home">Home</a></li>
-                <li><a href="#about" data-i18n="nav.about">About Us</a></li>
-                <li><a href="#products" data-i18n="nav.products">Products & Services</a></li>
-                <li><a href="#news" data-i18n="nav.news">News</a></li>
-                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
-                <li><button onclick="toggleLanguage()" data-i18n="nav.switchLang">切换语言</button></li>
+        <nav class="nav-container">
+            <div class="logo" id="company-logo">锐睿科技有限公司</div>
+
+            <ul class="nav-menu">
+                <li><a href="#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="#news" data-i18n="nav.news">新闻</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">联系方式</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section id="hero">
-        <div class="hero-background">
-            <div class="hero-content">
-                <h1 data-i18n="hero.title">Welcome to RR-Tek Technology</h1>
-                <p class="hero-description" data-i18n="hero.description">Leading the way in innovative technology solutions for industries worldwide.</p>
-                <a href="#about" class="btn-primary" data-i18n="hero.learnMore">Learn More</a>
+        <div class="hero-overlay">
+            <div class="hero-content container">
+                <h1 data-i18n="hero.title">欢迎来到锐睿科技</h1>
+                <p class="hero-description" data-i18n="hero.description">
+                    我们在全球范围内引领创新技术解决方案。
+                </p>
+                <a href="#about" class="btn-primary" data-i18n="hero.learnMore">了解更多</a>
             </div>
         </div>
     </section>
 
-    <!-- About Us Section -->
+    <!-- About -->
     <section id="about">
         <div class="container">
-            <h2 data-i18n="about.title">About Us</h2>
+            <h2 data-i18n="about.title">关于我们</h2>
             <p data-i18n="about.description">
-                长沙锐睿科技有限公司成立于2021年4月，专业从事科研软件开发和销售、材料热力学和热物性数据库开发和销售、行业培训和学术会议、新材料技术开发和咨询等科技服务业务。
-                公司拥有专业的技术开发人才、优秀的科研软件开发团队，以及国内外知名教授专家组成的顾问团队，构建了以研发、销售和售后服务为一体的高效、精简的运营模式。
-                致力于打造具有国际一流水平和完全自主知识产权的材料智能设计软件、数据库及材料设计服务平台，引领多尺度和制备全流程的材料设计及开发技术，成为国内外科研院所和企业开展科技和新材料开发的首选合作伙伴。
+                长沙锐睿科技有限公司成立于2021年4月，专业从事科研软件开发和销售、材料热力学和热物性数据库开发和销售、行业培训和学术会议、新材料技术开发和咨询等科技服务业务。公司拥有专业的技术开发人才、优秀的科研软件开发团队，以及国内外知名教授专家组成的顾问团队，构建了以研发、销售和售后服务为一体的高效、精简的运营模式。致力于打造具有国际一流水平和完全自主知识产权的材料智能设计软件、数据库及材料设计服务平台，引领多尺度和制备全流程的材料设计及开发技术，成为国内外科研院所和企业开展科技和新材料开发的首选合作伙伴。
             </p>
         </div>
     </section>
 
-    <!-- Products & Services Section -->
+    <!-- Products -->
     <section id="products">
         <div class="container">
-            <h2 data-i18n="products.title">Our Products & Services</h2>
-            <p data-i18n="products.description">Explore our cutting-edge solutions and products that help transform industries.</p>
+            <h2 data-i18n="products.title">我们的产品与服务</h2>
+            <p class="section-description" data-i18n="products.description">
+                探索我们的创新技术解决方案，帮助行业转型。
+            </p>
 
-            <!-- Software Section -->
+            <!-- Software -->
             <div class="product-section">
-                <h3 data-i18n="products.software.title">Software</h3>
+                <h3 data-i18n="products.software.title">软件</h3>
                 <div class="product-cards">
                     <div class="product-card">
                         <h4 data-i18n="products.software.product1">热物性计算软件 CALTPP</h4>
@@ -69,14 +77,14 @@
                         <h4 data-i18n="products.software.product4">析出模拟软件 PreCalc</h4>
                     </div>
                     <div class="product-card">
-                        <h4 data-i18n="products.software.product5">晶体塑性有限元模拟 CPCP</h4>
+                        <h4 data-i18n="products.software.product5">晶体塑性有限元模拟软件 CPCP</h4>
                     </div>
                 </div>
             </div>
 
-            <!-- Database Section -->
+            <!-- Database -->
             <div class="product-section">
-                <h3 data-i18n="products.database.title">Thermodynamic Databases</h3>
+                <h3 data-i18n="products.database.title">热力学数据库</h3>
                 <div class="product-cards">
                     <div class="product-card">
                         <h4 data-i18n="products.database.database1">铜合金数据库</h4>
@@ -96,34 +104,55 @@
                 </div>
             </div>
 
-            <!-- Services Section -->
+            <!-- Services -->
             <div class="product-section">
-                <h3 data-i18n="products.service.title">Services</h3>
+                <h3 data-i18n="products.service.title">服务</h3>
                 <div class="product-cards">
                     <div class="product-card">
-                        <h4 data-i18n="products.service1">材料计算服务</h4>
+                        <h4 data-i18n="products.service.service1">材料计算服务</h4>
                     </div>
                     <div class="product-card">
-                        <h4 data-i18n="products.service2">项目申请指导服务</h4>
+                        <h4 data-i18n="products.service.service2">项目申请指导服务</h4>
                     </div>
                     <div class="product-card">
-                        <h4 data-i18n="products.service3">材料表征检测服务</h4>
+                        <h4 data-i18n="products.service.service3">材料表征检测服务</h4>
                     </div>
                     <div class="product-card">
-                        <h4 data-i18n="products.service4">会务服务</h4>
+                        <h4 data-i18n="products.service.service4">会务服务</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- News -->
+    <section id="news">
+        <div class="container">
+            <h2 data-i18n="news.title">新闻</h2>
+            <p data-i18n="news.description">
+                展示公司公告、产品更新和行业动态等最新信息。
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 data-i18n="contact.title">联系方式</h2>
+            <div class="contact-info">
+                <p data-i18n="contact.address">地址：长沙市岳麓区奥克斯5栋806号</p>
+                <p data-i18n="contact.email">邮箱：rrui_info@163.com</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
-        <p id="footer-text" data-i18n="footer.text">© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved. | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com</p>
+        <p id="footer-text" data-i18n="footer.text">
+            © 2025 锐睿科技有限公司 版权所有 | 地址：长沙市岳麓区奥克斯5栋806号 | 邮箱：rrui_info@163.com
+        </p>
     </footer>
 
-    <!-- JavaScript -->
     <script src="i18n.js"></script>
-
 </body>
 </html>

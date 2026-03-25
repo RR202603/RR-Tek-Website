@@ -1,11 +1,5 @@
 const languages = {
     en: {
-        meta: {
-            title: "Changsha RR-Tek Technology Co., Ltd. | Intelligent Computational Solutions for Materials Science",
-            description: "Changsha RR-Tek Technology Co., Ltd. focuses on scientific software, materials thermodynamic databases, and intelligent materials design services, providing software platforms, database solutions, and engineering consulting.",
-            keywords: "Changsha RR-Tek, RR-Tek, scientific software, thermodynamic database, materials database, materials computation, intelligent materials design, CALTPP, ICALPHAD"
-        },
-
         brand: {
             slogan: "Scientific Software, Materials Databases and Intelligent Design"
         },
@@ -20,13 +14,12 @@ const languages = {
         },
 
         hero: {
-            kicker: "Changsha RR-Tek Technology Co., Ltd.",
-            title: "Intelligent Computational Solutions for Materials Science and Engineering",
-            description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
-            subtitle: "Materials Software · Thermodynamic Database · Intelligent Design",
-            learnMore: "Explore Solutions",
-            contactBtn: "Contact Us"
-        },
+                kicker: "Changsha RR-Tek Technology Co., Ltd.",
+                title: "Intelligent Computational Solutions for Materials Science and Engineering",
+                description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
+                learnMore: "Explore Solutions",
+                contactBtn: "Contact Us"
+            },
 
         about: {
             tag: "Company Profile",
@@ -122,6 +115,57 @@ const languages = {
             placeholderMessage: "Please enter your message or requirements"
         },
 
+                databaseMeta: {
+            title: "Materials Databases | Changsha RR-Tek Technology Co., Ltd.",
+            description: "Introduction to RR-Tek materials databases, including databases for copper alloys, aluminum alloys, cemented carbides, iron-based alloys, and rare earth permanent magnets."
+        },
+
+        databasePage: {
+            kicker: "Materials Databases",
+            title: "Materials Databases",
+            description: "RR-Tek develops thermodynamic databases for representative material systems to support materials design, phase diagram analysis, process optimization, and engineering research.",
+            product1: {
+                title: "Copper Alloy Thermodynamic Database",
+                desc: "Covers thermodynamic data requirements for copper alloy systems and supports alloy design and process analysis.",
+                feature1: "For research and development of copper alloy systems",
+                feature2: "Supports thermodynamic analysis and design optimization",
+                feature3: "Compatible with computational software tools"
+            },
+            product2: {
+                title: "Aluminum Alloy Thermodynamic Database",
+                desc: "Serves aluminum alloy R&D, phase diagram analysis, and process parameter optimization.",
+                feature1: "Supports thermodynamic analysis of aluminum alloy systems",
+                feature2: "Suitable for phase diagram calculation and process studies",
+                feature3: "Serves both research and industrial development needs"
+            },
+            product3: {
+                title: "Cemented Carbide Database",
+                desc: "Supports composition design, performance analysis, and research of cemented carbide material systems.",
+                feature1: "Supports design and analysis of cemented carbide materials",
+                feature2: "Suitable for composition and performance studies",
+                feature3: "Provides data support for process optimization"
+            },
+            product4: {
+                title: "Iron-based Alloy Database",
+                desc: "Suitable for thermodynamic analysis, microstructure evolution studies, and engineering calculations of iron-based material systems.",
+                feature1: "Supports analysis of iron-based alloy systems",
+                feature2: "Serves process and materials development research",
+                feature3: "Suitable for scientific research and industrial applications"
+            },
+            product5: {
+                title: "Rare Earth Permanent Magnet Database",
+                desc: "Designed for the development, design, and performance analysis of rare earth permanent magnet material systems.",
+                feature1: "Supports research on rare earth permanent magnet materials",
+                feature2: "Suitable for database analysis and modeling support",
+                feature3: "Serves scientific research and engineering development"
+            }
+        },
+
+        detailPage: {
+            contactBtn: "Contact Us",
+            backBtn: "Back to Solutions"
+        },
+
         footer: {
             companyCn: "长沙锐睿科技有限公司",
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
@@ -130,12 +174,6 @@ const languages = {
     },
 
     zh: {
-        meta: {
-            title: "长沙锐睿科技有限公司 | 材料科学智能计算解决方案提供商",
-            description: "长沙锐睿科技有限公司专注于科研软件、材料热力学数据库及材料智能设计技术服务，提供科研软件、数据库平台与工程咨询服务。",
-            keywords: "长沙锐睿科技, 锐睿科技, RR-Tek, 科研软件, 热力学数据库, 材料数据库, 材料计算, 材料智能设计, CALTPP, ICALPHAD"
-        },
-
         brand: {
             slogan: "专注科研软件、材料数据库与智能设计"
         },
@@ -153,11 +191,9 @@ const languages = {
             kicker: "长沙锐睿科技有限公司",
             title: "面向材料科学与工程应用的智能计算解决方案",
             description: "专注科研软件、材料数据库与工程技术服务，助力材料研发与工程应用。",
-            subtitle: "材料软件 · 热力学数据库 · 智能设计",
             learnMore: "了解解决方案",
             contactBtn: "联系咨询"
         },
-
         about: {
             tag: "Company Profile",
             title: "关于我们",
@@ -252,6 +288,57 @@ const languages = {
             placeholderMessage: "请输入您的需求或留言内容"
         },
 
+                databaseMeta: {
+            title: "材料数据库 | 长沙锐睿科技有限公司",
+            description: "锐睿科技材料数据库产品介绍，包括铜合金、铝合金、硬质合金、铁基合金及稀土永磁材料数据库。"
+        },
+
+        databasePage: {
+            kicker: "Materials Databases",
+            title: "材料数据库",
+            description: "锐睿科技围绕典型材料体系建设热力学数据库，服务于材料设计、相图分析、工艺优化与工程应用研究。",
+            product1: {
+                title: "铜合金热力学数据库",
+                desc: "覆盖铜合金体系的热力学数据需求，可支撑合金设计与工艺分析。",
+                feature1: "面向铜合金体系研究与开发",
+                feature2: "支持热力学分析与设计优化",
+                feature3: "可与计算软件配合使用"
+            },
+            product2: {
+                title: "铝合金热力学数据库",
+                desc: "服务于铝合金研发、相图分析及工艺参数优化等应用场景。",
+                feature1: "支持铝合金体系热力学分析",
+                feature2: "适用于相图计算与工艺研究",
+                feature3: "服务科研与工业开发需求"
+            },
+            product3: {
+                title: "硬质合金数据库",
+                desc: "面向硬质合金材料体系的组成设计、性能分析和研究支撑。",
+                feature1: "支持硬质合金材料设计分析",
+                feature2: "适用于成分与性能研究",
+                feature3: "为工艺优化提供数据支持"
+            },
+            product4: {
+                title: "铁基合金数据库",
+                desc: "适用于铁基材料体系的热力学分析、组织演化研究及工程计算。",
+                feature1: "支持铁基合金体系分析",
+                feature2: "服务于工艺与材料开发研究",
+                feature3: "适合科研和产业应用"
+            },
+            product5: {
+                title: "稀土永磁材料数据库",
+                desc: "面向稀土永磁材料体系的设计、开发及相关性能分析需求。",
+                feature1: "支持稀土永磁材料设计研究",
+                feature2: "适用于数据库分析与建模支撑",
+                feature3: "服务于科研和工程开发"
+            }
+        },
+
+        detailPage: {
+            contactBtn: "联系咨询",
+            backBtn: "返回解决方案"
+        },
+        
         footer: {
             companyCn: "长沙锐睿科技有限公司",
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
@@ -260,7 +347,7 @@ const languages = {
     }
 };
 
-let currentLanguage = localStorage.getItem("language") || "zh";
+let currentLanguage = "zh";
 
 function getTranslation(key, lang) {
     const keys = key.split(".");
@@ -276,30 +363,6 @@ function getTranslation(key, lang) {
     }
 
     return value;
-}
-
-function updateMetaContent() {
-    const title = getTranslation("meta.title", currentLanguage);
-    const description = getTranslation("meta.description", currentLanguage);
-    const keywords = getTranslation("meta.keywords", currentLanguage);
-
-    if (title) {
-        document.title = title;
-        const titleElement = document.getElementById("page-title");
-        if (titleElement) {
-            titleElement.textContent = title;
-        }
-    }
-
-    const descriptionMeta = document.getElementById("page-description");
-    if (descriptionMeta && description) {
-        descriptionMeta.setAttribute("content", description);
-    }
-
-    const keywordsMeta = document.getElementById("page-keywords");
-    if (keywordsMeta && keywords) {
-        keywordsMeta.setAttribute("content", keywords);
-    }
 }
 
 function updateContent() {
@@ -324,7 +387,6 @@ function updateContent() {
     });
 
     updateBrandText();
-    updateMetaContent();
 }
 
 function updateBrandText() {
@@ -339,7 +401,6 @@ function updateBrandText() {
 
 function toggleLanguage() {
     currentLanguage = currentLanguage === "zh" ? "en" : "zh";
-    localStorage.setItem("language", currentLanguage);
     updateContent();
 }
 

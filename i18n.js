@@ -18,7 +18,8 @@ const languages = {
             title: "Intelligent Computational Solutions for Materials Science",
             description: "RR-Tek Technology provides advanced software, thermodynamic databases, and integrated engineering services to accelerate materials design, simulation, and industrial application.",
             subtitle: "Materials Software · Thermodynamic Database · Intelligent Design",
-            learnMore: "Explore More"
+            learnMore: "Explore More",
+            contactBtn: "Contact Us"
         },
 
         about: {
@@ -35,6 +36,9 @@ const languages = {
             tag: "Solutions",
             title: "Solutions & Services",
             description: "A comprehensive portfolio covering scientific software, materials databases, and engineering services to support the full lifecycle of materials development.",
+            more: "View More",
+            detailBtn: "Product Details",
+            contactBtn: "Contact Now",
 
             software: {
                 title: "Scientific Software",
@@ -42,7 +46,12 @@ const languages = {
                 product2: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
                 product3: "Multi-Phase Microstructure Simulation Platform (MID)",
                 product4: "Precipitation Simulation Software (PreCalc)",
-                product5: "Crystal Plasticity Simulation Package (CPCP)"
+                product5: "Crystal Plasticity Simulation Package (CPCP)",
+                desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
+                desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
+                desc3: "Designed for multi-phase microstructure evolution and simulation studies.",
+                desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
+                desc5: "For crystal plasticity and mechanical behavior simulation of materials."
             },
 
             database: {
@@ -51,7 +60,12 @@ const languages = {
                 database2: "Aluminum Alloy Thermodynamic Database",
                 database3: "Cemented Carbide Database",
                 database4: "Iron-based Alloy Database",
-                database5: "Rare Earth Permanent Magnet Database"
+                database5: "Rare Earth Permanent Magnet Database",
+                desc1: "Supports thermodynamic analysis and materials design for copper alloy systems.",
+                desc2: "Serves aluminum alloy R&D, phase analysis, and process optimization.",
+                desc3: "Supports composition design and performance analysis of cemented carbides.",
+                desc4: "Provides computational support for iron-based materials systems.",
+                desc5: "Supports design, development, and analysis of rare earth permanent magnets."
             },
 
             service: {
@@ -59,7 +73,11 @@ const languages = {
                 service1: "Materials Simulation & Computational Analysis",
                 service2: "R&D Project Consulting and Proposal Support",
                 service3: "Materials Characterization & Testing Services",
-                service4: "Academic Conference & Technical Training Services"
+                service4: "Academic Conference & Technical Training Services",
+                desc1: "Provides materials computation and simulation support for research and engineering applications.",
+                desc2: "Offers proposal support, technical consulting, and solution planning.",
+                desc3: "Provides material testing, characterization, and experimental support.",
+                desc4: "Supports conference organization, professional training, and technical exchange activities."
             }
         },
 
@@ -67,10 +85,12 @@ const languages = {
             tag: "News & Insights",
             title: "News & Insights",
             description: "Stay informed with the latest updates, product releases, and industry developments from RR-Tek.",
-            card1Title: "Product and Technology Updates",
+            card1Title: "Ongoing Product and Technology Updates",
             card1Text: "The website will continue to publish company announcements, software releases, database progress, and industry-related information.",
             card2Title: "Follow Our Latest Developments",
-            card2Text: "This section can be used to present product launches, conference activities, partnerships, and technical achievements."
+            card2Text: "This section can be used to present product launches, conference activities, partnerships, and technical achievements.",
+            card3Title: "Continuous Website and Product Presentation Improvement",
+            card3Text: "More detailed product pages, news modules, and contact channels will be launched in future updates."
         },
 
         contact: {
@@ -82,10 +102,22 @@ const languages = {
             emailTitle: "Email",
             email: "Email: rrui_info@163.com",
             cooperationTitle: "Cooperation",
-            cooperationText: "We welcome research collaboration, product inquiries, and technical exchange."
+            cooperationText: "We welcome research collaboration, product inquiries, and technical exchange.",
+            formTitle: "Online Message",
+            formName: "Name",
+            formEmail: "Email",
+            formCompany: "Organization / Company",
+            formMessage: "Message",
+            formSubmit: "Submit",
+            placeholderName: "Please enter your name",
+            placeholderEmail: "Please enter your email",
+            placeholderCompany: "Please enter your organization or company name",
+            placeholderMessage: "Please enter your message or requirements"
         },
 
         footer: {
+            companyCn: "长沙锐睿科技有限公司",
+            companyEn: "Changsha RR-Tek Technology Co., Ltd.",
             text: "© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved."
         }
     },
@@ -109,7 +141,8 @@ const languages = {
             title: "面向材料科学的智能计算解决方案",
             description: "锐睿科技致力于提供科研软件、材料热力学数据库及工程技术服务，助力材料设计、性能预测与产业化应用。",
             subtitle: "材料软件 · 热力学数据库 · 智能设计",
-            learnMore: "了解更多"
+            learnMore: "了解更多",
+            contactBtn: "联系咨询"
         },
 
         about: {
@@ -126,6 +159,9 @@ const languages = {
             tag: "Solutions",
             title: "解决方案与服务",
             description: "覆盖科研软件、材料数据库及工程服务的完整产品体系，支撑材料研发全流程。",
+            more: "查看详情",
+            detailBtn: "产品详情",
+            contactBtn: "立即咨询",
 
             software: {
                 title: "科研软件",
@@ -133,7 +169,12 @@ const languages = {
                 product2: "相图智能计算系统 ICALPHAD",
                 product3: "多相组织模拟软件 MID",
                 product4: "析出行为模拟软件 PreCalc",
-                product5: "晶体塑性模拟软件 CPCP"
+                product5: "晶体塑性模拟软件 CPCP",
+                desc1: "用于材料热物性参数的高效计算与分析。",
+                desc2: "支持相图计算、热力学分析与材料设计研究。",
+                desc3: "面向多相组织演化与显微组织模拟分析。",
+                desc4: "用于析出动力学及组织演化过程模拟。",
+                desc5: "用于晶体塑性与材料力学行为模拟计算。"
             },
 
             database: {
@@ -142,7 +183,12 @@ const languages = {
                 database2: "铝合金热力学数据库",
                 database3: "硬质合金数据库",
                 database4: "铁基合金数据库",
-                database5: "稀土永磁材料数据库"
+                database5: "稀土永磁材料数据库",
+                desc1: "覆盖铜合金体系热力学与相关材料设计需求。",
+                desc2: "服务于铝合金研发、相图分析与工艺优化。",
+                desc3: "支持硬质合金成分设计与性能分析研究。",
+                desc4: "适用于铁基材料体系的计算与数据库支撑。",
+                desc5: "服务于稀土永磁材料设计、开发与分析。"
             },
 
             service: {
@@ -150,7 +196,11 @@ const languages = {
                 service1: "材料计算与模拟分析服务",
                 service2: "科研项目申报与技术咨询服务",
                 service3: "材料表征与检测服务",
-                service4: "学术会议与技术培训服务"
+                service4: "学术会议与技术培训服务",
+                desc1: "提供面向科研和工程应用的材料计算与模拟支撑。",
+                desc2: "提供项目申报支持、技术路线咨询与方案建议。",
+                desc3: "提供材料测试、表征分析及实验技术支持。",
+                desc4: "支持会议组织、专业培训与行业技术交流活动。"
             }
         },
 
@@ -161,7 +211,9 @@ const languages = {
             card1Title: "产品与技术信息持续更新",
             card1Text: "官网将陆续发布公司公告、软件更新、数据库进展及行业资讯等内容。",
             card2Title: "欢迎关注公司最新动态",
-            card2Text: "未来可在此展示产品发布、会议活动、合作进展及技术成果。"
+            card2Text: "未来可在此展示产品发布、会议活动、合作进展及技术成果。",
+            card3Title: "持续完善官网内容与产品展示",
+            card3Text: "后续将上线更详细的产品介绍页面、新闻发布模块及联系入口。"
         },
 
         contact: {
@@ -173,10 +225,22 @@ const languages = {
             emailTitle: "电子邮箱",
             email: "邮箱：rrui_info@163.com",
             cooperationTitle: "合作咨询",
-            cooperationText: "欢迎科研合作、产品咨询与技术交流。"
+            cooperationText: "欢迎科研合作、产品咨询与技术交流。",
+            formTitle: "在线留言",
+            formName: "姓名",
+            formEmail: "邮箱",
+            formCompany: "单位 / 公司",
+            formMessage: "留言内容",
+            formSubmit: "提交信息",
+            placeholderName: "请输入您的姓名",
+            placeholderEmail: "请输入您的邮箱",
+            placeholderCompany: "请输入您的单位或公司名称",
+            placeholderMessage: "请输入您的需求或留言内容"
         },
 
         footer: {
+            companyCn: "长沙锐睿科技有限公司",
+            companyEn: "Changsha RR-Tek Technology Co., Ltd.",
             text: "© 2025 长沙锐睿科技有限公司 版权所有"
         }
     }
@@ -209,6 +273,15 @@ function updateContent() {
 
         if (translation !== null && translation !== undefined) {
             element.textContent = translation;
+        }
+    });
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+        const key = element.getAttribute("data-i18n-placeholder");
+        const translation = getTranslation(key, currentLanguage);
+
+        if (translation !== null && translation !== undefined) {
+            element.setAttribute("placeholder", translation);
         }
     });
 

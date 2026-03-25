@@ -355,13 +355,13 @@ section {
 }
 
 .product-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
 }
 
 .product-card {
-    width: calc(33.333% - 14px);
+    width: 100%;
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -669,8 +669,8 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .product-card {
-        width: calc(50% - 10px);
+    .product-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -765,12 +765,8 @@ footer p {
         align-items: flex-start;
     }
 
-    .product-section h3 {
-        font-size: 1.28rem;
-    }
-
-    .product-card {
-        width: 100%;
+    .product-cards {
+        grid-template-columns: 1fr; /* ✅ 关键：手机一列 */
     }
 
     .hero-actions {

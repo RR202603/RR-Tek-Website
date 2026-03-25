@@ -14,13 +14,12 @@ const languages = {
         },
 
         hero: {
-            kicker: "Changsha RR-Tek Technology Co., Ltd.",
-            title: "Intelligent Computational Solutions for Materials Science and Engineering",
-            description: "Changsha RR-Tek Technology Co., Ltd. specializes in scientific software, thermodynamic databases, and engineering services, supporting materials design, performance prediction, process optimization, and industrial application.",
-            subtitle: "Scientific Software · Materials Databases · Intelligent Design · Engineering Services",
-            learnMore: "Explore Solutions",
-            contactBtn: "Contact Us"
-        },
+                kicker: "Changsha RR-Tek Technology Co., Ltd.",
+                title: "Intelligent Computational Solutions for Materials Science and Engineering",
+                description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
+                learnMore: "Explore Solutions",
+                contactBtn: "Contact Us"
+            },
 
         about: {
             tag: "Company Profile",
@@ -138,14 +137,12 @@ const languages = {
         },
 
         hero: {
-            kicker: "Changsha RR-Tek Technology Co., Ltd.",
+            kicker: "长沙锐睿科技有限公司",
             title: "面向材料科学与工程应用的智能计算解决方案",
-            description: "长沙锐睿科技有限公司专注于科研软件、材料热力学数据库及工程技术服务，为材料设计、性能预测、工艺优化与产业化应用提供可靠支撑。",
-            subtitle: "科研软件 · 材料数据库 · 智能设计 · 工程服务",
+            description: "专注科研软件、材料数据库与工程技术服务，助力材料研发与工程应用。",
             learnMore: "了解解决方案",
             contactBtn: "联系咨询"
         },
-
         about: {
             tag: "Company Profile",
             title: "关于我们",

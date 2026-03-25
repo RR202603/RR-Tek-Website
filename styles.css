@@ -1,4 +1,4 @@
-* {
+、* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -169,43 +169,45 @@ header {
 .hero-content {
     text-align: center;
     color: var(--white);
-    padding: 96px 20px 88px;
-    max-width: 980px;
+    padding: 72px 20px 64px;
+    max-width: 900px;
 }
 
 .hero-kicker {
     display: inline-block;
-    font-size: 0.92rem;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.78);
-    margin-bottom: 18px;
+    margin-bottom: 14px;
+    font-size: 0.82rem;
     font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.72);
 }
 
 .hero-content h1 {
-    font-size: 3.6rem;
+    margin: 0 auto 18px;
+    max-width: 760px;
+    font-size: 3.2rem;
     line-height: 1.18;
     font-weight: 700;
-    margin-bottom: 24px;
-    color: var(--white);
     letter-spacing: -0.02em;
+    color: var(--white);
 }
 
 .hero-description {
-    max-width: 760px;
-    margin: 0 auto 18px;
-    font-size: 1.16rem;
-    line-height: 1.9;
-    color: rgba(255, 255, 255, 0.92);
+    max-width: 700px;
+    margin: 0 auto 14px;
+    font-size: 1.06rem;
+    line-height: 1.85;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-subtitle {
-    max-width: 760px;
-    margin: 0 auto 34px;
-    font-size: 0.98rem;
-    color: rgba(255, 255, 255, 0.72);
-    letter-spacing: 0.3px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.62);
+    letter-spacing: 0.2px;
 }
 
 .hero-actions {
@@ -220,10 +222,10 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 170px;
-    padding: 15px 30px;
+    min-width: 168px;
+    padding: 14px 28px;
     border-radius: 999px;
-    font-size: 0.98rem;
+    font-size: 0.96rem;
     font-weight: 700;
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
 }
@@ -568,6 +570,98 @@ footer p {
     line-height: 1.7;
 }
 
+/* Detail Pages */
+.detail-page {
+    background: var(--bg);
+}
+
+.detail-hero {
+    padding: 150px 0 70px;
+    background:
+        linear-gradient(135deg, rgba(6, 32, 84, 0.88), rgba(18, 92, 206, 0.76)),
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.14), transparent 30%);
+    color: var(--white);
+}
+
+.detail-kicker {
+    display: inline-block;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.78);
+    margin-bottom: 14px;
+}
+
+.detail-hero h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: var(--white);
+}
+
+.detail-intro {
+    max-width: 860px;
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.detail-section {
+    padding: 70px 0 90px;
+}
+
+.detail-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+}
+
+.detail-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+}
+
+.detail-card h2 {
+    font-size: 1.35rem;
+    color: #113b7c;
+    margin-bottom: 14px;
+}
+
+.detail-card p {
+    color: var(--text-light);
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.feature-list {
+    padding-left: 20px;
+    color: var(--text);
+}
+
+.feature-list li {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+.detail-cta {
+    margin-top: 36px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.detail-outline-btn {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.detail-outline-btn:hover {
+    background: rgba(13, 79, 179, 0.06);
+}
+
 /* Responsive */
 @media (max-width: 1100px) {
     .about-grid,
@@ -605,12 +699,11 @@ footer p {
     }
 
     .hero-content h1 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .hero-description {
-        font-size: 1.02rem;
-        line-height: 1.8;
+        font-size: 1rem;
     }
 
     .news-item {
@@ -646,21 +739,25 @@ footer p {
         white-space: normal;
     }
 
+    .hero-content {
+        padding: 56px 16px 52px;
+    }
+
     .hero-kicker {
-        font-size: 0.82rem;
+        font-size: 0.76rem;
     }
 
     .hero-content h1 {
-        font-size: 2.05rem;
-        line-height: 1.25;
+        font-size: 1.9rem;
+        line-height: 1.24;
     }
 
     .hero-description {
-        font-size: 0.96rem;
+        font-size: 0.94rem;
     }
 
     .hero-subtitle {
-        font-size: 0.9rem;
+        font-size: 0.84rem;
     }
 
     .section-row {
@@ -678,5 +775,17 @@ footer p {
 
     .hero-actions {
         flex-direction: column;
+    }
+
+    .detail-hero {
+        padding: 130px 0 56px;
+    }
+
+    .detail-hero h1 {
+        font-size: 2rem;
+    }
+
+    .detail-card {
+        padding: 22px;
     }
 }

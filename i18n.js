@@ -14,12 +14,12 @@ const languages = {
         },
 
         hero: {
-                kicker: "Changsha RR-Tek Technology Co., Ltd.",
-                title: "Intelligent Computational Solutions for Materials Science and Engineering",
-                description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
-                learnMore: "Explore Solutions",
-                contactBtn: "Contact Us"
-            },
+            kicker: "Changsha RR-Tek Technology Co., Ltd.",
+            title: "Intelligent Computational Solutions for Materials Science and Engineering",
+            description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
+            learnMore: "Explore Solutions",
+            contactBtn: "Contact Us"
+        },
 
         about: {
             tag: "Company Profile",
@@ -115,9 +115,19 @@ const languages = {
             placeholderMessage: "Please enter your message or requirements"
         },
 
-                databaseMeta: {
+        databaseMeta: {
             title: "Materials Databases | Changsha RR-Tek Technology Co., Ltd.",
             description: "Introduction to RR-Tek materials databases, including databases for copper alloys, aluminum alloys, cemented carbides, iron-based alloys, and rare earth permanent magnets."
+        },
+
+        softwareMeta: {
+            title: "Scientific Software | Changsha RR-Tek Technology Co., Ltd.",
+            description: "Introduction to RR-Tek scientific software products, including platforms for thermophysical property calculation, intelligent phase diagram calculation, multi-phase microstructure simulation, precipitation simulation, and crystal plasticity simulation."
+        },
+
+        serviceMeta: {
+            title: "Technical Services | Changsha RR-Tek Technology Co., Ltd.",
+            description: "Introduction to RR-Tek technical services, including materials computation and simulation analysis, research project consulting, materials characterization and testing, as well as conference and training services."
         },
 
         databasePage: {
@@ -161,6 +171,81 @@ const languages = {
             }
         },
 
+        softwarePage: {
+            kicker: "Scientific Software",
+            title: "Scientific Software",
+            description: "RR-Tek provides software platforms for materials research and engineering applications, covering key areas such as thermophysical property calculation, phase diagram analysis, microstructure simulation, precipitation behavior simulation, and crystal plasticity computation.",
+            product1: {
+                title: "Thermo-Physical Properties Calculation Platform (CALTPP)",
+                desc: "Designed for the calculation and analysis of thermophysical properties of materials, supporting scientific modeling, property prediction, and related engineering applications.",
+                feature1: "Supports thermophysical property calculation and result analysis",
+                feature2: "Suitable for research and engineering application scenarios",
+                feature3: "Supports materials design and property research"
+            },
+            product2: {
+                title: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
+                desc: "Provides support for phase diagram calculation, thermodynamic analysis, and materials system design for alloy development and fundamental research.",
+                feature1: "Supports phase diagram calculation and thermodynamic analysis",
+                feature2: "Serves materials system optimization and design",
+                feature3: "Suitable for research institutes and industrial R&D teams"
+            },
+            product3: {
+                title: "Multi-Phase Microstructure Simulation Software (MID)",
+                desc: "Supports multi-phase microstructure evolution and simulation analysis, providing technical support for microstructural research of materials.",
+                feature1: "Supports multi-phase microstructure evolution simulation",
+                feature2: "Suitable for microstructure analysis and research",
+                feature3: "Provides support for process optimization"
+            },
+            product4: {
+                title: "Precipitation Simulation Software (PreCalc)",
+                desc: "Used for simulating precipitation kinetics and microstructure evolution processes, supporting heat treatment and process optimization research.",
+                feature1: "Supports precipitation behavior and kinetics simulation",
+                feature2: "Suitable for microstructure evolution analysis",
+                feature3: "Serves heat treatment and process research"
+            },
+            product5: {
+                title: "Crystal Plasticity Simulation Software (CPCP)",
+                desc: "Focused on crystal plasticity and mechanical behavior simulation of materials, providing tool support for multi-scale mechanics research.",
+                feature1: "Supports crystal plasticity calculation and analysis",
+                feature2: "Suitable for material mechanical behavior simulation",
+                feature3: "Serves multi-scale research and engineering evaluation"
+            }
+        },
+
+        servicePage: {
+            kicker: "Technical Services",
+            title: "Technical Services",
+            description: "RR-Tek provides technical services for research institutions and enterprise clients, covering materials computation, project consulting, testing and analysis, as well as training and technical exchange.",
+            product1: {
+                title: "Materials Computation and Simulation Analysis Services",
+                desc: "Provides computational analysis and simulation support for materials R&D and engineering applications.",
+                feature1: "Supports computational analysis of material systems",
+                feature2: "Serves research and industrial application needs",
+                feature3: "Can be delivered together with databases and software tools"
+            },
+            product2: {
+                title: "Research Project Application and Technical Consulting Services",
+                desc: "Provides consulting, technical route planning, and proposal support for research projects.",
+                feature1: "Supports project proposal preparation",
+                feature2: "Provides technical route consulting and recommendations",
+                feature3: "Serves universities, institutes, and enterprise users"
+            },
+            product3: {
+                title: "Materials Characterization and Testing Services",
+                desc: "Provides materials testing, characterization analysis, and experimental research support.",
+                feature1: "Supports basic testing and characterization analysis",
+                feature2: "Serves research testing and validation needs",
+                feature3: "Can act as supporting technical service for R&D"
+            },
+            product4: {
+                title: "Academic Conference and Technical Training Services",
+                desc: "Supports conference organization, professional training, and industry technical exchange activities.",
+                feature1: "Supports academic conferences and event planning",
+                feature2: "Provides professional technical training services",
+                feature3: "Promotes collaboration between research and industry"
+            }
+        },
+
         detailPage: {
             contactBtn: "Contact Us",
             backBtn: "Back to Solutions"
@@ -194,6 +279,7 @@ const languages = {
             learnMore: "了解解决方案",
             contactBtn: "联系咨询"
         },
+
         about: {
             tag: "Company Profile",
             title: "关于我们",
@@ -288,9 +374,19 @@ const languages = {
             placeholderMessage: "请输入您的需求或留言内容"
         },
 
-                databaseMeta: {
+        databaseMeta: {
             title: "材料数据库 | 长沙锐睿科技有限公司",
             description: "锐睿科技材料数据库产品介绍，包括铜合金、铝合金、硬质合金、铁基合金及稀土永磁材料数据库。"
+        },
+
+        softwareMeta: {
+            title: "科研软件 | 长沙锐睿科技有限公司",
+            description: "锐睿科技科研软件产品介绍，包括热物性计算、相图智能计算、多相组织模拟、析出模拟与晶体塑性模拟等软件平台。"
+        },
+
+        serviceMeta: {
+            title: "技术服务 | 长沙锐睿科技有限公司",
+            description: "锐睿科技技术服务介绍，包括材料计算与模拟分析、科研项目申报咨询、材料表征检测以及会议培训服务。"
         },
 
         databasePage: {
@@ -334,11 +430,86 @@ const languages = {
             }
         },
 
+        softwarePage: {
+            kicker: "Scientific Software",
+            title: "科研软件",
+            description: "锐睿科技提供面向材料科学研究与工程应用的软件平台，覆盖热物性计算、相图分析、组织模拟、析出行为模拟与晶体塑性计算等关键方向。",
+            product1: {
+                title: "热物性计算平台 CALTPP",
+                desc: "面向材料热物性参数计算与分析，支持科研建模、性能预测及相关工程应用。",
+                feature1: "支持热物性参数计算与结果分析",
+                feature2: "适用于科研与工程应用场景",
+                feature3: "可为材料设计与性能研究提供支撑"
+            },
+            product2: {
+                title: "相图智能计算系统 ICALPHAD",
+                desc: "提供相图计算、热力学分析及材料体系设计支持，服务于合金设计与基础研究。",
+                feature1: "支持相图计算与热力学分析",
+                feature2: "服务于材料体系优化与设计",
+                feature3: "适合科研院所与企业研发使用"
+            },
+            product3: {
+                title: "多相组织模拟软件 MID",
+                desc: "面向多相组织演化与显微组织模拟分析，为材料微观结构研究提供技术支持。",
+                feature1: "支持多相组织演化模拟",
+                feature2: "适用于显微组织分析研究",
+                feature3: "为工艺优化提供辅助依据"
+            },
+            product4: {
+                title: "析出行为模拟软件 PreCalc",
+                desc: "用于析出动力学与组织演化过程模拟，支撑材料热处理和工艺优化研究。",
+                feature1: "支持析出行为与动力学模拟",
+                feature2: "适用于组织演化过程分析",
+                feature3: "服务于热处理与工艺研究"
+            },
+            product5: {
+                title: "晶体塑性模拟软件 CPCP",
+                desc: "面向晶体塑性及材料力学行为模拟，为多尺度材料力学研究提供工具支撑。",
+                feature1: "支持晶体塑性计算与分析",
+                feature2: "适用于材料力学行为模拟",
+                feature3: "可服务于多尺度研究与工程评估"
+            }
+        },
+
+        servicePage: {
+            kicker: "Technical Services",
+            title: "技术服务",
+            description: "锐睿科技提供面向科研机构和企业客户的技术服务，涵盖材料计算、项目咨询、检测分析及培训交流等方向。",
+            product1: {
+                title: "材料计算与模拟分析服务",
+                desc: "提供面向材料研发和工程应用的计算分析与模拟支持。",
+                feature1: "支持材料体系计算分析",
+                feature2: "服务科研与产业应用需求",
+                feature3: "可结合数据库与软件工具开展服务"
+            },
+            product2: {
+                title: "科研项目申报与技术咨询服务",
+                desc: "提供科研项目咨询、技术路线梳理及申报支持服务。",
+                feature1: "支持项目申报材料准备",
+                feature2: "提供技术路线咨询与建议",
+                feature3: "服务高校、院所与企业用户"
+            },
+            product3: {
+                title: "材料表征与检测服务",
+                desc: "提供材料测试、表征分析和实验研究辅助服务。",
+                feature1: "支持基础检测与表征分析",
+                feature2: "服务科研测试与验证需求",
+                feature3: "可作为研发配套技术支持"
+            },
+            product4: {
+                title: "学术会议与技术培训服务",
+                desc: "支持会议组织、专业培训及行业技术交流活动。",
+                feature1: "支持学术会议与活动策划",
+                feature2: "提供专业技术培训服务",
+                feature3: "促进科研与产业交流合作"
+            }
+        },
+
         detailPage: {
             contactBtn: "联系咨询",
             backBtn: "返回解决方案"
         },
-        
+
         footer: {
             companyCn: "长沙锐睿科技有限公司",
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
@@ -383,6 +554,24 @@ function updateContent() {
 
         if (translation !== null && translation !== undefined) {
             element.setAttribute("placeholder", translation);
+        }
+    });
+
+    document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+        const key = element.getAttribute("data-i18n-title");
+        const translation = getTranslation(key, currentLanguage);
+
+        if (translation !== null && translation !== undefined) {
+            element.textContent = translation;
+        }
+    });
+
+    document.querySelectorAll("[data-i18n-meta]").forEach((element) => {
+        const key = element.getAttribute("data-i18n-meta");
+        const translation = getTranslation(key, currentLanguage);
+
+        if (translation !== null && translation !== undefined) {
+            element.setAttribute("content", translation);
         }
     });
 

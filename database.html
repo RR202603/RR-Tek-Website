@@ -1,131 +1,300 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>材料数据库 | 长沙锐睿科技有限公司</title>
-    <meta name="description" content="锐睿科技材料数据库产品介绍，包括铜合金、铝合金、硬质合金、铁基合金及稀土永磁材料数据库。" />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>数据库详情 - 长沙锐睿科技有限公司</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .lang-btn {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: #0d6efd;
+      color: #fff;
+      border-color: #0d6efd;
+    }
+
+    .database-hero {
+      padding: 80px 20px 50px;
+      text-align: center;
+      background: linear-gradient(135deg, #f5f9ff, #eef4ff);
+    }
+
+    .database-hero h1 {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    .database-hero p {
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.8;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .database-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .database-section h2 {
+      font-size: 30px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .database-section .section-desc {
+      max-width: 900px;
+      margin: 0 auto 30px;
+      text-align: center;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .database-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .database-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .database-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .database-card h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .database-card p {
+      color: #666;
+      line-height: 1.8;
+    }
+
+    .advantage-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .advantage-list li {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 18px 20px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .cta-box {
+      text-align: center;
+      padding: 60px 20px 80px;
+      background: #f8fbff;
+    }
+
+    .cta-box h2 {
+      font-size: 30px;
+      margin-bottom: 16px;
+    }
+
+    .cta-box p {
+      max-width: 800px;
+      margin: 0 auto 24px;
+      color: #666;
+      line-height: 1.8;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 12px 26px;
+      border-radius: 8px;
+      background: #0d6efd;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      background: #0b5ed7;
+    }
+
+    @media (max-width: 768px) {
+      .database-hero h1 {
+        font-size: 30px;
+      }
+
+      .database-section h2,
+      .cta-box h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav class="nav-container">
-            <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
-                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
-                <div class="brand-text">
-                    <span class="brand-name" id="company-logo-text">锐睿科技</span>
-                    <span class="brand-slogan" data-i18n="brand.slogan">专注软件、数据库、材料智能设计</span>
-                </div>
-            </a>
+  <header>
+    <nav class="navbar" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;max-width:1200px;margin:0 auto;">
+      <div class="nav-left" style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="service.html" data-i18n="nav.service">服务</a>
+        <a href="software.html" data-i18n="nav.software">软件开发</a>
+        <a href="database.html" data-i18n="nav.database">数据库</a>
+        <a href="index.html#contact" data-i18n="nav.contact">联系我们</a>
+      </div>
 
-            <ul class="nav-menu">
-                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
-                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
-                <li><a href="index.html#products" data-i18n="nav.products">解决方案</a></li>
-                <li><a href="index.html#news" data-i18n="nav.news">新闻中心</a></li>
-                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
-                <li>
-                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
-                        Switch to English
-                    </button>
-                </li>
-            </ul>
-        </nav>
-    </header>
+      <div class="lang-switch">
+        <button class="lang-btn" type="button" data-lang="zh">中文</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
 
-    <main class="detail-page">
-        <section class="detail-hero">
-            <div class="container">
-                <p class="detail-kicker" data-i18n="databasePage.kicker">Materials Databases</p>
-                <h1 data-i18n="databasePage.title">材料数据库</h1>
-                <p class="detail-intro" data-i18n="databasePage.description">
-                    锐睿科技围绕典型材料体系建设热力学数据库，服务于材料设计、相图分析、工艺优化与工程应用研究。
-                </p>
-            </div>
-        </section>
+  <main>
+    <section class="database-hero">
+      <h1 data-i18n="database.hero.title">数据库详情</h1>
+      <p data-i18n="database.hero.desc">
+        为企业提供稳定、高效、安全的数据管理与应用支持。
+      </p>
+    </section>
 
-        <section class="detail-section">
-            <div class="container">
-                <div class="detail-list">
-                    <article class="detail-card">
-                        <h2 data-i18n="databasePage.product1.title">铜合金热力学数据库</h2>
-                        <p data-i18n="databasePage.product1.desc">
-                            覆盖铜合金体系的热力学数据需求，可支撑合金设计与工艺分析。
-                        </p>
-                        <ul class="feature-list">
-                            <li data-i18n="databasePage.product1.feature1">面向铜合金体系研究与开发</li>
-                            <li data-i18n="databasePage.product1.feature2">支持热力学分析与设计优化</li>
-                            <li data-i18n="databasePage.product1.feature3">可与计算软件配合使用</li>
-                        </ul>
-                    </article>
+    <section class="database-section">
+      <h2 data-i18n="database.section.overview">服务概述</h2>
+      <p class="section-desc" data-i18n="database.overview.text">
+        我们提供数据库设计、部署、优化、迁移、备份和运维服务，帮助企业构建高性能、可扩展的数据平台。
+      </p>
+    </section>
 
-                    <article class="detail-card">
-                        <h2 data-i18n="databasePage.product2.title">铝合金热力学数据库</h2>
-                        <p data-i18n="databasePage.product2.desc">
-                            服务于铝合金研发、相图分析及工艺参数优化等应用场景。
-                        </p>
-                        <ul class="feature-list">
-                            <li data-i18n="databasePage.product2.feature1">支持铝合金体系热力学分析</li>
-                            <li data-i18n="databasePage.product2.feature2">适用于相图计算与工艺研究</li>
-                            <li data-i18n="databasePage.product2.feature3">服务科研与工业开发需求</li>
-                        </ul>
-                    </article>
+    <section class="database-section">
+      <h2 data-i18n="database.section.features">核心功能</h2>
+      <div class="database-grid" id="database-feature-list"></div>
+    </section>
 
-                    <article class="detail-card">
-                        <h2 data-i18n="databasePage.product3.title">硬质合金数据库</h2>
-                        <p data-i18n="databasePage.product3.desc">
-                            面向硬质合金材料体系的组成设计、性能分析和研究支撑。
-                        </p>
-                        <ul class="feature-list">
-                            <li data-i18n="databasePage.product3.feature1">支持硬质合金材料设计分析</li>
-                            <li data-i18n="databasePage.product3.feature2">适用于成分与性能研究</li>
-                            <li data-i18n="databasePage.product3.feature3">为工艺优化提供数据支持</li>
-                        </ul>
-                    </article>
+    <section class="database-section">
+      <h2 data-i18n="database.section.advantages">服务优势</h2>
+      <ul class="advantage-list">
+        <li data-i18n="database.advantages.item1">高可靠性</li>
+        <li data-i18n="database.advantages.item2">安全可控</li>
+        <li data-i18n="database.advantages.item3">灵活扩展</li>
+        <li data-i18n="database.advantages.item4">专业运维支持</li>
+      </ul>
+    </section>
 
-                    <article class="detail-card">
-                        <h2 data-i18n="databasePage.product4.title">铁基合金数据库</h2>
-                        <p data-i18n="databasePage.product4.desc">
-                            适用于铁基材料体系的热力学分析、组织演化研究及工程计算。
-                        </p>
-                        <ul class="feature-list">
-                            <li data-i18n="databasePage.product4.feature1">支持铁基合金体系分析</li>
-                            <li data-i18n="databasePage.product4.feature2">服务于工艺与材料开发研究</li>
-                            <li data-i18n="databasePage.product4.feature3">适合科研和产业应用</li>
-                        </ul>
-                    </article>
+    <section class="cta-box" id="contact">
+      <h2 data-i18n="database.section.contact">咨询我们</h2>
+      <p data-i18n="database.contact.desc">
+        无论您需要数据库架构设计、性能优化、数据迁移还是长期运维支持，我们都可以为您提供专业服务。
+      </p>
+      <a class="cta-btn" href="index.html#contact" data-i18n="database.contact.button">立即咨询</a>
+    </section>
+  </main>
 
-                    <article class="detail-card">
-                        <h2 data-i18n="databasePage.product5.title">稀土永磁材料数据库</h2>
-                        <p data-i18n="databasePage.product5.desc">
-                            面向稀土永磁材料体系的设计、开发及相关性能分析需求。
-                        </p>
-                        <ul class="feature-list">
-                            <li data-i18n="databasePage.product5.feature1">支持稀土永磁材料设计研究</li>
-                            <li data-i18n="databasePage.product5.feature2">适用于数据库分析与建模支撑</li>
-                            <li data-i18n="databasePage.product5.feature3">服务于科研和工程开发</li>
-                        </ul>
-                    </article>
-                </div>
+  <script src="i18n.js"></script>
+  <script>
+    const databaseFeatureData = {
+      zh: [
+        {
+          title: "数据库设计",
+          desc: "根据业务场景设计合理的数据结构与存储方案，兼顾性能、扩展性与维护成本。"
+        },
+        {
+          title: "性能优化",
+          desc: "针对慢查询、索引设计、SQL 调优和资源瓶颈进行系统化优化，提升整体效率。"
+        },
+        {
+          title: "数据迁移",
+          desc: "支持多种数据库之间的迁移、升级和数据同步，降低系统切换风险。"
+        },
+        {
+          title: "备份与恢复",
+          desc: "建立可靠的数据备份机制和灾难恢复方案，提升业务连续性与安全性。"
+        },
+        {
+          title: "安全管理",
+          desc: "通过权限控制、日志审计、访问隔离和数据保护机制提升数据库安全水平。"
+        },
+        {
+          title: "运维支持",
+          desc: "提供日常巡检、故障排查、监控预警和持续维护服务，保障系统长期稳定运行。"
+        }
+      ],
+      en: [
+        {
+          title: "Database Design",
+          desc: "Design proper data structures and storage solutions based on business scenarios, balancing performance, scalability, and maintenance cost."
+        },
+        {
+          title: "Performance Optimization",
+          desc: "Systematically optimize slow queries, index design, SQL execution, and resource bottlenecks to improve overall efficiency."
+        },
+        {
+          title: "Data Migration",
+          desc: "Support migration, upgrades, and synchronization across multiple database systems while reducing switching risks."
+        },
+        {
+          title: "Backup and Recovery",
+          desc: "Build reliable backup mechanisms and disaster recovery plans to improve business continuity and data safety."
+        },
+        {
+          title: "Security Management",
+          desc: "Improve database security through access control, audit logs, isolation strategies, and data protection mechanisms."
+        },
+        {
+          title: "Maintenance Support",
+          desc: "Provide routine inspection, troubleshooting, monitoring alerts, and ongoing maintenance to ensure long-term stable operation."
+        }
+      ]
+    };
 
-                <div class="detail-cta">
-                    <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系咨询</a>
-                    <a href="index.html#products" class="btn-secondary detail-outline-btn" data-i18n="detailPage.backBtn">返回解决方案</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    function renderDatabaseFeatures(lang) {
+      const container = document.getElementById("database-feature-list");
+      if (!container) return;
 
-    <footer>
-        <div class="container footer-inner">
-            <div class="footer-brand">
-                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
-                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
-            </div>
-            <p id="footer-text" data-i18n="footer.text">© 2025 长沙锐睿科技有限公司 版权所有</p>
+      const data = databaseFeatureData[lang] || databaseFeatureData.zh;
+
+      container.innerHTML = data.map(item => `
+        <div class="database-card">
+          <h3>${item.title}</h3>
+          <p>${item.desc}</p>
         </div>
-    </footer>
+      `).join("");
+    }
 
-    <script src="i18n.js"></script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const lang = localStorage.getItem("siteLanguage") || "zh";
+      renderDatabaseFeatures(lang);
+    });
+
+    window.addEventListener("languageChanged", function (e) {
+      renderDatabaseFeatures(e.detail.lang);
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>技术服务 | 长沙锐睿科技有限公司</title>
+    <meta name="description" content="锐睿科技技术服务介绍，包括材料计算与模拟分析、科研项目申报咨询、材料表征检测以及会议培训服务。" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
+                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name" id="company-logo-text">锐睿科技</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注软件、数据库、材料智能设计</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">解决方案</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻中心</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detail-page">
+        <section class="detail-hero">
+            <div class="container">
+                <p class="detail-kicker" data-i18n="servicePage.kicker">Technical Services</p>
+                <h1 data-i18n="servicePage.title">技术服务</h1>
+                <p class="detail-intro" data-i18n="servicePage.description">
+                    锐睿科技提供面向科研机构和企业客户的技术服务，涵盖材料计算、项目咨询、检测分析及培训交流等方向。
+                </p>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="container">
+                <div class="detail-list">
+                    <article class="detail-card">
+                        <h2 data-i18n="servicePage.product1.title">材料计算与模拟分析服务</h2>
+                        <p data-i18n="servicePage.product1.desc">
+                            提供面向材料研发和工程应用的计算分析与模拟支持。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="servicePage.product1.feature1">支持材料体系计算分析</li>
+                            <li data-i18n="servicePage.product1.feature2">服务科研与产业应用需求</li>
+                            <li data-i18n="servicePage.product1.feature3">可结合数据库与软件工具开展服务</li>
+                        </ul>
+                    </article>
+
+                    <article class="detail-card">
+                        <h2 data-i18n="servicePage.product2.title">科研项目申报与技术咨询服务</h2>
+                        <p data-i18n="servicePage.product2.desc">
+                            提供科研项目咨询、技术路线梳理及申报支持服务。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="servicePage.product2.feature1">支持项目申报材料准备</li>
+                            <li data-i18n="servicePage.product2.feature2">提供技术路线咨询与建议</li>
+                            <li data-i18n="servicePage.product2.feature3">服务高校、院所与企业用户</li>
+                        </ul>
+                    </article>
+
+                    <article class="detail-card">
+                        <h2 data-i18n="servicePage.product3.title">材料表征与检测服务</h2>
+                        <p data-i18n="servicePage.product3.desc">
+                            提供材料测试、表征分析和实验研究辅助服务。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="servicePage.product3.feature1">支持基础检测与表征分析</li>
+                            <li data-i18n="servicePage.product3.feature2">服务科研测试与验证需求</li>
+                            <li data-i18n="servicePage.product3.feature3">可作为研发配套技术支持</li>
+                        </ul>
+                    </article>
+
+                    <article class="detail-card">
+                        <h2 data-i18n="servicePage.product4.title">学术会议与技术培训服务</h2>
+                        <p data-i18n="servicePage.product4.desc">
+                            支持会议组织、专业培训及行业技术交流活动。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="servicePage.product4.feature1">支持学术会议与活动策划</li>
+                            <li data-i18n="servicePage.product4.feature2">提供专业技术培训服务</li>
+                            <li data-i18n="servicePage.product4.feature3">促进科研与产业交流合作</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="detail-cta">
+                    <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系咨询</a>
+                    <a href="index.html#products" class="btn-secondary detail-outline-btn" data-i18n="detailPage.backBtn">返回解决方案</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
+            </div>
+            <p id="footer-text" data-i18n="footer.text">© 2025 长沙锐睿科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+</body>
+</html>

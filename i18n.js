@@ -120,6 +120,129 @@ const languages = {
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
             text: "© 2025 RR-Tek Technology Co., Ltd. All Rights Reserved."
         }
+        softwarePage: {
+    kicker: "Scientific Software",
+    title: "Scientific Software",
+    description: "RR-Tek provides software platforms for materials science research and engineering applications, covering thermo-physical property calculation, phase diagram analysis, microstructure simulation, precipitation simulation, and crystal plasticity modeling.",
+
+    product1: {
+        title: "Thermo-Physical Properties Calculation Platform (CALTPP)",
+        desc: "Designed for thermo-physical property calculation and analysis, supporting materials research, performance prediction, and engineering applications.",
+        feature1: "Supports thermo-physical property calculation and result analysis",
+        feature2: "Applicable to both research and engineering scenarios",
+        feature3: "Provides support for materials design and performance studies"
+    },
+    product2: {
+        title: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
+        desc: "Provides phase diagram calculation, thermodynamic analysis, and materials system design support for alloy development and fundamental research.",
+        feature1: "Supports phase diagram calculation and thermodynamic analysis",
+        feature2: "Serves materials system optimization and design",
+        feature3: "Suitable for research institutes and industrial R&D"
+    },
+    product3: {
+        title: "Multi-Phase Microstructure Simulation Platform (MID)",
+        desc: "Designed for microstructure evolution and multi-phase simulation analysis, supporting materials microstructure research.",
+        feature1: "Supports multi-phase microstructure evolution simulation",
+        feature2: "Applicable to microstructure analysis research",
+        feature3: "Provides support for process optimization"
+    },
+    product4: {
+        title: "Precipitation Simulation Software (PreCalc)",
+        desc: "Used for precipitation kinetics and microstructure evolution simulation, supporting heat treatment and process optimization research.",
+        feature1: "Supports precipitation behavior and kinetics simulation",
+        feature2: "Applicable to microstructure evolution analysis",
+        feature3: "Serves heat treatment and process research"
+    },
+    product5: {
+        title: "Crystal Plasticity Simulation Package (CPCP)",
+        desc: "Focused on crystal plasticity and mechanical behavior simulation, providing tools for multi-scale mechanics research.",
+        feature1: "Supports crystal plasticity calculation and analysis",
+        feature2: "Applicable to material mechanical behavior simulation",
+        feature3: "Supports multi-scale research and engineering evaluation"
+    }
+},
+
+databasePage: {
+    kicker: "Materials Databases",
+    title: "Materials Databases",
+    description: "RR-Tek develops thermodynamic databases for representative materials systems, supporting materials design, phase diagram analysis, process optimization, and engineering applications.",
+
+    product1: {
+        title: "Copper Alloy Thermodynamic Database",
+        desc: "Covers thermodynamic data requirements for copper alloy systems and supports alloy design and process analysis.",
+        feature1: "Designed for copper alloy research and development",
+        feature2: "Supports thermodynamic analysis and optimization",
+        feature3: "Can be used together with computational software tools"
+    },
+    product2: {
+        title: "Aluminum Alloy Thermodynamic Database",
+        desc: "Serves aluminum alloy R&D, phase diagram analysis, and process optimization applications.",
+        feature1: "Supports thermodynamic analysis of aluminum alloy systems",
+        feature2: "Applicable to phase diagram calculation and process studies",
+        feature3: "Serves both research and industrial development needs"
+    },
+    product3: {
+        title: "Cemented Carbide Database",
+        desc: "Supports composition design, performance analysis, and research for cemented carbide materials systems.",
+        feature1: "Supports cemented carbide material design analysis",
+        feature2: "Applicable to composition and performance studies",
+        feature3: "Provides data support for process optimization"
+    },
+    product4: {
+        title: "Iron-based Alloy Database",
+        desc: "Suitable for thermodynamic analysis, microstructure evolution research, and engineering calculation of iron-based materials systems.",
+        feature1: "Supports iron-based alloy system analysis",
+        feature2: "Serves process and materials development research",
+        feature3: "Suitable for scientific and industrial applications"
+    },
+    product5: {
+        title: "Rare Earth Permanent Magnet Database",
+        desc: "Supports design, development, and performance analysis requirements for rare earth permanent magnet materials.",
+        feature1: "Supports rare earth permanent magnet materials research",
+        feature2: "Applicable to database analysis and modeling support",
+        feature3: "Serves scientific research and engineering development"
+    }
+},
+
+servicePage: {
+    kicker: "Technical Services",
+    title: "Technical Services",
+    description: "RR-Tek provides technical services for research institutes and industrial clients, covering materials computation, project consulting, testing analysis, and professional training.",
+
+    product1: {
+        title: "Materials Simulation & Computational Analysis",
+        desc: "Provides computational analysis and simulation support for materials R&D and engineering applications.",
+        feature1: "Supports computational analysis for materials systems",
+        feature2: "Serves both research and industrial application needs",
+        feature3: "Can be combined with databases and software tools"
+    },
+    product2: {
+        title: "R&D Project Consulting and Proposal Support",
+        desc: "Provides scientific project consulting, technical route planning, and proposal support services.",
+        feature1: "Supports project proposal preparation",
+        feature2: "Provides technical route consulting and suggestions",
+        feature3: "Serves universities, institutes, and enterprises"
+    },
+    product3: {
+        title: "Materials Characterization & Testing Services",
+        desc: "Provides testing, characterization analysis, and experimental support services for materials research.",
+        feature1: "Supports basic testing and characterization analysis",
+        feature2: "Serves scientific testing and validation needs",
+        feature3: "Acts as supporting technology for R&D work"
+    },
+    product4: {
+        title: "Academic Conference & Technical Training Services",
+        desc: "Supports conference organization, professional training, and technical exchange activities.",
+        feature1: "Supports academic meeting and event planning",
+        feature2: "Provides professional technical training",
+        feature3: "Promotes cooperation between research and industry"
+    }
+},
+
+detailPage: {
+    contactBtn: "Contact Us",
+    backBtn: "Back to Solutions"
+},
     },
 
     zh: {
@@ -303,3 +426,126 @@ function toggleLanguage() {
 document.addEventListener("DOMContentLoaded", () => {
     updateContent();
 });
+softwarePage: {
+    kicker: "Scientific Software",
+    title: "科研软件",
+    description: "锐睿科技提供面向材料科学研究与工程应用的软件平台，覆盖热物性计算、相图分析、组织模拟、析出行为模拟与晶体塑性计算等关键方向。",
+
+    product1: {
+        title: "热物性计算平台 CALTPP",
+        desc: "面向材料热物性参数计算与分析，支持科研建模、性能预测及相关工程应用。",
+        feature1: "支持热物性参数计算与结果分析",
+        feature2: "适用于科研与工程应用场景",
+        feature3: "可为材料设计与性能研究提供支撑"
+    },
+    product2: {
+        title: "相图智能计算系统 ICALPHAD",
+        desc: "提供相图计算、热力学分析及材料体系设计支持，服务于合金设计与基础研究。",
+        feature1: "支持相图计算与热力学分析",
+        feature2: "服务于材料体系优化与设计",
+        feature3: "适合科研院所与企业研发使用"
+    },
+    product3: {
+        title: "多相组织模拟软件 MID",
+        desc: "面向多相组织演化与显微组织模拟分析，为材料微观结构研究提供技术支持。",
+        feature1: "支持多相组织演化模拟",
+        feature2: "适用于显微组织分析研究",
+        feature3: "为工艺优化提供辅助依据"
+    },
+    product4: {
+        title: "析出行为模拟软件 PreCalc",
+        desc: "用于析出动力学与组织演化过程模拟，支撑材料热处理和工艺优化研究。",
+        feature1: "支持析出行为与动力学模拟",
+        feature2: "适用于组织演化过程分析",
+        feature3: "服务于热处理与工艺研究"
+    },
+    product5: {
+        title: "晶体塑性模拟软件 CPCP",
+        desc: "面向晶体塑性及材料力学行为模拟，为多尺度材料力学研究提供工具支撑。",
+        feature1: "支持晶体塑性计算与分析",
+        feature2: "适用于材料力学行为模拟",
+        feature3: "可服务于多尺度研究与工程评估"
+    }
+},
+
+databasePage: {
+    kicker: "Materials Databases",
+    title: "材料数据库",
+    description: "锐睿科技围绕典型材料体系建设热力学数据库，服务于材料设计、相图分析、工艺优化与工程应用研究。",
+
+    product1: {
+        title: "铜合金热力学数据库",
+        desc: "覆盖铜合金体系的热力学数据需求，可支撑合金设计与工艺分析。",
+        feature1: "面向铜合金体系研究与开发",
+        feature2: "支持热力学分析与设计优化",
+        feature3: "可与计算软件配合使用"
+    },
+    product2: {
+        title: "铝合金热力学数据库",
+        desc: "服务于铝合金研发、相图分析及工艺参数优化等应用场景。",
+        feature1: "支持铝合金体系热力学分析",
+        feature2: "适用于相图计算与工艺研究",
+        feature3: "服务科研与工业开发需求"
+    },
+    product3: {
+        title: "硬质合金数据库",
+        desc: "面向硬质合金材料体系的组成设计、性能分析和研究支撑。",
+        feature1: "支持硬质合金材料设计分析",
+        feature2: "适用于成分与性能研究",
+        feature3: "为工艺优化提供数据支持"
+    },
+    product4: {
+        title: "铁基合金数据库",
+        desc: "适用于铁基材料体系的热力学分析、组织演化研究及工程计算。",
+        feature1: "支持铁基合金体系分析",
+        feature2: "服务于工艺与材料开发研究",
+        feature3: "适合科研和产业应用"
+    },
+    product5: {
+        title: "稀土永磁材料数据库",
+        desc: "面向稀土永磁材料体系的设计、开发及相关性能分析需求。",
+        feature1: "支持稀土永磁材料设计研究",
+        feature2: "适用于数据库分析与建模支撑",
+        feature3: "服务于科研和工程开发"
+    }
+},
+
+servicePage: {
+    kicker: "Technical Services",
+    title: "技术服务",
+    description: "锐睿科技提供面向科研机构和企业客户的技术服务，涵盖材料计算、项目咨询、检测分析及培训交流等方向。",
+
+    product1: {
+        title: "材料计算与模拟分析服务",
+        desc: "提供面向材料研发和工程应用的计算分析与模拟支持。",
+        feature1: "支持材料体系计算分析",
+        feature2: "服务科研与产业应用需求",
+        feature3: "可结合数据库与软件工具开展服务"
+    },
+    product2: {
+        title: "科研项目申报与技术咨询服务",
+        desc: "提供科研项目咨询、技术路线梳理及申报支持服务。",
+        feature1: "支持项目申报材料准备",
+        feature2: "提供技术路线咨询与建议",
+        feature3: "服务高校、院所与企业用户"
+    },
+    product3: {
+        title: "材料表征与检测服务",
+        desc: "提供材料测试、表征分析和实验研究辅助服务。",
+        feature1: "支持基础检测与表征分析",
+        feature2: "服务科研测试与验证需求",
+        feature3: "可作为研发配套技术支持"
+    },
+    product4: {
+        title: "学术会议与技术培训服务",
+        desc: "支持会议组织、专业培训及行业技术交流活动。",
+        feature1: "支持学术会议与活动策划",
+        feature2: "提供专业技术培训服务",
+        feature3: "促进科研与产业交流合作"
+    }
+},
+
+detailPage: {
+    contactBtn: "联系咨询",
+    backBtn: "返回解决方案"
+},

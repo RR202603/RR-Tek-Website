@@ -33,49 +33,49 @@ const languages = {
         },
 
         products: {
-    tag: "Solutions",
-    title: "Products & Services",
-    description: "A comprehensive portfolio covering scientific software, database products, and engineering services to support the full lifecycle of materials development.",
-    more: "View More",
-    detailBtn: "Product Details",
-    contactBtn: "Contact Now",
+            tag: "Products & Services",
+            title: "Products & Services",
+            description: "A comprehensive portfolio covering scientific software, database products, and engineering services to support the full lifecycle of materials development.",
+            more: "View More",
+            detailBtn: "Product Details",
+            contactBtn: "Contact Now",
 
-    software: {
-        title: "Scientific Software",
-        product1: "Thermo-Physical Properties Calculation Platform (CALTPP)",
-        product2: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
-        product3: "Multi-Phase Microstructure Simulation Platform (MID)",
-        product4: "Precipitation Simulation Software (PreCalc)",
-        product5: "Crystal Plasticity Simulation Package (CPCP)",
-        desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
-        desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-        desc3: "Designed for multi-phase microstructure evolution and simulation studies.",
-        desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
-        desc5: "For crystal plasticity and mechanical behavior simulation of materials."
-    },
+            software: {
+                title: "Scientific Software",
+                product1: "Thermo-Physical Properties Calculation Platform (CALTPP)",
+                product2: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
+                product3: "Multi-Phase Microstructure Simulation Platform (MID)",
+                product4: "Precipitation Simulation Software (PreCalc)",
+                product5: "Crystal Plasticity Simulation Package (CPCP)",
+                desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
+                desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
+                desc3: "Designed for multi-phase microstructure evolution and simulation studies.",
+                desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
+                desc5: "For crystal plasticity and mechanical behavior simulation of materials."
+            },
 
-    database: {
-        title: "Materials Databases",
-        database1: "Thermodynamic Databases",
-        database2: "Kinetic Databases",
-        database3: "Thermophysical Databases",
-        desc1: "Covers thermodynamic modeling and phase diagram analysis for multicomponent alloy systems.",
-        desc2: "Supports diffusion kinetics, microstructure evolution, and process simulation studies.",
-        desc3: "Supports prediction of thermophysical properties such as viscosity for engineering applications."
-    },
+            database: {
+                title: "Materials Databases",
+                database1: "Thermodynamic Databases",
+                database2: "Kinetic Databases",
+                database3: "Thermophysical Databases",
+                desc1: "Covers thermodynamic modeling and phase diagram analysis for multicomponent alloy systems.",
+                desc2: "Supports diffusion kinetics, microstructure evolution, and process simulation studies.",
+                desc3: "Supports prediction of thermophysical properties such as viscosity for engineering applications."
+            },
 
-    service: {
-        title: "Technical Services",
-        service1: "Materials Simulation & Computational Analysis",
-        service2: "R&D Project Consulting and Proposal Support",
-        service3: "Materials Characterization & Testing Services",
-        service4: "Academic Conference & Technical Training Services",
-        desc1: "Provides materials computation and simulation support for research and engineering applications.",
-        desc2: "Offers proposal support, technical consulting, and solution planning.",
-        desc3: "Provides material testing, characterization, and experimental support.",
-        desc4: "Supports conference organization, professional training, and technical exchange activities."
-    }
-},
+            service: {
+                title: "Technical Services",
+                service1: "Materials Simulation & Computational Analysis",
+                service2: "R&D Project Consulting and Proposal Support",
+                service3: "Materials Characterization & Testing Services",
+                service4: "Academic Conference & Technical Training Services",
+                desc1: "Provides materials computation and simulation support for research and engineering applications.",
+                desc2: "Offers proposal support, technical consulting, and solution planning.",
+                desc3: "Provides material testing, characterization, and experimental support.",
+                desc4: "Supports conference organization, professional training, and technical exchange activities."
+            }
+        },
 
         news: {
             tag: "News & Insights",
@@ -132,33 +132,33 @@ const languages = {
         },
 
         databasePage: {
-        kicker: "Materials Databases",
-        title: "Materials Databases",
-        description: "RR-Tek develops a database product portfolio covering thermodynamic databases, kinetic databases, and thermophysical databases to support materials design, phase diagram analysis, diffusion simulation, process optimization, and engineering research.",
-        thermo: {
-            title: "Thermodynamic Databases",
-            desc: "Designed for thermodynamic modeling, phase equilibrium calculation, and materials design analysis of multicomponent alloy systems, covering cemented carbides, titanium alloys, aluminum alloys, steels, nickel-based superalloys, copper alloys, and Nd-Fe-B permanent magnets.",
-            item1: "Multicomponent Cemented Carbide Thermodynamic Database RRTDCC-2.0",
-            item2: "Titanium Alloy Thermodynamic Database TI-1.0",
-            item3: "Aluminum Alloy Thermodynamic Database TDAL-1.0",
-            item4: "Steel Thermodynamic Database RRTDSI-1.0",
-            item5: "Nickel-based Superalloy Thermodynamic Database TDNI-2.0",
-            item6: "Multicomponent Copper Alloy Thermodynamic Database TDCU-2.0",
-            item7: "Nd-Fe-B Permanent Magnet Thermodynamic Database PMAG-1.0"
+            kicker: "Materials Databases",
+            title: "Materials Databases",
+            description: "RR-Tek develops a database product portfolio covering thermodynamic databases, kinetic databases, and thermophysical databases to support materials design, phase diagram analysis, diffusion simulation, process optimization, and engineering research.",
+            thermo: {
+                title: "Thermodynamic Databases",
+                desc: "Designed for thermodynamic modeling, phase equilibrium calculation, and materials design analysis of multicomponent alloy systems, covering cemented carbides, titanium alloys, aluminum alloys, steels, nickel-based superalloys, copper alloys, and Nd-Fe-B permanent magnets.",
+                item1: "Multicomponent Cemented Carbide Thermodynamic Database RRTDCC-2.0",
+                item2: "Titanium Alloy Thermodynamic Database TI-1.0",
+                item3: "Aluminum Alloy Thermodynamic Database TDAL-1.0",
+                item4: "Steel Thermodynamic Database RRTDSI-1.0",
+                item5: "Nickel-based Superalloy Thermodynamic Database TDNI-2.0",
+                item6: "Multicomponent Copper Alloy Thermodynamic Database TDCU-2.0",
+                item7: "Nd-Fe-B Permanent Magnet Thermodynamic Database PMAG-1.0"
+            },
+            kinetic: {
+                title: "Kinetic Databases",
+                desc: "Designed for diffusion kinetics, microstructure evolution, and process simulation studies, supporting diffusion-process analysis and process optimization for typical engineering material systems.",
+                item1: "Multicomponent Cemented Carbide Kinetic Database RRDDCC-2.0",
+                item2: "Nickel-based Superalloy Diffusion Kinetic Database",
+                item3: "Copper Alloy Diffusion Kinetic Database"
+            },
+            thermophysical: {
+                title: "Thermophysical Databases",
+                desc: "Designed for prediction of key thermophysical parameters and engineering application analysis, supporting materials process research and simulation needs.",
+                item1: "Oxide Viscosity Database"
+            }
         },
-        kinetic: {
-            title: "Kinetic Databases",
-            desc: "Designed for diffusion kinetics, microstructure evolution, and process simulation studies, supporting diffusion-process analysis and process optimization for typical engineering material systems.",
-            item1: "Multicomponent Cemented Carbide Kinetic Database RRDDCC-2.0",
-            item2: "Nickel-based Superalloy Diffusion Kinetic Database",
-            item3: "Copper Alloy Diffusion Kinetic Database"
-        },
-        thermophysical: {
-            title: "Thermophysical Databases",
-            desc: "Designed for prediction of key thermophysical parameters and engineering application analysis, supporting materials process research and simulation needs.",
-            item1: "Oxide Viscosity Database"
-        }
-    },
 
         softwarePage: {
             kicker: "Scientific Software",
@@ -197,8 +197,7 @@ const languages = {
                 desc: "Focused on crystal plasticity and mechanical behavior simulation of materials, providing tool support for multi-scale mechanics research.",
                 feature1: "Supports crystal plasticity calculation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",
-                feature3: "Serves multi-scale research and engineering evaluation",
-                
+                feature3: "Serves multi-scale research and engineering evaluation"
             }
         },
 
@@ -298,7 +297,7 @@ const languages = {
         nav: {
             home: "首页",
             about: "关于我们",
-            products: "解决方案",
+            products: "产品与服务",
             news: "新闻中心",
             contact: "联系我们",
             switchLang: "Switch to English"
@@ -324,49 +323,49 @@ const languages = {
         },
 
         products: {
-    tag: "Products & Services",
-    title: "产品与服务",
-    description: "覆盖科研软件、数据库产品及工程服务的完整产品体系，支撑材料研发全流程。",
-    more: "查看详情",
-    detailBtn: "产品详情",
-    contactBtn: "立即咨询",
+            tag: "产品与服务",
+            title: "产品与服务",
+            description: "覆盖科研软件、数据库产品及工程服务的完整产品体系，支撑材料研发全流程。",
+            more: "查看详情",
+            detailBtn: "产品详情",
+            contactBtn: "立即咨询",
 
-    software: {
-        title: "科研软件",
-        product1: "热物性计算平台 CALTPP",
-        product2: "相图智能计算系统 ICALPHAD",
-        product3: "多相组织模拟软件 MID",
-        product4: "析出行为模拟软件 PreCalc",
-        product5: "晶体塑性模拟软件 CPCP",
-        desc1: "用于材料热物性参数的高效计算与分析。",
-        desc2: "支持相图计算、热力学分析与材料设计研究。",
-        desc3: "面向多相组织演化与显微组织模拟分析。",
-        desc4: "用于析出动力学及组织演化过程模拟。",
-        desc5: "用于晶体塑性与材料力学行为模拟计算。"
-    },
+            software: {
+                title: "科研软件",
+                product1: "热物性计算平台 CALTPP",
+                product2: "相图智能计算系统 ICALPHAD",
+                product3: "多相组织模拟软件 MID",
+                product4: "析出行为模拟软件 PreCalc",
+                product5: "晶体塑性模拟软件 CPCP",
+                desc1: "用于材料热物性参数的高效计算与分析。",
+                desc2: "支持相图计算、热力学分析与材料设计研究。",
+                desc3: "面向多相组织演化与显微组织模拟分析。",
+                desc4: "用于析出动力学及组织演化过程模拟。",
+                desc5: "用于晶体塑性与材料力学行为模拟计算。"
+            },
 
-    database: {
-        title: "材料数据库",
-        database1: "热力学数据库",
-        database2: "动力学数据库",
-        database3: "热物性数据库",
-        desc1: "覆盖多组合金体系热力学建模与相图分析需求。",
-        desc2: "面向扩散动力学、组织演化与工艺模拟研究。",
-        desc3: "服务于粘度等热物性参数预测与工程应用分析。"
-    },
+            database: {
+                title: "材料数据库",
+                database1: "热力学数据库",
+                database2: "动力学数据库",
+                database3: "热物性数据库",
+                desc1: "覆盖多组合金体系热力学建模与相图分析需求。",
+                desc2: "面向扩散动力学、组织演化与工艺模拟研究。",
+                desc3: "服务于粘度等热物性参数预测与工程应用分析。"
+            },
 
-    service: {
-        title: "技术服务",
-        service1: "材料计算与模拟分析服务",
-        service2: "科研项目申报与技术咨询服务",
-        service3: "材料表征与检测服务",
-        service4: "学术会议与技术培训服务",
-        desc1: "提供面向科研和工程应用的材料计算与模拟支撑。",
-        desc2: "提供项目申报支持、技术路线咨询与方案建议。",
-        desc3: "提供材料测试、表征分析及实验技术支持。",
-        desc4: "支持会议组织、专业培训与行业技术交流活动。"
-    }
-},
+            service: {
+                title: "技术服务",
+                service1: "材料计算与模拟分析服务",
+                service2: "科研项目申报与技术咨询服务",
+                service3: "材料表征与检测服务",
+                service4: "学术会议与技术培训服务",
+                desc1: "提供面向科研和工程应用的材料计算与模拟支撑。",
+                desc2: "提供项目申报支持、技术路线咨询与方案建议。",
+                desc3: "提供材料测试、表征分析及实验技术支持。",
+                desc4: "支持会议组织、专业培训与行业技术交流活动。"
+            }
+        },
 
         news: {
             tag: "News & Insights",

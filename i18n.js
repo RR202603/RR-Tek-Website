@@ -16,9 +16,8 @@ const languages = {
         hero: {
             kicker: "Changsha RR-Tek Technology Co., Ltd.",
             title: "Materials Computation and Database Platform",
-            subtitle: "Software and Data-Driven Solutions for Materials Science and Engineering",
             description: "Providing scientific software, materials databases, and engineering services to support materials design, property prediction, and process optimization.",
-            learnMore: "Explore Solutions",
+            learnMore: "Explore Products & Services",
             contactBtn: "Contact Us"
         },
 
@@ -275,12 +274,12 @@ const languages = {
                 feature2: "The calculated Curie temperature of Nd₂Fe₁₄B (T1) differs from experiment by less than 5%",
                 feature3: "Supports validation through heat capacity, binary phase diagrams, and ternary phase diagrams"
             },
-            backBtn: "Back to Materials Databases"
+            backBtn: "Back"
         },
 
         detailPage: {
             contactBtn: "Contact Us",
-            backBtn: "Back to Solutions"
+            backBtn: "Back"
         },
 
         footer: {
@@ -307,9 +306,8 @@ const languages = {
         hero: {
             kicker: "长沙锐睿科技有限公司",
             title: "材料计算与数据库平台",
-            subtitle: "面向材料科学与工程应用的软件与数据驱动解决方案",
             description: "提供科研软件、材料数据库及工程技术服务，支撑材料设计、性能预测与工艺优化",
-            learnMore: "了解解决方案",
+            learnMore: "了解产品与服务",
             contactBtn: "联系咨询"
         },
 

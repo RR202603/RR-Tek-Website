@@ -745,9 +745,10 @@ footer p {
 }
 
 /* 入口按钮的美化 */
+/* 调整“查看详情”按钮字体大小 */
 .entry-link {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border: 2px solid var(--primary);
     border-radius: 50px;
     background-color: transparent;
@@ -755,7 +756,7 @@ footer p {
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;  /* 缩小字体大小 */
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -768,6 +769,40 @@ footer p {
 }
 
 .entry-link:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* PDF 下载按钮位置样式 */
+.pmag-pdf-links {
+    background-color: var(--primary);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pmag-pdf-links a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.pmag-pdf-links a:hover {
+    background-color: var(--primary-light);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pmag-pdf-links a:active {
     transform: translateY(0);
     box-shadow: none;
 }

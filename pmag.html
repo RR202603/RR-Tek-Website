@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nd-Fe-B永磁体热力学数据库 PMAG-1.0 | 长沙锐睿科技有限公司</title>
-    <meta
-        name="description"
-        content="Nd-Fe-B永磁体热力学数据库 PMAG-1.0 面向 NdFeB 基永磁体设计、相平衡分析、居里温度预测与凝固过程模拟。"
-    />
+    <title>PMAG-1.0 稀土永磁体热力学数据库 | 长沙锐睿科技有限公司</title>
+    <meta name="description" content="PMAG-1.0 稀土永磁体热力学数据库，支持相图计算、热力学分析、居里温度预测与凝固过程模拟，服务于永磁材料研发与工艺优化。" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
     <header>
         <nav class="nav-container">
-            <a href="index.html#hero" class="brand" aria-label="Changsha RR-Tek Technology Co., Ltd. Home">
-                <img src="assets/logo.jpg" alt="长沙锐睿科技有限公司 Logo" class="brand-logo" />
+            <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
+                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
                 <div class="brand-text">
                     <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
-                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注软件、数据库、材料智能设计</span>
                 </div>
             </a>
 
@@ -27,131 +25,94 @@
                 <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
                 <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
                 <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
-                <li>
-                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
-                        Switch to English
-                    </button>
-                </li>
+                <li><button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">Switch to English</button></li>
             </ul>
         </nav>
     </header>
 
     <main class="detail-page pmag-page">
-        <section class="detail-hero pmag-hero">
+        <!-- Hero Section -->
+        <section class="detail-hero">
             <div class="container">
-                <p class="detail-kicker">Thermodynamic Database</p>
-                <h1>Nd-Fe-B永磁体热力学数据库 PMAG-1.0</h1>
-                <p class="detail-intro">
-                    面向 NdFeB 基永磁体设计、相平衡分析、居里温度预测与平衡/非平衡凝固模拟，
-                    支撑成分设计、工艺优化与高温性能研究。
+                <p class="detail-kicker" data-i18n="pmagPage.kicker">PMAG Database</p>
+                <h1 data-i18n="pmagPage.title">PMAG-1.0 稀土永磁体热力学数据库</h1>
+                <p class="detail-intro" data-i18n="pmagPage.description">
+                    PMAG-1.0 稀土永磁体热力学数据库，支持相图计算、热力学分析、居里温度预测与凝固过程模拟，服务于永磁材料研发与工艺优化。
                 </p>
             </div>
         </section>
 
+        <!-- Features Section -->
         <section class="detail-section">
             <div class="container">
                 <div class="pmag-overview-grid">
                     <div class="pmag-overview-card">
-                        <h3>适用材料</h3>
-                        <p>NdFeB 基永磁体及相关多元合金体系</p>
+                        <h3 data-i18n="pmagPage.section1.title">数据库定位</h3>
+                        <p data-i18n="pmagPage.section1.desc">
+                            PMAG-1.0 是面向 NdFeB 基永磁体材料体系开发的热力学数据库，提供相平衡、热力学性质、居里温度、平衡凝固与 Scheil 凝固模拟等关键参数的计算。
+                        </p>
                     </div>
                     <div class="pmag-overview-card">
-                        <h3>核心能力</h3>
-                        <p>相图、相平衡、居里温度、凝固过程模拟</p>
+                        <h3 data-i18n="pmagPage.section2.title">核心能力</h3>
+                        <p data-i18n="pmagPage.section2.desc">
+                            支持多元体系相平衡计算、热力学性质分析、居里温度预测及平衡与非平衡凝固模拟，适用于新型永磁材料的设计与工艺优化。
+                        </p>
                     </div>
                     <div class="pmag-overview-card">
-                        <h3>应用方向</h3>
-                        <p>材料设计、工艺优化、性能提升与工程分析</p>
+                        <h3 data-i18n="pmagPage.section3.title">应用方向</h3>
+                        <p data-i18n="pmagPage.section3.desc">
+                            PMAG-1.0 可广泛应用于 NdFeB 永磁材料设计、工艺优化与高温性能研究，支撑材料性能预测和工艺分析。
+                        </p>
                     </div>
-                    <div class="pmag-overview-card">
-                        <h3>产品版本</h3>
-                        <p>PMAG-1.0</p>
-                    </div>
-                </div>
-
-                <div class="detail-list pmag-sections">
-                    <article class="detail-card">
-                        <h2>数据库定位</h2>
-                        <p>
-                            PMAG-1.0 是面向 NdFeB 基永磁体材料体系开发的热力学数据库，可用于
-                            相图计算、相平衡分析、热力学性质研究，以及关键性能相关参数的预测。
-                        </p>
-                        <ul class="feature-list">
-                            <li>面向 NdFeB 基永磁体设计与分析</li>
-                            <li>支持多元体系热力学与相平衡研究</li>
-                            <li>服务科研与工程应用场景</li>
-                        </ul>
-                    </article>
-
-                    <article class="detail-card">
-                        <h2>核心计算能力</h2>
-                        <p>
-                            数据库支持多元体系相平衡计算、相图分析、热力学性质计算、居里温度预测，
-                            以及平衡凝固与 Scheil 凝固模拟，可为 NdFeB 永磁体合金设计和工艺研究提供基础数据支撑。
-                        </p>
-                        <ul class="feature-list">
-                            <li>相图与相平衡计算</li>
-                            <li>热力学性质分析</li>
-                            <li>居里温度预测</li>
-                            <li>平衡与非平衡凝固模拟</li>
-                        </ul>
-                    </article>
-
-                    <article class="detail-card">
-                        <h2>应用价值</h2>
-                        <p>
-                            PMAG-1.0 可帮助用户理解 NdFeB 永磁体的主相稳定性、相组成变化及工艺过程中的组织演化，
-                            支撑磁体成分设计、烧结工艺优化、晶界扩散工艺分析以及高温服役性能研究。
-                        </p>
-                        <ul class="feature-list">
-                            <li>加速新型 NdFeB 永磁体设计</li>
-                            <li>提升工艺开发效率</li>
-                            <li>增强性能分析与预测能力</li>
-                        </ul>
-                    </article>
-
-                    <article class="detail-card">
-                        <h2>关键体系与覆盖范围</h2>
-                        <p>
-                            数据库围绕 Nd-Fe-B 及相关多元添加体系展开建模，可用于主相、富硼相、
-                            稀土富集相及晶界相关相的热力学分析，适用于典型 NdFeB 永磁体研发需求。
-                        </p>
-                        <ul class="feature-list">
-                            <li>支持 Nd-Fe-B 主体系分析</li>
-                            <li>支持多元合金体系外推研究</li>
-                            <li>适用于材料开发与工程计算</li>
-                        </ul>
-                    </article>
-
-                    <article class="detail-card">
-                        <h2>技术验证与示例</h2>
-                        <p>
-                            PMAG-1.0 可结合实验数据开展相稳定性、居里温度、热力学性质及二元/三元相图等验证分析，
-                            适合作为 NdFeB 永磁体研发过程中的热力学基础数据库。
-                        </p>
-                        <ul class="feature-list">
-                            <li>相稳定性与相图验证</li>
-                            <li>居里温度计算示例</li>
-                            <li>热力学性质与凝固过程分析</li>
-                        </ul>
-                    </article>
-                </div>
-
-                <div class="detail-cta">
-                    <a href="index.html#contact" class="btn-primary">联系咨询</a>
-                    <a href="database.html" class="btn-secondary detail-outline-btn">返回材料数据库</a>
                 </div>
             </div>
         </section>
+
+        <!-- Additional Information Section -->
+        <section class="detail-section">
+            <div class="container">
+                <div class="pmag-sections">
+                    <article class="detail-card">
+                        <h2 data-i18n="pmagPage.section4.title">技术验证与示例</h2>
+                        <p data-i18n="pmagPage.section4.desc">
+                            PMAG-1.0 已通过对多种 NdFeB 永磁体材料体系的验证，支持相稳定性、居里温度和二元/三元相图的计算。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="pmagPage.section4.feature1">支持相稳定性与相图验证</li>
+                            <li data-i18n="pmagPage.section4.feature2">居里温度计算与实验数据对比</li>
+                            <li data-i18n="pmagPage.section4.feature3">支持凝固过程与微观组织分析</li>
+                        </ul>
+                    </article>
+
+                    <article class="detail-card">
+                        <h2 data-i18n="pmagPage.section5.title">应用范围</h2>
+                        <p data-i18n="pmagPage.section5.desc">
+                            覆盖 NdFeB 永磁材料的主要成分与多种合金体系，适用于各种工业和科研场景中的磁体开发与工艺优化。
+                        </p>
+                        <ul class="feature-list">
+                            <li data-i18n="pmagPage.section5.feature1">适用于 NdFeB 永磁体及相关多元合金体系</li>
+                            <li data-i18n="pmagPage.section5.feature2">支持高温磁体与低成本稀土替代研究</li>
+                            <li data-i18n="pmagPage.section5.feature3">适用于工艺优化与性能提升</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <div class="detail-cta">
+            <a href="index.html#contact" class="btn-primary" data-i18n="pmagPage.contactBtn">联系咨询</a>
+            <a href="index.html#products" class="btn-secondary detail-outline-btn" data-i18n="pmagPage.backBtn">返回产品与服务</a>
+        </div>
     </main>
 
     <footer>
         <div class="container footer-inner">
             <div class="footer-brand">
-                <p class="footer-cn">长沙锐睿科技有限公司</p>
-                <p class="footer-en">Changsha RR-Tek Technology Co., Ltd.</p>
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
             </div>
-            <p>© 2025 长沙锐睿科技有限公司 版权所有</p>
+            <p id="footer-text" data-i18n="footer.text">© 2021 长沙锐睿科技有限公司 版权所有</p>
         </div>
     </footer>
 

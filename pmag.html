@@ -1,162 +1,226 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>稀土永磁体热力学数据库 PMAG-1.0 | 长沙锐睿科技有限公司</title>
-    <meta name="description" content="PMAG 稀土永磁体热力学数据库，提供相平衡分析、居里温度预测与凝固过程模拟，支撑材料设计、工艺优化与性能提升。" />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PMAG 永磁材料数据库 | 长沙锐睿科技有限公司</title>
+  <meta name="description" content="PMAG 永磁材料数据库，面向 Nd-Fe-B 永磁材料的热力学与磁性计算，支持相图、凝固、居里温度预测等功能。" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <header>
-        <nav class="nav-container">
-            <a href="index.html#hero" class="brand" aria-label="Changsha RR-Tek Technology Co., Ltd. Home">
-                <img src="assets/logo.jpg" alt="长沙锐睿科技有限公司 Logo" class="brand-logo" />
-                <div class="brand-text">
-                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
-                    <span class="brand-slogan">专注软件、数据库、材料智能设计</span>
-                </div>
-            </a>
 
-            <ul class="nav-menu">
-                <li><a href="index.html#hero">首页</a></li>
-                <li><a href="index.html#about">关于我们</a></li>
-                <li><a href="index.html#products">产品与服务</a></li>
-                <li><a href="index.html#news">新闻动态</a></li>
-                <li><a href="index.html#contact">联系我们</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+  <nav class="nav-container">
+    <a href="index.html#hero" class="brand">
+      <img src="assets/logo.jpg" class="brand-logo" />
+      <div class="brand-text">
+        <span class="brand-name">长沙锐睿科技有限公司</span>
+        <span class="brand-slogan">专注软件、数据库、材料智能设计</span>
+      </div>
+    </a>
 
-    <!-- PDF Links in Blue Background Section -->
-    <section class="pdf-links-section" style="background-color: #003366; padding: 20px 0; text-align: center;">
-        <a href="Technical_Information_Sheet_for_PMAG1.0.pdf" class="btn-primary" style="padding: 12px 24px; background-color: #f1c40f; color: #003366; border-radius: 6px; font-weight: bold; text-decoration: none;">PMAG1.0技术信息表</a>
-        <a href="Validation_and_Calculation_Examples_for_PMAG1.0.pdf" class="btn-primary" style="padding: 12px 24px; background-color: #f1c40f; color: #003366; border-radius: 6px; font-weight: bold; text-decoration: none; margin-left: 15px;">PMAG1.0验证与计算示例</a>
-    </section>
+    <ul class="nav-menu">
+      <li><a href="index.html#hero">首页</a></li>
+      <li><a href="index.html#about">关于我们</a></li>
+      <li><a href="index.html#products">产品与服务</a></li>
+      <li><a href="index.html#news">新闻动态</a></li>
+      <li><a href="index.html#contact">联系我们</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main class="detail-page pmag-page">
-        <section class="detail-hero">
-            <div class="container">
-                <p class="detail-kicker">热力学数据库</p>
-                <h1>稀土永磁体热力学数据库 PMAG-1.0</h1>
-                <p class="detail-intro">
-                    PMAG 是一款面向 NdFeB 基永磁体的热力学与性质数据库，支持相平衡计算、居里温度预测与凝固过程模拟。
-                </p>
-            </div>
-        </section>
+<main class="detail-page">
 
-        <section class="detail-section">
-            <div class="container">
-                <div class="pmag-overview-grid">
-                    <div class="pmag-overview-card">
-                        <h3>适用材料</h3>
-                        <p>NdFeB 基永磁体及相关多元合金体系</p>
-                    </div>
-                    <div class="pmag-overview-card">
-                        <h3>核心能力</h3>
-                        <p>相图、相平衡、居里温度、凝固过程模拟</p>
-                    </div>
-                    <div class="pmag-overview-card">
-                        <h3>应用方向</h3>
-                        <p>材料设计、工艺优化、性能提升与工程分析</p>
-                    </div>
-                    <div class="pmag-overview-card">
-                        <h3>产品版本</h3>
-                        <p>PMAG-1.0</p>
-                    </div>
-                </div>
+  <!-- Hero -->
+  <section class="detail-hero pmag-hero">
+    <div class="container">
+      <p class="detail-kicker">Materials Database</p>
+      <h1>PMAG 永磁材料数据库</h1>
+      <p class="detail-intro">
+        面向 Nd-Fe-B 永磁材料的高精度热力学与磁性数据库，
+        支持相平衡、凝固过程与居里温度预测，加速新一代磁体设计。
+      </p>
 
-                <div class="detail-list pmag-sections">
-                    <article class="detail-card">
-                        <h2>数据库定位</h2>
-                        <p>
-                            PMAG-1.0 是面向 NdFeB 基永磁体材料体系开发的热力学数据库，可用于
-                            相图计算、相平衡分析、热力学性质研究，以及关键性能相关参数的预测。
-                        </p>
-                        <ul class="feature-list">
-                            <li>面向 NdFeB 基永磁体设计与分析</li>
-                            <li>支持多元体系热力学与相平衡研究</li>
-                            <li>服务科研与工程应用场景</li>
-                        </ul>
-                    </article>
+      <div class="hero-actions">
+        <a href="#features" class="btn-primary">了解功能</a>
+        <a href="PMAG1.0技术信息表.pdf" class="btn-secondary">下载技术文档</a>
+      </div>
+    </div>
+  </section>
 
-                    <article class="detail-card">
-                        <h2>核心计算能力</h2>
-                        <p>
-                            数据库支持多元体系相平衡计算、相图分析、热力学性质计算、居里温度预测，
-                            以及平衡凝固与 Scheil 凝固模拟，可为 NdFeB 永磁体合金设计和工艺研究提供基础数据支撑。
-                        </p>
-                        <ul class="feature-list">
-                            <li>相图与相平衡计算</li>
-                            <li>热力学性质分析</li>
-                            <li>居里温度预测</li>
-                            <li>平衡与非平衡凝固模拟</li>
-                        </ul>
-                    </article>
+  <!-- 什么是 PMAG -->
+  <section class="detail-section">
+    <div class="container">
+      <h2>什么是 PMAG？</h2>
+      <p>
+        PMAG 是一套基于 CALPHAD 方法开发的永磁材料数据库，
+        专注于 Nd-Fe-B 及其多元稀土合金体系。
+      </p>
+      <p>
+        数据库覆盖从纯 Nd₂Fe₁₄B 到复杂商业磁体的广泛成分范围，
+        可用于相图计算、材料设计与性能预测。
+      </p>
+    </div>
+  </section>
 
-                    <article class="detail-card">
-                        <h2>应用价值</h2>
-                        <p>
-                            PMAG-1.0 可帮助用户理解 NdFeB 永磁体的主相稳定性、相组成变化及工艺过程中的组织演化，
-                            支撑磁体成分设计、烧结工艺优化、晶界扩散工艺分析以及高温服役性能研究。
-                        </p>
-                        <ul class="feature-list">
-                            <li>加速新型 NdFeB 永磁体设计</li>
-                            <li>提升工艺开发效率</li>
-                            <li>增强性能分析与预测能力</li>
-                        </ul>
-                    </article>
+  <!-- 核心功能 -->
+  <section class="detail-section bg-light" id="features">
+    <div class="container">
+      <h2>核心功能</h2>
 
-                    <article class="detail-card">
-                        <h2>关键体系与覆盖范围</h2>
-                        <p>
-                            数据库围绕 Nd-Fe-B 及相关多元添加体系展开建模，可用于主相、富硼相、
-                            稀土富集相及晶界相关相的热力学分析，适用于典型 NdFeB 永磁体研发需求。
-                        </p>
-                        <ul class="feature-list">
-                            <li>支持 Nd-Fe-B 主体系分析</li>
-                            <li>支持多元合金体系外推研究</li>
-                            <li>适用于材料开发与工程计算</li>
-                        </ul>
-                    </article>
+      <div class="grid-3">
 
-                    <article class="detail-card">
-                        <h2>技术验证与示例</h2>
-                        <p>
-                            PMAG-1.0 可结合实验数据开展相稳定性、居里温度、热力学性质及二元/三元相图等验证分析，
-                            适合作为 NdFeB 永磁体研发过程中的热力学基础数据库。
-                        </p>
-                        <ul class="feature-list">
-                            <li>相稳定性与相图验证</li>
-                            <li>居里温度计算示例</li>
-                            <li>热力学性质与凝固过程分析</li>
-                        </ul>
-                    </article>
-                </div>
-
-                <!-- PDF Links in Blue Background Section -->
-                <div class="pmag-pdf-links">
-                    <a href="Technical_Information_Sheet_for_PMAG1.0.pdf" class="btn-primary">PMAG1.0技术信息表</a>
-                    <a href="Validation_and_Calculation_Examples_for_PMAG1.0.pdf" class="btn-primary">PMAG1.0验证与计算示例</a>
-                </div>
-
-                <div class="detail-cta">
-                    <a href="index.html#contact" class="btn-secondary detail-outline-btn">返回</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container footer-inner">
-            <div class="footer-brand">
-                <p class="footer-cn">长沙锐睿科技有限公司</p>
-                <p class="footer-en">Changsha RR-Tek Technology Co., Ltd.</p>
-            </div>
-            <p id="footer-text">© 2025 长沙锐睿科技有限公司 版权所有</p>
+        <div class="feature-card">
+          <h3>相平衡计算</h3>
+          <p>预测各相含量、成分及稳定区</p>
         </div>
-    </footer>
 
-    <script src="i18n.js"></script>
+        <div class="feature-card">
+          <h3>凝固模拟</h3>
+          <p>支持平衡与 Scheil 凝固分析</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>居里温度预测</h3>
+          <p>计算 Tc 随成分变化关系</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>相变温度</h3>
+          <p>液相线、固相线、溶解度等</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>微偏析分析</h3>
+          <p>预测凝固过程元素分配</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>热力学性质</h3>
+          <p>活度、热容、潜热等</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据库覆盖 -->
+  <section class="detail-section">
+    <div class="container">
+      <h2>数据库覆盖范围</h2>
+
+      <div class="two-column">
+
+        <div>
+          <h3>元素体系</h3>
+          <p class="tag-list">
+            Al B Ce Co Cu Dy Fe Ga La Nb Nd Pr Tb Ti
+          </p>
+        </div>
+
+        <div>
+          <h3>体系规模</h3>
+          <ul>
+            <li>71 个已评估二元体系</li>
+            <li>24 个关键三元体系</li>
+            <li>支持多元体系外推</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 应用 -->
+  <section class="detail-section bg-light">
+    <div class="container">
+      <h2>典型应用</h2>
+
+      <div class="grid-3">
+
+        <div class="app-card">
+          <h3>磁体成分设计</h3>
+          <p>优化 Nd/Pr/Ce 配比</p>
+        </div>
+
+        <div class="app-card">
+          <h3>高温性能优化</h3>
+          <p>分析 Co、Dy 对 Tc 影响</p>
+        </div>
+
+        <div class="app-card">
+          <h3>晶界工程</h3>
+          <p>研究 Cu/Al/Ga 扩散</p>
+        </div>
+
+        <div class="app-card">
+          <h3>凝固分析</h3>
+          <p>预测偏析与组织路径</p>
+        </div>
+
+        <div class="app-card">
+          <h3>相稳定性</h3>
+          <p>主相与副相竞争分析</p>
+        </div>
+
+        <div class="app-card">
+          <h3>工业优化</h3>
+          <p>面向烧结磁体工艺</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 验证 -->
+  <section class="detail-section">
+    <div class="container">
+      <h2>验证与可靠性</h2>
+
+      <ul class="feature-list">
+        <li>相图与实验数据对比验证</li>
+        <li>居里温度预测误差小于 5%</li>
+        <li>多体系相稳定性验证</li>
+      </ul>
+
+      <a href="PMAG1.0验证与计算示例.pdf" class="btn-secondary">
+        查看验证示例
+      </a>
+    </div>
+  </section>
+
+  <!-- 技术基础 -->
+  <section class="detail-section bg-light">
+    <div class="container">
+      <h2>技术基础</h2>
+      <p>
+        PMAG 基于 CALPHAD 方法开发，
+        综合实验数据与第一性原理计算，
+        对多组分体系进行严格评估。
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>获取 PMAG 数据库</h2>
+      <p>欢迎联系我们获取试用或技术支持</p>
+
+      <a href="index.html#contact" class="btn-primary">
+        联系我们
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 长沙锐睿科技有限公司</p>
+  </div>
+</footer>
+
 </body>
 </html>

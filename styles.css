@@ -161,7 +161,7 @@ header {
 
 /* Hero */
 #hero {
-    min-height: calc(100vh - 94px);
+    min-height: 78vh;
     background:
         linear-gradient(135deg, rgba(28, 58, 122, 0.98), rgba(92, 128, 206, 0.92)),
         radial-gradient(circle at top right, rgba(255, 255, 255, 0.14), transparent 28%);
@@ -202,65 +202,60 @@ header {
 .hero-content {
     text-align: center;
     color: var(--white);
-    max-width: 1160px;
-    padding: 56px 20px 48px;
+    max-width: 860px;
+    padding: 40px 20px 32px;
 }
 
 .hero-kicker {
-    display: block;
-    margin-bottom: 18px;
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 1.45;
-    letter-spacing: 0.01em;
-    color: rgba(255, 255, 255, 0.96);
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-content h1 {
     margin: 0 auto 18px;
-    max-width: 1100px;
-    font-size: 2.35rem;
+    max-width: 760px;
+    font-size: 3rem;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: -0.01em;
-    color: var(--white);
-    white-space: nowrap;
-}
-.hero-subtitle {
-    max-width: 900px;
-    margin: 0 auto 16px;
-    font-size: 1.2rem;
-    line-height: 1.75;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.92);
+    color: #fff;
 }
 
 .hero-description {
-    max-width: 860px;
+    max-width: 760px;
     margin: 0 auto 30px;
-    font-size: 1.12rem;
+    font-size: 1.08rem;
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-panel {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 36px 28px;
+    border-radius: 24px;
+
+    background: rgba(255, 255, 255, 0.04); /* 半透明白 */
+    backdrop-filter: blur(6px);            /* 毛玻璃效果 */
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 
 .hero-actions {
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 16px;
+    margin-top: 8px;
     flex-wrap: wrap;
 }
 
 .btn-primary,
 .btn-secondary {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 160px;
-    padding: 13px 26px;
-    border-radius: 999px;
+    min-width: 170px;
+    padding: 14px 28px;
     font-size: 0.95rem;
     font-weight: 700;
-    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
 }
 
 .btn-primary {
@@ -275,7 +270,7 @@ header {
 }
 
 .btn-secondary {
-    border: 1px solid rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     color: var(--white);
     background: transparent;
 }

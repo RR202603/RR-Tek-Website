@@ -203,31 +203,7 @@
                     </p>
                 </div>
 
-                <div class="news-list">
-                    <article class="news-item">
-                        <div class="news-date">2025-01-15</div>
-                        <div class="news-body">
-                            <h3 data-i18n="news.card1Title">产品与技术信息持续更新</h3>
-                            <p data-i18n="news.card1Text">官网将陆续发布公司公告、软件更新、数据库进展及行业资讯等内容。</p>
-                        </div>
-                    </article>
-
-                    <article class="news-item">
-                        <div class="news-date">2025-02-20</div>
-                        <div class="news-body">
-                            <h3 data-i18n="news.card2Title">欢迎关注公司最新动态</h3>
-                            <p data-i18n="news.card2Text">未来可在此展示产品发布、会议活动、合作进展及技术成果。</p>
-                        </div>
-                    </article>
-
-                    <article class="news-item">
-                        <div class="news-date">2025-03-10</div>
-                        <div class="news-body">
-                            <h3 data-i18n="news.card3Title">持续完善官网内容与产品展示</h3>
-                            <p data-i18n="news.card3Text">后续将上线更详细的产品介绍页面、新闻发布模块及联系入口。</p>
-                        </div>
-                    </article>
-                </div>
+                <div class="news-list" id="news-list"></div>
             </div>
         </section>
 
@@ -292,6 +268,26 @@
         </div>
     </footer>
 
+    <script src="news-data.js"></script>
+    <script>
+        const newsList = document.getElementById("news-list");
+
+        if (newsList && Array.isArray(newsData)) {
+            const latestNews = [...newsData]
+                .sort((a, b) => new Date(b.date) - new Date(a.date))
+                .slice(0, 4);
+
+            newsList.innerHTML = latestNews.map(item => `
+                <article class="news-item">
+                    <div class="news-date">${item.date}</div>
+                    <div class="news-body">
+                        <h3>${item.title}</h3>
+                        <a href="${item.url}" class="card-link">查看详情</a>
+                    </div>
+                </article>
+            `).join("");
+        }
+    </script>
     <script src="i18n.js"></script>
 </body>
 </html>

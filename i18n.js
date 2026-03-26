@@ -24,12 +24,12 @@ const languages = {
         about: {
             tag: "Company Profile",
             title: "About Us",
-            summary: "Supporting materials R&D and industrial application through software, databases, and engineering services.",
-            description: "Changsha RR-Tek Technology Co., Ltd., established in 2021, is a technology-driven company dedicated to the development of scientific computing software, materials thermodynamic and thermophysical databases, and intelligent materials design solutions.\n\nThe company brings together a highly skilled software engineering team and an advisory board composed of leading experts and professors from top universities worldwide. By integrating software development, database construction, and technical consulting, RR-Tek delivers efficient and reliable solutions for research institutions and industrial partners.\n\nWe are committed to building internationally advanced materials design platforms with independent intellectual property, empowering innovation across multi-scale modeling, process optimization, and materials engineering.",
+            summary: "Delivering integrated solutions of software, databases, and engineering services for materials science and engineering.",
+            description: "Changsha RR-Tek Technology Co., Ltd., established in 2021, is a technology-driven company focused on materials science and engineering applications, specializing in the development and engineering implementation of scientific computing software, materials databases, and intelligent materials design technologies.\n\nCentered on materials computation and data-driven design, the company has developed an integrated product portfolio covering thermodynamic, kinetic, and thermophysical databases, along with multiple materials simulation software platforms. These solutions provide systematic support for materials design, property prediction, and process optimization.\n\nBy combining software engineering expertise with materials science research capabilities, RR-Tek has established a coordinated technology framework of software, databases, and engineering services. The company actively collaborates with universities and research institutions worldwide to promote the practical application of advanced computational materials technologies in both research and industry.\n\nRR-Tek is committed to building advanced materials computation and design platforms with independent intellectual property, accelerating the transition from experience-driven to data- and model-driven materials R&D, and delivering efficient and reliable solutions for research institutions and industrial partners.",
             missionTitle: "Our Mission",
-            missionText: "To improve the efficiency of materials R&D through advanced software and database platforms, empowering scientific innovation and industrial upgrading.",
+            missionText: "To enhance materials R&D efficiency through advanced computational software and database platforms, enabling the integration of scientific innovation and engineering applications.",
             visionTitle: "Our Vision",
-            visionText: "To become a trusted technology partner in materials computation, database development, and intelligent design."
+            visionText: "To become a globally competitive platform-based technology company in materials computation, databases, and intelligent design."
         },
 
         products: {
@@ -298,7 +298,7 @@ const languages = {
             home: "首页",
             about: "关于我们",
             products: "产品与服务",
-            news: "新闻中心",
+            news: "新闻动态",
             contact: "联系我们",
             switchLang: "Switch to English"
         },
@@ -314,12 +314,12 @@ const languages = {
         about: {
             tag: "Company Profile",
             title: "关于我们",
-            summary: "以软件、数据库与工程服务协同支撑材料研发与产业应用。",
-            description: "长沙锐睿科技有限公司成立于2021年，是一家专注于科研计算软件、材料热力学及热物性数据库开发，以及材料智能设计技术服务的高新技术企业。\n\n公司汇聚了专业的软件开发团队，并由国内外知名高校教授和行业专家组成顾问团队，构建了集软件研发、数据库建设与工程服务于一体的技术体系。\n\n锐睿科技致力于打造具有自主知识产权的材料设计软件与数据库平台，推动多尺度模拟、材料工艺优化及工程应用的发展，为科研机构及企业提供高效可靠的技术支撑。",
+            summary: "面向材料科学与工程领域，提供软件、数据库与工程服务的一体化解决方案。",
+            description: "长沙锐睿科技有限公司成立于2021年，是一家面向材料科学与工程应用的技术型企业，专注于科研计算软件、材料数据库及材料智能设计技术的研发与工程化应用。\n\n公司以材料计算与数据驱动设计为核心，构建了涵盖热力学数据库、动力学数据库与热物性数据库，以及多类材料模拟软件在内的产品体系，为材料设计、性能预测与工艺优化提供系统化解决方案。\n\n依托软件工程能力与材料科学研究基础，公司形成了“软件 + 数据库 + 工程服务”协同发展的技术体系，并与国内外高校及科研机构开展持续合作，推动先进材料计算方法在科研与工业中的应用落地。\n\n锐睿科技致力于打造具有自主知识产权的材料计算与设计平台，推动材料研发从经验驱动向数据与模型驱动转变，为科研机构与工业企业提供高效、可靠的技术支撑。",
             missionTitle: "我们的使命",
-            missionText: "以先进的软件与数据库平台推动材料研发效率提升，赋能科研创新与产业升级。",
+            missionText: "以先进的材料计算软件与数据库平台提升材料研发效率，推动科研创新与工程应用融合发展。",
             visionTitle: "我们的愿景",
-            visionText: "成为材料计算、数据库与智能设计领域值得信赖的技术合作伙伴。"
+            visionText: "成为材料计算、数据库与智能设计领域具有国际竞争力的技术平台型企业。"
         },
 
         products: {

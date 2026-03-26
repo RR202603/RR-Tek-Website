@@ -214,6 +214,8 @@ const languages = {
                 feature1: "Supports crystal plasticity calculation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",
                 feature3: "Serves multi-scale research and engineering evaluation"
+                more: "Visit the PMAG special page to learn more about database coverage, core capabilities, key systems, and technical validation.",
+                moreBtn: "View Special Page"
             }
         },
 
@@ -479,6 +481,8 @@ const languages = {
                 feature1: "支持稀土永磁材料设计研究",
                 feature2: "适用于数据库分析与建模支撑",
                 feature3: "服务于科研和工程开发"
+                more: "查看 PMAG 稀土永磁材料数据库专题页面，了解数据库覆盖范围、核心功能、关键体系与技术验证信息。",
+                moreBtn: "查看专题详情"
             }
         },
 

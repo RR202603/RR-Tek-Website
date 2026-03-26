@@ -172,7 +172,9 @@ const languages = {
                 desc: "Designed for the development, design, and performance analysis of rare earth permanent magnet material systems.",
                 feature1: "Supports research on rare earth permanent magnet materials",
                 feature2: "Suitable for database analysis and modeling support",
-                feature3: "Serves scientific research and engineering development"
+                feature3: "Serves scientific research and engineering development",
+                more: "Visit the PMAG special page to learn more about database coverage, core capabilities, key systems, and technical validation.",
+                moreBtn: "View Special Page"
             }
         },
 
@@ -213,9 +215,8 @@ const languages = {
                 desc: "Focused on crystal plasticity and mechanical behavior simulation of materials, providing tool support for multi-scale mechanics research.",
                 feature1: "Supports crystal plasticity calculation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",
-                feature3: "Serves multi-scale research and engineering evaluation"
-                more: "Visit the PMAG special page to learn more about database coverage, core capabilities, key systems, and technical validation.",
-                moreBtn: "View Special Page"
+                feature3: "Serves multi-scale research and engineering evaluation",
+                
             }
         },
 
@@ -480,7 +481,7 @@ const languages = {
                 desc: "面向稀土永磁材料体系的设计、开发及相关性能分析需求。",
                 feature1: "支持稀土永磁材料设计研究",
                 feature2: "适用于数据库分析与建模支撑",
-                feature3: "服务于科研和工程开发"
+                feature3: "服务于科研和工程开发",
                 more: "查看 PMAG 稀土永磁材料数据库专题页面，了解数据库覆盖范围、核心功能、关键体系与技术验证信息。",
                 moreBtn: "查看专题详情"
             }

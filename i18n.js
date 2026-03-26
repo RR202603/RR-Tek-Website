@@ -42,11 +42,11 @@ const languages = {
 
             software: {
                 title: "Scientific Software",
-                product1: "CALculation of ThermoPhysical Properties",
-                product2: "Intelligent CALculation of PHAse Diagrams",
-                product3: "Microstructure Intelligent Design",
+                product1: "CALculation of ThermoPhysical Properties Software",
+                product2: "Intelligent CALculation of PHAse Diagrams Software",
+                product3: "Microstructure Intelligent Design Software",
                 product4: "Precipitation Simulation Software",
-                product5: "Crystal Properties Calculation Package",
+                product5: "Crystal Properties Calculation Package Software",
                 desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
                 desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
                 desc3: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
@@ -118,7 +118,7 @@ const languages = {
 
         softwareMeta: {
             title: "Scientific Software | Changsha RR-Tek Technology Co., Ltd.",
-            description: "Introduction to RR-Tek scientific software products, including CALculation of ThermoPhysical Properties, Intelligent CALculation of PHAse Diagrams, Microstructure Intelligent Design, Precipitation Simulation Software, and Crystal Properties Calculation Package."
+            description: "Introduction to RR-Tek scientific software products, including CALculation of ThermoPhysical Properties Software, Intelligent CALculation of PHAse Diagrams Software, Microstructure Intelligent Design Software, Precipitation Simulation Software, and Crystal Properties Calculation Package Software."
         },
 
         serviceMeta: {
@@ -165,35 +165,35 @@ const languages = {
             title: "Scientific Software",
             description: "RR-Tek provides software platforms for materials research and engineering applications, covering thermo-physical property calculation, phase diagram thermodynamic calculation, multi-physics coupled phase-field simulation, precipitation behavior simulation, and crystal plasticity finite element simulation.",
             product1: {
-                title: "CALculation of ThermoPhysical Properties",
+                title: "CALculation of ThermoPhysical Properties Software",
                 desc: "Designed for the calculation and analysis of thermophysical properties of materials, supporting scientific modeling, property prediction, and related engineering applications.",
                 feature1: "Supports thermophysical property calculation and result analysis",
                 feature2: "Suitable for research and engineering application scenarios",
                 feature3: "Supports materials design and property research"
             },
             product2: {
-                title: "Intelligent CALculation of PHAse Diagrams",
+                title: "Intelligent CALculation of PHAse Diagrams Software",
                 desc: "Provides support for phase diagram calculation, thermodynamic analysis, and materials system design for alloy development and fundamental research.",
                 feature1: "Supports phase diagram calculation and thermodynamic analysis",
                 feature2: "Serves materials system optimization and design",
                 feature3: "Suitable for research institutes and industrial R&D teams"
             },
             product3: {
-                title: "Microstructure Intelligent Design",
+                title: "Microstructure Intelligent Design Software",
                 desc: "Supports multi-physics coupled phase-field simulation and microstructure analysis, providing technical support for microstructural research of materials.",
                 feature1: "Supports multi-physics coupled phase-field simulation",
                 feature2: "Suitable for microstructure analysis and research",
                 feature3: "Provides support for process optimization"
             },
             product4: {
-                title: "Precipitation Simulation Software (PreCalc)",
+                title: "Precipitation Simulation Software",
                 desc: "Used for simulating precipitation kinetics and microstructure evolution processes, supporting heat treatment and process optimization research.",
                 feature1: "Supports precipitation behavior and kinetics simulation",
                 feature2: "Suitable for microstructure evolution analysis",
                 feature3: "Serves heat treatment and process research"
             },
             product5: {
-                title: "Crystal Properties Calculation Package",
+                title: "Crystal Properties Calculation Package Software",
                 desc: "Focused on crystal plasticity finite element simulation and mechanical behavior analysis of materials, providing tool support for multi-scale mechanics research.",
                 feature1: "Supports crystal plasticity finite element simulation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",

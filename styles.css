@@ -744,7 +744,33 @@ footer p {
     background: rgba(13, 79, 179, 0.06);
 }
 
+/* 入口按钮的美化 */
+.entry-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--primary);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 
+.entry-link:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.entry-link:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
 
 
 

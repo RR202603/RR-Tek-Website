@@ -773,38 +773,39 @@ footer p {
     box-shadow: none;
 }
 
-/* PDF 下载按钮位置样式 */
-.pmag-pdf-links {
-    background-color: var(--primary);
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 20px;
+/* =========================
+   PMAG 页面专用样式
+========================= */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
-.pmag-pdf-links a {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #ffffff;
-    color: var(--primary);
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 6px;
-    margin: 10px 0;
-    font-size: 1rem;
-    transition: all 0.3s ease;
+.feature-card, .app-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
 }
 
-.pmag-pdf-links a:hover {
-    background-color: var(--primary-light);
-    color: #ffffff;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+.hero-actions {
+  margin-top: 20px;
 }
 
-.pmag-pdf-links a:active {
-    transform: translateY(0);
-    box-shadow: none;
+.btn-primary {
+  background: #0056d2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.btn-secondary {
+  border: 1px solid #0056d2;
+  color: #0056d2;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
 

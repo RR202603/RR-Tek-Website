@@ -427,18 +427,6 @@ section {
     font-weight: 700;
     font-size: 0.93rem;
 }
-.detail-subnote {
-    margin-top: 1rem;
-    margin-bottom: 0.75rem;
-    color: #555;
-    line-height: 1.7;
-    font-size: 0.95rem;
-}
-
-.detail-link {
-    display: inline-block;
-    margin-top: 0.25rem;
-}
 
 /* News */
 #news {

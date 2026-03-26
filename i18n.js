@@ -279,7 +279,7 @@ const languages = {
 
         detailPage: {
             contactBtn: "Contact Us",
-            backBtn: "Back to Solutions"
+            backBtn: "Back"
         },
 
         footer: {
@@ -569,7 +569,7 @@ const languages = {
 
         detailPage: {
             contactBtn: "联系咨询",
-            backBtn: "返回解决方案"
+            backBtn: "返回"
         },
 
         footer: {

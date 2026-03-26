@@ -15,8 +15,9 @@ const languages = {
 
         hero: {
             kicker: "Changsha RR-Tek Technology Co., Ltd.",
-            title: "Intelligent Computational Solutions for Materials Science and Engineering",
-            description: "Focused on scientific software, materials databases, and engineering services for materials R&D and engineering application.",
+            title: "Materials Computation and Database Platform",
+            subtitle: "Software and Data-Driven Solutions for Materials Science and Engineering",
+            description: "Providing scientific software, materials databases, and engineering services to support materials design, property prediction, and process optimization.",
             learnMore: "Explore Solutions",
             contactBtn: "Contact Us"
         },
@@ -305,8 +306,9 @@ const languages = {
 
         hero: {
             kicker: "长沙锐睿科技有限公司",
-            title: "面向材料科学与工程应用的智能计算解决方案",
-            description: "专注科研软件、材料数据库与工程技术服务，助力材料研发与工程应用。",
+            title: "材料计算与数据库平台",
+            subtitle: "面向材料科学与工程应用的软件与数据驱动解决方案",
+            description: "提供科研软件、材料数据库及工程技术服务，支撑材料设计、性能预测与工艺优化",
             learnMore: "了解解决方案",
             contactBtn: "联系咨询"
         },

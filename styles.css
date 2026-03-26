@@ -226,6 +226,14 @@ header {
     color: var(--white);
     white-space: nowrap;
 }
+.hero-subtitle {
+    max-width: 900px;
+    margin: 0 auto 16px;
+    font-size: 1.2rem;
+    line-height: 1.75;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.92);
+}
 
 .hero-description {
     max-width: 860px;
@@ -737,7 +745,11 @@ footer p {
         white-space: normal;
         max-width: 760px;
     }
-
+    .hero-subtitle {
+        max-width: 720px;
+        font-size: 1.08rem;
+        line-height: 1.7;
+    }
     .hero-description  {
         max-width: 700px;
         font-size: 1.04rem;
@@ -792,7 +804,12 @@ footer p {
         max-width: 100%;
         margin-bottom: 14px;
     }
-
+    .hero-subtitle {
+        max-width: 100%;
+        font-size: 0.98rem;
+        line-height: 1.72;
+        margin-bottom: 14px;
+    }
     .hero-description {
         max-width: 100%;
         font-size: 0.98rem;

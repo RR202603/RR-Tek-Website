@@ -566,12 +566,12 @@ const languages = {
                 feature2: "Nd₂Fe₁₄B(T1) 居里温度计算与实验偏差小于 5%",
                 feature3: "支持热容、二元相图与三元相图等多类案例验证"
             },
-            backBtn: "返回材料数据库"
+            backBtn: "返回"
         },
 
         detailPage: {
             contactBtn: "联系咨询",
-            backBtn: "返回解决方案"
+            backBtn: "返回"
         },
 
         footer: {

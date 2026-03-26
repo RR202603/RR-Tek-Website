@@ -272,7 +272,8 @@
     <script>
         function renderNewsList(lang = "zh") {
             const newsList = document.getElementById("news-list");
-            if (!newsList || !Array.isArray(newsData)) return;
+            if (!newsList) return;
+            if (typeof newsData === "undefined" || !Array.isArray(newsData)) return;
 
             const latestNews = [...newsData]
                 .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -288,6 +289,10 @@
                 </article>
             `).join("");
         }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        renderNewsList("zh");
+    });
     </script>
     <script src="i18n.js"></script>
 </body>

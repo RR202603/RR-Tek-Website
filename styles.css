@@ -230,17 +230,6 @@ header {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.hero-panel {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 36px 28px;
-    border-radius: 24px;
-
-    background: rgba(255, 255, 255, 0.04); /* 半透明白 */
-    backdrop-filter: blur(6px);            /* 毛玻璃效果 */
-
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-}
 
 .hero-actions {
     display: flex;

@@ -42,16 +42,16 @@ const languages = {
 
             software: {
                 title: "Scientific Software",
-                product1: "Thermo-Physical Properties Calculation Platform (CALTPP)",
-                product2: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
-                product3: "Multi-Phase Microstructure Simulation Platform (MID)",
-                product4: "Precipitation Simulation Software (PreCalc)",
-                product5: "Crystal Plasticity Simulation Package (CPCP)",
+                product1: "CALculation of ThermoPhysical Properties",
+                product2: "Intelligent CALculation of PHAse Diagrams",
+                product3: "Microstructure Intelligent Design",
+                product4: "Precipitation Simulation Software",
+                product5: "Crystal Properties Calculation Package",
                 desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
                 desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-                desc3: "Designed for multi-phase microstructure evolution and simulation studies.",
+                desc3: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
                 desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
-                desc5: "For crystal plasticity and mechanical behavior simulation of materials."
+                desc5: "For crystal plasticity finite element simulation and mechanical behavior analysis."
             },
 
             database: {
@@ -118,7 +118,7 @@ const languages = {
 
         softwareMeta: {
             title: "Scientific Software | Changsha RR-Tek Technology Co., Ltd.",
-            description: "Introduction to RR-Tek scientific software products, including platforms for thermophysical property calculation, intelligent phase diagram calculation, multi-phase microstructure simulation, precipitation simulation, and crystal plasticity simulation."
+            description: "Introduction to RR-Tek scientific software products, including CALculation of ThermoPhysical Properties, Intelligent CALculation of PHAse Diagrams, Microstructure Intelligent Design, Precipitation Simulation Software, and Crystal Properties Calculation Package."
         },
 
         serviceMeta: {
@@ -163,25 +163,25 @@ const languages = {
         softwarePage: {
             kicker: "Scientific Software",
             title: "Scientific Software",
-            description: "RR-Tek provides software platforms for materials research and engineering applications, covering key areas such as thermophysical property calculation, phase diagram analysis, microstructure simulation, precipitation behavior simulation, and crystal plasticity computation.",
+            description: "RR-Tek provides software platforms for materials research and engineering applications, covering thermo-physical property calculation, phase diagram thermodynamic calculation, multi-physics coupled phase-field simulation, precipitation behavior simulation, and crystal plasticity finite element simulation.",
             product1: {
-                title: "Thermo-Physical Properties Calculation Platform (CALTPP)",
+                title: "CALculation of ThermoPhysical Properties",
                 desc: "Designed for the calculation and analysis of thermophysical properties of materials, supporting scientific modeling, property prediction, and related engineering applications.",
                 feature1: "Supports thermophysical property calculation and result analysis",
                 feature2: "Suitable for research and engineering application scenarios",
                 feature3: "Supports materials design and property research"
             },
             product2: {
-                title: "Intelligent Phase Diagram Calculation System (ICALPHAD)",
+                title: "Intelligent CALculation of PHAse Diagrams",
                 desc: "Provides support for phase diagram calculation, thermodynamic analysis, and materials system design for alloy development and fundamental research.",
                 feature1: "Supports phase diagram calculation and thermodynamic analysis",
                 feature2: "Serves materials system optimization and design",
                 feature3: "Suitable for research institutes and industrial R&D teams"
             },
             product3: {
-                title: "Multi-Phase Microstructure Simulation Software (MID)",
-                desc: "Supports multi-phase microstructure evolution and simulation analysis, providing technical support for microstructural research of materials.",
-                feature1: "Supports multi-phase microstructure evolution simulation",
+                title: "Microstructure Intelligent Design",
+                desc: "Supports multi-physics coupled phase-field simulation and microstructure analysis, providing technical support for microstructural research of materials.",
+                feature1: "Supports multi-physics coupled phase-field simulation",
                 feature2: "Suitable for microstructure analysis and research",
                 feature3: "Provides support for process optimization"
             },
@@ -193,9 +193,9 @@ const languages = {
                 feature3: "Serves heat treatment and process research"
             },
             product5: {
-                title: "Crystal Plasticity Simulation Software (CPCP)",
-                desc: "Focused on crystal plasticity and mechanical behavior simulation of materials, providing tool support for multi-scale mechanics research.",
-                feature1: "Supports crystal plasticity calculation and analysis",
+                title: "Crystal Properties Calculation Package",
+                desc: "Focused on crystal plasticity finite element simulation and mechanical behavior analysis of materials, providing tool support for multi-scale mechanics research.",
+                feature1: "Supports crystal plasticity finite element simulation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",
                 feature3: "Serves multi-scale research and engineering evaluation"
             }
@@ -279,7 +279,7 @@ const languages = {
 
         detailPage: {
             contactBtn: "Contact Us",
-            backBtn: "Back"
+            backBtn: "Back to Solutions"
         },
 
         footer: {
@@ -332,16 +332,16 @@ const languages = {
 
             software: {
                 title: "科研软件",
-                product1: "热物性计算平台 CALTPP",
-                product2: "相图智能计算系统 ICALPHAD",
-                product3: "多相组织模拟软件 MID",
+                product1: "热物性计算软件 CALTPP",
+                product2: "相图热力学计算软件 ICALPHAD",
+                product3: "多物理场耦合相场模拟软件 MID",
                 product4: "析出行为模拟软件 PreCalc",
-                product5: "晶体塑性模拟软件 CPCP",
+                product5: "晶体塑性有限元模拟软件 CPCP",
                 desc1: "用于材料热物性参数的高效计算与分析。",
                 desc2: "支持相图计算、热力学分析与材料设计研究。",
-                desc3: "面向多相组织演化与显微组织模拟分析。",
+                desc3: "面向多物理场耦合相场模拟与显微组织分析。",
                 desc4: "用于析出动力学及组织演化过程模拟。",
-                desc5: "用于晶体塑性与材料力学行为模拟计算。"
+                desc5: "用于晶体塑性有限元模拟与材料力学行为分析。"
             },
 
             database: {
@@ -408,7 +408,7 @@ const languages = {
 
         softwareMeta: {
             title: "科研软件 | 长沙锐睿科技有限公司",
-            description: "锐睿科技科研软件产品介绍，包括热物性计算、相图智能计算、多相组织模拟、析出模拟与晶体塑性模拟等软件平台。"
+            description: "锐睿科技科研软件产品介绍，包括热物性计算软件 CALTPP、相图热力学计算软件 ICALPHAD、多物理场耦合相场模拟软件 MID、析出行为模拟软件 PreCalc 与晶体塑性有限元模拟软件 CPCP。"
         },
 
         serviceMeta: {
@@ -453,25 +453,25 @@ const languages = {
         softwarePage: {
             kicker: "Scientific Software",
             title: "科研软件",
-            description: "锐睿科技提供面向材料科学研究与工程应用的软件平台，覆盖热物性计算、相图分析、组织模拟、析出行为模拟与晶体塑性计算等关键方向。",
+            description: "锐睿科技提供面向材料科学研究与工程应用的软件平台，覆盖热物性计算、相图热力学计算、多物理场耦合相场模拟、析出行为模拟与晶体塑性有限元模拟等关键方向。",
             product1: {
-                title: "热物性计算平台 CALTPP",
+                title: "热物性计算软件 CALTPP",
                 desc: "面向材料热物性参数计算与分析，支持科研建模、性能预测及相关工程应用。",
                 feature1: "支持热物性参数计算与结果分析",
                 feature2: "适用于科研与工程应用场景",
                 feature3: "可为材料设计与性能研究提供支撑"
             },
             product2: {
-                title: "相图智能计算系统 ICALPHAD",
+                title: "相图热力学计算软件 ICALPHAD",
                 desc: "提供相图计算、热力学分析及材料体系设计支持，服务于合金设计与基础研究。",
                 feature1: "支持相图计算与热力学分析",
                 feature2: "服务于材料体系优化与设计",
                 feature3: "适合科研院所与企业研发使用"
             },
             product3: {
-                title: "多相组织模拟软件 MID",
-                desc: "面向多相组织演化与显微组织模拟分析，为材料微观结构研究提供技术支持。",
-                feature1: "支持多相组织演化模拟",
+                title: "多物理场耦合相场模拟软件 MID",
+                desc: "面向多物理场耦合相场模拟与显微组织分析，为材料微观结构研究提供技术支持。",
+                feature1: "支持多物理场耦合相场模拟",
                 feature2: "适用于显微组织分析研究",
                 feature3: "为工艺优化提供辅助依据"
             },
@@ -483,9 +483,9 @@ const languages = {
                 feature3: "服务于热处理与工艺研究"
             },
             product5: {
-                title: "晶体塑性模拟软件 CPCP",
-                desc: "面向晶体塑性及材料力学行为模拟，为多尺度材料力学研究提供工具支撑。",
-                feature1: "支持晶体塑性计算与分析",
+                title: "晶体塑性有限元模拟软件 CPCP",
+                desc: "面向晶体塑性有限元模拟与材料力学行为分析，为多尺度材料力学研究提供工具支撑。",
+                feature1: "支持晶体塑性有限元模拟与分析",
                 feature2: "适用于材料力学行为模拟",
                 feature3: "可服务于多尺度研究与工程评估"
             }
@@ -569,7 +569,7 @@ const languages = {
 
         detailPage: {
             contactBtn: "联系咨询",
-            backBtn: "返回"
+            backBtn: "返回解决方案"
         },
 
         footer: {

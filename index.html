@@ -270,9 +270,10 @@
 
     <script src="news-data.js"></script>
     <script>
-        const newsList = document.getElementById("news-list");
+        function renderNewsList(lang = "zh") {
+            const newsList = document.getElementById("news-list");
+            if (!newsList || !Array.isArray(newsData)) return;
 
-        if (newsList && Array.isArray(newsData)) {
             const latestNews = [...newsData]
                 .sort((a, b) => new Date(b.date) - new Date(a.date))
                 .slice(0, 5);
@@ -281,8 +282,8 @@
                 <article class="news-item">
                     <div class="news-date">${item.date}</div>
                     <div class="news-body">
-                        <h3>${item.title}</h3>
-                        <a href="${item.url}" class="card-link">查看详情</a>
+                        <h3>${item.title[lang] || item.title.zh}</h3>
+                        <a href="${item.url}" class="card-link">${item.detailText[lang] || item.detailText.zh}</a>
                     </div>
                 </article>
             `).join("");

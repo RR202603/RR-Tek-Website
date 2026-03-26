@@ -636,6 +636,10 @@ function updateContent() {
             element.setAttribute("content", translation);
         }
     });
+    
+        if (typeof renderNewsList === "function") {
+        renderNewsList(currentLanguage);
+    }
 
     updateBrandText();
 }

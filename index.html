@@ -275,7 +275,7 @@
         if (newsList && Array.isArray(newsData)) {
             const latestNews = [...newsData]
                 .sort((a, b) => new Date(b.date) - new Date(a.date))
-                .slice(0, 4);
+                .slice(0, 5);
 
             newsList.innerHTML = latestNews.map(item => `
                 <article class="news-item">

@@ -323,7 +323,7 @@ const languages = {
         },
 
         products: {
-            tag: "产品与服务",
+            tag: "Products & Services",
             title: "产品与服务",
             description: "覆盖科研软件、数据库产品及工程服务的完整产品体系，支撑材料研发全流程。",
             more: "查看详情",

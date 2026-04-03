@@ -285,7 +285,7 @@ const languages = {
         footer: {
             companyCn: "长沙锐睿科技有限公司",
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
-            text: "© 2021 Changsha RR-Tek Technology Co., Ltd. All Rights Reserved."
+            text: "© 2026 Changsha RR-Tek Technology Co., Ltd. All Rights Reserved."
         }
     },
 
@@ -575,7 +575,7 @@ const languages = {
         footer: {
             companyCn: "长沙锐睿科技有限公司",
             companyEn: "Changsha RR-Tek Technology Co., Ltd.",
-            text: "© 2021 长沙锐睿科技有限公司 版权所有"
+            text: "© 2026 长沙锐睿科技有限公司 版权所有"
         }
     }
 };

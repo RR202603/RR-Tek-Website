@@ -233,77 +233,25 @@
                         </div>
                     </div>
 
-                    <form
-                      class="contact-form"
-                      action="https://formspree.io/f/mbdqapjk"
-                      method="POST"
-                    >
-                      <h3 data-i18n="contact.formTitle">在线留言</h3>
-                    
-                      <div class="form-group">
-                        <label for="name" data-i18n="contact.formName">姓名</label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          placeholder="请输入您的姓名"
-                          data-i18n-placeholder="contact.placeholderName"
-                          required
-                        />
-                      </div>
-                    
-                      <div class="form-group">
-                        <label for="email" data-i18n="contact.formEmail">邮箱</label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          placeholder="请输入您的邮箱"
-                          data-i18n-placeholder="contact.placeholderEmail"
-                          required
-                        />
-                      </div>
-
-                      <div class="form-group">
-                        <label for="company" data-i18n="contact.formCompany">单位 / 公司</label>
-                        <input
-                          type="text"
-                          id="company"
-                          name="company"
-                          placeholder="请输入您的单位或公司名称"
-                          data-i18n-placeholder="contact.placeholderCompany"
-                        />
-                      </div>
-                    
-                      <div class="form-group">
-                        <label for="message" data-i18n="contact.formMessage">留言内容</label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          rows="5"
-                          placeholder="请输入您的需求或留言内容"
-                          data-i18n-placeholder="contact.placeholderMessage"
-                          required
-                        ></textarea>
-                      </div>
-                    
-                      <!-- Formspree 提交成功后跳转 -->
-                      <input
-                        type="hidden"
-                        name="_next"
-                        value="/RR-tek-website/thank-you.html"
-                      />
-                    
-                      <!-- 可选：邮件主题 -->
-                      <input
-                        type="hidden"
-                        name="_subject"
-                        value="锐睿科技官网新留言"
-                      />
-                    
-                      <button type="submit" class="submit-btn" data-i18n="contact.formSubmit">
-                        提交信息
-                      </button>
+                    <form class="contact-form" action="#" method="post">
+                        <h3 data-i18n="contact.formTitle">在线留言</h3>
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.formName">姓名</label>
+                            <input type="text" id="name" name="name" placeholder="请输入您的姓名" data-i18n-placeholder="contact.placeholderName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.formEmail">邮箱</label>
+                            <input type="email" id="email" name="email" placeholder="请输入您的邮箱" data-i18n-placeholder="contact.placeholderEmail" />
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-i18n="contact.formCompany">单位 / 公司</label>
+                            <input type="text" id="company" name="company" placeholder="请输入您的单位或公司名称" data-i18n-placeholder="contact.placeholderCompany" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.formMessage">留言内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请输入您的需求或留言内容" data-i18n-placeholder="contact.placeholderMessage"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" data-i18n="contact.formSubmit">提交信息</button>
                     </form>
                 </div>
             </div>

@@ -50,7 +50,7 @@ const languages = {
             product5: "Crystal Properties Calculation Package Software",
             desc5: "For crystal plasticity finite element simulation and mechanical behavior analysis.",
             product6: "Intelligent CALPHAD Software",
-            desc6: "Phase diagram calculation and intelligent thermodynamic optimization platform."
+            desc6: "Phase diagram calculation and intelligent thermodynamic optimization software."
           },
           database: {
             title: "Materials Databases",
@@ -335,9 +335,9 @@ const languages = {
               product4: "MID-MESO 软件",
               desc4: "介观尺度材料微结构模拟软件，支持多物理场耦合与工程合金组织演化。",
               product5: "CPCP 软件",
-              desc5: "晶体塑性有限元计算工具包，覆盖微观到细观多尺度材料力学行为模拟。",
+              desc5: "晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。",
               product6: "ICALPHAD 软件",
-              desc6: "相图计算与智能热力学优化集成平台，面向多元相图、热力学性质计算与参数优化。"
+              desc6: "相图计算与智能热力学优化软件，面向多元相图、热力学性质计算与参数优化。"
             },
             database: {
               title: "材料数据库",

@@ -36,7 +36,6 @@ const languages = {
             tag: "Products & Services",
             title: "Products & Services",
             description: "A comprehensive portfolio covering scientific software, database products, and engineering services to support the full lifecycle of materials development.",
-            more: "View More",
             detailBtn: "Product Details",
           software: {
             title: "Scientific Software",
@@ -324,7 +323,6 @@ const languages = {
             tag: "产品与服务",
             title: "产品与服务",
             description: "覆盖科研软件、材料数据库及工程服务的完整产品体系，支撑材料研发全流程。",
-            more: "查看全部",
             detailBtn: "产品详情",
             software: {
               title: "科研软件",

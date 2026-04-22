@@ -144,7 +144,7 @@ const languages = {
                 item4: "Steel Thermodynamic Database RRTDSI-1.0",
                 item5: "Nickel-based Superalloy Thermodynamic Database TDNI-2.0",
                 item6: "Multicomponent Copper Alloy Thermodynamic Database TDCU-2.0",
-                item7: "Nd-Fe-B Permanent Magnet Thermodynamic Database PMAG-1.0"
+                item7: "Permanent Magnet Thermodynamic Database PMAG-1.0"
             },
             kinetic: {
                 title: "Kinetic Databases",
@@ -434,7 +434,7 @@ const languages = {
                 item4: "钢铁热力学数据库 RRTDSI-1.0",
                 item5: "镍基高温合金热力学数据库 TDNI-2.0",
                 item6: "多组元铜合金热力学数据库 TDCU-2.0",
-                item7: "Nd-Fe-B永磁体热力学数据库 PMAG-1.0"
+                item7: "永磁体热力学数据库 PMAG-1.0"
             },
             kinetic: {
                 title: "动力学数据库",

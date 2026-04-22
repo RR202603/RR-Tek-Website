@@ -621,18 +621,6 @@ section {
     background: var(--primary-dark);
 }
 
-.form-status {
-    margin-top: 12px;
-    font-size: 0.92rem;
-    color: var(--text-light);
-    line-height: 1.6;
-}
-
-.submit-btn:disabled {
-    opacity: 0.65;
-    cursor: not-allowed;
-}
-
 /* Footer */
 footer {
     background: #0f172a;

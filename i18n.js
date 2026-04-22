@@ -38,42 +38,40 @@ const languages = {
             description: "A comprehensive portfolio covering scientific software, database products, and engineering services to support the full lifecycle of materials development.",
             more: "View More",
             detailBtn: "Product Details",
-            contactBtn: "Contact Now",
-
-            software: {
-                title: "Scientific Software",
-                product1: "CALculation of ThermoPhysical Properties Software",
-                product2: "Intelligent CALculation of PHAse Diagrams Software",
-                product3: "Microstructure Intelligent Design Software",
-                product4: "Precipitation Simulation Software",
-                product5: "Crystal Properties Calculation Package Software",
-                desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
-                desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-                desc3: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
-                desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
-                desc5: "For crystal plasticity finite element simulation and mechanical behavior analysis."
-            },
-
-            database: {
-                title: "Materials Databases",
-                database1: "Thermodynamic Databases",
-                database2: "Kinetic Databases",
-                database3: "Thermophysical Databases",
-                desc1: "Covers thermodynamic modeling and phase diagram analysis for multicomponent alloy systems.",
-                desc2: "Supports diffusion kinetics, microstructure evolution, and process simulation studies.",
-                desc3: "Supports prediction of thermophysical properties such as viscosity for engineering applications."
-            },
-
-            service: {
-                title: "Technical Services",
-                service1: "Materials Simulation & Computational Analysis",
-                service2: "R&D Project Consulting and Proposal Support",
-                service3: "Materials Characterization & Testing Services",
-                service4: "Academic Conference & Technical Training Services",
-                desc1: "Provides materials computation and simulation support for research and engineering applications.",
-                desc2: "Offers proposal support, technical consulting, and solution planning.",
-                desc3: "Provides material testing, characterization, and experimental support.",
-                desc4: "Supports conference organization, professional training, and technical exchange activities."
+          software: {
+            title: "Scientific Software",
+            product1: "CALculation of ThermoPhysical Properties Software",
+            desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
+            product2: "Intelligent CALculation of PHAse Diagrams Software",
+            desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
+            product3: "Microstructure Intelligent Design Software",
+            desc3: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
+            product4: "Precipitation Simulation Software",
+            desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
+            product5: "Crystal Properties Calculation Package Software",
+            desc5: "For crystal plasticity finite element simulation and mechanical behavior analysis.",
+            product6: "Intelligent CALPHAD Software",
+            desc6: "Phase diagram calculation and intelligent thermodynamic optimization platform."
+          },
+          database: {
+            title: "Materials Databases",
+            database1: "Thermodynamic Databases",
+            desc1: "Covers thermodynamic modeling and phase diagram analysis for multicomponent alloy systems.",
+            database2: "Kinetic Databases",
+            desc2: "Supports diffusion kinetics, microstructure evolution, and process simulation studies.",
+            database3: "Thermophysical Databases",
+            desc3: "Supports prediction of thermophysical properties such as viscosity for engineering applications."
+          },
+          service: {
+            title: "Technical Services",
+            service1: "Materials Simulation & Computational Analysis",
+            desc1: "Provides materials computation and simulation support for research and engineering applications.",
+            service2: "R&D Project Consulting and Proposal Support",
+            desc2: "Offers proposal support, technical consulting, and solution planning.",
+            service3: "Materials Characterization & Testing Services",
+            desc3: "Provides material testing, characterization, and experimental support.",
+            service4: "Academic Conference & Technical Training Services",
+            desc4: "Supports conference organization, professional training, and technical exchange activities."
             }
         },
 
@@ -323,47 +321,45 @@ const languages = {
         },
 
         products: {
-            tag: "Products & Services",
+            tag: "产品与服务",
             title: "产品与服务",
-            description: "覆盖科研软件、数据库产品及工程服务的完整产品体系，支撑材料研发全流程。",
-            more: "查看详情",
+            description: "覆盖科研软件、材料数据库及工程服务的完整产品体系，支撑材料研发全流程。",
+            more: "查看全部",
             detailBtn: "产品详情",
-            contactBtn: "立即咨询",
-
             software: {
-                title: "科研软件",
-                product1: "热物性计算软件 CALTPP",
-                product2: "相图热力学计算软件 ICALPHAD",
-                product3: "多物理场耦合相场模拟软件 MID",
-                product4: "析出行为模拟软件 PreCalc",
-                product5: "晶体塑性有限元模拟软件 CPCP",
-                desc1: "用于材料热物性参数的高效计算与分析。",
-                desc2: "支持相图计算、热力学分析与材料设计研究。",
-                desc3: "面向多物理场耦合相场模拟与显微组织分析。",
-                desc4: "用于析出动力学及组织演化过程模拟。",
-                desc5: "用于晶体塑性有限元模拟与材料力学行为分析。"
+              title: "科研软件",
+              product1: "CALTPP 扩散软件",
+              desc1: "多组元扩散计算及应用软件，支持扩散模拟、迁移率优化与扩散数据库建立。",
+              product2: "CALTPP 粘度与热导率软件",
+              desc2: "覆盖液相粘度、多元多相热导率计算、优化与反向设计。",
+              product3: "MID-NANO 软件",
+              desc3: "纳观尺度材料微结构模拟计算平台，面向晶体相场与缺陷演化研究。",
+              product4: "MID-MESO 软件",
+              desc4: "介观尺度材料微结构模拟软件，支持多物理场耦合与工程合金组织演化。",
+              product5: "CPCP 软件",
+              desc5: "晶体塑性有限元计算工具包，覆盖微观到细观多尺度材料力学行为模拟。",
+              product6: "ICALPHAD 软件",
+              desc6: "相图计算与智能热力学优化集成平台，面向多元相图、热力学性质计算与参数优化。"
             },
-
             database: {
-                title: "材料数据库",
-                database1: "热力学数据库",
-                database2: "动力学数据库",
-                database3: "热物性数据库",
-                desc1: "覆盖多组合金体系热力学建模与相图分析需求。",
-                desc2: "面向扩散动力学、组织演化与工艺模拟研究。",
-                desc3: "服务于粘度等热物性参数预测与工程应用分析。"
+              title: "材料数据库",
+              database1: "热力学数据库",
+              desc1: "覆盖多组元硬质合金、钛合金、铝合金、钢铁等体系的热力学建模与相图分析。",
+              database2: "动力学数据库",
+              desc2: "支持扩散动力学、微观结构演化及工艺模拟研究。",
+              database3: "热物性数据库",
+              desc3: "可预测材料粘度、热导率等热物性参数，用于工程应用。"
             },
-
             service: {
-                title: "技术服务",
-                service1: "材料计算与模拟分析服务",
-                service2: "科研项目申报与技术咨询服务",
-                service3: "材料表征与检测服务",
-                service4: "学术会议与技术培训服务",
-                desc1: "提供面向科研和工程应用的材料计算与模拟支撑。",
-                desc2: "提供项目申报支持、技术路线咨询与方案建议。",
-                desc3: "提供材料测试、表征分析及实验技术支持。",
-                desc4: "支持会议组织、专业培训与行业技术交流活动。"
+              title: "技术服务",
+              service1: "材料计算与模拟分析服务",
+              desc1: "提供面向材料研发和工程应用的计算分析与模拟支持。",
+              service2: "科研项目申报与技术咨询服务",
+              desc2: "提供项目申请支持、技术路线咨询与方案规划。",
+              service3: "材料表征与测试服务",
+              desc3: "提供材料检测、表征及实验支持。",
+              service4: "会议与培训服务",
+              desc4: "支持会议组织、专业培训及技术交流活动。"
             }
         },
 

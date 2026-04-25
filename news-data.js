@@ -1,5 +1,17 @@
 const newsData = [
     {
+        date: "2026-04-25",
+        title: {
+            zh: "锐睿科技发布7款材料智能设计软件，构建国产工业软件全链条能力",
+            en: "RR-Tek Releases 7 Materials Intelligent Design Software, Building Full-Chain Domestic Industrial Software Capability"
+        },
+        detailText: {
+            zh: "查看详情",
+            en: "Read More"
+        },
+        url: "news/2026-04-25.html"
+    },
+	{
         date: "2025-03-05",
         title: {
             zh: "重大喜讯！锐睿科技荣获高新技术企业认定",

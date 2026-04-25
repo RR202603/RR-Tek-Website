@@ -1,6 +1,6 @@
 const newsData = [
     {
-        date: "2026-04-25",
+        date: "2026-04-24",
         title: {
             zh: "锐睿科技发布7款材料智能设计软件，构建国产工业软件全链条能力",
             en: "RR-Tek Releases 7 Materials Intelligent Design Software, Building Full-Chain Domestic Industrial Software Capability"
@@ -9,7 +9,7 @@ const newsData = [
             zh: "查看详情",
             en: "Read More"
         },
-        url: "news/2026-04-25.html"
+        url: "news/2026-04-24.html"
     },
 	{
         date: "2025-03-05",

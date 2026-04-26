@@ -520,6 +520,27 @@ section {
     line-height: 1.6;
 }
 
+.news-article figure {
+    margin: 20px 0;       /* 保持上下间距 */
+    text-align: center;   /* 整个 figure 居中 */
+}
+
+.news-article figure img {
+    display: block;
+    margin: 0 auto;       /* 图片居中 */
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.news-article figure figcaption {
+    text-align: center;   /* 题注文字居中 */
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-top: 10px;     /* 题注与图片间距 */
+    margin-bottom: 16px;  /* 题注与下一段文字空一行效果 */
+}
+
 
 /* Contact */
 #contact {

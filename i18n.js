@@ -148,9 +148,9 @@ const languages = {
             kinetic: {
                 title: "Kinetic Databases",
                 desc: "Designed for diffusion kinetics, microstructure evolution, and process simulation studies, supporting diffusion-process analysis and process optimization for typical engineering material systems.",
-                item1: "Multicomponent Cemented Carbide Kinetic Database RRDDCC-2.0",
-                item2: "Nickel-based Superalloy Diffusion Kinetic Database",
-                item3: "Copper Alloy Diffusion Kinetic Database"
+                item1: "Multicomponent Cemented Carbide Kinetic Database DDCC-2.0",
+                item2: "Nickel-based Superalloy Diffusion Kinetic Database DDNI-1.0",
+                item3: "Copper Alloy Diffusion Kinetic Database DDCU-1.0"
             },
             thermophysical: {
                 title: "Thermophysical Databases",
@@ -437,9 +437,9 @@ const languages = {
             kinetic: {
                 title: "动力学数据库",
                 desc: "面向扩散动力学、组织演化与工艺模拟研究，支持典型工程材料体系的扩散过程分析与工艺优化。",
-                item1: "多组元硬质合金动力学数据库 RRDDCC-2.0",
-                item2: "镍基高温合金扩散动力学数据库",
-                item3: "铜合金扩散动力学数据库"
+                item1: "多组元硬质合金动力学数据库 DDCC-2.0",
+                item2: "镍基高温合金扩散动力学数据库 DDNI-1.0",
+                item3: "铜合金扩散动力学数据库 DDCU-1.0"
             },
             thermophysical: {
                 title: "热物性数据库",
@@ -632,7 +632,7 @@ function updateContent() {
 
         if (translation !== null && translation !== undefined) {
             element.setAttribute("content", translation);
-        }
+        }  
     });
     
         if (typeof renderNewsList === "function") {
@@ -659,4 +659,4 @@ function toggleLanguage() {
 
 document.addEventListener("DOMContentLoaded", () => {
     updateContent();
-});
+});41

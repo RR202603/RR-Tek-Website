@@ -1,5 +1,18 @@
 const newsData = [
-    {
+   
+ {
+        date: "2026-05-17",
+        title: {
+            zh: "公司技术人员受邀参加中国稀土学会第七届青年学术会议并作报告",
+            en: "The technical staff of RR-Tek Releases was invited to attend the 7th Youth Academic Conference of the Chinese Society of Rare Earths and give a presentation"
+        },
+        detailText: {
+            zh: "查看详情",
+            en: "Read More"
+        },
+        url: "news/2026-05-17.html"
+    },
+   {
         date: "2026-04-24",
         title: {
             zh: "锐睿科技发布7款材料智能设计软件，构建国产工业软件全链条能力",

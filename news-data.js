@@ -1,7 +1,7 @@
 const newsData = [
 
 	{
-        date: "2025-05-18",
+        date: "2026-05-18",
         title: {
             zh: "公司技术人员参加第二届“硬质材料基础科学与关键技术”学术研讨会并推广公司软件",
             en: "The technical staff of RR-Tek attended the second Basic Science and Key Technologies of Hard Materials academic conference and promoted the company's software"
@@ -10,7 +10,7 @@ const newsData = [
             zh: "查看详情",
             en: "Read More"
         },
-        url: "news/2025-05-18.html"
+        url: "news/2026-05-18.html"
     },   
    {
         date: "2026-05-17",

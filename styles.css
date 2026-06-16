@@ -423,6 +423,32 @@ section {
     box-shadow: var(--shadow-hover);
 }
 
+.software-card-logo {
+    width: 100%;
+    height: 74px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.software-card-logo img {
+    max-width: 190px;
+    max-height: 68px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.software-card-logo-cpcp {
+    height: 92px;
+}
+
+.software-card-logo-cpcp img {
+    max-height: 88px;
+}
+
 .product-card h4 {
     font-size: 1.03rem;
     color: #1f2937;
@@ -714,6 +740,33 @@ footer p {
     color: rgba(255, 255, 255, 0.9);
 }
 
+.detail-software-logo {
+    width: fit-content;
+    max-width: min(520px, 100%);
+    min-height: 96px;
+    margin-bottom: 24px;
+    padding: 16px 22px;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 18px 42px rgba(8, 24, 58, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-software-logo img {
+    max-width: 100%;
+    max-height: 128px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.detail-software-logo-cpcp img {
+    max-height: 190px;
+}
+
 .detail-section {
     padding: 70px 0 90px;
 }
@@ -982,6 +1035,24 @@ footer p {
         grid-template-columns: 1fr;
     }
 
+    .software-card-logo {
+        height: 64px;
+        margin-bottom: 14px;
+    }
+
+    .software-card-logo img {
+        max-width: 170px;
+        max-height: 58px;
+    }
+
+    .software-card-logo-cpcp {
+        height: 78px;
+    }
+
+    .software-card-logo-cpcp img {
+        max-height: 74px;
+    }
+
     .hero-actions {
         flex-direction: column;
         gap: 12px;
@@ -1001,6 +1072,19 @@ footer p {
 
     .detail-hero h1 {
         font-size: 2rem;
+    }
+
+    .detail-software-logo {
+        min-height: 78px;
+        padding: 12px 16px;
+    }
+
+    .detail-software-logo img {
+        max-height: 92px;
+    }
+
+    .detail-software-logo-cpcp img {
+        max-height: 140px;
     }
 
     .detail-card {

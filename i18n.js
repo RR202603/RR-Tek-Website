@@ -14,7 +14,6 @@ const languages = {
         },
 
         hero: {
-            kicker: "Changsha RR-Tek Technology Co., Ltd.",
             title: "Materials Computation and Database Platform",
             description: "Providing scientific software, materials databases, and engineering services to support materials design, property prediction, and process optimization.",
             learnMore: "Explore Products & Services",
@@ -39,18 +38,18 @@ const languages = {
             detailBtn: "Product Details",
           software: {
             title: "Scientific Software",
-            product1: "CALculation of ThermoPhysical Properties Software",
-            desc1: "For efficient calculation and analysis of thermo-physical properties of materials.",
-            product2: "Intelligent CALculation of PHAse Diagrams Software",
-            desc2: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-            product3: "Microstructure Intelligent Design Software",
-            desc3: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
-            product4: "Precipitation Simulation Software",
-            desc4: "Used for precipitation kinetics and microstructure evolution simulation.",
-            product5: "Crystal Properties Calculation Package Software",
-            desc5: "For crystal plasticity finite element simulation and mechanical behavior analysis.",
-            product6: "Intelligent CALPHAD Software",
-            desc6: "Phase diagram calculation and intelligent thermodynamic optimization software."
+            product1: "Intelligent CALPHAD Software",
+            desc1: "Phase diagram calculation and intelligent thermodynamic optimization software.",
+            product2: "CALculation of ThermoPhysical Properties Software",
+            desc2: "For efficient calculation and analysis of thermo-physical properties of materials.",
+            product3: "Intelligent CALculation of PHAse Diagrams Software",
+            desc3: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
+            product4: "Microstructure Intelligent Design Software",
+            desc4: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
+            product5: "Precipitation Simulation Software",
+            desc5: "Used for precipitation kinetics and microstructure evolution simulation.",
+            product6: "Crystal Properties Calculation Package Software",
+            desc6: "For crystal plasticity finite element simulation and mechanical behavior analysis." 
           },
           database: {
             title: "Materials Databases",
@@ -303,7 +302,6 @@ const languages = {
         },
 
         hero: {
-            kicker: "长沙锐睿科技有限公司",
             title: "材料计算与数据库平台",
             description: "提供科研软件、材料数据库及工程技术服务，支撑材料设计、性能预测与工艺优化",
             learnMore: "了解产品与服务",
@@ -328,18 +326,18 @@ const languages = {
             detailBtn: "产品详情",
             software: {
               title: "科研软件",
-              product1: "CALTPP 扩散软件",
-              desc1: "多组元扩散计算及应用软件，支持扩散模拟、迁移率优化与扩散数据库建立。",
-              product2: "CALTPP 粘度与热导率软件",
-              desc2: "覆盖液相粘度、多元多相热导率计算、优化与反向设计。",
-              product3: "MID-NANO 软件",
-              desc3: "纳观尺度材料微结构模拟计算平台，面向晶体相场与缺陷演化研究。",
-              product4: "MID-MESO 软件",
-              desc4: "介观尺度材料微结构模拟软件，支持多物理场耦合与工程合金组织演化。",
-              product5: "CPCP 软件",
-              desc5: "晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。",
-              product6: "ICALPHAD 软件",
-              desc6: "相图计算与智能热力学优化软件，面向多元相图、热力学性质计算与参数优化。"
+              product1: "ICALPHAD 软件",
+              desc1: "相图计算与智能热力学优化软件，面向多元相图、热力学性质计算与参数优化。",
+              product2: "CALTPP 扩散软件",
+              desc2: "多组元扩散计算及应用软件，支持扩散模拟、迁移率优化与扩散数据库建立。",
+              product3: "CALTPP 粘度与热导率软件",
+              desc3: "覆盖液相粘度、多元多相热导率计算、优化与反向设计。",
+              product4: "MID-NANO 软件",
+              desc4: "纳观尺度材料微结构模拟计算平台，面向晶体相场与缺陷演化研究。",
+              product5: "MID-MESO 软件",
+              desc5: "介观尺度材料微结构模拟软件，支持多物理场耦合与工程合金组织演化。",
+              product6: "CPCP 软件",
+              desc6: "晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。"
             },
             database: {
               title: "材料数据库",

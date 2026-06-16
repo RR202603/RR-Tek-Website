@@ -1001,3 +1001,87 @@ footer p {
         padding: 22px;
     }
 }
+
+/* =========================================================
+   Mobile header optimization
+   Purpose:
+   - Prevent the company name and slogan from being squeezed into vertical text on mobile.
+   - Keep the logo and company name on one clean row.
+   - Hide the slogan on small screens to save horizontal space.
+   - Let the navigation menu wrap naturally below the brand area.
+   ========================================================= */
+@media (max-width: 640px) {
+    body {
+        padding-top: 0;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    .nav-container {
+        max-width: 100%;
+        padding: 10px 14px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .brand {
+        width: 100%;
+        flex: none;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .brand-logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .brand-text {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .brand-name {
+        display: block;
+        font-size: 0.98rem;
+        line-height: 1.35;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .brand-slogan {
+        display: none;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: center;
+        gap: 14px;
+        row-gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .nav-menu a {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .lang-btn {
+        padding: 8px 16px;
+        font-size: 0.86rem;
+    }
+
+    .hero-content {
+        padding-top: 42px;
+    }
+
+    .detail-hero {
+        padding-top: 70px;
+    }
+}
+

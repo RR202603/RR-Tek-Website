@@ -24,7 +24,7 @@ const languages = {
             tag: "Company Profile",
             title: "About Us",
             summary: "Delivering integrated solutions of software, databases, and engineering services for materials science and engineering.",
-            description: "Changsha RR-Tek Technology Co., Ltd. was established in April 2021 and is located in Changsha, Hunan Province. The company focuses on the development and application of materials intelligent design software and scientific databases. Its main business includes R&D and sales of scientific software, development of scientific databases for materials thermodynamics and thermophysical properties, AI and machine learning-assisted materials R&D, industry technical training and academic conference organization, as well as new materials technology development and engineering consulting services.\n\nThe company has a professional software and scientific database R&D team composed of 15 PhDs and 5 Masters, and engages professors from the US, Germany, France, Austria, and Hungary as scientific advisors. A complete software development process management and delivery acceptance mechanism has been established to ensure product quality and service reliability.\n\nCurrently, based on the latest physics and materials science theories and proprietary algorithms, the company has independently developed software products independent of European and American software, including ICALPHAD (Intelligent CALculation of PHAse Diagrams, 2026a), CALTPP (CALculation of ThermoPhysical Properties, 2026a), MID-Meso (Microstructure Intelligent Design Mesoscale, 2026a), MID-Nano (Microstructure Intelligent Design Nanoscale, 2026a), and CPCP (Crystal Plasticity Calculation Package, 2026a). All software deliveries can provide independent controllability test reports issued by qualified third-party testing agencies, with an independent controllability level of B or above.\n\nIn terms of market applications, the company's clients include Huawei, the Chinese Academy of Sciences, Northwestern Polytechnical University, HYPERION (USA), and 33 other domestic and international universities, research institutes, and companies. RR-Tek has established an excellent reputation in intelligent materials design and engineering applications, with continuous innovation and technology transfer capabilities.",
+            description: "Changsha RR-Tek Technology Co., Ltd. was established in April 2021 and is located in Changsha, Hunan Province. The company focuses on the development and application of materials intelligent design software and scientific databases. Its main business includes R&D and sales of scientific software, development of scientific databases for materials thermodynamics and thermophysical properties, AI and machine learning-assisted materials R&D, industry technical training and academic conference organization, as well as new materials technology development and engineering consulting services.\n\nThe company has a professional software and scientific database R&D team composed of 15 PhDs and 5 Masters, and engages professors from the US, Germany, France, Austria, and Hungary as scientific advisors. A complete software development process management and delivery acceptance mechanism has been established to ensure product quality and service reliability.\n\nCurrently, based on the latest physics and materials science theories and proprietary algorithms, the company has independently developed software products independent of European and American software, including ICALPHAD (Intelligent CALculation of PHAse Diagrams), CALTPP (CALculation of ThermoPhysical Properties), MID-Meso (Microstructure Intelligent Design Mesoscale), MID-Nano (Microstructure Intelligent Design Nanoscale), and CPCP (Crystal Plasticity Calculation Package). All software deliveries can provide independent controllability test reports issued by qualified third-party testing agencies, with an independent controllability level of B or above.\n\nIn terms of market applications, the company's clients include Huawei, the Chinese Academy of Sciences, Northwestern Polytechnical University, HYPERION (USA), and 33 other domestic and international universities, research institutes, and companies. RR-Tek has established an excellent reputation in intelligent materials design and engineering applications, with continuous innovation and technology transfer capabilities.",
             missionTitle: "Our Mission",
             missionText: "To enhance materials R&D efficiency through advanced computational software and database platforms, enabling the integration of scientific innovation and engineering applications.",
             visionTitle: "Our Vision",
@@ -38,18 +38,18 @@ const languages = {
             detailBtn: "Product Details",
           software: {
             title: "Scientific Software",
-            product1: "Intelligent CALPHAD Software",
+            product1: "ICALPHAD (Intelligent CALculation of PHAse Diagrams)",
             desc1: "Phase diagram calculation and intelligent thermodynamic optimization software.",
-            product2: "CALculation of ThermoPhysical Properties Software",
-            desc2: "For efficient calculation and analysis of thermo-physical properties of materials.",
-            product3: "Intelligent CALculation of PHAse Diagrams Software",
-            desc3: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-            product4: "Microstructure Intelligent Design Software",
-            desc4: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
-            product5: "Precipitation Simulation Software",
-            desc5: "Used for precipitation kinetics and microstructure evolution simulation.",
-            product6: "Crystal Properties Calculation Package Software",
-            desc6: "For crystal plasticity finite element simulation and mechanical behavior analysis." 
+            product2: "CALTPP (CALculation of ThermoPhysical Properties) - Diffusion",
+            desc2: "Supports multicomponent diffusion calculation, mobility optimization, and diffusion database development.",
+            product3: "CALTPP (CALculation of ThermoPhysical Properties) - Viscosity and Thermal Conductivity",
+            desc3: "Supports liquid viscosity, multicomponent and multiphase thermal conductivity calculation, optimization, and inverse design.",
+            product4: "MID-Nano (Microstructure Intelligent Design Nanoscale)",
+            desc4: "Nanoscale microstructure simulation platform for crystal phase-field and defect evolution studies.",
+            product5: "MID-Meso (Microstructure Intelligent Design Mesoscale)",
+            desc5: "Mesoscale microstructure simulation software supporting multiphysics coupling and engineering alloy microstructure evolution.",
+            product6: "CPCP (Crystal Plasticity Calculation Package)",
+            desc6: "Crystal plasticity finite element calculation software for multiscale mechanical behavior simulation."
           },
           database: {
             title: "Materials Databases",
@@ -163,35 +163,35 @@ const languages = {
             title: "Scientific Software",
             description: "RR-Tek provides software platforms for materials research and engineering applications, covering thermo-physical property calculation, phase diagram thermodynamic calculation, multi-physics coupled phase-field simulation, precipitation behavior simulation, and crystal plasticity finite element simulation.",
             product1: {
-                title: "CALculation of ThermoPhysical Properties Software",
+                title: "CALTPP (CALculation of ThermoPhysical Properties)",
                 desc: "Designed for the calculation and analysis of thermophysical properties of materials, supporting scientific modeling, property prediction, and related engineering applications.",
                 feature1: "Supports thermophysical property calculation and result analysis",
                 feature2: "Suitable for research and engineering application scenarios",
                 feature3: "Supports materials design and property research"
             },
             product2: {
-                title: "Intelligent CALculation of PHAse Diagrams Software",
+                title: "ICALPHAD (Intelligent CALculation of PHAse Diagrams)",
                 desc: "Provides support for phase diagram calculation, thermodynamic analysis, and materials system design for alloy development and fundamental research.",
                 feature1: "Supports phase diagram calculation and thermodynamic analysis",
                 feature2: "Serves materials system optimization and design",
                 feature3: "Suitable for research institutes and industrial R&D teams"
             },
             product3: {
-                title: "Microstructure Intelligent Design Software",
+                title: "MID-Nano (Microstructure Intelligent Design Nanoscale)",
                 desc: "Supports multi-physics coupled phase-field simulation and microstructure analysis, providing technical support for microstructural research of materials.",
                 feature1: "Supports multi-physics coupled phase-field simulation",
                 feature2: "Suitable for microstructure analysis and research",
                 feature3: "Provides support for process optimization"
             },
             product4: {
-                title: "Precipitation Simulation Software",
+                title: "MID-Meso (Microstructure Intelligent Design Mesoscale)",
                 desc: "Used for simulating precipitation kinetics and microstructure evolution processes, supporting heat treatment and process optimization research.",
                 feature1: "Supports precipitation behavior and kinetics simulation",
                 feature2: "Suitable for microstructure evolution analysis",
                 feature3: "Serves heat treatment and process research"
             },
             product5: {
-                title: "Crystal Properties Calculation Package Software",
+                title: "CPCP (Crystal Plasticity Calculation Package)",
                 desc: "Focused on crystal plasticity finite element simulation and mechanical behavior analysis of materials, providing tool support for multi-scale mechanics research.",
                 feature1: "Supports crystal plasticity finite element simulation and analysis",
                 feature2: "Suitable for material mechanical behavior simulation",

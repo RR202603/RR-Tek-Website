@@ -193,6 +193,238 @@ const languages = {
             
         },
 
+        softwareDetails: {
+            "common": {
+                "overviewTitle": "Software Overview",
+                "functionsTitle": "Main Functions",
+                "advantagesTitle": "Core Advantages",
+                "applicationsTitle": "Typical Applications",
+                "downloadTitle": "Downloads and Consultation",
+                "downloadDesc": "Download the two-page product introduction PDF to quickly learn about the functions, advantages, and representative results.",
+                "contactInfo": "Technical consultation: Yufei Wang rrui_info@163.com | Software purchase: Yingbiao Peng pengyingbiao1987@163.com | Phone: 15973134526 / 19572912322",
+                "downloadPdf": "Download Product PDF",
+                "homeBtn": "Back to Home"
+            },
+            "icalphad": {
+                "metaTitle": "Intelligent CALculation of PHAse Diagrams Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for Intelligent CALculation of PHAse Diagrams Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "Intelligent CALculation of PHAse Diagrams",
+                "title": "Intelligent CALculation of PHAse Diagrams Software",
+                "intro": "Phase diagram calculation and intelligent thermodynamic optimization software for multicomponent phase diagrams, thermodynamic property calculation, and parameter optimization.",
+                "overview": "ICALPHAD is centered on thermodynamic databases and integrates database selection and editing, calculation input, and result visualization modules. It supports binary and multicomponent phase diagrams, isothermal and vertical sections, liquidus projections, phase stability analysis, enthalpy and heat capacity calculations, and efficient thermodynamic parameter inversion with intelligent optimization algorithms.",
+                "functions": {
+                    "item1": "Multicomponent phase diagram calculation",
+                    "item2": "Isothermal section calculation",
+                    "item3": "Vertical section calculation",
+                    "item4": "Liquidus projection calculation",
+                    "item5": "Point equilibrium calculation",
+                    "item6": "Phase composition and phase fraction analysis",
+                    "item7": "Thermodynamic property calculation",
+                    "item8": "High-throughput calculation",
+                    "item9": "Intelligent optimization of thermodynamic parameters",
+                    "item10": "Materials thermodynamic database management and editing",
+                    "item11": "Thermodynamic calculation under external fields",
+                    "item12": "Engineering materials thermodynamic database development"
+                },
+                "advantages": {
+                    "item1": "Independently controllable models, algorithms, and software",
+                    "item2": "Fully independent intellectual property rights",
+                    "item3": "Intelligent optimization of thermodynamic parameters",
+                    "item4": "Integrated phase diagram and property calculation",
+                    "item5": "Strong support for complex multicomponent systems",
+                    "item6": "High-throughput batch calculation",
+                    "item7": "Graphical user interface",
+                    "item8": "Comprehensive database management and editing capabilities"
+                },
+                "applications": {
+                    "item1": "Alloy phase diagram design and phase stability research",
+                    "item2": "Thermodynamic analysis under external fields",
+                    "item3": "High-throughput screening",
+                    "item4": "Thermodynamic database development",
+                    "item5": "Materials design and optimization under complex service conditions"
+                }
+            },
+            "caltppDiffusion": {
+                "metaTitle": "CALculation of ThermoPhysical Properties Diffusion Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for CALculation of ThermoPhysical Properties Diffusion Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "CALculation of ThermoPhysical Properties Diffusion",
+                "title": "CALculation of ThermoPhysical Properties Diffusion Software",
+                "intro": "Multicomponent diffusion calculation and application software for diffusion kinetic databases, diffusion simulation, and heat treatment process optimization.",
+                "overview": "CALTPP Diffusion builds a unified computational framework that deeply couples thermodynamics and diffusion kinetics. It enables reliable prediction of diffusion-controlled phase transformations in complex materials and supports inverse optimization of mobility parameters from diffusion experiments, single-phase and multiphase diffusion, moving phase boundaries, and engineering diffusion database development.",
+                "functions": {
+                    "item1": "Intelligent optimization of atomic mobility parameters",
+                    "item2": "Multicomponent diffusion simulation",
+                    "item3": "Multidimensional diffusion simulation",
+                    "item4": "Multiphase diffusion simulation",
+                    "item5": "High-throughput calculation of interdiffusion coefficients",
+                    "item6": "Diffusion growth simulation of line compounds",
+                    "item7": "Diffusion simulation considering internal magnetism",
+                    "item8": "Carburizing and nitriding simulation",
+                    "item9": "Engineering materials diffusion database development",
+                    "item10": "Accurate parameter supply for phase-field, precipitation, and finite element simulations"
+                },
+                "advantages": {
+                    "item1": "Intelligent optimization without preset initial parameter values",
+                    "item2": "High-accuracy and high-efficiency calculation",
+                    "item3": "Self-developed and independently controllable models",
+                    "item4": "Clean and user-friendly interface",
+                    "item5": "Innovative algorithms supporting high-dimensional simulation",
+                    "item6": "Comprehensive functions supporting multiphase simulation",
+                    "item7": "Strong coupling capability for parameter exchange with other software"
+                },
+                "applications": {
+                    "item1": "Microstructure evolution research",
+                    "item2": "Phase transformation kinetics analysis",
+                    "item3": "Heat treatment process optimization",
+                    "item4": "Diffusion database development",
+                    "item5": "Parameter supply for phase-field and precipitation simulations"
+                }
+            },
+            "caltppViscosityThermal": {
+                "metaTitle": "CALculation of ThermoPhysical Properties Viscosity and Thermal Conductivity Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for CALculation of ThermoPhysical Properties Viscosity and Thermal Conductivity Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "CALculation of ThermoPhysical Properties",
+                "title": "CALculation of ThermoPhysical Properties Viscosity and Thermal Conductivity Software",
+                "intro": "An integrated platform for liquid viscosity calculation and multicomponent multiphase thermal conductivity calculation, serving thermophysical property prediction, inverse design, and process optimization.",
+                "overview": "The CALTPP viscosity module supports liquid viscosity calculation, parameter optimization, and intelligent composition design for multicomponent alloys and oxide systems. The thermal conductivity module focuses on calculation, optimization, and inverse design for multicomponent alloys and multiphase composites, enabling inverse calculation from a target thermal conductivity to material design.",
+                "functions": {
+                    "item1": "Single-point viscosity calculation for specified composition and temperature",
+                    "item2": "Viscosity calculation as a function of temperature and composition",
+                    "item3": "Viscosity parameter optimization from experimental data",
+                    "item4": "Intelligent viscosity design for industrial and multicomponent alloys",
+                    "item5": "Intelligent optimization of thermal conductivity interaction parameters for multicomponent alloys",
+                    "item6": "Thermal conductivity calculation and evaluation for multiphase composites",
+                    "item7": "Inverse design of composition, temperature, and related parameters for a target thermal conductivity",
+                    "item8": "Thermophysical database development for engineering materials and multicomponent alloys"
+                },
+                "advantages": {
+                    "item1": "Models and databases with fully independent intellectual property rights",
+                    "item2": "Reliable viscosity and thermal conductivity results",
+                    "item3": "Thermal conductivity parameter optimization without preset initial values",
+                    "item4": "Clean and user-friendly interface",
+                    "item5": "Efficient click-to-result calculation",
+                    "item6": "Covers both liquid viscosity and multiphase thermal conductivity"
+                },
+                "applications": {
+                    "item1": "Liquid viscosity evolution in aluminum alloy casting and cemented carbide sintering",
+                    "item2": "Viscosity analysis for coal ash slag, cement clinker, and refractory materials",
+                    "item3": "Thermal conductivity evaluation for systems such as Co-Ni, WC-Co, and WC-Ag",
+                    "item4": "Interfacial thermal resistance evaluation for multiphase composites",
+                    "item5": "Process window design driven by thermophysical parameters"
+                }
+            },
+            "midNano": {
+                "metaTitle": "Microstructure Intelligent Design Nanoscale Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for Microstructure Intelligent Design Nanoscale Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "Microstructure Intelligent Design Nanoscale",
+                "title": "Microstructure Intelligent Design Nanoscale Software",
+                "intro": "Nanoscale material microstructure simulation software for crystal phase-field simulation of multicomponent multiphase systems from the atomic to nanoscale.",
+                "overview": "MID-NANO is a multicomponent multiphase nanoscale crystal phase-field simulation software platform with fully independent intellectual property rights. With multiphysics coupling capability, it efficiently simulates material microstructure formation and evolution under external fields such as temperature and stress, supporting studies of precipitation, crack initiation, interfacial instability, dislocation evolution, and nanostructure self-organization.",
+                "functions": {
+                    "item1": "Flexible custom microstructure modeling",
+                    "item2": "Lattice structure evolution simulation",
+                    "item3": "Crystal phase-field solving for multicomponent multiphase systems",
+                    "item4": "Temperature-field coupled evolution solving",
+                    "item5": "Stress-field coupled evolution solving",
+                    "item6": "Defect structure characterization and evolution simulation",
+                    "item7": "Dislocation formation and motion simulation",
+                    "item8": "Interface migration and interface instability analysis",
+                    "item9": "AI-assisted solver acceleration solutions"
+                },
+                "advantages": {
+                    "item1": "Independently controllable multiphysics solvers",
+                    "item2": "Fully independent intellectual property rights",
+                    "item3": "Modular software development framework",
+                    "item4": "Graphical and user-friendly interface",
+                    "item5": "Comprehensive multiscale simulation solutions",
+                    "item6": "Open and flexible secondary development interfaces",
+                    "item7": "Specialized design for crystal phase-field models"
+                },
+                "applications": {
+                    "item1": "Formation of amorphous-nanocrystalline composite structures",
+                    "item2": "Atomic-scale evolution of nanoscale multilayer structures",
+                    "item3": "Grain-boundary-induced precipitation and interfacial defect evolution",
+                    "item4": "Effects of lattice mismatch on precipitate morphology",
+                    "item5": "Low-dimensional spinodal decomposition within interfaces"
+                }
+            },
+            "midMeso": {
+                "metaTitle": "Microstructure Intelligent Design Mesoscale Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for Microstructure Intelligent Design Mesoscale Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "Microstructure Intelligent Design Mesoscale",
+                "title": "Microstructure Intelligent Design Mesoscale Software",
+                "intro": "Mesoscale material microstructure simulation software for multiphysics coupled phase-field simulation and intelligent microstructure control of engineering alloys.",
+                "overview": "MID-MESO provides strong multiphysics coupling capability and efficiently simulates material microstructure evolution under external fields such as temperature, flow, electromagnetic, and stress fields. It covers complex phase transformation behaviors including grain growth, dendrite growth, aging precipitation, liquid-phase sintering, polycrystalline crack propagation, spinodal decomposition, and lithium insertion/extraction in electrode particles.",
+                "functions": {
+                    "item1": "Microstructure modeling",
+                    "item2": "Coupled calculation with phase diagram databases",
+                    "item3": "Coupled calculation with thermophysical databases",
+                    "item4": "Solid stress-strain field solving",
+                    "item5": "Solid plastic yielding solving",
+                    "item6": "Fluid velocity and pressure field solving",
+                    "item7": "Fluid-solid-liquid coupling solving",
+                    "item8": "Multiphase fluid flow solving",
+                    "item9": "AI-assisted field solver acceleration solutions",
+                    "item10": "Multiple microstructure simulation schemes",
+                    "item11": "Intelligent microstructure control for engineering alloys"
+                },
+                "advantages": {
+                    "item1": "Independently controllable multiphysics solvers",
+                    "item2": "Fully independent intellectual property rights",
+                    "item3": "Modular software development approach",
+                    "item4": "Graphical and user-friendly interface",
+                    "item5": "Comprehensive multiscale simulation solutions",
+                    "item6": "Extensive microstructure modeling experience",
+                    "item7": "Rich thermodynamic and thermophysical database support",
+                    "item8": "Suitable for both research and engineering scenarios"
+                },
+                "applications": {
+                    "item1": "Spinodal decomposition and dendrite growth",
+                    "item2": "Crack propagation in cemented carbides",
+                    "item3": "Phase transformation simulation during electrode charge and discharge",
+                    "item4": "Liquid-phase sintering process analysis",
+                    "item5": "Discontinuous precipitation and elastoplastic solver validation"
+                }
+            },
+            "cpcp": {
+                "metaTitle": "Crystal Plasticity Calculation Package Software | Changsha RR-Tek Technology Co., Ltd.",
+                "metaDescription": "Product introduction for Crystal Plasticity Calculation Package Software, including positioning, main functions, advantages, applications, and downloads.",
+                "kicker": "Crystal Plasticity Calculation Package",
+                "title": "Crystal Plasticity Calculation Package Software",
+                "intro": "Crystal plasticity finite element calculation software covering multiscale mechanical behavior simulation from the microscopic to mesoscopic scale.",
+                "overview": "CPCP is a multiscale materials simulation tool with strong geometric modeling capabilities. It can build complex microstructure models such as gradient polycrystalline structures and particle-reinforced composites, interface with phase-field and thermodynamic calculation software, and support simulations of tension, shear, texture, fatigue, micropillar compression, nanoindentation, and age hardening.",
+                "functions": {
+                    "item1": "Gradient polycrystalline structure modeling",
+                    "item2": "Particle-reinforced material modeling",
+                    "item3": "Uniaxial tension and simple shear simulation",
+                    "item4": "Texture analysis simulation and columnar grain modeling",
+                    "item5": "Fatigue and hardness simulation",
+                    "item6": "Micropillar compression and nanoindentation simulation",
+                    "item7": "Property characterization of age-hardened materials",
+                    "item8": "Residual thermal stress simulation",
+                    "item9": "Information transfer with phase-field software",
+                    "item10": "Material parameter input from thermodynamic simulation"
+                },
+                "advantages": {
+                    "item1": "Simple to use with clear tutorials",
+                    "item2": "Chinese interface with user-friendly operation",
+                    "item3": "Rich structural material modeling capabilities",
+                    "item4": "Rich mechanical property simulation capabilities",
+                    "item5": "High computational efficiency and accuracy",
+                    "item6": "Machine learning coupling with rich algorithms",
+                    "item7": "Detailed software manual",
+                    "item8": "Strong coupling capability for parameter exchange with other software"
+                },
+                "applications": {
+                    "item1": "Thermal stress simulation of cemented carbides",
+                    "item2": "Uniaxial tension of Al-Mg-Si alloys",
+                    "item3": "Crack propagation in medium- and high-strength steels",
+                    "item4": "Cyclic loading and hardness simulation",
+                    "item5": "Mechanical evaluation by micropillar compression and nanoindentation"
+                }
+            }
+        },
+
         servicePage: {
             kicker: "Technical Services",
             title: "Technical Services",
@@ -489,6 +721,238 @@ const languages = {
             }
         },
 
+        softwareDetails: {
+            "common": {
+                "overviewTitle": "软件简介",
+                "functionsTitle": "主要功能",
+                "advantagesTitle": "核心优势",
+                "applicationsTitle": "典型应用",
+                "downloadTitle": "资料下载与咨询",
+                "downloadDesc": "可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。",
+                "contactInfo": "技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322",
+                "downloadPdf": "下载产品介绍 PDF",
+                "homeBtn": "返回首页"
+            },
+            "icalphad": {
+                "metaTitle": "ICALPHAD 相图计算与热力学优化软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "ICALPHAD 相图计算与热力学优化软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "Intelligent CALculation of PHAse Diagrams",
+                "title": "ICALPHAD 相图计算与热力学优化软件",
+                "intro": "相图计算与智能热力学优化软件，面向多元相图、热力学性质计算与参数优化。",
+                "overview": "ICALPHAD 以热力学数据库为核心，集成数据库选择与编辑、计算输入和结果可视化模块，支持二元与多元相图、等温 / 垂直截面、液相面投影、相稳定性分析、焓与热容等热力学性质计算，并结合智能优化算法实现参数高效反演。",
+                "functions": {
+                    "item1": "多元相图计算",
+                    "item2": "等温截面计算",
+                    "item3": "垂直截面计算",
+                    "item4": "液相面投影计算",
+                    "item5": "点平衡计算",
+                    "item6": "相组成与相含量分析",
+                    "item7": "热力学性质计算",
+                    "item8": "高通量计算",
+                    "item9": "热力学参数智能优化",
+                    "item10": "材料热力学数据库管理与编辑",
+                    "item11": "外场下热力学计算",
+                    "item12": "工程材料热力学数据库建立"
+                },
+                "advantages": {
+                    "item1": "模型、算法和软件自主可控",
+                    "item2": "完全自主知识产权",
+                    "item3": "热力学参数智能优化",
+                    "item4": "相图与性质计算一体化",
+                    "item5": "多元复杂体系支持能力强",
+                    "item6": "高通量批量计算",
+                    "item7": "图形化操作界面",
+                    "item8": "数据库管理与编辑能力完善"
+                },
+                "applications": {
+                    "item1": "合金相图设计与相稳定性研究",
+                    "item2": "外场热力学分析",
+                    "item3": "高通量筛选",
+                    "item4": "热力学数据库建设",
+                    "item5": "复杂工况材料设计与优化"
+                }
+            },
+            "caltppDiffusion": {
+                "metaTitle": "CALTPP 扩散软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "CALTPP 扩散软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "CALTPP Diffusion",
+                "title": "CALTPP 扩散软件",
+                "intro": "多组元扩散计算及应用软件，面向扩散动力学数据库、扩散模拟与热处理工艺优化。",
+                "overview": "CALTPP 扩散软件构建了热力学与扩散动力学深度耦合的统一计算框架，可对复杂材料中的扩散控制相变进行可靠预测，并支持基于扩散实验数据反求迁移率参数、单相/多相扩散、移动相界及工程材料扩散数据库建立。",
+                "functions": {
+                    "item1": "原子移动性参数智能优化",
+                    "item2": "多元系扩散模拟",
+                    "item3": "多维扩散模拟",
+                    "item4": "多相扩散模拟",
+                    "item5": "互扩散系数高通量计算",
+                    "item6": "线性化合物扩散生长模拟",
+                    "item7": "考虑内磁性的扩散模拟",
+                    "item8": "渗碳 / 渗氮模拟",
+                    "item9": "工程材料扩散数据库建立",
+                    "item10": "为相场 / 析出 / 有限元提供精确参数"
+                },
+                "advantages": {
+                    "item1": "无需设定参数初始值的智能优化",
+                    "item2": "高精度、高效率计算",
+                    "item3": "模型自研，自主可控",
+                    "item4": "界面简洁，用户友好",
+                    "item5": "算法创新，支持高维模拟",
+                    "item6": "功能全面，支持多相模拟",
+                    "item7": "耦合性好，可对接其他软件参数"
+                },
+                "applications": {
+                    "item1": "组织演化研究",
+                    "item2": "相变动力学分析",
+                    "item3": "热处理工艺优化",
+                    "item4": "扩散数据库开发",
+                    "item5": "相场与析出模拟参数供给"
+                }
+            },
+            "caltppViscosityThermal": {
+                "metaTitle": "CALTPP 粘度与热导率软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "CALTPP 粘度与热导率软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "CALTPP Thermophysical Properties",
+                "title": "CALTPP 粘度与热导率软件",
+                "intro": "集成液相粘度计算与多元多相热导率计算两大模块，服务热物性预测、反向设计与工艺优化。",
+                "overview": "CALTPP 粘度模块支持多元合金和氧化物体系液态粘度计算、参数优化与成分智能设计；热导率模块专注于多元合金与多相复合材料热导率的计算、优化与反向设计，可实现“给定热导率—反向设计材料”的逆向计算。",
+                "functions": {
+                    "item1": "给定成分温度的单点粘度计算",
+                    "item2": "随温度成分变化的粘度计算",
+                    "item3": "给定实验数据的粘度参数优化",
+                    "item4": "工业合金和多元合金的粘度智能设计",
+                    "item5": "多元合金热导率交互作用参数智能优化",
+                    "item6": "多相复合材料热导率计算与评估",
+                    "item7": "给定热导率反向设计材料成分温度等参数",
+                    "item8": "工程材料与多元合金热物性数据库建立"
+                },
+                "advantages": {
+                    "item1": "模型和数据库具有完全自主知识产权",
+                    "item2": "粘度与热导率结果可靠",
+                    "item3": "热导率参数优化无需设定初值",
+                    "item4": "界面简洁，用户友好",
+                    "item5": "高效计算，点击即出",
+                    "item6": "同时覆盖液相粘度与多相热导率两个方向"
+                },
+                "applications": {
+                    "item1": "铝合金熔铸与硬质合金烧结中的液态粘度演变",
+                    "item2": "煤灰渣、水泥熟料和耐火材料粘度分析",
+                    "item3": "Co-Ni、WC-Co、WC-Ag 等体系热导率评估",
+                    "item4": "多相复合材料界面热阻评估",
+                    "item5": "热物性参数驱动的工艺窗口设计"
+                }
+            },
+            "midNano": {
+                "metaTitle": "MID-NANO 纳观尺度材料微结构模拟软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "MID-NANO 纳观尺度材料微结构模拟软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "MID-NANO",
+                "title": "MID-NANO 纳观尺度材料微结构模拟软件",
+                "intro": "纳观尺度材料微结构模拟计算软件，面向原子—纳米尺度多元多相体系晶体相场模拟。",
+                "overview": "MID-NANO 是一款具有完全自主知识产权的多元多相纳观晶体相场模拟软件，具备多物理场耦合分析能力，可高效模拟温度场、应力场等外场作用下材料微结构的形成与演化，适用于析出、裂纹萌生、界面失稳、位错演化与纳米结构自组织等问题。",
+                "functions": {
+                    "item1": "灵活自定义微结构建模",
+                    "item2": "晶格结构演化模拟",
+                    "item3": "多元多相体系晶体相场求解",
+                    "item4": "温度场耦合演化求解",
+                    "item5": "应力场耦合演化求解",
+                    "item6": "缺陷结构表征与演化模拟",
+                    "item7": "位错形成与运动模拟",
+                    "item8": "界面迁移与界面失稳分析",
+                    "item9": "AI 辅助求解加速方案"
+                },
+                "advantages": {
+                    "item1": "多场求解器自主可控",
+                    "item2": "完全自主知识产权",
+                    "item3": "模块化的软件开发框架",
+                    "item4": "图形化操作界面，用户友好",
+                    "item5": "完善的多尺度模拟方案",
+                    "item6": "开放灵活的二次开发接口",
+                    "item7": "面向晶体相场模型的专门化设计"
+                },
+                "applications": {
+                    "item1": "非晶-纳米晶复合结构形成",
+                    "item2": "纳米多层结构原子级演化",
+                    "item3": "晶界诱导析出与界面缺陷演化",
+                    "item4": "晶格错配对析出相形貌影响",
+                    "item5": "界面内低维调幅分解研究"
+                }
+            },
+            "midMeso": {
+                "metaTitle": "MID-MESO 介观尺度材料微结构模拟软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "MID-MESO 介观尺度材料微结构模拟软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "MID-MESO",
+                "title": "MID-MESO 介观尺度材料微结构模拟软件",
+                "intro": "介观尺度材料微结构模拟软件，面向多物理场耦合相场模拟与工程合金微结构智能控制。",
+                "overview": "MID-MESO 具备强大的多物理场耦合能力，可高效模拟温度场、流场、电磁场、应力场等外场作用下材料微观结构演化过程，覆盖晶粒长大、枝晶生长、时效析出、液相烧结、多晶裂纹扩展、调幅分解和电极颗粒嵌锂/脱锂等复杂相变行为。",
+                "functions": {
+                    "item1": "微结构建模",
+                    "item2": "耦合计算相图数据库",
+                    "item3": "耦合热物性数据库",
+                    "item4": "固体应力应变场求解",
+                    "item5": "固体塑性屈服求解",
+                    "item6": "流体速度压力场求解",
+                    "item7": "流体固液耦合求解",
+                    "item8": "流体多相流求解",
+                    "item9": "AI 技术场求解加速方案",
+                    "item10": "多种微结构模拟方案",
+                    "item11": "工程合金微结构智能控制"
+                },
+                "advantages": {
+                    "item1": "多场求解器自主可控",
+                    "item2": "完全自主知识产权",
+                    "item3": "模块化的软件开发方案",
+                    "item4": "图形化操作界面，用户友好",
+                    "item5": "完善的多尺度模拟方案",
+                    "item6": "丰富的微结构建模经验",
+                    "item7": "丰富的热力学、热物性数据库支持",
+                    "item8": "适用于科研与工程双场景"
+                },
+                "applications": {
+                    "item1": "调幅分解与枝晶生长",
+                    "item2": "硬质合金裂纹扩展",
+                    "item3": "电极充放电相变模拟",
+                    "item4": "液相烧结过程分析",
+                    "item5": "不连续析出与弹塑性求解验证"
+                }
+            },
+            "cpcp": {
+                "metaTitle": "CPCP 晶体塑性有限元计算软件 | 长沙锐睿科技有限公司",
+                "metaDescription": "CPCP 晶体塑性有限元计算软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。",
+                "kicker": "Crystal Plasticity Calculation Package",
+                "title": "CPCP 晶体塑性有限元计算软件",
+                "intro": "晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。",
+                "overview": "CPCP 是一款多尺度材料仿真工具，具备强大的几何建模能力，可构建梯度多晶结构、颗粒增强复合材料等复杂微观组织模型，并可与相场模拟及热力学计算软件对接，支持拉伸、剪切、织构、疲劳、微柱压缩、纳米压痕和时效强化等模拟。",
+                "functions": {
+                    "item1": "梯度多晶结构建模",
+                    "item2": "颗粒增强材料建模",
+                    "item3": "单轴拉伸与简单剪切模拟",
+                    "item4": "织构分析模拟与柱状晶建模",
+                    "item5": "疲劳模拟与硬度模拟",
+                    "item6": "微柱压缩与纳米压痕模拟",
+                    "item7": "时效强化材料性能表征",
+                    "item8": "残余热应力模拟",
+                    "item9": "对接相场软件进行信息传输",
+                    "item10": "可由热力学模拟提供材料参数输入"
+                },
+                "advantages": {
+                    "item1": "简明易用，清晰教程",
+                    "item2": "全中文界面，用户友好",
+                    "item3": "丰富的结构材料建模",
+                    "item4": "丰富的力学性能模拟",
+                    "item5": "高计算效率与高计算精度",
+                    "item6": "耦合机器学习，算法丰富",
+                    "item7": "详细的软件说明书",
+                    "item8": "耦合性好，可对接其他软件参数"
+                },
+                "applications": {
+                    "item1": "硬质合金热应力模拟",
+                    "item2": "Al-Mg-Si 合金单轴拉伸",
+                    "item3": "中高强钢裂纹扩展",
+                    "item4": "循环加载与硬度模拟",
+                    "item5": "微柱压缩与纳米压痕力学评估"
+                }
+            }
+        },
+
         servicePage: {
             kicker: "Technical Services",
             title: "技术服务",
@@ -659,4 +1123,4 @@ function toggleLanguage() {
 
 document.addEventListener("DOMContentLoaded", () => {
     updateContent();
-});41
+});

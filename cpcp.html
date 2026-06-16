@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CPCP 晶体塑性有限元计算软件 | 长沙锐睿科技有限公司</title>
-    <meta name="description" content="CPCP 晶体塑性有限元计算软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。" />
+    <title data-i18n-title="softwareDetails.cpcp.metaTitle">CPCP 晶体塑性有限元计算软件 | 长沙锐睿科技有限公司</title>
+    <meta
+        name="description"
+        data-i18n-meta="softwareDetails.cpcp.metaDescription"
+        content="CPCP 晶体塑性有限元计算软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。"
+    />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,17 +17,22 @@
             <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
                 <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
                 <div class="brand-text">
-                    <span class="brand-name">长沙锐睿科技有限公司</span>
-                    <span class="brand-slogan">专注科研软件、材料数据库与智能设计</span>
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
                 </div>
             </a>
 
             <ul class="nav-menu">
-                <li><a href="index.html#hero">首页</a></li>
-                <li><a href="index.html#about">关于我们</a></li>
-                <li><a href="index.html#products">产品与服务</a></li>
-                <li><a href="index.html#news">新闻动态</a></li>
-                <li><a href="index.html#contact">联系我们</a></li>
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,9 +40,9 @@
     <main class="detail-page">
         <section class="detail-hero">
             <div class="container">
-                <p class="detail-kicker">Crystal Plasticity Calculation Package</p>
-                <h1>CPCP 晶体塑性有限元计算软件</h1>
-                <p class="detail-intro">晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。</p>
+                <p class="detail-kicker" data-i18n="softwareDetails.cpcp.kicker">Crystal Plasticity Calculation Package</p>
+                <h1 data-i18n="softwareDetails.cpcp.title">CPCP 晶体塑性有限元计算软件</h1>
+                <p class="detail-intro" data-i18n="softwareDetails.cpcp.intro">晶体塑性有限元计算软件，覆盖微观到细观多尺度材料力学行为模拟。</p>
             </div>
         </section>
 
@@ -41,64 +50,64 @@
             <div class="container">
                 <div class="detail-list">
                     <article class="detail-card">
-                        <h2>软件简介</h2>
-                        <p>CPCP 是一款多尺度材料仿真工具，具备强大的几何建模能力，可构建梯度多晶结构、颗粒增强复合材料等复杂微观组织模型，并可与相场模拟及热力学计算软件对接，支持拉伸、剪切、织构、疲劳、微柱压缩、纳米压痕和时效强化等模拟。</p>
+                        <h2 data-i18n="softwareDetails.common.overviewTitle">软件简介</h2>
+                        <p data-i18n="softwareDetails.cpcp.overview">CPCP 是一款多尺度材料仿真工具，具备强大的几何建模能力，可构建梯度多晶结构、颗粒增强复合材料等复杂微观组织模型，并可与相场模拟及热力学计算软件对接，支持拉伸、剪切、织构、疲劳、微柱压缩、纳米压痕和时效强化等模拟。</p>
                     </article>
 
                     <article class="detail-card">
-                        <h2>主要功能</h2>
+                        <h2 data-i18n="softwareDetails.common.functionsTitle">主要功能</h2>
                         <ul class="feature-list">
-                            <li>梯度多晶结构建模</li>
-<li>颗粒增强材料建模</li>
-<li>单轴拉伸与简单剪切模拟</li>
-<li>织构分析模拟与柱状晶建模</li>
-<li>疲劳模拟与硬度模拟</li>
-<li>微柱压缩与纳米压痕模拟</li>
-<li>时效强化材料性能表征</li>
-<li>残余热应力模拟</li>
-<li>对接相场软件进行信息传输</li>
-<li>可由热力学模拟提供材料参数输入</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item1">梯度多晶结构建模</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item2">颗粒增强材料建模</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item3">单轴拉伸与简单剪切模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item4">织构分析模拟与柱状晶建模</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item5">疲劳模拟与硬度模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item6">微柱压缩与纳米压痕模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item7">时效强化材料性能表征</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item8">残余热应力模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item9">对接相场软件进行信息传输</li>
+                            <li data-i18n="softwareDetails.cpcp.functions.item10">可由热力学模拟提供材料参数输入</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>核心优势</h2>
+                        <h2 data-i18n="softwareDetails.common.advantagesTitle">核心优势</h2>
                         <ul class="feature-list">
-                            <li>简明易用，清晰教程</li>
-<li>全中文界面，用户友好</li>
-<li>丰富的结构材料建模</li>
-<li>丰富的力学性能模拟</li>
-<li>高计算效率与高计算精度</li>
-<li>耦合机器学习，算法丰富</li>
-<li>详细的软件说明书</li>
-<li>耦合性好，可对接其他软件参数</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item1">简明易用，清晰教程</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item2">全中文界面，用户友好</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item3">丰富的结构材料建模</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item4">丰富的力学性能模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item5">高计算效率与高计算精度</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item6">耦合机器学习，算法丰富</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item7">详细的软件说明书</li>
+                            <li data-i18n="softwareDetails.cpcp.advantages.item8">耦合性好，可对接其他软件参数</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>典型应用</h2>
+                        <h2 data-i18n="softwareDetails.common.applicationsTitle">典型应用</h2>
                         <ul class="feature-list">
-                            <li>硬质合金热应力模拟</li>
-<li>Al-Mg-Si 合金单轴拉伸</li>
-<li>中高强钢裂纹扩展</li>
-<li>循环加载与硬度模拟</li>
-<li>微柱压缩与纳米压痕力学评估</li>
+                            <li data-i18n="softwareDetails.cpcp.applications.item1">硬质合金热应力模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.applications.item2">Al-Mg-Si 合金单轴拉伸</li>
+                            <li data-i18n="softwareDetails.cpcp.applications.item3">中高强钢裂纹扩展</li>
+                            <li data-i18n="softwareDetails.cpcp.applications.item4">循环加载与硬度模拟</li>
+                            <li data-i18n="softwareDetails.cpcp.applications.item5">微柱压缩与纳米压痕力学评估</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>资料下载与咨询</h2>
-                        <p>可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。</p>
-                        <p>技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322</p>
+                        <h2 data-i18n="softwareDetails.common.downloadTitle">资料下载与咨询</h2>
+                        <p data-i18n="softwareDetails.common.downloadDesc">可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。</p>
+                        <p data-i18n="softwareDetails.common.contactInfo">技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322</p>
                         <div class="detail-cta">
-                            <a href="CPCP软件.pdf" class="btn-primary" target="_blank" rel="noopener">下载产品介绍 PDF</a>
-                            <a href="index.html#contact" class="btn-secondary detail-outline-btn">联系咨询</a>
+                            <a href="CPCP软件.pdf" class="btn-primary" target="_blank" rel="noopener" data-i18n="softwareDetails.common.downloadPdf">下载产品介绍 PDF</a>
+                            <a href="index.html#contact" class="btn-secondary detail-outline-btn" data-i18n="detailPage.contactBtn">联系咨询</a>
                         </div>
                     </article>
                 </div>
 
                 <div class="detail-cta">
-                    <a href="index.html#products" class="btn-primary">返回首页</a>
+                    <a href="index.html#products" class="btn-primary" data-i18n="softwareDetails.common.homeBtn">返回首页</a>
                 </div>
             </div>
         </section>
@@ -107,11 +116,13 @@
     <footer>
         <div class="container footer-inner">
             <div class="footer-brand">
-                <p class="footer-cn">长沙锐睿科技有限公司</p>
-                <p class="footer-en">Changsha RR-Tek Technology Co., Ltd.</p>
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
             </div>
-            <p>© 2026 长沙锐睿科技有限公司 版权所有</p>
+            <p id="footer-text" data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
         </div>
     </footer>
+
+    <script src="i18n.js"></script>
 </body>
 </html>

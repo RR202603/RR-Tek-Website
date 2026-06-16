@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CALTPP 扩散软件 | 长沙锐睿科技有限公司</title>
-    <meta name="description" content="CALTPP 扩散软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。" />
+    <title data-i18n-title="softwareDetails.caltppDiffusion.metaTitle">CALTPP 扩散软件 | 长沙锐睿科技有限公司</title>
+    <meta
+        name="description"
+        data-i18n-meta="softwareDetails.caltppDiffusion.metaDescription"
+        content="CALTPP 扩散软件产品介绍页，包含软件定位、主要功能、核心优势、典型应用及资料下载。"
+    />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,17 +17,22 @@
             <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
                 <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
                 <div class="brand-text">
-                    <span class="brand-name">长沙锐睿科技有限公司</span>
-                    <span class="brand-slogan">专注科研软件、材料数据库与智能设计</span>
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
                 </div>
             </a>
 
             <ul class="nav-menu">
-                <li><a href="index.html#hero">首页</a></li>
-                <li><a href="index.html#about">关于我们</a></li>
-                <li><a href="index.html#products">产品与服务</a></li>
-                <li><a href="index.html#news">新闻动态</a></li>
-                <li><a href="index.html#contact">联系我们</a></li>
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,9 +40,9 @@
     <main class="detail-page">
         <section class="detail-hero">
             <div class="container">
-                <p class="detail-kicker">CALTPP Diffusion</p>
-                <h1>CALTPP 扩散软件</h1>
-                <p class="detail-intro">多组元扩散计算及应用软件，面向扩散动力学数据库、扩散模拟与热处理工艺优化。</p>
+                <p class="detail-kicker" data-i18n="softwareDetails.caltppDiffusion.kicker">CALTPP Diffusion</p>
+                <h1 data-i18n="softwareDetails.caltppDiffusion.title">CALTPP 扩散软件</h1>
+                <p class="detail-intro" data-i18n="softwareDetails.caltppDiffusion.intro">多组元扩散计算及应用软件，面向扩散动力学数据库、扩散模拟与热处理工艺优化。</p>
             </div>
         </section>
 
@@ -41,63 +50,63 @@
             <div class="container">
                 <div class="detail-list">
                     <article class="detail-card">
-                        <h2>软件简介</h2>
-                        <p>CALTPP 扩散软件构建了热力学与扩散动力学深度耦合的统一计算框架，可对复杂材料中的扩散控制相变进行可靠预测，并支持基于扩散实验数据反求迁移率参数、单相/多相扩散、移动相界及工程材料扩散数据库建立。</p>
+                        <h2 data-i18n="softwareDetails.common.overviewTitle">软件简介</h2>
+                        <p data-i18n="softwareDetails.caltppDiffusion.overview">CALTPP 扩散软件构建了热力学与扩散动力学深度耦合的统一计算框架，可对复杂材料中的扩散控制相变进行可靠预测，并支持基于扩散实验数据反求迁移率参数、单相/多相扩散、移动相界及工程材料扩散数据库建立。</p>
                     </article>
 
                     <article class="detail-card">
-                        <h2>主要功能</h2>
+                        <h2 data-i18n="softwareDetails.common.functionsTitle">主要功能</h2>
                         <ul class="feature-list">
-                            <li>原子移动性参数智能优化</li>
-<li>多元系扩散模拟</li>
-<li>多维扩散模拟</li>
-<li>多相扩散模拟</li>
-<li>互扩散系数高通量计算</li>
-<li>线性化合物扩散生长模拟</li>
-<li>考虑内磁性的扩散模拟</li>
-<li>渗碳 / 渗氮模拟</li>
-<li>工程材料扩散数据库建立</li>
-<li>为相场 / 析出 / 有限元提供精确参数</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item1">原子移动性参数智能优化</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item2">多元系扩散模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item3">多维扩散模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item4">多相扩散模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item5">互扩散系数高通量计算</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item6">线性化合物扩散生长模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item7">考虑内磁性的扩散模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item8">渗碳 / 渗氮模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item9">工程材料扩散数据库建立</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.functions.item10">为相场 / 析出 / 有限元提供精确参数</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>核心优势</h2>
+                        <h2 data-i18n="softwareDetails.common.advantagesTitle">核心优势</h2>
                         <ul class="feature-list">
-                            <li>无需设定参数初始值的智能优化</li>
-<li>高精度、高效率计算</li>
-<li>模型自研，自主可控</li>
-<li>界面简洁，用户友好</li>
-<li>算法创新，支持高维模拟</li>
-<li>功能全面，支持多相模拟</li>
-<li>耦合性好，可对接其他软件参数</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item1">无需设定参数初始值的智能优化</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item2">高精度、高效率计算</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item3">模型自研，自主可控</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item4">界面简洁，用户友好</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item5">算法创新，支持高维模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item6">功能全面，支持多相模拟</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.advantages.item7">耦合性好，可对接其他软件参数</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>典型应用</h2>
+                        <h2 data-i18n="softwareDetails.common.applicationsTitle">典型应用</h2>
                         <ul class="feature-list">
-                            <li>组织演化研究</li>
-<li>相变动力学分析</li>
-<li>热处理工艺优化</li>
-<li>扩散数据库开发</li>
-<li>相场与析出模拟参数供给</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.applications.item1">组织演化研究</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.applications.item2">相变动力学分析</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.applications.item3">热处理工艺优化</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.applications.item4">扩散数据库开发</li>
+                            <li data-i18n="softwareDetails.caltppDiffusion.applications.item5">相场与析出模拟参数供给</li>
                         </ul>
                     </article>
 
                     <article class="detail-card">
-                        <h2>资料下载与咨询</h2>
-                        <p>可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。</p>
-                        <p>技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322</p>
+                        <h2 data-i18n="softwareDetails.common.downloadTitle">资料下载与咨询</h2>
+                        <p data-i18n="softwareDetails.common.downloadDesc">可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。</p>
+                        <p data-i18n="softwareDetails.common.contactInfo">技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322</p>
                         <div class="detail-cta">
-                            <a href="CALTPP扩散软件.pdf" class="btn-primary" target="_blank" rel="noopener">下载产品介绍 PDF</a>
-                            <a href="index.html#contact" class="btn-secondary detail-outline-btn">联系咨询</a>
+                            <a href="CALTPP扩散软件.pdf" class="btn-primary" target="_blank" rel="noopener" data-i18n="softwareDetails.common.downloadPdf">下载产品介绍 PDF</a>
+                            <a href="index.html#contact" class="btn-secondary detail-outline-btn" data-i18n="detailPage.contactBtn">联系咨询</a>
                         </div>
                     </article>
                 </div>
 
                 <div class="detail-cta">
-                    <a href="index.html#products" class="btn-primary">返回首页</a>
+                    <a href="index.html#products" class="btn-primary" data-i18n="softwareDetails.common.homeBtn">返回首页</a>
                 </div>
             </div>
         </section>
@@ -106,11 +115,13 @@
     <footer>
         <div class="container footer-inner">
             <div class="footer-brand">
-                <p class="footer-cn">长沙锐睿科技有限公司</p>
-                <p class="footer-en">Changsha RR-Tek Technology Co., Ltd.</p>
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
             </div>
-            <p>© 2026 长沙锐睿科技有限公司 版权所有</p>
+            <p id="footer-text" data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
         </div>
     </footer>
+
+    <script src="i18n.js"></script>
 </body>
 </html>

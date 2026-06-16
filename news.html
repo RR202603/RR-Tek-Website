@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n-title="newsPage.metaTitle">新闻动态 | 长沙锐睿科技有限公司</title>
+    <meta
+        name="description"
+        data-i18n-meta="newsPage.metaDescription"
+        content="锐睿科技全部新闻动态、产品发布、会议活动及公司资讯。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
+                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detail-page">
+        <section class="detail-hero">
+            <div class="container">
+                <p class="detail-kicker" data-i18n="newsPage.kicker">News & Insights</p>
+                <h1 data-i18n="newsPage.title">新闻动态</h1>
+                <p class="detail-intro" data-i18n="newsPage.description">
+                    查看锐睿科技全部新闻动态、产品发布、会议活动及技术进展。
+                </p>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="container">
+                <div class="news-list" id="all-news-list"></div>
+
+                <div class="detail-cta">
+                    <a href="index.html#news" class="btn-primary" data-i18n="newsPage.backHome">返回首页</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
+            </div>
+            <p id="footer-text" data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="news-data.js"></script>
+    <script>
+        function renderAllNewsList(lang = "zh") {
+            const newsList = document.getElementById("all-news-list");
+            if (!newsList) return;
+            if (typeof newsData === "undefined" || !Array.isArray(newsData)) return;
+
+            const allNews = [...newsData].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            newsList.innerHTML = allNews.map(item => `
+                <article class="news-item">
+                    <div class="news-date">${item.date}</div>
+                    <div class="news-body">
+                        <h3>${item.title[lang] || item.title.zh}</h3>
+                        <a href="${item.url}" class="card-link">${item.detailText[lang] || item.detailText.zh}</a>
+                    </div>
+                </article>
+            `).join("");
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            renderAllNewsList("zh");
+        });
+    </script>
+    <script src="i18n.js"></script>
+</body>
+</html>

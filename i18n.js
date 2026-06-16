@@ -77,12 +77,22 @@ const languages = {
             tag: "News & Insights",
             title: "News & Insights",
             description: "Stay informed with the latest updates, product releases, and industry developments from RR-Tek.",
+            viewMore: "View More",
             card1Title: "Ongoing Product and Technology Updates",
             card1Text: "The website will continue to publish company announcements, software releases, database progress, and industry-related information.",
             card2Title: "Follow Our Latest Developments",
             card2Text: "This section can be used to present product launches, conference activities, partnerships, and technical achievements.",
             card3Title: "Continuous Website and Product Presentation Improvement",
             card3Text: "More detailed product pages, news modules, and contact channels will be launched in future updates."
+        },
+
+        newsPage: {
+            metaTitle: "News & Insights | Changsha RR-Tek Technology Co., Ltd.",
+            metaDescription: "All news, product releases, conference activities, and company updates from RR-Tek.",
+            kicker: "News & Insights",
+            title: "News & Insights",
+            description: "Browse all company news, product releases, conference activities, and technical updates from RR-Tek.",
+            backHome: "Back to Home"
         },
 
         contact: {
@@ -591,12 +601,22 @@ const languages = {
             tag: "News & Insights",
             title: "新闻动态",
             description: "及时了解锐睿科技的最新动态、产品发布及行业发展趋势。",
+            viewMore: "查看更多",
             card1Title: "产品与技术信息持续更新",
             card1Text: "官网将陆续发布公司公告、软件更新、数据库进展及行业资讯等内容。",
             card2Title: "欢迎关注公司最新动态",
             card2Text: "未来可在此展示产品发布、会议活动、合作进展及技术成果。",
             card3Title: "持续完善官网内容与产品展示",
             card3Text: "后续将上线更详细的产品介绍页面、新闻发布模块及联系入口。"
+        },
+
+        newsPage: {
+            metaTitle: "新闻动态 | 长沙锐睿科技有限公司",
+            metaDescription: "锐睿科技全部新闻动态、产品发布、会议活动及公司资讯。",
+            kicker: "News & Insights",
+            title: "新闻动态",
+            description: "查看锐睿科技全部新闻动态、产品发布、会议活动及技术进展。",
+            backHome: "返回首页"
         },
 
         contact: {
@@ -1099,8 +1119,12 @@ function updateContent() {
         }  
     });
     
-        if (typeof renderNewsList === "function") {
+    if (typeof renderNewsList === "function") {
         renderNewsList(currentLanguage);
+    }
+
+    if (typeof renderAllNewsList === "function") {
+        renderAllNewsList(currentLanguage);
     }
 
     updateBrandText();

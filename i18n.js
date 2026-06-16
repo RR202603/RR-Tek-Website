@@ -39,17 +39,17 @@ const languages = {
           software: {
             title: "Scientific Software",
             product1: "Intelligent CALculation of PHAse Diagrams Software",
-            desc1: "Phase diagram calculation and intelligent thermodynamic optimization software.",
-            product2: "CALculation of ThermoPhysical Properties Software",
-            desc2: "For efficient calculation and analysis of thermo-physical properties of materials.",
-            product3: "Intelligent CALculation of PHAse Diagrams Software",
-            desc3: "Supports phase diagram calculation, thermodynamic analysis, and materials design.",
-            product4: "Microstructure Intelligent Design Mesoscale",
-            desc4: "Designed for multi-physics coupled phase-field simulation and microstructure studies.",
-            product5: "Microstructure Intelligent Design Nanoscale",
-            desc5: "Used for precipitation kinetics and microstructure evolution simulation.",
-            product6: "Crystal Plasticity Calculation Package",
-            desc6: "For crystal plasticity finite element simulation and mechanical behavior analysis." 
+            desc1: "Designed for multicomponent phase diagrams, thermodynamic property calculation, and parameter optimization.",
+            product2: "CALculation of ThermoPhysical Properties Diffusion Software",
+            desc2: "Supports diffusion simulation, mobility optimization, and diffusion database development.",
+            product3: "CALculation of ThermoPhysical Properties Viscosity and Thermal Conductivity Software",
+            desc3: "Covers liquid viscosity, multicomponent multiphase thermal conductivity calculation, optimization, and inverse design.",
+            product4: "Microstructure Intelligent Design Nanoscale Software",
+            desc4: "Designed for crystal phase-field and defect evolution research.",
+            product5: "Microstructure Intelligent Design Mesoscale Software",
+            desc5: "Supports multiphysics coupling and engineering alloy microstructure evolution.",
+            product6: "Crystal Plasticity Calculation Package Software",
+            desc6: "Covers multiscale material mechanical behavior simulation from the microscopic to mesoscopic scale."
           },
           database: {
             title: "Materials Databases",

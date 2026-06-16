@@ -1005,10 +1005,9 @@ footer p {
 /* =========================================================
    Mobile header optimization
    Purpose:
-   - Prevent the company name and slogan from being squeezed into vertical text on mobile.
-   - Keep the logo and company name on one clean row.
-   - Hide the slogan on small screens to save horizontal space.
-   - Let the navigation menu wrap naturally below the brand area.
+   - Keep the logo, company name and slogan readable on mobile.
+   - Put the language switch button in the same navigation row after Contact.
+   - Prevent the navigation bar from occupying an extra separate button row.
    ========================================================= */
 @media (max-width: 640px) {
     body {
@@ -1022,7 +1021,7 @@ footer p {
 
     .nav-container {
         max-width: 100%;
-        padding: 10px 14px;
+        padding: 10px 12px 12px;
         gap: 10px;
         flex-direction: column;
         align-items: stretch;
@@ -1033,6 +1032,7 @@ footer p {
         flex: none;
         gap: 10px;
         align-items: center;
+        justify-content: center;
     }
 
     .brand-logo {
@@ -1041,39 +1041,63 @@ footer p {
     }
 
     .brand-text {
-        flex: 1;
+        flex: 0 1 auto;
         min-width: 0;
+        max-width: calc(100vw - 90px);
     }
 
     .brand-name {
         display: block;
         font-size: 0.98rem;
-        line-height: 1.35;
+        line-height: 1.32;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
     .brand-slogan {
-        display: none;
+        display: block;
+        margin-top: 1px;
+        font-size: 0.68rem;
+        line-height: 1.35;
+        color: var(--text-light);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .nav-menu {
         width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
         justify-content: center;
-        gap: 14px;
-        row-gap: 8px;
-        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .nav-menu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-menu li {
+        flex: 0 0 auto;
     }
 
     .nav-menu a {
-        font-size: 0.9rem;
-        line-height: 1.4;
+        font-size: 0.78rem;
+        line-height: 1.35;
+        white-space: nowrap;
     }
 
     .lang-btn {
-        padding: 8px 16px;
-        font-size: 0.86rem;
+        padding: 6px 9px;
+        font-size: 0.72rem;
+        line-height: 1.2;
+        border-radius: 999px;
+        white-space: nowrap;
     }
 
     .hero-content {

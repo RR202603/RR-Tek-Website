@@ -320,7 +320,7 @@ const languages = {
             detailBtn: "产品详情",
             software: {
               title: "科研软件",
-              product1: "ICALPHAD 相图计算与智能热力学优化软件",
+              product1: "ICALPHAD 相图计算与热力学优化软件",
               desc1: "面向多元相图、热力学性质计算与参数优化。",
               product2: "CALTPP 扩散软件",
               desc2: "支持扩散模拟、迁移率优化与扩散数据库建立。",

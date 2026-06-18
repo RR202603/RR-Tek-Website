@@ -16,17 +16,22 @@
             <a href="../index.html#hero" class="brand" aria-label="Changsha RR-Tek Technology Co., Ltd. Home">
                 <img src="../assets/logo.jpg" alt="长沙锐睿科技有限公司 Logo" class="brand-logo" />
                 <div class="brand-text">
-                    <span class="brand-name">长沙锐睿科技有限公司</span>
-                    <span class="brand-slogan">专注科研软件、材料数据库与智能设计</span>
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
                 </div>
             </a>
 
             <ul class="nav-menu">
-                <li><a href="../index.html#hero">首页</a></li>
-                <li><a href="../index.html#about">关于我们</a></li>
-                <li><a href="../index.html#products">产品与服务</a></li>
-                <li><a href="../index.html#news">新闻动态</a></li>
-                <li><a href="../index.html#contact">联系我们</a></li>
+                <li><a href="../index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="../index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="../index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="../index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="../index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li>
+                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+                        Switch to English
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -57,8 +62,8 @@
                 </article>
 
                 <div class="detail-cta">
-                    <a href="../news.html" class="btn-secondary detail-outline-btn">返回新闻列表</a>
-                    <a href="../index.html#contact" class="btn-primary">联系咨询</a>
+                    <a href="../news.html" class="btn-secondary detail-outline-btn" data-i18n="newsPage.backHome">返回新闻列表</a>
+                    <a href="../index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系咨询</a>
                 </div>
             </div>
         </section>
@@ -67,11 +72,13 @@
     <footer>
         <div class="container footer-inner">
             <div class="footer-brand">
-                <p class="footer-cn">长沙锐睿科技有限公司</p>
-                <p class="footer-en">Changsha RR-Tek Technology Co., Ltd.</p>
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
             </div>
-            <p>© 2025 长沙锐睿科技有限公司 版权所有</p>
+            <p data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
         </div>
     </footer>
+    <script src="../news-detail-data.js"></script>
+    <script src="../i18n.js"></script>
 </body>
 </html>

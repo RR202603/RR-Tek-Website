@@ -24,11 +24,9 @@ const languages = {
             tag: "Company Profile",
             title: "About Us",
             summary: "Delivering integrated solutions of software, databases, and engineering services for materials science and engineering.",
-            description: "Changsha RR-Tek Technology Co., Ltd. was established in April 2021 and is located in Changsha, Hunan Province. The company focuses on the development and application of materials intelligent design software and scientific databases. Its main business includes R&D and sales of scientific software, development of scientific databases for materials thermodynamics and thermophysical properties, AI and machine learning-assisted materials R&D, industry technical training and academic conference organization, as well as new materials technology development and engineering consulting services.\n\nThe company has a professional software and scientific database R&D team composed of 15 PhDs and 5 Masters, and engages professors from the US, Germany, France, Austria, and Hungary as scientific advisors. A complete software development process management and delivery acceptance mechanism has been established to ensure product quality and service reliability.\n\nCurrently, based on the latest physics and materials science theories and proprietary algorithms, the company has independently developed software products independent of European and American software, including ICALPHAD (Intelligent CALculation of PHAse Diagrams, 2026a), CALTPP (CALculation of ThermoPhysical Properties, 2026a), MID-Meso (Microstructure Intelligent Design Mesoscale, 2026a), MID-Nano (Microstructure Intelligent Design Nanoscale, 2026a), and CPCP (Crystal Plasticity Calculation Package, 2026a). All software deliveries can provide independent controllability test reports issued by qualified third-party testing agencies, with an independent controllability level of B or above.\n\nIn terms of market applications, the company's clients include Huawei, the Chinese Academy of Sciences, Northwestern Polytechnical University, HYPERION (USA), and 33 other domestic and international universities, research institutes, and companies. RR-Tek has established an excellent reputation in intelligent materials design and engineering applications, with continuous innovation and technology transfer capabilities.",
-            missionTitle: "Our Mission",
-            missionText: "To enhance materials R&D efficiency through advanced computational software and database platforms, enabling the integration of scientific innovation and engineering applications.",
-            visionTitle: "Our Vision",
-            visionText: "To become a globally competitive platform-based technology company in materials computation, databases, and intelligent design."
+            description: "Changsha RR-Tek Technology Co., Ltd. was established in April 2021 and is located in Changsha, Hunan Province. The company focuses on the development and application of materials intelligent design software and scientific databases. Its main business includes R&D and sales of scientific software, development of scientific databases for materials thermodynamics and thermophysical properties, AI and machine learning-assisted materials R&D, industry technical training and academic conference organization, as well as new materials technology development and engineering consulting services.\n\nThe company has a professional software and scientific database R&D team composed of 15 PhDs and 5 Masters, and engages professors from the US, Germany, France, Austria, and Hungary as scientific advisors. A complete software development process management and delivery acceptance mechanism has been established to ensure product quality and service reliability.\n\nCurrently, based on the latest physics and materials science theories and proprietary algorithms, the company has developed software products independent of European and American software, including ICALPHAD (Intelligent CALculation of PHAse Diagrams, 2026a), CALTPP (CALculation of ThermoPhysical Properties, 2026a), MID-Meso (Microstructure Intelligent Design Mesoscale, 2026a), MID-Nano (Microstructure Intelligent Design Nanoscale, 2026a), and CPCP (Crystal Plasticity Calculation Package, 2026a). All software deliveries can provide independent controllability test reports issued by qualified third-party testing agencies, with an independent controllability level of B or above.\n\nIn terms of market applications, the company's clients include Huawei, the Chinese Academy of Sciences, Northwestern Polytechnical University, HYPERION (USA), and 33 other domestic and international universities, research institutes, and companies. RR-Tek has established an excellent reputation in intelligent materials design and engineering applications, with continuous innovation and technology transfer capabilities.",
+            missionVisionTitle: "Mission & Vision",
+            missionVisionText: "Darwin once said, \"The most valuable knowledge is knowledge about methods.\" Thermodynamic and kinetic databases support phase diagram thermodynamics, aging precipitation, and thermophysical property calculation; they help phase-field methods simulate microstructure evolution with precision and give crystal plasticity finite element methods the power to infer broader behavior from microscopic detail. Databases and software reinforce each other and together build a solid foundation for multiscale materials modeling. Today, progress in materials science and engineering is reflected not only in discovering new principles through major experiments, developing high-performance materials, and achieving low-cost manufacturing, but also in elevating scientific methods from specific problems to general laws and embodying them in software and databases, moving from academic papers into factory workshops, and from \"usable\" toward \"easy to use.\" Looking ahead, we will continue optimizing our software, accelerate integration with artificial intelligence, improve multiscale computational efficiency, strive to solve more materials challenges, and move forward with resolve in response to the expectations of our era for science, technology, and industry."
         },
 
         products: {
@@ -58,7 +56,7 @@ const languages = {
             database2: "Kinetic Databases",
             desc2: "Supports diffusion kinetics, microstructure evolution, and process simulation studies.",
             database3: "Thermophysical Databases",
-            desc3: "Supports prediction of thermophysical properties such as viscosity for engineering applications."
+            desc3: "Predictable parameters of thermal properties such as material viscosity and thermal conductivity."
           },
           service: {
             title: "Technical Services",
@@ -96,7 +94,7 @@ const languages = {
         },
 
         contact: {
-            tag: "Contact",
+            tag: "Contact Us",
             title: "Contact Us",
             description: "Feel free to contact us for product information, database services, and project collaboration opportunities.",
             addressTitle: "Office Address",
@@ -139,10 +137,18 @@ const languages = {
             description: "PMAG is a thermodynamic and property database for NdFeB-based permanent magnet alloys, supporting phase equilibria, Curie temperature, thermodynamic properties, and equilibrium/Scheil solidification simulation."
         },
 
+        thankYou: {
+            title: "Submission Successful - Changsha RR-Tek Technology Co., Ltd.",
+            heading: "Submission Successful",
+            message: "Thank you for your message. We will contact you as soon as possible.",
+            backBtn: "Back to Home"
+        },
+
         databasePage: {
             kicker: "Materials Databases",
             title: "Materials Databases",
             description: "RR-Tek develops a database product portfolio covering thermodynamic databases, kinetic databases, and thermophysical databases to support materials design, phase diagram analysis, diffusion simulation, process optimization, and engineering research.",
+            viewDetail: "View Details",
             thermo: {
                 title: "Thermodynamic Databases",
                 desc: "Designed for thermodynamic modeling, phase equilibrium calculation, and materials design analysis of multicomponent alloy systems, covering cemented carbides, titanium alloys, aluminum alloys, steels, nickel-based superalloys, copper alloys, and Nd-Fe-B permanent magnets.",
@@ -508,6 +514,48 @@ const languages = {
                 feature2: "The calculated Curie temperature of Nd₂Fe₁₄B (T1) differs from experiment by less than 5%",
                 feature3: "Supports validation through heat capacity, binary phase diagrams, and ternary phase diagrams"
             },
+            docsTitle: "Technical Documents",
+            doc1Title: "Database Technical Information",
+            doc1Desc: "Covers systems, models, and data structures",
+            doc2Title: "Validation and Calculation Examples",
+            doc2Desc: "Phase diagrams, Tc, and calculation cases",
+            download: "Download",
+            whatTitle: "What Is PMAG?",
+            whatDesc: "PMAG is a permanent magnet materials database developed based on the CALPHAD method. It focuses on Nd-Fe-B and multicomponent rare-earth systems and supports applications from fundamental phase diagram calculation to industrial magnet design.",
+            elements: "Elements",
+            binaries: "Binary Systems",
+            ternaries: "Ternary Systems",
+            coreTitle: "Core Functions",
+            thermoModule: "Thermodynamics and Phase Equilibria",
+            solidModule: "Solidification and Microstructure",
+            magneticModule: "Magnetism",
+            equilibrium: "Phase Equilibria",
+            equilibriumDesc: "Phase composition and stability ranges",
+            transformation: "Phase Transformation Temperatures",
+            transformationDesc: "Liquidus and solidus",
+            thermodynamic: "Thermodynamic Properties",
+            thermodynamicDesc: "Activity and heat capacity",
+            solidification: "Solidification Simulation",
+            solidificationDesc: "Equilibrium and Scheil",
+            segregation: "Microsegregation",
+            segregationDesc: "Element partitioning behavior",
+            curie: "Curie Temperature",
+            curieDesc: "Tc prediction",
+            applicationsTitle: "Typical Applications",
+            app1: "Magnet Design",
+            app1Desc: "Composition optimization",
+            app2: "High-Temperature Performance",
+            app2Desc: "Tc improvement",
+            app3: "Grain Boundary Engineering",
+            app3Desc: "Diffusion design",
+            app4: "Solidification Analysis",
+            app4Desc: "Microstructure pathways",
+            app5: "Phase Stability",
+            app5Desc: "Main-phase control",
+            app6: "Industrial Optimization",
+            app6Desc: "Process support",
+            ctaTitle: "Start Using PMAG",
+            ctaDesc: "Request a trial or technical support",
             backBtn: "Back"
         },
 
@@ -548,15 +596,13 @@ const languages = {
             tag: "Company Profile",
             title: "关于我们",
             summary: "面向材料科学与工程领域，提供软件、数据库与工程服务的一体化解决方案。",
-            description: "长沙锐睿科技有限公司成立于2021年4月，位于湖南省长沙市。公司专注于材料智能设计软件和科学数据库的开发及应用，主营业务涵盖科研软件开发与销售、材料热力学与热物性等科学数据库开发、AI与机器学习辅助材料研发、行业技术培训与学术会议组织，以及新材料技术开发与工程咨询等科技服务。\n\n公司拥有一支由 15 位博士及5位硕士组成的专业软件及科学数据库研发团队，并聘请美、德、法、奥地利和匈牙利教授为公司科学顾问。已建立完善的软件研发过程管理与交付验收机制，确保产品质量与服务可靠性。\n\n目前，基于最新的物理、材料学理论及公司自主研发的算法，公司自主研发了独立于欧美的软件，包括 ICALPHAD (Intelligent CALculation of PHAse Diagrams, 2026a)、CALTPP (CALculation of ThermoPhysical Properties, 2026a)、 MID-Meso (Microstructure Intelligent Design Mesoscale, 2026a)、 MID-Nano (Microstructure Intelligent Design Nanoscale, 2026a)和CPCP (Crystal Plasticity Calculation Package, 2026a)。所有软件在交付时可提供由具备资质的第三方软件测评机构出具的自主可控测试报告，自主可控等级达到 B 级及以上。\n\n在市场应用方面，公司客户覆盖华为、中国科学院、西北工大、美国 HYPERION公司等国内外高校、科研院所与公司33家，已在材料智能设计与工程应用领域形成优秀口碑，具备持续技术创新与成果转化能力。",
-            missionTitle: "我们的使命",
-            missionText: "以先进的材料计算软件与数据库平台提升材料研发效率，推动科研创新与工程应用融合发展。",
-            visionTitle: "我们的愿景",
-            visionText: "成为材料计算、数据库与智能设计领域具有国际竞争力的技术平台型企业。"
+            description: "长沙锐睿科技有限公司成立于2021年4月，位于湖南省长沙市。公司专注于材料智能设计软件和科学数据库的开发及应用，主营业务涵盖科研软件开发与销售、材料热力学与热物性等科学数据库开发、AI与机器学习辅助材料研发、行业技术培训与学术会议组织，以及新材料技术开发与工程咨询等科技服务。\n\n公司拥有一支由 15 位博士及5位硕士组成的专业软件及科学数据库研发团队，并聘请美、德、法、奥地利和匈牙利教授为公司科学顾问。已建立完善的软件研发过程管理与交付验收机制，确保产品质量与服务可靠性。\n\n目前，基于最新的物理、材料学理论及公司自主研发的算法，公司研发了独立于欧美的软件，包括 ICALPHAD (Intelligent CALculation of PHAse Diagrams, 2026a)、CALTPP (CALculation of ThermoPhysical Properties, 2026a)、 MID-Meso (Microstructure Intelligent Design Mesoscale, 2026a)、 MID-Nano (Microstructure Intelligent Design Nanoscale, 2026a)和CPCP (Crystal Plasticity Calculation Package, 2026a)。所有软件在交付时可提供由具备资质的第三方软件测评机构出具的自主可控测试报告，自主可控等级达到 B 级及以上。\n\n在市场应用方面，公司客户覆盖华为、中国科学院、西北工大、美国 HYPERION公司等国内外高校、科研院所与公司33家，已在材料智能设计与工程应用领域形成优秀口碑，具备持续技术创新与成果转化能力。",
+            missionVisionTitle: "使命与愿景",
+            missionVisionText: "达尔文有句名言“最有价值的知识，是关于方法的知识”。热/动力学数据库为相图热力学、时效析出、热物性计算提供支撑，推动相场法精准模拟微观组织演化，赋予晶体塑性有限元见微知著的无限可能。数据库与软件相得益彰，共同为多尺度材料建模打下扎实基础。今天，材料科学与工程的进步，不仅体现在通过重大实验发现新原理、研发高性能材料、实现低成本制造，更体现在科学方法由特殊问题上升为一般规律，并借助软件和数据库的形式具象化，从学术论文走进工厂车间，从“能用”一步步走向“好用”。面向未来，我们将持续优化软件，加速与人工智能技术的融合，提高多尺度计算效率，力争突破更多材料难题，昂首向前，砥砺前行，以回应时代对科技与产业的深切期待。"
         },
 
         products: {
-            tag: "产品与服务",
+            tag: "Products & Services",
             title: "产品与服务",
             description: "覆盖科研软件、材料数据库及工程服务的完整产品体系，支撑材料研发全流程。",
             detailBtn: "产品详情",
@@ -582,7 +628,7 @@ const languages = {
               database2: "动力学数据库",
               desc2: "支持扩散动力学、微观结构演化及工艺模拟研究。",
               database3: "热物性数据库",
-              desc3: "可预测材料粘度、热导率等热物性参数，用于工程应用。"
+              desc3: "可预测材料粘度、热导率等热物性参数。"
             },
             service: {
               title: "技术服务",
@@ -663,10 +709,18 @@ const languages = {
             description: "PMAG 稀土永磁材料数据库面向 NdFeB 基永磁合金，支持相平衡、居里温度、热力学性质、平衡凝固与 Scheil 凝固模拟。"
         },
 
+        thankYou: {
+            title: "提交成功 - 长沙锐睿科技有限公司",
+            heading: "提交成功",
+            message: "感谢您的留言，我们会尽快与您联系。",
+            backBtn: "返回首页"
+        },
+
         databasePage: {
             kicker: "Materials Databases",
             title: "材料数据库",
             description: "锐睿科技围绕热力学数据库、动力学数据库与热物性数据库建设材料数据库产品体系，服务于材料设计、相图分析、扩散模拟、工艺优化与工程应用研究。",
+            viewDetail: "查看详情",
             thermo: {
                 title: "热力学数据库",
                 desc: "面向多组合金体系热力学建模、相平衡计算与材料设计分析，覆盖硬质合金、钛合金、铝合金、钢铁、镍基高温合金、铜合金及 Nd-Fe-B 永磁体等典型体系。",
@@ -1046,6 +1100,48 @@ const languages = {
                 feature2: "Nd₂Fe₁₄B(T1) 居里温度计算与实验偏差小于 5%",
                 feature3: "支持热容、二元相图与三元相图等多类案例验证"
             },
+            docsTitle: "技术文档",
+            doc1Title: "数据库技术说明",
+            doc1Desc: "包含体系、模型及数据结构",
+            doc2Title: "验证与计算示例",
+            doc2Desc: "相图、Tc 及计算案例",
+            download: "下载",
+            whatTitle: "什么是 PMAG？",
+            whatDesc: "PMAG 是基于 CALPHAD 方法开发的永磁材料数据库，专注 Nd-Fe-B 及多元稀土体系，支持从基础相图计算到工业级磁体设计。",
+            elements: "元素",
+            binaries: "二元体系",
+            ternaries: "三元体系",
+            coreTitle: "核心功能",
+            thermoModule: "热力学与相平衡",
+            solidModule: "凝固与组织",
+            magneticModule: "磁性",
+            equilibrium: "相平衡",
+            equilibriumDesc: "相组成与稳定区",
+            transformation: "相变温度",
+            transformationDesc: "液相线/固相线",
+            thermodynamic: "热力学性质",
+            thermodynamicDesc: "活度/热容",
+            solidification: "凝固模拟",
+            solidificationDesc: "平衡与 Scheil",
+            segregation: "微偏析",
+            segregationDesc: "元素分配行为",
+            curie: "居里温度",
+            curieDesc: "Tc 预测",
+            applicationsTitle: "典型应用",
+            app1: "磁体设计",
+            app1Desc: "优化成分",
+            app2: "高温性能",
+            app2Desc: "提高 Tc",
+            app3: "晶界工程",
+            app3Desc: "扩散设计",
+            app4: "凝固分析",
+            app4Desc: "组织路径",
+            app5: "相稳定性",
+            app5Desc: "主相控制",
+            app6: "工业优化",
+            app6Desc: "工艺支持",
+            ctaTitle: "开始使用 PMAG",
+            ctaDesc: "获取试用或技术支持",
             backBtn: "返回"
         },
 
@@ -1125,6 +1221,10 @@ function updateContent() {
 
     if (typeof renderAllNewsList === "function") {
         renderAllNewsList(currentLanguage);
+    }
+
+    if (typeof renderNewsDetail === "function") {
+        renderNewsDetail(currentLanguage);
     }
 
     updateBrandText();

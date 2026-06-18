@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PMAG 永磁材料数据库 | 长沙锐睿科技有限公司</title>
+  <title data-i18n-title="pmagMeta.title">PMAG 永磁材料数据库 | 长沙锐睿科技有限公司</title>
   <link rel="stylesheet" href="styles.css" />
 
   <style>
@@ -115,16 +115,21 @@
     <a href="index.html#hero" class="brand">
       <img src="assets/logo.jpg" class="brand-logo" />
       <div class="brand-text">
-        <span class="brand-name">长沙锐睿科技有限公司</span>
-        <span class="brand-slogan">材料计算与智能设计</span>
+        <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+        <span class="brand-slogan" data-i18n="brand.slogan">材料计算与智能设计</span>
       </div>
     </a>
 
     <ul class="nav-menu">
-      <li><a href="index.html#hero">首页</a></li>
-      <li><a href="index.html#about">关于我们</a></li>
-      <li><a href="index.html#products">产品</a></li>
-      <li><a href="index.html#contact">联系</a></li>
+      <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+      <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+      <li><a href="index.html#products" data-i18n="nav.products">产品</a></li>
+      <li><a href="index.html#contact" data-i18n="nav.contact">联系</a></li>
+      <li>
+        <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
+          Switch to English
+        </button>
+      </li>
     </ul>
   </nav>
 </header>
@@ -134,32 +139,28 @@
 <!-- HERO -->
 <section class="pmag-hero">
   <div class="container">
-    <p>Materials Database</p>
-    <h1>PMAG 永磁材料数据库</h1>
-    <p class="detail-intro">
-      面向 Nd-Fe-B 永磁材料的专业热力学与磁性数据库，
-      支持相平衡、凝固过程与居里温度预测，
-      加速新一代高性能磁体设计。
-    </p>
+    <p data-i18n="pmagPage.kicker">Materials Database</p>
+    <h1 data-i18n="pmagPage.title">PMAG 永磁材料数据库</h1>
+    <p class="detail-intro" data-i18n="pmagPage.description">面向 Nd-Fe-B 永磁材料的专业热力学与磁性数据库，支持相平衡、凝固过程与居里温度预测，加速新一代高性能磁体设计。</p>
   </div>
 </section>
 
 <section class="detail-section bg-light">
   <div class="container">
-    <h2>技术文档</h2>
+    <h2 data-i18n="pmagPage.docsTitle">技术文档</h2>
 
     <div class="grid-3">
 
       <div class="feature-card">
-        <h3>数据库技术说明</h3>
-        <p>包含体系、模型及数据结构</p>
-        <a href="PMAG1.0技术信息表.pdf" class="btn-primary">下载</a>
+        <h3 data-i18n="pmagPage.doc1Title">数据库技术说明</h3>
+        <p data-i18n="pmagPage.doc1Desc">包含体系、模型及数据结构</p>
+        <a href="PMAG1.0技术信息表.pdf" class="btn-primary" data-i18n="pmagPage.download">下载</a>
       </div>
 
       <div class="feature-card">
-        <h3>验证与计算示例</h3>
-        <p>相图、Tc 及计算案例</p>
-        <a href="PMAG1.0验证与计算示例.pdf" class="btn-primary">下载</a>
+        <h3 data-i18n="pmagPage.doc2Title">验证与计算示例</h3>
+        <p data-i18n="pmagPage.doc2Desc">相图、Tc 及计算案例</p>
+        <a href="PMAG1.0验证与计算示例.pdf" class="btn-primary" data-i18n="pmagPage.download">下载</a>
       </div>
 
     </div>
@@ -169,17 +170,13 @@
 <!-- 简介 -->
 <section class="detail-section">
   <div class="container">
-    <h2>什么是 PMAG？</h2>
-    <p>
-      PMAG 是基于 CALPHAD 方法开发的永磁材料数据库，
-      专注 Nd-Fe-B 及多元稀土体系，
-      支持从基础相图计算到工业级磁体设计。
-    </p>
+    <h2 data-i18n="pmagPage.whatTitle">什么是 PMAG？</h2>
+    <p data-i18n="pmagPage.whatDesc">PMAG 是基于 CALPHAD 方法开发的永磁材料数据库，专注 Nd-Fe-B 及多元稀土体系，支持从基础相图计算到工业级磁体设计。</p>
 
     <div class="highlight-box">
-      <div><strong>14</strong>元素</div>
-      <div><strong>71</strong>二元体系</div>
-      <div><strong>24</strong>三元体系</div>
+      <div><strong>14</strong><span data-i18n="pmagPage.elements">元素</span></div>
+      <div><strong>71</strong><span data-i18n="pmagPage.binaries">二元体系</span></div>
+      <div><strong>24</strong><span data-i18n="pmagPage.ternaries">三元体系</span></div>
     </div>
   </div>
 </section>
@@ -187,24 +184,24 @@
 <!-- 功能 -->
 <section class="detail-section bg-light" id="features">
   <div class="container">
-    <h2>核心功能</h2>
+    <h2 data-i18n="pmagPage.coreTitle">核心功能</h2>
 
-    <h3 class="module-title">热力学与相平衡</h3>
+    <h3 class="module-title" data-i18n="pmagPage.thermoModule">热力学与相平衡</h3>
     <div class="grid-3">
-      <div class="feature-card"><h3>相平衡</h3><p>相组成与稳定区</p></div>
-      <div class="feature-card"><h3>相变温度</h3><p>液相线/固相线</p></div>
-      <div class="feature-card"><h3>热力学性质</h3><p>活度/热容</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.equilibrium">相平衡</h3><p data-i18n="pmagPage.equilibriumDesc">相组成与稳定区</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.transformation">相变温度</h3><p data-i18n="pmagPage.transformationDesc">液相线/固相线</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.thermodynamic">热力学性质</h3><p data-i18n="pmagPage.thermodynamicDesc">活度/热容</p></div>
     </div>
 
-    <h3 class="module-title">凝固与组织</h3>
+    <h3 class="module-title" data-i18n="pmagPage.solidModule">凝固与组织</h3>
     <div class="grid-3">
-      <div class="feature-card"><h3>凝固模拟</h3><p>平衡与 Scheil</p></div>
-      <div class="feature-card"><h3>微偏析</h3><p>元素分配行为</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.solidification">凝固模拟</h3><p data-i18n="pmagPage.solidificationDesc">平衡与 Scheil</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.segregation">微偏析</h3><p data-i18n="pmagPage.segregationDesc">元素分配行为</p></div>
     </div>
 
-    <h3 class="module-title">磁性</h3>
+    <h3 class="module-title" data-i18n="pmagPage.magneticModule">磁性</h3>
     <div class="grid-3">
-      <div class="feature-card"><h3>居里温度</h3><p>Tc 预测</p></div>
+      <div class="feature-card"><h3 data-i18n="pmagPage.curie">居里温度</h3><p data-i18n="pmagPage.curieDesc">Tc 预测</p></div>
     </div>
 
   </div>
@@ -213,15 +210,15 @@
 <!-- 应用 -->
 <section class="detail-section">
   <div class="container">
-    <h2>典型应用</h2>
+    <h2 data-i18n="pmagPage.applicationsTitle">典型应用</h2>
 
     <div class="grid-3">
-      <div class="app-card"><h3>磁体设计</h3><p>优化成分</p></div>
-      <div class="app-card"><h3>高温性能</h3><p>提高 Tc</p></div>
-      <div class="app-card"><h3>晶界工程</h3><p>扩散设计</p></div>
-      <div class="app-card"><h3>凝固分析</h3><p>组织路径</p></div>
-      <div class="app-card"><h3>相稳定性</h3><p>主相控制</p></div>
-      <div class="app-card"><h3>工业优化</h3><p>工艺支持</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app1">磁体设计</h3><p data-i18n="pmagPage.app1Desc">优化成分</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app2">高温性能</h3><p data-i18n="pmagPage.app2Desc">提高 Tc</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app3">晶界工程</h3><p data-i18n="pmagPage.app3Desc">扩散设计</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app4">凝固分析</h3><p data-i18n="pmagPage.app4Desc">组织路径</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app5">相稳定性</h3><p data-i18n="pmagPage.app5Desc">主相控制</p></div>
+      <div class="app-card"><h3 data-i18n="pmagPage.app6">工业优化</h3><p data-i18n="pmagPage.app6Desc">工艺支持</p></div>
     </div>
   </div>
 </section>
@@ -230,18 +227,19 @@
 
 <!-- CTA -->
 <section class="cta-section">
-  <h2>开始使用 PMAG</h2>
-  <p>获取试用或技术支持</p>
-  <a href="index.html#contact" class="btn-primary">联系我们</a>
+  <h2 data-i18n="pmagPage.ctaTitle">开始使用 PMAG</h2>
+  <p data-i18n="pmagPage.ctaDesc">获取试用或技术支持</p>
+  <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系我们</a>
 </section>
 
 </main>
 
 <footer>
   <div class="container">
-    <p>© 2026 长沙锐睿科技有限公司</p>
+    <p data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
   </div>
 </footer>
 
+<script src="i18n.js"></script>
 </body>
 </html>

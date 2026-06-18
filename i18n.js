@@ -90,7 +90,7 @@ const languages = {
             kicker: "News & Insights",
             title: "News & Insights",
             description: "Browse all company news, product releases, conference activities, and technical updates from RR-Tek.",
-            backHome: "Back to Home"
+            backHome: "Back to News List"
         },
 
         contact: {
@@ -662,7 +662,7 @@ const languages = {
             kicker: "News & Insights",
             title: "新闻动态",
             description: "查看锐睿科技全部新闻动态、产品发布、会议活动及技术进展。",
-            backHome: "返回首页"
+            backHome: "返回新闻列表"
         },
 
         contact: {

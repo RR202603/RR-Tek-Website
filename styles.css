@@ -19,6 +19,7 @@
     --border-strong: rgba(13, 79, 179, 0.18);
     --shadow: 0 10px 30px rgba(12, 41, 92, 0.08);
     --shadow-hover: 0 18px 36px rgba(12, 41, 92, 0.14);
+    --button-radius: 8px;
     --radius: 14px;
     --radius-lg: 18px;
     --max-width: 1200px;
@@ -146,7 +147,7 @@ header {
     background: var(--primary);
     color: var(--white);
     padding: 10px 18px;
-    border-radius: 999px;
+    border-radius: var(--button-radius);
     cursor: pointer;
     font-size: 0.92rem;
     font-weight: 700;
@@ -265,7 +266,7 @@ header {
     justify-content: center;
     min-width: 172px;
     padding: 14px 28px;
-    border-radius: 999px;
+    border-radius: var(--button-radius);
     font-size: 0.95rem;
     font-weight: 700;
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
@@ -672,7 +673,7 @@ section {
     background: var(--primary);
     color: var(--white);
     padding: 12px 22px;
-    border-radius: 999px;
+    border-radius: var(--button-radius);
     cursor: pointer;
     font-weight: 700;
     transition: background 0.25s ease;
@@ -934,14 +935,14 @@ footer p {
   background: #0056d2;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: var(--button-radius);
 }
 
 .btn-secondary {
   border: 1px solid #0056d2;
   color: #0056d2;
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: var(--button-radius);
 }
 
 
@@ -1261,7 +1262,7 @@ footer p {
         padding: 6px 9px;
         font-size: 0.72rem;
         line-height: 1.2;
-        border-radius: 999px;
+        border-radius: var(--button-radius);
         white-space: nowrap;
     }
 

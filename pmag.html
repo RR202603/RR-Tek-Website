@@ -105,6 +105,21 @@
       display: inline-block;
     }
 
+    .cta-section .detail-cta {
+      justify-content: center;
+    }
+
+    .cta-section .detail-cta .btn-primary,
+    .cta-section .detail-cta .detail-outline-btn {
+      margin-top: 0;
+      display: inline-flex;
+    }
+
+    .cta-section .detail-cta .detail-outline-btn {
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.72);
+    }
+
   </style>
 </head>
 
@@ -229,7 +244,10 @@
 <section class="cta-section">
   <h2 data-i18n="pmagPage.ctaTitle">开始使用 PMAG</h2>
   <p data-i18n="pmagPage.ctaDesc">获取试用或技术支持</p>
-  <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系我们</a>
+  <div class="detail-cta">
+    <a href="database.html" class="btn-secondary detail-outline-btn" data-i18n="detailPage.backBtn">返回</a>
+    <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系我们</a>
+  </div>
 </section>
 
 </main>

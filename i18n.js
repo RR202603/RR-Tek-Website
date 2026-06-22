@@ -343,7 +343,12 @@ const translations = {
             en: "Browse all company news, product releases, conference activities, and technical updates from RR-Tek.",
             fr: "Parcourez les actualites de l'entreprise, les lancements de produits, les evenements et les mises a jour techniques de RR-Tek."
         },
-        backHome: {
+        backIndex: {
+            zh: "返回首页",
+            en: "Back to Home",
+            fr: "Retour a l'accueil"
+        },
+        backList: {
             zh: "返回新闻列表",
             en: "Back to News List",
             fr: "Retour a la liste des actualites"
@@ -2396,7 +2401,7 @@ function updateLanguageSwitcher() {
 }
 
 function setLanguage(lang) {
-    if (!languageOrder.includes(lang) || lang === currentLanguage) {
+    if (!languageOrder.includes(lang)) {
         updateLanguageSwitcher();
         return;
     }
@@ -2411,6 +2416,18 @@ function toggleLanguage() {
     setLanguage(languageOrder[(currentIndex + 1) % languageOrder.length]);
 }
 
+function bindLanguageSwitcher() {
+    document.querySelectorAll(".lang-option").forEach((button) => {
+        button.addEventListener("click", () => {
+            setLanguage(button.dataset.lang);
+        });
+    });
+}
+
+window.setLanguage = setLanguage;
+window.toggleLanguage = toggleLanguage;
+
 document.addEventListener("DOMContentLoaded", () => {
+    bindLanguageSwitcher();
     updateContent();
 });

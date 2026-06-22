@@ -140,11 +140,11 @@
       <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
       <li><a href="index.html#products" data-i18n="nav.products">产品</a></li>
       <li><a href="index.html#contact" data-i18n="nav.contact">联系</a></li>
-      <li>
-        <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
-          Switch to English
-        </button>
-      </li>
+      <li class="language-switcher" aria-label="Language selector">
+                    <button type="button" class="lang-option" data-lang="zh" onclick="setLanguage('zh')">中文</button>
+                    <button type="button" class="lang-option" data-lang="en" onclick="setLanguage('en')">English</button>
+                    <button type="button" class="lang-option" data-lang="fr" onclick="setLanguage('fr')">Français</button>
+                </li>
     </ul>
   </nav>
 </header>
@@ -189,9 +189,9 @@
     <p data-i18n="pmagPage.whatDesc">PMAG 是基于 CALPHAD 方法开发的永磁材料数据库，专注 Nd-Fe-B 及多元稀土体系，支持从基础相图计算到工业级磁体设计。</p>
 
     <div class="highlight-box">
-      <div><strong>14</strong><span data-i18n="pmagPage.elements">元素</span></div>
-      <div><strong>71</strong><span data-i18n="pmagPage.binaries">二元体系</span></div>
-      <div><strong>24</strong><span data-i18n="pmagPage.ternaries">三元体系</span></div>
+      <div><strong>16</strong><span data-i18n="pmagPage.elements">元素</span></div>
+      <div><strong>102</strong><span data-i18n="pmagPage.binaries">二元体系</span></div>
+      <div><strong>30</strong><span data-i18n="pmagPage.ternaries">三元体系</span></div>
     </div>
   </div>
 </section>
@@ -245,15 +245,15 @@
   <h2 data-i18n="pmagPage.ctaTitle">开始使用 PMAG</h2>
   <p data-i18n="pmagPage.ctaDesc">获取试用或技术支持</p>
   <div class="detail-cta">
-    <a href="database.html" class="btn-secondary detail-outline-btn" data-i18n="detailPage.backBtn">返回</a>
-    <a href="index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系我们</a>
+    <a href="database.html" class="btn-primary" data-i18n="detailPage.backBtn">返回</a>
+    <a href="index.html#contact" class="btn-secondary detail-outline-btn" data-i18n="detailPage.contactBtn">联系我们</a>
   </div>
 </section>
 
 </main>
 
 <footer>
-  <div class="container">
+  <div class="container footer-inner">
     <p data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
   </div>
 </footer>

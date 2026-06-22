@@ -23,11 +23,11 @@
             <li><a href="../index.html#products" data-i18n="nav.products">产品与服务</a></li>
             <li><a href="../index.html#news" data-i18n="nav.news">新闻动态</a></li>
             <li><a href="../index.html#contact" data-i18n="nav.contact">联系我们</a></li>
-            <li>
-        <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
-            Switch to English
-        </button>
-    </li>
+            <li class="language-switcher" aria-label="Language selector">
+                    <button type="button" class="lang-option" data-lang="zh" onclick="setLanguage('zh')">中文</button>
+                    <button type="button" class="lang-option" data-lang="en" onclick="setLanguage('en')">English</button>
+                    <button type="button" class="lang-option" data-lang="fr" onclick="setLanguage('fr')">Français</button>
+                </li>
 </ul>
     </nav>
 </header>
@@ -73,8 +73,8 @@
             </article>
 
             <div class="detail-cta">
-                <a href="../news.html" class="btn-secondary detail-outline-btn" data-i18n="newsPage.backHome">返回新闻列表</a>
-                <a href="../index.html#contact" class="btn-primary" data-i18n="detailPage.contactBtn">联系咨询</a>
+                <a href="../news.html" class="btn-primary" data-i18n="newsPage.backHome">返回新闻列表</a>
+                <a href="../index.html#contact" class="btn-secondary detail-outline-btn" data-i18n="detailPage.contactBtn">联系咨询</a>
             </div>
         </div>
     </section>

@@ -2377,6 +2377,7 @@ function updateContent() {
     }
 
     updateBrandText();
+    updateLanguageSwitcher();
 }
 
 function updateBrandText() {
@@ -2386,11 +2387,28 @@ function updateBrandText() {
     }
 }
 
-function toggleLanguage() {
-    const currentIndex = languageOrder.indexOf(currentLanguage);
-    currentLanguage = languageOrder[(currentIndex + 1) % languageOrder.length];
+function updateLanguageSwitcher() {
+    document.querySelectorAll(".lang-option").forEach((button) => {
+        const isActive = button.dataset.lang === currentLanguage;
+        button.classList.toggle("active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+}
+
+function setLanguage(lang) {
+    if (!languageOrder.includes(lang) || lang === currentLanguage) {
+        updateLanguageSwitcher();
+        return;
+    }
+
+    currentLanguage = lang;
     localStorage.setItem("rrTekLanguage", currentLanguage);
     updateContent();
+}
+
+function toggleLanguage() {
+    const currentIndex = languageOrder.indexOf(currentLanguage);
+    setLanguage(languageOrder[(currentIndex + 1) % languageOrder.length]);
 }
 
 document.addEventListener("DOMContentLoaded", () => {

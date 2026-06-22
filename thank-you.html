@@ -57,23 +57,5 @@
   </div>
 
   <script src="i18n.js"></script>
-  <script>
-    function toggleLanguage(lang = "zh") {
-      document.querySelectorAll("[data-i18n]").forEach(el => {
-        const key = el.getAttribute("data-i18n");
-        if (window.i18n && i18n[key]) {
-          el.textContent = i18n[key][lang] || i18n[key].zh;
-        }
-      });
-      document.querySelectorAll("[data-i18n-title]").forEach(el => {
-        const key = el.getAttribute("data-i18n-title");
-        if (window.i18n && i18n[key]) {
-          document.title = i18n[key][lang] || i18n[key].zh;
-        }
-      });
-    }
-
-    document.addEventListener("DOMContentLoaded", () => toggleLanguage("zh"));
-  </script>
 </body>
 </html>

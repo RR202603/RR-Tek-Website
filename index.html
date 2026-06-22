@@ -32,10 +32,10 @@
                 <li><a href="#products" data-i18n="nav.products">产品与服务</a></li>
                 <li><a href="#news" data-i18n="nav.news">新闻动态</a></li>
                 <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
-                <li>
-                    <button type="button" class="lang-btn" onclick="toggleLanguage()" data-i18n="nav.switchLang">
-                        Switch to English
-                    </button>
+                <li class="language-switcher" aria-label="Language selector">
+                    <button type="button" class="lang-option" data-lang="zh" onclick="setLanguage('zh')">中文</button>
+                    <button type="button" class="lang-option" data-lang="en" onclick="setLanguage('en')">English</button>
+                    <button type="button" class="lang-option" data-lang="fr" onclick="setLanguage('fr')">Français</button>
                 </li>
             </ul>
         </nav>
@@ -358,14 +358,18 @@
         const form = document.getElementById("contact-form");
         const status = document.getElementById("form-status");
         if (!form || !status) return;
-        const getText = (zh, en) => document.documentElement.lang.startsWith("en") ? en : zh;
+        const getText = (zh, en, fr = en) => {
+            if (document.documentElement.lang.startsWith("fr")) return fr;
+            if (document.documentElement.lang.startsWith("en")) return en;
+            return zh;
+        };
         form.addEventListener("submit", async (event) => {
             event.preventDefault();
             const submitBtn = form.querySelector(".submit-btn");
             const originalBtnText = submitBtn.textContent;
             submitBtn.disabled = true;
-            submitBtn.textContent = getText("提交中...", "Submitting...");
-            status.textContent = getText("正在提交，请稍候。", "Submitting, please wait.");
+            submitBtn.textContent = getText("提交中...", "Submitting...", "Envoi...");
+            status.textContent = getText("正在提交，请稍候。", "Submitting, please wait.", "Envoi en cours, veuillez patienter.");
             try {
                 const formData = new FormData(form);
                 formData.set("page_url", window.location.href);
@@ -380,7 +384,8 @@
                 }
                 let errorMessage = getText(
                     "提交失败，请稍后重试，或直接发送邮件至 rrui_info@163.com。",
-                    "Submission failed. Please try again later or email rrui_info@163.com directly."
+                    "Submission failed. Please try again later or email rrui_info@163.com directly.",
+                    "L'envoi a echoue. Veuillez reessayer plus tard ou envoyer directement un e-mail a rrui_info@163.com."
                 );
                 try {
                     const data = await response.json();
@@ -392,7 +397,8 @@
             } catch (error) {
                 status.textContent = getText(
                     "网络异常，请稍后重试，或直接发送邮件至 rrui_info@163.com。",
-                    "Network error. Please try again later or email rrui_info@163.com directly."
+                    "Network error. Please try again later or email rrui_info@163.com directly.",
+                    "Erreur reseau. Veuillez reessayer plus tard ou envoyer directement un e-mail a rrui_info@163.com."
                 );
             } finally {
                 submitBtn.disabled = false;

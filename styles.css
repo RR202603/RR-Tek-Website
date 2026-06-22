@@ -871,22 +871,11 @@ footer p {
 }
 
 .demo-card figcaption {
-    display: grid;
-    gap: 6px;
     padding: 12px 14px 14px;
-}
-
-.demo-card figcaption strong {
     color: #243044;
     font-size: 0.96rem;
     font-weight: 700;
     line-height: 1.45;
-}
-
-.demo-card figcaption span {
-    color: var(--text-light);
-    font-size: 0.9rem;
-    line-height: 1.65;
 }
 
 .detail-cta {

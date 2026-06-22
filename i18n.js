@@ -909,64 +909,29 @@ const translations = {
             },
             demos: {
                 liquidus: {
-                    title: {
-                        zh: "液相面投影图计算",
-                        en: "Liquidus Projection Calculation",
-                        fr: "Calcul de projection de liquidus"
-                    },
-                    desc: {
-                        zh: "展示液相面投影计算设置、执行过程和结果生成。",
-                        en: "Shows the setup, execution, and result generation process for liquidus projection calculation.",
-                        fr: "Montre le parametrage, l'execution et la generation des resultats pour le calcul de projection de liquidus."
-                    }
+                    zh: "液相面投影图计算",
+                    en: "Liquidus Projection Calculation",
+                    fr: "Calcul de projection de liquidus"
                 },
                 vertical: {
-                    title: {
-                        zh: "垂直截面计算",
-                        en: "Vertical Section Calculation",
-                        fr: "Calcul de section verticale"
-                    },
-                    desc: {
-                        zh: "展示指定成分路径下温度-成分截面的计算流程。",
-                        en: "Shows the calculation workflow for a temperature-composition section along a specified composition path.",
-                        fr: "Montre le workflow de calcul d'une section temperature-composition le long d'un chemin de composition defini."
-                    }
+                    zh: "垂直截面计算",
+                    en: "Vertical Section Calculation",
+                    fr: "Calcul de section verticale"
                 },
                 gibbs: {
-                    title: {
-                        zh: "Gibbs 自由能计算",
-                        en: "Gibbs Free Energy Calculation",
-                        fr: "Calcul de l'energie libre de Gibbs"
-                    },
-                    desc: {
-                        zh: "展示不同相的 Gibbs 自由能曲线计算与结果对比。",
-                        en: "Shows Gibbs free energy curve calculation and result comparison for different phases.",
-                        fr: "Montre le calcul des courbes d'energie libre de Gibbs et la comparaison des resultats pour differentes phases."
-                    }
+                    zh: "Gibbs 自由能计算",
+                    en: "Gibbs Free Energy Calculation",
+                    fr: "Calcul de l'energie libre de Gibbs"
                 },
                 binary: {
-                    title: {
-                        zh: "二元相图计算",
-                        en: "Binary Phase Diagram Calculation",
-                        fr: "Calcul de diagramme de phases binaire"
-                    },
-                    desc: {
-                        zh: "展示二元体系相图计算设置、计算进度和图形输出。",
-                        en: "Shows setup, calculation progress, and graphical output for a binary phase diagram.",
-                        fr: "Montre le parametrage, la progression du calcul et la sortie graphique d'un diagramme de phases binaire."
-                    }
+                    zh: "二元相图计算",
+                    en: "Binary Phase Diagram Calculation",
+                    fr: "Calcul de diagramme de phases binaire"
                 },
                 isothermal: {
-                    title: {
-                        zh: "等温截面计算",
-                        en: "Isothermal Section Calculation",
-                        fr: "Calcul de section isotherme"
-                    },
-                    desc: {
-                        zh: "展示三元体系等温截面计算和相区结果生成。",
-                        en: "Shows isothermal section calculation for a ternary system and phase-region result generation.",
-                        fr: "Montre le calcul d'une section isotherme pour un systeme ternaire et la generation des zones de phases."
-                    }
+                    zh: "等温截面计算",
+                    en: "Isothermal Section Calculation",
+                    fr: "Calcul de section isotherme"
                 }
             },
             functions: {

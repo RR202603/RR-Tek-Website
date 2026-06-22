@@ -846,19 +846,14 @@ const translations = {
                 fr: "Applications typiques"
             },
             downloadTitle: {
-                zh: "资料下载与咨询",
-                en: "Downloads and Consultation",
-                fr: "Telechargements et consultation"
+                zh: "资料下载",
+                en: "Downloads",
+                fr: "Telechargements"
             },
             downloadDesc: {
                 zh: "可下载该软件的两页介绍版 PDF，用于官网访客快速了解功能、优势和代表性结果。",
                 en: "Download the two-page product introduction PDF to quickly learn about the functions, advantages, and representative results.",
                 fr: "Telechargez la presentation PDF du produit pour decouvrir rapidement les fonctions, avantages et resultats representatifs."
-            },
-            contactInfo: {
-                zh: "技术咨询：王雨霏 rrui_info@163.com ｜ 软件购买：彭英彪 pengyingbiao1987@163.com ｜ 电话：15973134526 / 19572912322",
-                en: "Technical consultation: Yufei Wang rrui_info@163.com | Software purchase: Yingbiao Peng pengyingbiao1987@163.com | Phone: 15973134526 / 19572912322",
-                fr: "Consultation technique : Yufei Wang rrui_info@163.com | Achat logiciel : Yingbiao Peng pengyingbiao1987@163.com | Telephone : 15973134526 / 19572912322"
             },
             downloadPdf: {
                 zh: "下载产品介绍 PDF",

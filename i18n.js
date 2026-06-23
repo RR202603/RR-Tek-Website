@@ -2093,6 +2093,11 @@ const translations = {
             en: "Covers systems, models, and data structures",
             fr: "Couvre les systemes, modeles et structures de donnees"
         },
+        doc1Href: {
+            zh: "RRPMAG1.0数据库技术信息手册.pdf",
+            en: "RRPMAG1.0_Technical_Information.pdf",
+            fr: "RRPMAG1.0_Technical_Information.pdf"
+        },
         doc2Title: {
             zh: "验证与计算示例",
             en: "Validation and Calculation Examples",
@@ -2398,6 +2403,15 @@ function updateContent() {
 
         if (translation !== null && translation !== undefined) {
             element.setAttribute("content", translation);
+        }
+    });
+
+    document.querySelectorAll("[data-i18n-href]").forEach((element) => {
+        const key = element.getAttribute("data-i18n-href");
+        const translation = getTranslation(key, currentLanguage);
+
+        if (translation !== null && translation !== undefined) {
+            element.setAttribute("href", translation);
         }
     });
 

@@ -2094,9 +2094,9 @@ const translations = {
             fr: "Couvre les systemes, modeles et structures de donnees"
         },
         doc1Href: {
-            zh: "RRPMAG1.0数据库技术信息手册.pdf",
-            en: "RRPMAG1.0_Technical_Information.pdf",
-            fr: "RRPMAG1.0_Technical_Information.pdf"
+            zh: "RRPMAG1.0_数据库技术信息手册_ZH.pdf",
+            en: "RRPMAG1.0_Technical_Information_EN.pdf",
+            fr: "RRPMAG1.0_Informations_Techniques_FR.pdf"
         },
         doc2Title: {
             zh: "验证与计算示例",

@@ -559,9 +559,9 @@ const translations = {
                 fr: "Bases de donnees thermodynamiques"
             },
             desc: {
-                zh: "面向多组合金体系热力学建模、相平衡计算与材料设计分析，覆盖硬质合金、钛合金、铝合金、钢铁、镍基高温合金、铜合金及 Nd-Fe-B 永磁体等典型体系。",
-                en: "Designed for thermodynamic modeling, phase equilibrium calculation, and materials design analysis of multicomponent alloy systems, covering cemented carbides, titanium alloys, aluminum alloys, steels, nickel-based superalloys, copper alloys, and Nd-Fe-B permanent magnets.",
-                fr: "Destinees a la modelisation thermodynamique, au calcul d'equilibres de phases et a l'analyse de conception des alliages multicomposants."
+                zh: "面向多组合金体系热力学建模、相平衡计算与材料设计分析，覆盖硬质合金、钛合金、铝合金、钢铁、镍基高温合金、铜合金及永磁体材料等典型体系。",
+                en: "Designed for thermodynamic modeling, phase equilibrium calculation, and materials design analysis of multicomponent alloy systems, covering cemented carbides, titanium alloys, aluminum alloys, steels, nickel-based superalloys, copper alloys, and permanent magnet materials.",
+                fr: "Destinees a la modelisation thermodynamique, au calcul d'equilibres de phases et a l'analyse de conception des alliages multicomposants, couvrant les carbures cementes, les alliages de titane, les alliages d'aluminium, les aciers, les superalliages a base de nickel, les alliages de cuivre et les materiaux d'aimants permanents."
             },
             item1: {
                 zh: "多组元硬质合金热力学数据库 RRTDCC-2.0",

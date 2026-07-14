@@ -504,9 +504,9 @@ const translations = {
             fr: "Base de donnees pour materiaux magnetiques permanents | Changsha RR-Tek Technology Co., Ltd."
         },
         description: {
-            zh: "PMAG 稀土永磁材料数据库面向 NdFeB 基永磁合金，支持相平衡、居里温度、热力学性质、平衡凝固与 Scheil 凝固模拟。",
-            en: "PMAG is a thermodynamic and property database for NdFeB-based permanent magnet alloys, supporting phase equilibria, Curie temperature, thermodynamic properties, and equilibrium/Scheil solidification simulation.",
-            fr: "PMAG est une base thermodynamique et de proprietes pour les alliages d'aimants permanents NdFeB."
+            zh: "PMAG 永磁材料数据库面向永磁材料，支持相平衡、居里温度、热力学性质、平衡凝固与 Scheil 凝固模拟。",
+            en: "PMAG is a thermodynamic and property database for permanent magnet materials, supporting phase equilibria, Curie temperature, thermodynamic properties, and equilibrium/Scheil solidification simulation.",
+            fr: "PMAG est une base thermodynamique et de proprietes pour les materiaux d'aimants permanents."
         }
     },
     thankYou: {
@@ -1939,9 +1939,9 @@ const translations = {
             fr: "Base de donnees pour materiaux magnetiques permanents"
         },
         description: {
-            zh: "PMAG 是一套面向 NdFeB 基稀土永磁合金的热力学与性质数据库，支持相图与热力学性质计算、相平衡预测、居里温度分析，以及平衡与非平衡凝固过程模拟。",
-            en: "PMAG is a thermodynamic and property database for NdFeB-based rare-earth permanent magnet alloys, supporting phase diagram and thermodynamic property calculation, phase equilibrium prediction, Curie temperature analysis, and both equilibrium and non-equilibrium solidification simulation.",
-            fr: "PMAG est une base de donnees thermodynamiques et de proprietes pour les aimants permanents aux terres rares a base NdFeB, prenant en charge les calculs de phases, l'equilibre, la temperature de Curie et la solidification."
+            zh: "PMAG 是一套面向永磁材料的热力学与性质数据库，支持相图与热力学性质计算、相平衡预测、居里温度分析，以及平衡与非平衡凝固过程模拟。",
+            en: "PMAG is a thermodynamic and property database for permanent magnet materials, supporting phase diagram and thermodynamic property calculation, phase equilibrium prediction, Curie temperature analysis, and both equilibrium and non-equilibrium solidification simulation.",
+            fr: "PMAG est une base de donnees thermodynamiques et de proprietes pour les materiaux d'aimants permanents, prenant en charge les calculs de diagrammes de phases et de proprietes thermodynamiques, la prediction des equilibres de phases, l'analyse de la temperature de Curie ainsi que la simulation de la solidification a l'equilibre et hors equilibre."
         },
         section1: {
             title: {

@@ -1160,15 +1160,30 @@ const translations = {
                     en: "Multicomponent diffusion simulation",
                     fr: "Simulation de diffusion multicomposant"
                 },
+                interdiffusion: {
+                    zh: "互扩散系数高通量计算",
+                    en: "High-throughput interdiffusion coefficient calculation",
+                    fr: "Calcul haut debit des coefficients d'interdiffusion"
+                },
                 twoDimensional: {
                     zh: "二维扩散模拟",
                     en: "Two-dimensional diffusion simulation",
                     fr: "Simulation de diffusion bidimensionnelle"
                 },
+                movingBoundary: {
+                    zh: "移动相界扩散模拟",
+                    en: "Moving phase-boundary diffusion simulation",
+                    fr: "Simulation de diffusion avec interface de phase mobile"
+                },
                 compoundGrowth: {
                     zh: "线性化合物扩散生长",
                     en: "Line-compound diffusion growth",
                     fr: "Croissance par diffusion de composes lineaires"
+                },
+                carburizing: {
+                    zh: "渗碳 / 渗氮模拟",
+                    en: "Carburizing and nitriding simulation",
+                    fr: "Simulation de cementation et de nitruration"
                 },
                 interface: {
                     zh: "用户操作界面",
@@ -1324,6 +1339,26 @@ const translations = {
                     zh: "纯金属液态粘度",
                     en: "Liquid viscosity of pure metals",
                     fr: "Viscosite liquide des metaux purs"
+                },
+                ternaryAlloy: {
+                    zh: "三元合金液态粘度",
+                    en: "Liquid viscosity of ternary alloys",
+                    fr: "Viscosite liquide des alliages ternaires"
+                },
+                pureOxide: {
+                    zh: "纯氧化物液态粘度",
+                    en: "Liquid viscosity of pure oxides",
+                    fr: "Viscosite liquide des oxydes purs"
+                },
+                mgoAl2o3Sio2: {
+                    zh: "MgO-Al2O3-SiO2 液态粘度",
+                    en: "Liquid viscosity of MgO-Al2O3-SiO2",
+                    fr: "Viscosite liquide de MgO-Al2O3-SiO2"
+                },
+                caoAl2o3Sio2: {
+                    zh: "CaO-Al2O3-SiO2 液态粘度",
+                    en: "Liquid viscosity of CaO-Al2O3-SiO2",
+                    fr: "Viscosite liquide de CaO-Al2O3-SiO2"
                 },
                 processWindow: {
                     zh: "粘度工艺窗口设计",
@@ -1510,6 +1545,11 @@ const translations = {
                     en: "Effect of lattice misfit on precipitate morphology",
                     fr: "Effet du desaccord de reseau sur la morphologie des precipites"
                 },
+                interfaceDefect: {
+                    zh: "析出相-基体相界面缺陷演化",
+                    en: "Defect evolution at precipitate-matrix interfaces",
+                    fr: "Evolution des defauts aux interfaces precipite-matrice"
+                },
                 spinodal: {
                     zh: "界面内低维调幅分解",
                     en: "Low-dimensional spinodal decomposition inside interfaces",
@@ -1694,6 +1734,21 @@ const translations = {
                     zh: "硬质合金裂纹扩展",
                     en: "Crack growth in cemented carbides",
                     fr: "Propagation de fissures dans les carbures cementes"
+                },
+                crack3d: {
+                    zh: "裂纹扩展三维视图",
+                    en: "Three-dimensional crack-growth view",
+                    fr: "Vue tridimensionnelle de la propagation de fissures"
+                },
+                discontinuousPrecipitation: {
+                    zh: "非连续析出",
+                    en: "Discontinuous precipitation",
+                    fr: "Precipitation discontinue"
+                },
+                elastoplastic: {
+                    zh: "非均质结构弹塑性验证",
+                    en: "Elastoplastic validation of heterogeneous structures",
+                    fr: "Validation elastoplastique de structures heterogenes"
                 },
                 grain: {
                     zh: "晶粒微结构模拟",

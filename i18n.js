@@ -1149,6 +1149,43 @@ const translations = {
                     fr: "Fourniture precise de parametres pour les simulations de champ de phase, de precipitation et elements finis"
                 }
             },
+            demoTitle: {
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
+            },
+            demoDesc: {
+                zh: "展示原子移动性参数优化、多元扩散、多维扩散、线性化合物扩散生长和用户操作界面等典型结果。",
+                en: "Representative results include atomic mobility parameter optimization, multicomponent diffusion, multidimensional diffusion, line-compound diffusion growth, and the user interface.",
+                fr: "Les resultats representatifs couvrent l'optimisation des parametres de mobilite atomique, la diffusion multicomposant, la diffusion multidimensionnelle, la croissance par diffusion des composes lineaires et l'interface utilisateur."
+            },
+            demos: {
+                mobility: {
+                    zh: "原子移动性参数优化",
+                    en: "Atomic mobility parameter optimization",
+                    fr: "Optimisation des parametres de mobilite atomique"
+                },
+                multicomponent: {
+                    zh: "多元扩散模拟",
+                    en: "Multicomponent diffusion simulation",
+                    fr: "Simulation de diffusion multicomposant"
+                },
+                twoDimensional: {
+                    zh: "二维扩散模拟",
+                    en: "Two-dimensional diffusion simulation",
+                    fr: "Simulation de diffusion bidimensionnelle"
+                },
+                compoundGrowth: {
+                    zh: "线性化合物扩散生长",
+                    en: "Line-compound diffusion growth",
+                    fr: "Croissance par diffusion de composes lineaires"
+                },
+                interface: {
+                    zh: "用户操作界面",
+                    en: "User interface",
+                    fr: "Interface utilisateur"
+                }
+            },
             advantages: {
                 item1: {
                     zh: "无需设定参数初始值的智能优化",
@@ -1287,6 +1324,43 @@ const translations = {
                     fr: "Developpement de bases de donnees thermophysiques pour materiaux d'ingenierie et alliages multicomposants"
                 }
             },
+            demoTitle: {
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
+            },
+            demoDesc: {
+                zh: "展示液态粘度、工艺窗口、热导率曲面、多相复合材料热导率和反向设计等典型结果。",
+                en: "Representative results include liquid viscosity, process-window design, thermal conductivity surfaces, multiphase composite conductivity, and inverse design.",
+                fr: "Les resultats representatifs couvrent la viscosite liquide, la conception de fenetres de procede, les surfaces de conductivite thermique, la conductivite des composites multiphases et la conception inverse."
+            },
+            demos: {
+                pureMetal: {
+                    zh: "纯金属液态粘度",
+                    en: "Liquid viscosity of pure metals",
+                    fr: "Viscosite liquide des metaux purs"
+                },
+                processWindow: {
+                    zh: "粘度工艺窗口设计",
+                    en: "Viscosity process-window design",
+                    fr: "Conception de fenetre de procede par viscosite"
+                },
+                conductivitySurface: {
+                    zh: "多元合金热导率曲面",
+                    en: "Thermal conductivity surface of multicomponent alloys",
+                    fr: "Surface de conductivite thermique des alliages multicomposants"
+                },
+                composite: {
+                    zh: "多相复合材料热导率",
+                    en: "Thermal conductivity of multiphase composites",
+                    fr: "Conductivite thermique des composites multiphases"
+                },
+                reverseDesign: {
+                    zh: "热导率反向设计",
+                    en: "Thermal conductivity inverse design",
+                    fr: "Conception inverse de la conductivite thermique"
+                }
+            },
             advantages: {
                 item1: {
                     zh: "模型和数据库具有完全自主知识产权",
@@ -1423,6 +1497,43 @@ const translations = {
                     zh: "AI 辅助求解加速方案",
                     en: "AI-assisted solver acceleration solutions",
                     fr: "Solutions d'acceleration de solveurs assistees par IA"
+                }
+            },
+            demoTitle: {
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
+            },
+            demoDesc: {
+                zh: "展示非晶-纳米晶复合结构、纳米多层结构演化、晶界诱导析出、晶格错配影响和低维调幅分解等结果。",
+                en: "Representative results include amorphous-nanocrystalline composite formation, atomic-scale nanolayer evolution, grain-boundary-induced precipitation, lattice-misfit effects, and low-dimensional spinodal decomposition.",
+                fr: "Les resultats representatifs couvrent la formation de structures amorphes-nanocristallines, l'evolution atomique de nanocouches, la precipitation induite par les joints de grains, les effets du desaccord de reseau et la decomposition spinodale de basse dimension."
+            },
+            demos: {
+                amorphous: {
+                    zh: "非晶-纳米晶复合结构形成",
+                    en: "Amorphous-nanocrystalline composite formation",
+                    fr: "Formation de structures amorphes-nanocristallines"
+                },
+                nanolayer: {
+                    zh: "纳米多层结构原子级演化",
+                    en: "Atomic-scale evolution of nanolayered structures",
+                    fr: "Evolution atomique de structures nanocouches"
+                },
+                precipitation: {
+                    zh: "晶界诱导析出",
+                    en: "Grain-boundary-induced precipitation",
+                    fr: "Precipitation induite par les joints de grains"
+                },
+                misfit: {
+                    zh: "晶格错配度对析出相形貌的影响",
+                    en: "Effect of lattice misfit on precipitate morphology",
+                    fr: "Effet du desaccord de reseau sur la morphologie des precipites"
+                },
+                spinodal: {
+                    zh: "界面内低维调幅分解",
+                    en: "Low-dimensional spinodal decomposition inside interfaces",
+                    fr: "Decomposition spinodale de basse dimension dans les interfaces"
                 }
             },
             advantages: {
@@ -1578,6 +1689,43 @@ const translations = {
                     fr: "Controle intelligent des microstructures pour alliages d'ingenierie"
                 }
             },
+            demoTitle: {
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
+            },
+            demoDesc: {
+                zh: "展示调幅分解、液相烧结、电极颗粒相变、裂纹扩展和晶粒组织模拟等介观尺度计算结果。",
+                en: "Representative mesoscale results include spinodal decomposition, liquid-phase sintering, electrode-particle phase transformation, crack growth, and grain microstructure simulation.",
+                fr: "Les resultats mesoscopiques representatifs couvrent la decomposition spinodale, le frittage en phase liquide, les transformations de phase des particules d'electrode, la propagation de fissures et la simulation de microstructures de grains."
+            },
+            demos: {
+                spinodal: {
+                    zh: "调幅分解",
+                    en: "Spinodal decomposition",
+                    fr: "Decomposition spinodale"
+                },
+                sintering: {
+                    zh: "液相烧结",
+                    en: "Liquid-phase sintering",
+                    fr: "Frittage en phase liquide"
+                },
+                electrode: {
+                    zh: "电极充放电相变模拟",
+                    en: "Electrode charge-discharge phase transformation simulation",
+                    fr: "Simulation des transformations de phase lors de la charge-decharge d'electrodes"
+                },
+                crack: {
+                    zh: "硬质合金裂纹扩展",
+                    en: "Crack growth in cemented carbides",
+                    fr: "Propagation de fissures dans les carbures cementes"
+                },
+                grain: {
+                    zh: "晶粒微结构模拟",
+                    en: "Grain microstructure simulation",
+                    fr: "Simulation de microstructures de grains"
+                }
+            },
             advantages: {
                 item1: {
                     zh: "多场求解器自主可控",
@@ -1729,6 +1877,48 @@ const translations = {
                     zh: "可由热力学模拟提供材料参数输入",
                     en: "Material parameter input from thermodynamic simulation",
                     fr: "Entree de parametres materiaux issus de simulations thermodynamiques"
+                }
+            },
+            demoTitle: {
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
+            },
+            demoDesc: {
+                zh: "展示热应力、单轴拉伸、循环加载、硬度、纳米压痕和用户操作界面等晶体塑性有限元计算结果。",
+                en: "Representative crystal plasticity FEM results include thermal stress, uniaxial tension, cyclic loading, hardness, nanoindentation, and the user interface.",
+                fr: "Les resultats representatifs en plasticite cristalline par elements finis couvrent les contraintes thermiques, la traction uniaxiale, le chargement cyclique, la durete, la nano-indentation et l'interface utilisateur."
+            },
+            demos: {
+                thermalStress: {
+                    zh: "硬质合金热应力模拟",
+                    en: "Thermal stress simulation of cemented carbides",
+                    fr: "Simulation des contraintes thermiques des carbures cementes"
+                },
+                tension: {
+                    zh: "单轴拉伸模拟",
+                    en: "Uniaxial tension simulation",
+                    fr: "Simulation de traction uniaxiale"
+                },
+                cyclic: {
+                    zh: "循环加载模拟",
+                    en: "Cyclic loading simulation",
+                    fr: "Simulation de chargement cyclique"
+                },
+                hardness: {
+                    zh: "硬度模拟",
+                    en: "Hardness simulation",
+                    fr: "Simulation de durete"
+                },
+                nanoindentation: {
+                    zh: "纳米压痕模拟",
+                    en: "Nanoindentation simulation",
+                    fr: "Simulation de nano-indentation"
+                },
+                interface: {
+                    zh: "用户操作界面",
+                    en: "User interface",
+                    fr: "Interface utilisateur"
                 }
             },
             advantages: {

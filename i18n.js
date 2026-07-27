@@ -1154,11 +1154,6 @@ const translations = {
                 en: "Representative Calculation Results",
                 fr: "Resultats de calcul representatifs"
             },
-            demoDesc: {
-                zh: "展示原子移动性参数优化、多元扩散、多维扩散、线性化合物扩散生长和用户操作界面等典型结果。",
-                en: "Representative results include atomic mobility parameter optimization, multicomponent diffusion, multidimensional diffusion, line-compound diffusion growth, and the user interface.",
-                fr: "Les resultats representatifs couvrent l'optimisation des parametres de mobilite atomique, la diffusion multicomposant, la diffusion multidimensionnelle, la croissance par diffusion des composes lineaires et l'interface utilisateur."
-            },
             demos: {
                 mobility: {
                     zh: "原子移动性参数优化",
@@ -1329,11 +1324,6 @@ const translations = {
                 en: "Representative Calculation Results",
                 fr: "Resultats de calcul representatifs"
             },
-            demoDesc: {
-                zh: "展示液态粘度、工艺窗口、热导率曲面、多相复合材料热导率和反向设计等典型结果。",
-                en: "Representative results include liquid viscosity, process-window design, thermal conductivity surfaces, multiphase composite conductivity, and inverse design.",
-                fr: "Les resultats representatifs couvrent la viscosite liquide, la conception de fenetres de procede, les surfaces de conductivite thermique, la conductivite des composites multiphases et la conception inverse."
-            },
             demos: {
                 pureMetal: {
                     zh: "纯金属液态粘度",
@@ -1503,11 +1493,6 @@ const translations = {
                 zh: "代表性计算结果",
                 en: "Representative Calculation Results",
                 fr: "Resultats de calcul representatifs"
-            },
-            demoDesc: {
-                zh: "展示非晶-纳米晶复合结构、纳米多层结构演化、晶界诱导析出、晶格错配影响和低维调幅分解等结果。",
-                en: "Representative results include amorphous-nanocrystalline composite formation, atomic-scale nanolayer evolution, grain-boundary-induced precipitation, lattice-misfit effects, and low-dimensional spinodal decomposition.",
-                fr: "Les resultats representatifs couvrent la formation de structures amorphes-nanocristallines, l'evolution atomique de nanocouches, la precipitation induite par les joints de grains, les effets du desaccord de reseau et la decomposition spinodale de basse dimension."
             },
             demos: {
                 amorphous: {
@@ -1694,11 +1679,6 @@ const translations = {
                 en: "Representative Calculation Results",
                 fr: "Resultats de calcul representatifs"
             },
-            demoDesc: {
-                zh: "展示调幅分解、液相烧结、电极颗粒相变、裂纹扩展和晶粒组织模拟等介观尺度计算结果。",
-                en: "Representative mesoscale results include spinodal decomposition, liquid-phase sintering, electrode-particle phase transformation, crack growth, and grain microstructure simulation.",
-                fr: "Les resultats mesoscopiques representatifs couvrent la decomposition spinodale, le frittage en phase liquide, les transformations de phase des particules d'electrode, la propagation de fissures et la simulation de microstructures de grains."
-            },
             demos: {
                 spinodal: {
                     zh: "调幅分解",
@@ -1883,11 +1863,6 @@ const translations = {
                 zh: "代表性计算结果",
                 en: "Representative Calculation Results",
                 fr: "Resultats de calcul representatifs"
-            },
-            demoDesc: {
-                zh: "展示热应力、单轴拉伸、循环加载、硬度、纳米压痕和用户操作界面等晶体塑性有限元计算结果。",
-                en: "Representative crystal plasticity FEM results include thermal stress, uniaxial tension, cyclic loading, hardness, nanoindentation, and the user interface.",
-                fr: "Les resultats representatifs en plasticite cristalline par elements finis couvrent les contraintes thermiques, la traction uniaxiale, le chargement cyclique, la durete, la nano-indentation et l'interface utilisateur."
             },
             demos: {
                 thermalStress: {

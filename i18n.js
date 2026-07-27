@@ -1161,9 +1161,9 @@ const translations = {
                     fr: "Simulation de diffusion multicomposant"
                 },
                 interdiffusion: {
-                    zh: "互扩散系数高通量计算",
-                    en: "High-throughput interdiffusion coefficient calculation",
-                    fr: "Calcul haut debit des coefficients d'interdiffusion"
+                    zh: "互扩散系数计算",
+                    en: "Interdiffusion coefficient calculation",
+                    fr: "Calcul des coefficients d'interdiffusion"
                 },
                 twoDimensional: {
                     zh: "二维扩散模拟",
@@ -1171,8 +1171,8 @@ const translations = {
                     fr: "Simulation de diffusion bidimensionnelle"
                 },
                 movingBoundary: {
-                    zh: "移动相界扩散模拟",
-                    en: "Moving phase-boundary diffusion simulation",
+                    zh: "两相扩散的移动相边界模拟",
+                    en: "Moving phase-boundary simulation for two-phase diffusion",
                     fr: "Simulation de diffusion avec interface de phase mobile"
                 },
                 compoundGrowth: {
@@ -1181,9 +1181,9 @@ const translations = {
                     fr: "Croissance par diffusion de composes lineaires"
                 },
                 carburizing: {
-                    zh: "渗碳 / 渗氮模拟",
-                    en: "Carburizing and nitriding simulation",
-                    fr: "Simulation de cementation et de nitruration"
+                    zh: "钢铁表面渗碳模拟",
+                    en: "Steel surface carburizing simulation",
+                    fr: "Simulation de cementation de surface de l'acier"
                 },
                 interface: {
                     zh: "用户操作界面",
@@ -1336,13 +1336,13 @@ const translations = {
             },
             demos: {
                 pureMetal: {
-                    zh: "纯金属液态粘度",
+                    zh: "Ag、Cu、Au 纯金属粘度",
                     en: "Liquid viscosity of pure metals",
                     fr: "Viscosite liquide des metaux purs"
                 },
                 ternaryAlloy: {
-                    zh: "三元合金液态粘度",
-                    en: "Liquid viscosity of ternary alloys",
+                    zh: "Ag-Cu-Au 三元合金粘度",
+                    en: "Viscosity of Ag-Cu-Au ternary alloys",
                     fr: "Viscosite liquide des alliages ternaires"
                 },
                 pureOxide: {
@@ -1361,8 +1361,8 @@ const translations = {
                     fr: "Viscosite liquide de CaO-Al2O3-SiO2"
                 },
                 processWindow: {
-                    zh: "粘度工艺窗口设计",
-                    en: "Viscosity process-window design",
+                    zh: "根据煤灰渣粘度设计成分工艺窗口",
+                    en: "Composition process-window design from coal-ash slag viscosity",
                     fr: "Conception de fenetre de procede par viscosite"
                 },
                 conductivitySurface: {
@@ -1551,9 +1551,9 @@ const translations = {
                     fr: "Evolution des defauts aux interfaces precipite-matrice"
                 },
                 spinodal: {
-                    zh: "界面内低维调幅分解",
-                    en: "Low-dimensional spinodal decomposition inside interfaces",
-                    fr: "Decomposition spinodale de basse dimension dans les interfaces"
+                    zh: "晶界内部低维调幅分解",
+                    en: "Low-dimensional spinodal decomposition inside grain boundaries",
+                    fr: "Decomposition spinodale de basse dimension dans les joints de grains"
                 }
             },
             advantages: {
@@ -1716,8 +1716,8 @@ const translations = {
             },
             demos: {
                 spinodal: {
-                    zh: "调幅分解",
-                    en: "Spinodal decomposition",
+                    zh: "(Ti, Hf)C 调幅分解",
+                    en: "(Ti, Hf)C spinodal decomposition",
                     fr: "Decomposition spinodale"
                 },
                 sintering: {
@@ -1726,8 +1726,8 @@ const translations = {
                     fr: "Frittage en phase liquide"
                 },
                 electrode: {
-                    zh: "电极充放电相变模拟",
-                    en: "Electrode charge-discharge phase transformation simulation",
+                    zh: "CuxLiySn 电极充放电",
+                    en: "CuxLiySn electrode charge-discharge",
                     fr: "Simulation des transformations de phase lors de la charge-decharge d'electrodes"
                 },
                 crack: {
@@ -1741,13 +1741,13 @@ const translations = {
                     fr: "Vue tridimensionnelle de la propagation de fissures"
                 },
                 discontinuousPrecipitation: {
-                    zh: "非连续析出",
-                    en: "Discontinuous precipitation",
+                    zh: "U-Nb 不连续析出",
+                    en: "U-Nb discontinuous precipitation",
                     fr: "Precipitation discontinue"
                 },
                 elastoplastic: {
-                    zh: "非均质结构弹塑性验证",
-                    en: "Elastoplastic validation of heterogeneous structures",
+                    zh: "弹性结构非均匀体系理想弹塑性求解验证",
+                    en: "Ideal elastoplastic validation for heterogeneous elastic structures",
                     fr: "Validation elastoplastique de structures heterogenes"
                 },
                 grain: {
@@ -1915,20 +1915,35 @@ const translations = {
                 fr: "Resultats de calcul representatifs"
             },
             demos: {
-                thermalStress: {
-                    zh: "硬质合金热应力模拟",
+                wcThermalStress: {
+                    zh: "硬质合金 WC 相热应力模拟",
                     en: "Thermal stress simulation of cemented carbides",
                     fr: "Simulation des contraintes thermiques des carbures cementes"
                 },
+                binderThermalStress: {
+                    zh: "硬质合金粘结相热应力模拟",
+                    en: "Thermal stress simulation of the binder phase in cemented carbides",
+                    fr: "Simulation des contraintes thermiques de la phase liante des carbures cementes"
+                },
                 tension: {
-                    zh: "单轴拉伸模拟",
-                    en: "Uniaxial tension simulation",
+                    zh: "Al-Mg-Si 合金单轴拉伸模拟",
+                    en: "Uniaxial tension simulation of Al-Mg-Si alloys",
                     fr: "Simulation de traction uniaxiale"
+                },
+                crack: {
+                    zh: "中高强钢裂纹扩展模拟",
+                    en: "Crack-growth simulation of medium- and high-strength steels",
+                    fr: "Simulation de propagation de fissures dans les aciers a moyenne et haute resistance"
                 },
                 cyclic: {
                     zh: "循环加载模拟",
                     en: "Cyclic loading simulation",
                     fr: "Simulation de chargement cyclique"
+                },
+                tensileCurve: {
+                    zh: "单轴拉伸模拟结果",
+                    en: "Uniaxial tension simulation result",
+                    fr: "Resultat de simulation de traction uniaxiale"
                 },
                 hardness: {
                     zh: "硬度模拟",

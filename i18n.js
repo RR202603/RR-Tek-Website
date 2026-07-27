@@ -898,14 +898,9 @@ const translations = {
                 fr: "ICALPHAD s'appuie sur les bases de donnees thermodynamiques et integre la selection et l'edition des bases, la saisie des calculs et la visualisation des resultats. Il prend en charge les diagrammes binaires et multicomposants, les sections isothermes et verticales, les projections de liquidus, l'analyse de stabilite de phase, les calculs d'enthalpie et de capacite thermique, ainsi que l'inversion efficace des parametres thermodynamiques par algorithmes d'optimisation intelligente."
             },
             demoTitle: {
-                zh: "计算演示",
-                en: "Calculation Demos",
-                fr: "Demonstrations de calcul"
-            },
-            demoDesc: {
-                zh: "通过典型计算流程 GIF，展示 ICALPHAD 在相图、截面、液相面投影和热力学性质计算中的操作与结果输出。",
-                en: "Typical workflow GIFs demonstrate ICALPHAD operations and result outputs for phase diagrams, sections, liquidus projections, and thermodynamic property calculations.",
-                fr: "Des GIF de workflows typiques montrent les operations et les sorties de resultats d'ICALPHAD pour les diagrammes de phases, les sections, les projections de liquidus et les calculs de proprietes thermodynamiques."
+                zh: "代表性计算结果",
+                en: "Representative Calculation Results",
+                fr: "Resultats de calcul representatifs"
             },
             demos: {
                 liquidus: {

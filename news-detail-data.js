@@ -1,4 +1,45 @@
 const newsDetailData = {
+    "2026-08-15.html": {
+        date: "2026-08-15",
+        title: {
+            zh: "2026年热物性理论与计算讲习班将于8月28日在长沙举办",
+            en: "2026 Workshop on Thermophysical Property Theory and Computation to Open in Changsha on August 28",
+            fr: "L'atelier 2026 sur la theorie et le calcul des proprietes thermophysiques se tiendra a Changsha le 28 aout"
+        },
+        body: {
+            zh: `
+<p>为促进热物性理论在集成计算材料工程中的应用，进一步揭示材料成分、工艺、组织与性能之间的内在联系，由长沙锐睿科技有限公司主办的“2026年热物性理论与计算讲习班”将于2026年8月28日至31日在湖南长沙举行。</p>
+<p>热物性涵盖扩散、粘度、热导率等重要输运性质，是研究材料热力学行为和输运特性、开展组织结构模拟以及进行材料成分与工艺设计的重要基础。本次讲习班面向高校、科研院所及企业科研人员，通过理论讲授、前沿应用分享、软件教学和上机实操，帮助学员系统掌握相关理论与计算方法。</p>
+<h2>理论课程与软件实操相结合</h2>
+<p>讲习班课程将围绕扩散动力学、粘度与热导率的理论基础及计算应用展开，并设置CALTPP扩散、粘度和热导率模块的安装、基础操作与进阶实操。CALTPP面向多组分合金体系，构建了热力学与扩散动力学深度耦合的计算框架，可用于扩散控制相变预测、迁移率参数优化，以及单相、多相和移动相界扩散过程模拟。</p>
+<p>培训将于8月28日下午报到；8月29日开展扩散动力学理论与前沿应用课程，并介绍CALTPP各模块；8月30日进行CALTPP扩散模块基础及进阶实操；8月31日讲授粘度、热导率理论，并开展相应软件模块实操与结班交流。实际课程安排以现场为准。</p>
+<h2>报名信息</h2>
+<p><strong>时间：</strong>2026年8月28日至31日（9月1日返程）</p>
+<p><strong>地点：</strong>通程麓山大酒店（湖南省长沙市岳麓区枫林一路19号）</p>
+<p><strong>报名截止：</strong>请于2026年8月20日前<a href="https://pan.baidu.com/s/1CJ9RwPSXH8uVEOSierO0Pg?pwd=e53c" target="_blank" rel="noopener noreferrer">👉 点击此处下载“热物性培训会回执”</a>（提取码：e53c），填写后发送至 rrui_info@163.com。</p>
+<p><strong>培训费用：</strong>8月20日24:00前缴费2500元，之后缴费2800元；主办方提供培训期间的中餐和晚餐，住宿及交通费用自理。</p>
+<p>参训学员需自备笔记本电脑用于实操。现场将提供软件Demo版本及全套纸质讲义。住宿可自行安排；如选择入住会议酒店，请在参会回执中注明入住和离店日期。</p>
+<h2>咨询方式</h2>
+<p>刘老师：18528335343<br>邮箱：rrui_info@163.com</p>
+<p>本次讲习班将为从事材料热物性研究、计算材料设计及相关工程应用的科研人员搭建深入学习与交流的平台，推动热物性理论、科学数据库和计算工具在材料研发中的进一步应用。</p>
+`,
+            en: `
+<p>To promote the application of thermophysical-property theory in integrated computational materials engineering and deepen understanding of the relationships among composition, processing, microstructure, and properties, Changsha RR-Tek Technology Co., Ltd. will host the 2026 Workshop on Thermophysical Property Theory and Computation in Changsha, Hunan, from August 28 to 31, 2026.</p>
+<p>Thermophysical properties—including diffusion, viscosity, and thermal conductivity—are essential for understanding material transport behavior, simulating microstructure evolution, and designing compositions and processing parameters. The workshop is intended for university faculty and students, researchers, and industry professionals. It combines lectures, frontier application talks, software instruction, and hands-on exercises.</p>
+<h2>From theory to hands-on computation</h2>
+<p>The program covers the theoretical foundations and computational applications of diffusion kinetics, viscosity, and thermal conductivity. Participants will also receive introductory and advanced hands-on training with the diffusion, viscosity, and thermal-conductivity modules of CALTPP. Designed for multicomponent alloy systems, CALTPP couples thermodynamics with diffusion kinetics to support mobility-parameter optimization and simulation of single-phase, multiphase, and moving-interface diffusion processes.</p>
+<p>Registration will take place on the afternoon of August 28. Courses on diffusion theory and frontier applications are scheduled for August 29, followed by CALTPP diffusion training on August 30 and viscosity and thermal-conductivity lectures and software practice on August 31. The final program is subject to on-site arrangements.</p>
+<h2>Registration</h2>
+<p><strong>Dates:</strong> August 28–31, 2026 (departure on September 1)</p>
+<p><strong>Venue:</strong> Tongcheng Lushan Hotel, No. 19 Fenglin 1st Road, Yuelu District, Changsha, Hunan</p>
+<p><strong>Deadline:</strong> <a href="https://pan.baidu.com/s/1CJ9RwPSXH8uVEOSierO0Pg?pwd=e53c" target="_blank" rel="noopener noreferrer">👉 Click here to download the registration form</a> (access code: e53c), complete it, and email it to rrui_info@163.com by August 20, 2026.</p>
+<p><strong>Fee:</strong> RMB 2,500 when paid by 24:00 on August 20; RMB 2,800 thereafter. Lunch and dinner during the workshop are included. Travel and accommodation are not included.</p>
+<p>Participants should bring a laptop for the practical sessions. A demo version of the software and printed course materials will be provided.</p>
+<h2>Contact</h2>
+<p>Mr. Liu: +86 185 2833 5343<br>Email: rrui_info@163.com</p>
+`
+        }
+    },
     "2026-05-18.html": {
         date: "2026-05-18",
         title: {

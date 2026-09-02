@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n-title="simulationMeta.title">材料计算与模拟服务 | 长沙锐睿科技有限公司</title>
+    <meta
+        name="description"
+        data-i18n-meta="simulationMeta.description"
+        content="锐睿科技面向高校、科研院所和企业提供材料热力学、扩散动力学、凝固、相场、晶体塑性有限元及热物性计算与模拟服务。"
+    />
+    <meta
+        name="keywords"
+        content="材料计算与模拟服务, 材料计算, 相图计算, 扩散模拟, 相场模拟, 晶体塑性有限元, 热物性计算, 合金设计"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="simulation.css" />
+    <link rel="stylesheet" href="online-contact.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html#hero" class="brand" aria-label="RR-Tek Home">
+                <img src="assets/logo.jpg" alt="锐睿科技 Logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li class="language-switcher" aria-label="Language selector">
+                    <button type="button" class="lang-option" data-lang="zh" onclick="setLanguage('zh')">中文</button>
+                    <button type="button" class="lang-option" data-lang="en" onclick="setLanguage('en')">English</button>
+                    <button type="button" class="lang-option" data-lang="fr" onclick="setLanguage('fr')">Français</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="simulation-page">
+        <section class="simulation-hero">
+            <div class="container">
+                <div class="simulation-hero-copy">
+                    <p class="detail-kicker" data-i18n="simulationPage.kicker">MATERIALS COMPUTING &amp; SIMULATION SERVICES</p>
+                    <h1 data-i18n="simulationPage.title">材料计算与模拟服务</h1>
+                    <p class="simulation-hero-lead" data-i18n="simulationPage.description">
+                        面向材料研发中的成分设计、工艺优化、组织演化与性能预测问题，提供计算方案、结果分析和技术报告。
+                    </p>
+                    <div class="simulation-actions">
+                        <a href="#services" class="simulation-ghost-btn" data-i18n="simulationPage.viewServices">查看计算服务</a>
+                        <a href="#request" class="btn-primary" data-i18n="simulationPage.submitRequest">提交计算需求</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="simulation-section" id="services">
+            <div class="container">
+                <div class="simulation-section-heading">
+                    <h2 data-i18n="simulationPage.services.title">计算服务</h2>
+                </div>
+
+                <div class="calculation-catalog">
+                    <nav class="calculation-category-nav" aria-label="计算服务分类">
+                        <button class="calculation-category-button active" type="button" data-service-tab="thermodynamics" aria-selected="true">
+                            <span>01</span><strong data-i18n="simulationPage.service1.title">相图与热力学计算</strong>
+                        </button>
+                        <button class="calculation-category-button" type="button" data-service-tab="diffusion" aria-selected="false">
+                            <span>02</span><strong data-i18n="simulationPage.service2.title">扩散与热处理模拟</strong>
+                        </button>
+                        <button class="calculation-category-button" type="button" data-service-tab="thermal" aria-selected="false">
+                            <span>03</span><strong data-i18n="simulationPage.service6.title">粘度与热导率计算</strong>
+                        </button>
+                        <button class="calculation-category-button" type="button" data-service-tab="meso" aria-selected="false">
+                            <span>04</span><strong data-i18n="simulationPage.catalog.mesoTitle">介观相场与组织演化</strong>
+                        </button>
+                        <button class="calculation-category-button" type="button" data-service-tab="nano" aria-selected="false">
+                            <span>05</span><strong data-i18n="simulationPage.catalog.nanoTitle">纳观晶体相场与缺陷演化</strong>
+                        </button>
+                        <button class="calculation-category-button" type="button" data-service-tab="mechanics" aria-selected="false">
+                            <span>06</span><strong data-i18n="simulationPage.service5.title">晶体塑性有限元</strong>
+                        </button>
+                    </nav>
+
+                    <div class="calculation-results">
+                        <section class="calculation-panel active" data-service-panel="thermodynamics">
+                            <div class="calculation-panel-heading">
+                                <h3 data-i18n="simulationPage.service1.title">相图与热力学计算</h3>
+                                <p data-i18n="simulationPage.service1.description">分析材料在不同成分、温度及条件下的相稳定性、相组成和热力学性质。</p>
+                            </div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/icalphad/binary-phase-diagram.gif" alt="二元相图计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.icalphad.demos.binary">二元相图计算</h4><p data-i18n="simulationPage.service1.feature1">二元、三元及多元相图</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/icalphad/isothermal-section.gif" alt="等温截面计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.icalphad.demos.isothermal">等温截面计算</h4><p data-i18n="simulationPage.service1.feature2">等温截面、垂直截面与液相面投影</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/icalphad/vertical-section.gif" alt="垂直截面计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.icalphad.demos.vertical">垂直截面计算</h4><p data-i18n="simulationPage.service1.feature3">相含量、相成分及相变温度</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/icalphad/liquidus.gif" alt="液相面投影计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.icalphad.demos.liquidus">液相面投影图计算</h4><p data-i18n="simulationPage.service3.feature2">液相线、固相线及凝固区间</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/icalphad/gibbs-g-x.gif" alt="Gibbs自由能计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.icalphad.demos.gibbs">Gibbs 自由能计算</h4><p data-i18n="simulationPage.service1.feature4">自由能、焓、熵、热容与相变驱动力</p></div></article>
+                            </div>
+                        </section>
+
+                        <section class="calculation-panel" data-service-panel="diffusion" hidden>
+                            <div class="calculation-panel-heading"><h3 data-i18n="simulationPage.service2.title">扩散与热处理模拟</h3><p data-i18n="simulationPage.service2.description">研究多组元材料中的元素扩散、界面迁移及热处理过程，辅助工艺制度设计。</p></div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/multicomponent-diffusion.png" alt="多元扩散模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.multicomponent">多元扩散模拟</h4><p data-i18n="simulationPage.service2.feature1">扩散偶与成分—距离曲线</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/interdiffusion-coefficients.png" alt="互扩散系数计算结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.interdiffusion">互扩散系数计算</h4><p data-i18n="simulationPage.service2.feature5">迁移率参数优化与动力学数据库开发</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/two-dimensional-diffusion.png" alt="二维扩散模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.twoDimensional">二维扩散模拟</h4><p data-i18n="simulationPage.service2.feature2">多元、多相及多维扩散</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/moving-phase-boundary-cropped.png" alt="移动相边界模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.movingBoundary">两相扩散的移动相边界模拟</h4><p data-i18n="simulationPage.service2.feature3">均匀化处理与反应层生长</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/carburizing-simulation.png" alt="钢铁表面渗碳模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.carburizing">钢铁表面渗碳模拟</h4><p data-i18n="simulationPage.service2.feature4">渗碳、渗氮及脱碳过程</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-diffusion/mobility-optimization.png" alt="原子移动性参数优化结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.caltppDiffusion.demos.mobility">原子移动性参数优化</h4><p data-i18n="simulationPage.service2.feature5">迁移率参数优化与动力学数据库开发</p></div></article>
+                            </div>
+                        </section>
+
+                        <section class="calculation-panel" data-service-panel="thermal" hidden>
+                            <div class="calculation-panel-heading"><h3 data-i18n="simulationPage.service6.title">粘度与热导率计算</h3><p data-i18n="simulationPage.service6.description">计算粘度与热导率随成分、温度和微结构的变化，并开展模型参数优化与结果评估。</p></div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-viscosity-thermal/ternary-alloy-viscosity.png" alt="合金粘度计算结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.alloyViscosity">合金粘度</h4><p data-i18n="simulationPage.service6.feature1">金属、合金及氧化物液态粘度</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-viscosity-thermal/mgo-al2o3-sio2-viscosity.png" alt="液态粘度计算结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.liquidViscosity">液态粘度</h4><p data-i18n="simulationPage.service6.feature3">温度、成分及晶粒尺寸影响</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-viscosity-thermal/wc-composite-conductivity.png" alt="多相复合材料热导率计算结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.compositeConductivity">多相复合材料热导率</h4><p data-i18n="simulationPage.service6.feature2">单相合金与多相材料热导率</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/caltpp-viscosity-thermal/conductivity-surface.png" alt="热导率随成分温度变化计算结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.conductivitySurface">热导率成分—温度响应</h4><p data-i18n="simulationPage.service6.feature4">相界热阻与模型参数评估</p></div></article>
+                            </div>
+                        </section>
+
+                        <section class="calculation-panel" data-service-panel="meso" hidden>
+                            <div class="calculation-panel-heading"><h3 data-i18n="simulationPage.catalog.mesoTitle">介观相场与组织演化</h3><p data-i18n="simulationPage.service4.description">从介观到纳观研究相变、析出、界面和缺陷演化，建立工艺—组织之间的联系。</p></div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-meso/spinodal-decomposition.png" alt="调幅分解模拟结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.mesoSpinodal">调幅分解</h4><p data-i18n="simulationPage.service4.feature1">晶粒长大、枝晶生长与调幅分解</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-meso/discontinuous-precipitation.png" alt="不连续析出模拟结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.mesoDiscontinuousPrecipitation">不连续析出</h4><p data-i18n="simulationPage.service4.feature2">连续/不连续析出与时效组织</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-meso/liquid-phase-sintering.png" alt="液相烧结模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midMeso.demos.sintering">液相烧结</h4><p data-i18n="simulationPage.service4.feature3">多相烧结及电极颗粒演化</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-meso/electrode-phase-transition.png" alt="电极充放电相变模拟结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.electrodeChargeDischarge">电极充放电相变模拟</h4><p data-i18n="simulationPage.service4.feature5">温度、应力、流体及电磁场耦合</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-meso/crack-growth.png" alt="多晶裂纹扩展模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midMeso.demos.crack">硬质合金裂纹扩展</h4><p data-i18n="simulationPage.service4.feature4">位错、晶界、相界和界面失稳</p></div></article>
+                            </div>
+                        </section>
+
+                        <section class="calculation-panel" data-service-panel="nano" hidden>
+                            <div class="calculation-panel-heading"><h3 data-i18n="simulationPage.catalog.nanoTitle">纳观晶体相场与缺陷演化</h3><p data-i18n="simulationPage.catalog.nanoDescription">面向原子—纳米尺度研究晶格、析出、界面与缺陷结构的形成和演化。</p></div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/amorphous-nanocrystal.png" alt="非晶纳米晶复合结构形成结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.amorphous">非晶-纳米晶复合结构形成</h4><p data-i18n="simulationPage.catalog.nanoStructure">晶格结构与纳米结构形成</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/nanolayer-evolution.png" alt="纳米多层结构原子级演化结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.nanolayer">纳米多层结构原子级演化</h4><p data-i18n="simulationPage.catalog.nanoEvolution">多层结构与界面原子级演化</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/grain-boundary-precipitation.png" alt="晶界诱导析出结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.precipitation">晶界诱导析出</h4><p data-i18n="simulationPage.catalog.nanoPrecipitation">晶界、相界与析出相演化</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/misfit-morphology.png" alt="晶格错配影响析出相形貌结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.misfit">晶格错配度对析出相形貌的影响</h4><p data-i18n="simulationPage.catalog.nanoMisfit">晶格错配与析出形貌调控</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/interface-defect-evolution.png" alt="相界面缺陷演化结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.interfaceDefect">析出相-基体相界面缺陷演化</h4><p data-i18n="simulationPage.catalog.nanoDefect">界面缺陷形成与演化</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/mid-nano/low-dimensional-spinodal.png" alt="晶界内部低维调幅分解结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.midNano.demos.spinodal">晶界内部低维调幅分解</h4><p data-i18n="simulationPage.catalog.nanoSpinodal">低维相分离与调幅分解</p></div></article>
+                            </div>
+                        </section>
+
+                        <section class="calculation-panel" data-service-panel="mechanics" hidden>
+                            <div class="calculation-panel-heading"><h3 data-i18n="simulationPage.service5.title">晶体塑性有限元</h3><p data-i18n="simulationPage.service5.description">针对材料微结构开展力学响应模拟，分析织构、晶粒和多相结构对性能的影响。</p></div>
+                            <div class="calculation-function-grid">
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/uniaxial-tension.png" alt="单轴拉伸模拟结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.uniaxialTension">单轴拉伸模拟</h4><p data-i18n="simulationPage.service5.feature1">单晶与多晶拉伸、剪切及循环加载</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/wc-thermal-stress.png" alt="硬质合金热应力模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.cpcp.demos.wcThermalStress">硬质合金 WC 相热应力模拟</h4><p data-i18n="simulationPage.service5.feature5">残余热应力、疲劳指标与裂纹分析</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/crack-growth.png" alt="中高强钢裂纹扩展模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.cpcp.demos.crack">中高强钢裂纹扩展模拟</h4><p data-i18n="simulationPage.service5.feature5">残余热应力、疲劳指标与裂纹分析</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/cyclic-loading.png" alt="循环加载模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.cpcp.demos.cyclic">循环加载模拟</h4><p data-i18n="simulationPage.service5.feature2">织构演化与材料各向异性</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/nanoindentation.png" alt="纳米压痕模拟结果" loading="lazy" /><div><h4 data-i18n="simulationPage.catalog.nanoindentation">纳米压痕模拟</h4><p data-i18n="simulationPage.service5.feature4">微柱压缩、纳米压痕与硬度</p></div></article>
+                                <article class="calculation-function-card"><img src="assets/software-demos/cpcp/hardness-simulation.png" alt="硬度模拟结果" loading="lazy" /><div><h4 data-i18n="softwareDetails.cpcp.demos.hardness">硬度模拟</h4><p data-i18n="simulationPage.service5.feature3">梯度晶粒、柱状晶及颗粒增强结构</p></div></article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="simulation-section simulation-dark-section" id="deliverables">
+            <div class="container deliverable-layout">
+                <div>
+                    <p class="section-tag" data-i18n="simulationPage.deliverables.kicker">Deliverables</p>
+                    <h2 data-i18n="simulationPage.deliverables.title">项目交付成果</h2>
+                    <p data-i18n="simulationPage.deliverables.description">交付范围在项目启动前确认，确保计算过程、结果表达和验收标准清晰一致。</p>
+                </div>
+                <div class="deliverable-grid">
+                    <span data-i18n="simulationPage.deliverables.item1">计算方案与模型说明</span>
+                    <span data-i18n="simulationPage.deliverables.item2">参数及边界条件说明</span>
+                    <span data-i18n="simulationPage.deliverables.item3">原始计算数据</span>
+                    <span data-i18n="simulationPage.deliverables.item4">高清图片与数据曲线</span>
+                    <span data-i18n="simulationPage.deliverables.item5">组织演化动画</span>
+                    <span data-i18n="simulationPage.deliverables.item6">结果分析与物理解释</span>
+                    <span data-i18n="simulationPage.deliverables.item7">完整技术报告</span>
+                    <span data-i18n="simulationPage.deliverables.item8">项目答疑与验收支持</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="simulation-section simulation-soft-section" id="request">
+            <div class="container request-layout">
+                <div class="request-copy">
+                    <p class="section-tag" data-i18n="simulationPage.request.kicker">Submit Your Request</p>
+                    <h2 data-i18n="simulationPage.request.title">提交计算需求</h2>
+                    <p data-i18n="simulationPage.request.description">
+                        请尽量说明材料成分、温度、时间、载荷等条件，以及希望解决的问题。信息不完整也可以提交，我们会协助梳理。
+                    </p>
+                    <div class="request-contact">
+                        <strong data-i18n="simulationPage.request.contactTitle">技术咨询</strong>
+                        <a href="mailto:rrui_info@163.com">rrui_info@163.com</a>
+                        <span>15973134526（彭英彪）</span>
+                    </div>
+                    <p class="request-privacy" data-i18n="simulationPage.request.privacy">涉及未公开研究或企业项目时，可在沟通后签署保密协议。</p>
+                </div>
+
+                <form
+                    class="simulation-form"
+                    id="simulation-request-form"
+                    action="https://formspree.io/f/mbdqapjk"
+                    method="POST"
+                >
+                    <input type="hidden" name="subject" value="材料计算与模拟服务需求 - 长沙锐睿科技有限公司" />
+                    <input type="hidden" name="source" value="RR-Tek 官网材料计算与模拟服务页面" />
+                    <input type="hidden" name="page_url" value="https://rr202603.github.io/RR-Tek-Website/simulation.html" />
+                    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="request-name" data-i18n="simulationPage.form.name">联系人 *</label>
+                            <input id="request-name" name="name" type="text" required autocomplete="name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="request-organization" data-i18n="simulationPage.form.organization">单位</label>
+                            <input id="request-organization" name="organization" type="text" autocomplete="organization" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="request-contact" data-i18n="simulationPage.form.contact">手机或邮箱 *</label>
+                            <input id="request-contact" name="contact" type="text" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="request-client-type" data-i18n="simulationPage.form.clientType">客户类型</label>
+                            <select id="request-client-type" name="clientType">
+                                <option value="高校" data-i18n="simulationPage.form.clientUniversity">高校</option>
+                                <option value="科研院所" data-i18n="simulationPage.form.clientInstitute">科研院所</option>
+                                <option value="企业" data-i18n="simulationPage.form.clientEnterprise">企业</option>
+                                <option value="其他" data-i18n="simulationPage.form.clientOther">其他</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="request-topic" data-i18n="simulationPage.form.topic">研究问题 *</label>
+                        <select id="request-topic" name="topic" required>
+                            <option value="" data-i18n="simulationPage.form.select">请选择</option>
+                            <option value="合金成分设计" data-i18n="simulationPage.form.topic1">合金成分设计</option>
+                            <option value="相图与热力学计算" data-i18n="simulationPage.form.topic2">相图与热力学计算</option>
+                            <option value="凝固偏析分析" data-i18n="simulationPage.form.topic3">凝固偏析分析</option>
+                            <option value="扩散与热处理" data-i18n="simulationPage.form.topic4">扩散与热处理</option>
+                            <option value="扩散与表面处理" data-i18n="simulationPage.form.topic5">扩散与表面处理</option>
+                            <option value="相场与组织演化" data-i18n="simulationPage.form.topic6">相场与组织演化</option>
+                            <option value="析出与组织演化" data-i18n="simulationPage.form.topic7">析出与组织演化</option>
+                            <option value="晶体塑性有限元" data-i18n="simulationPage.form.topic8">晶体塑性有限元</option>
+                            <option value="微结构力学性能" data-i18n="simulationPage.form.topic9">微结构力学性能</option>
+                            <option value="粘度与热导率" data-i18n="simulationPage.form.topic10">粘度与热导率</option>
+                            <option value="材料数据库开发" data-i18n="simulationPage.form.topic11">材料数据库开发</option>
+                            <option value="尚不确定" data-i18n="simulationPage.form.topic12">尚不确定</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="request-material" data-i18n="simulationPage.form.material">材料体系或化学成分 *</label>
+                        <input id="request-material" name="material" type="text" required placeholder="例如：Al-Mg-Si 合金，具体成分可在需求描述中填写" data-i18n-placeholder="simulationPage.form.materialPlaceholder" />
+                    </div>
+                    <div class="form-group">
+                        <label for="request-detail" data-i18n="simulationPage.form.detail">需求描述 *</label>
+                        <textarea id="request-detail" name="detail" rows="6" required placeholder="请说明研究目标、温度/时间/载荷等条件、已有数据和期望交付成果" data-i18n-placeholder="simulationPage.form.detailPlaceholder"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="request-deadline" data-i18n="simulationPage.form.deadline">期望完成时间</label>
+                            <input id="request-deadline" name="deadline" type="date" />
+                        </div>
+                        <div class="form-group">
+                            <label for="request-confidential" data-i18n="simulationPage.form.confidential">保密需求</label>
+                            <select id="request-confidential" name="confidential">
+                                <option value="暂无特殊要求" data-i18n="simulationPage.form.confidentialNone">暂无特殊要求</option>
+                                <option value="需要签署保密协议" data-i18n="simulationPage.form.confidentialNda">需要签署保密协议</option>
+                                <option value="沟通后确认" data-i18n="simulationPage.form.confidentialDiscuss">沟通后确认</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn" data-i18n="simulationPage.form.submit">提交信息</button>
+                    <p id="simulation-form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
+            </div>
+            <p id="footer-text" data-i18n="footer.text">© 2021 长沙锐睿科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="simulation.js"></script>
+    <script src="i18n.js"></script>
+    <script src="online-contact.js"></script>
+</body>
+</html>

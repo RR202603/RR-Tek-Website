@@ -224,9 +224,9 @@ const translations = {
                 fr: "Services techniques"
             },
             service1: {
-                zh: "材料计算与模拟分析服务",
-                en: "Materials Simulation & Computational Analysis",
-                fr: "Simulation des materiaux et analyse numerique"
+                zh: "材料计算与模拟服务",
+                en: "Materials Computing & Simulation Services",
+                fr: "Services de calcul et de simulation des materiaux"
             },
             desc1: {
                 zh: "提供面向材料研发和工程应用的计算分析与模拟支持。",
@@ -242,16 +242,6 @@ const translations = {
                 zh: "提供项目申请支持、技术路线咨询与方案规划。",
                 en: "Offers proposal support, technical consulting, and solution planning.",
                 fr: "Propose un accompagnement pour les dossiers, le conseil technique et la planification de solutions."
-            },
-            service3: {
-                zh: "材料表征与测试服务",
-                en: "Materials Characterization & Testing Services",
-                fr: "Caracterisation et essais des materiaux"
-            },
-            desc3: {
-                zh: "提供材料检测、表征及实验支持。",
-                en: "Provides material testing, characterization, and experimental support.",
-                fr: "Fournit des services d'essais, de caracterisation et de soutien experimental."
             },
             service4: {
                 zh: "会议与培训服务",
@@ -492,9 +482,9 @@ const translations = {
             fr: "Services techniques | Changsha RR-Tek Technology Co., Ltd."
         },
         description: {
-            zh: "锐睿科技技术服务介绍，包括材料计算与模拟分析、科研项目申报咨询、材料表征检测以及会议培训服务。",
-            en: "Introduction to RR-Tek technical services, including materials computation and simulation analysis, research project consulting, materials characterization and testing, as well as conference and training services.",
-            fr: "Presentation des services techniques de RR-Tek : calcul des materiaux, conseil projet, caracterisation, essais, conferences et formations."
+            zh: "锐睿科技技术服务介绍，包括材料计算与模拟服务、科研项目申报咨询以及会议培训服务。",
+            en: "Introduction to RR-Tek technical services, including materials computing and simulation services, research project consulting, and conference and training services.",
+            fr: "Presentation des services techniques de RR-Tek : calcul et simulation des materiaux, conseil projet, conferences et formations."
         }
     },
     pmagMeta: {
@@ -2044,14 +2034,14 @@ const translations = {
             fr: "Services techniques"
         },
         description: {
-            zh: "锐睿科技提供面向科研机构和企业客户的技术服务，涵盖材料计算、项目咨询、检测分析及培训交流等方向。",
-            en: "RR-Tek provides technical services for research institutions and enterprise clients, covering materials computation, project consulting, testing and analysis, as well as training and technical exchange.",
-            fr: "RR-Tek fournit des services techniques aux instituts de recherche et aux entreprises, couvrant le calcul des materiaux, le conseil projet, les essais, l'analyse, la formation et les echanges techniques."
+            zh: "锐睿科技提供面向科研机构和企业客户的技术服务，涵盖材料计算与模拟服务、项目咨询及培训交流等方向。",
+            en: "RR-Tek provides technical services for research institutions and enterprise clients, covering materials computing and simulation, project consulting, training, and technical exchange.",
+            fr: "RR-Tek fournit des services techniques aux instituts de recherche et aux entreprises, couvrant le calcul et la simulation des materiaux, le conseil projet, la formation et les echanges techniques."
         },
         product1: {
             title: {
-                zh: "材料计算与模拟分析服务",
-                en: "Materials Computation and Simulation Analysis Services",
+                zh: "材料计算与模拟服务",
+                en: "Materials Computing & Simulation Services",
                 fr: "Services de calcul et de simulation des materiaux"
             },
             desc: {
@@ -2070,9 +2060,9 @@ const translations = {
                 fr: "Repond aux besoins de la recherche et des applications industrielles"
             },
             feature3: {
-                zh: "可结合数据库与软件工具开展服务",
-                en: "Can be delivered together with databases and software tools",
-                fr: "Peut etre fourni avec des bases de donnees et des outils logiciels"
+                zh: "提供计算方案、结果分析与技术报告",
+                en: "Provides computation plans, result analysis, and technical reports",
+                fr: "Fournit des plans de calcul, des analyses de resultats et des rapports techniques"
             }
         },
         product2: {
@@ -2100,33 +2090,6 @@ const translations = {
                 zh: "服务高校、院所与企业用户",
                 en: "Serves universities, institutes, and enterprise users",
                 fr: "Sert les universites, instituts et entreprises"
-            }
-        },
-        product3: {
-            title: {
-                zh: "材料表征与检测服务",
-                en: "Materials Characterization and Testing Services",
-                fr: "Services de caracterisation et d'essais des materiaux"
-            },
-            desc: {
-                zh: "提供材料测试、表征分析和实验研究辅助服务。",
-                en: "Provides materials testing, characterization analysis, and experimental research support.",
-                fr: "Fournit des essais materiaux, des analyses de caracterisation et un soutien experimental a la recherche."
-            },
-            feature1: {
-                zh: "支持基础检测与表征分析",
-                en: "Supports basic testing and characterization analysis",
-                fr: "Prend en charge les essais de base et l'analyse de caracterisation"
-            },
-            feature2: {
-                zh: "服务科研测试与验证需求",
-                en: "Serves research testing and validation needs",
-                fr: "Repond aux besoins d'essais et de validation en recherche"
-            },
-            feature3: {
-                zh: "可作为研发配套技术支持",
-                en: "Can act as supporting technical service for R&D",
-                fr: "Peut servir de support technique associe a la R&D"
             }
         },
         product4: {
@@ -2527,6 +2490,277 @@ const translations = {
             zh: "返回",
             en: "Back",
             fr: "Retour"
+        }
+    },
+    simulationMeta: {
+        title: {
+            zh: "材料计算与模拟服务 | 长沙锐睿科技有限公司",
+            en: "Materials Computing & Simulation Services | Changsha RR-Tek Technology Co., Ltd.",
+            fr: "Services de calcul et de simulation des matériaux | Changsha RR-Tek Technology Co., Ltd."
+        },
+        description: {
+            zh: "锐睿科技面向高校、科研院所和企业提供材料热力学、扩散动力学、凝固、相场、晶体塑性有限元及热物性计算与模拟服务。",
+            en: "RR-Tek provides materials computing and simulation services in thermodynamics, diffusion kinetics, solidification, phase-field modeling, crystal plasticity finite element analysis, and thermophysical properties.",
+            fr: "RR-Tek propose des services de calcul et de simulation des matériaux en thermodynamique, cinétique de diffusion, solidification, champ de phase, éléments finis de plasticité cristalline et propriétés thermophysiques."
+        }
+    },
+    simulationPage: {
+        kicker: {
+            zh: "MATERIALS COMPUTING & SIMULATION SERVICES",
+            en: "MATERIALS COMPUTING & SIMULATION SERVICES",
+            fr: "SERVICES DE CALCUL ET DE SIMULATION DES MATÉRIAUX"
+        },
+        title: {
+            zh: "材料计算与模拟服务",
+            en: "Materials Computing & Simulation Services",
+            fr: "Services de calcul et de simulation des matériaux"
+        },
+        description: {
+            zh: "面向材料研发中的成分设计、工艺优化、组织演化与性能预测问题，提供计算方案、结果分析和技术报告。",
+            en: "Computational solutions, result analysis, and technical reports for composition design, process optimization, microstructure evolution, and property prediction in materials R&D.",
+            fr: "Solutions de calcul, analyse des résultats et rapports techniques pour la conception des compositions, l'optimisation des procédés, l'évolution des microstructures et la prédiction des propriétés."
+        },
+        viewServices: {
+            zh: "查看计算服务",
+            en: "View Simulation Services",
+            fr: "Voir les services de simulation"
+        },
+        submitRequest: {
+            zh: "提交计算需求",
+            en: "Submit a Request",
+            fr: "Soumettre une demande"
+        },
+        services: {
+            kicker: {
+                zh: "What We Calculate",
+                en: "What We Calculate",
+                fr: "Nos domaines de calcul"
+            },
+            title: {
+                zh: "计算服务",
+                en: "Simulation Services",
+                fr: "Services de simulation"
+            },
+            description: {
+                zh: "围绕材料“成分—工艺—组织—性能”关系，提供以下六类计算服务。",
+                en: "Six categories of simulation services covering composition, processing, microstructure, and properties.",
+                fr: "Six catégories de services couvrant les relations entre composition, procédé, microstructure et propriétés."
+            }
+        },
+        catalog: {
+            mesoTitle: { zh: "介观相场与组织演化", en: "Mesoscale Phase-Field & Microstructure Evolution", fr: "Champ de phase mésoscopique et évolution microstructurale" },
+            nanoTitle: { zh: "纳观晶体相场与缺陷演化", en: "Nanoscale Crystal Phase-Field & Defect Evolution", fr: "Champ de phase cristallin nanométrique et évolution des défauts" },
+            nanoDescription: {
+                zh: "面向原子—纳米尺度研究晶格、析出、界面与缺陷结构的形成和演化。",
+                en: "Study the formation and evolution of lattices, precipitates, interfaces, and defect structures from atomic to nanoscale dimensions.",
+                fr: "Étudier la formation et l'évolution des réseaux, précipités, interfaces et structures de défauts de l'échelle atomique à l'échelle nanométrique."
+            },
+            compositeConductivity: { zh: "多相复合材料热导率", en: "Thermal Conductivity of Multiphase Composites", fr: "Conductivité thermique des composites multiphasés" },
+            conductivitySurface: { zh: "热导率成分—温度响应", en: "Composition–Temperature Response of Thermal Conductivity", fr: "Réponse composition–température de la conductivité thermique" },
+            alloyViscosity: { zh: "合金粘度", en: "Alloy Viscosity", fr: "Viscosité des alliages" },
+            liquidViscosity: { zh: "液态粘度", en: "Liquid Viscosity", fr: "Viscosité à l'état liquide" },
+            mesoSpinodal: { zh: "调幅分解", en: "Spinodal Decomposition", fr: "Décomposition spinodale" },
+            mesoDiscontinuousPrecipitation: { zh: "不连续析出", en: "Discontinuous Precipitation", fr: "Précipitation discontinue" },
+            electrodeChargeDischarge: { zh: "电极充放电相变模拟", en: "Electrode Charge-Discharge Phase Transformation", fr: "Transformation de phase lors de la charge-décharge d'électrodes" },
+            uniaxialTension: { zh: "单轴拉伸模拟", en: "Uniaxial Tension Simulation", fr: "Simulation de traction uniaxiale" },
+            nanoStructure: { zh: "晶格结构与纳米结构形成", en: "Lattice and nanostructure formation", fr: "Formation du réseau et des nanostructures" },
+            nanoEvolution: { zh: "多层结构与界面原子级演化", en: "Atomic-scale evolution of multilayers and interfaces", fr: "Évolution atomique des multicouches et des interfaces" },
+            nanoPrecipitation: { zh: "晶界、相界与析出相演化", en: "Evolution of grain boundaries, phase boundaries, and precipitates", fr: "Évolution des joints de grains, interfaces de phases et précipités" },
+            nanoMisfit: { zh: "晶格错配与析出形貌调控", en: "Lattice misfit and precipitate morphology control", fr: "Désaccord de réseau et contrôle de la morphologie des précipités" },
+            nanoDefect: { zh: "界面缺陷形成与演化", en: "Formation and evolution of interfacial defects", fr: "Formation et évolution des défauts interfaciaux" },
+            nanoSpinodal: { zh: "低维相分离与调幅分解", en: "Low-dimensional phase separation and spinodal decomposition", fr: "Séparation de phases de faible dimension et décomposition spinodale" },
+            nanoindentation: { zh: "纳米压痕模拟", en: "Nanoindentation Simulation", fr: "Simulation de nano-indentation" }
+        },
+        service1: {
+            title: {
+                zh: "相图与热力学计算",
+                en: "Phase Diagram & Thermodynamic Calculations",
+                fr: "Diagrammes de phases et calculs thermodynamiques"
+            },
+            description: {
+                zh: "分析材料在不同成分、温度及条件下的相稳定性、相组成和热力学性质。",
+                en: "Analyze phase stability, phase constitution, and thermodynamic properties across compositions, temperatures, and operating conditions.",
+                fr: "Analyser la stabilité des phases, leur constitution et les propriétés thermodynamiques selon la composition, la température et les conditions de fonctionnement."
+            },
+            feature1: { zh: "二元、三元及多元相图", en: "Binary, ternary, and multicomponent phase diagrams", fr: "Diagrammes de phases binaires, ternaires et multicomposants" },
+            feature2: { zh: "等温截面、垂直截面与液相面投影", en: "Isothermal sections, vertical sections, and liquidus projections", fr: "Sections isothermes, sections verticales et projections du liquidus" },
+            feature3: { zh: "相含量、相成分及相变温度", en: "Phase fractions, phase compositions, and transformation temperatures", fr: "Fractions de phases, compositions des phases et températures de transformation" },
+            feature4: { zh: "自由能、焓、熵、热容与相变驱动力", en: "Free energy, enthalpy, entropy, heat capacity, and transformation driving force", fr: "Énergie libre, enthalpie, entropie, capacité calorifique et force motrice de transformation" },
+            feature5: { zh: "高通量成分筛选与参数优化", en: "High-throughput composition screening and parameter optimization", fr: "Criblage à haut débit des compositions et optimisation des paramètres" }
+        },
+        service2: {
+            title: {
+                zh: "扩散与热处理模拟",
+                en: "Diffusion & Heat Treatment Simulation",
+                fr: "Simulation de la diffusion et des traitements thermiques"
+            },
+            description: {
+                zh: "研究多组元材料中的元素扩散、界面迁移及热处理过程，辅助工艺制度设计。",
+                en: "Model elemental diffusion, interface migration, and heat treatment in multicomponent materials to support process design.",
+                fr: "Modéliser la diffusion des éléments, la migration des interfaces et les traitements thermiques dans les matériaux multicomposants afin d'appuyer la conception des procédés."
+            },
+            feature1: { zh: "扩散偶与成分—距离曲线", en: "Diffusion couples and composition-distance profiles", fr: "Couples de diffusion et profils composition-distance" },
+            feature2: { zh: "多元、多相及多维扩散", en: "Multicomponent, multiphase, and multidimensional diffusion", fr: "Diffusion multicomposant, multiphasée et multidimensionnelle" },
+            feature3: { zh: "均匀化处理与反应层生长", en: "Homogenization treatment and reaction-layer growth", fr: "Traitement d'homogénéisation et croissance des couches de réaction" },
+            feature4: { zh: "渗碳、渗氮及脱碳过程", en: "Carburizing, nitriding, and decarburizing processes", fr: "Procédés de cémentation, nitruration et décarburation" },
+            feature5: { zh: "迁移率参数优化与动力学数据库开发", en: "Mobility parameter optimization and kinetic database development", fr: "Optimisation des paramètres de mobilité et développement de bases de données cinétiques" }
+        },
+        service3: {
+            title: {
+                zh: "凝固与偏析模拟",
+                en: "Solidification & Segregation Simulation",
+                fr: "Simulation de la solidification et de la ségrégation"
+            },
+            description: {
+                zh: "预测凝固过程中的相析出顺序、元素偏析和组织演化趋势，辅助铸造工艺优化。",
+                en: "Predict phase formation sequences, elemental segregation, and microstructure evolution during solidification to support casting-process optimization.",
+                fr: "Prédire la séquence de formation des phases, la ségrégation des éléments et l'évolution de la microstructure pendant la solidification afin d'optimiser les procédés de coulée."
+            },
+            feature1: { zh: "平衡与非平衡凝固路径", en: "Equilibrium and non-equilibrium solidification paths", fr: "Chemins de solidification à l'équilibre et hors équilibre" },
+            feature2: { zh: "液相线、固相线及凝固区间", en: "Liquidus, solidus, and solidification interval", fr: "Liquidus, solidus et intervalle de solidification" },
+            feature3: { zh: "相析出顺序与有害相风险", en: "Phase formation sequence and detrimental-phase risk", fr: "Séquence de formation des phases et risque de phases indésirables" },
+            feature4: { zh: "元素偏析及冷却条件影响", en: "Elemental segregation and effects of cooling conditions", fr: "Ségrégation des éléments et influence des conditions de refroidissement" },
+            feature5: { zh: "枝晶及凝固组织演化", en: "Dendritic and solidification-microstructure evolution", fr: "Évolution dendritique et évolution de la microstructure de solidification" }
+        },
+        service4: {
+            title: {
+                zh: "相场与微结构演化",
+                en: "Phase-Field & Microstructure Evolution",
+                fr: "Champ de phase et évolution des microstructures"
+            },
+            description: {
+                zh: "从介观到纳观研究相变、析出、界面和缺陷演化，建立工艺—组织之间的联系。",
+                en: "Study transformations, precipitation, interfaces, and defect evolution from mesoscopic to nanoscopic scales, linking processing to microstructure.",
+                fr: "Étudier les transformations, la précipitation, les interfaces et l'évolution des défauts, de l'échelle mésoscopique à l'échelle nanoscopique, afin de relier procédé et microstructure."
+            },
+            feature1: { zh: "晶粒长大、枝晶生长与调幅分解", en: "Grain growth, dendrite growth, and spinodal decomposition", fr: "Croissance des grains, croissance dendritique et décomposition spinodale" },
+            feature2: { zh: "连续/不连续析出与时效组织", en: "Continuous/discontinuous precipitation and aging microstructures", fr: "Précipitation continue/discontinue et microstructures de vieillissement" },
+            feature3: { zh: "多相烧结及电极颗粒演化", en: "Multiphase sintering and electrode-particle evolution", fr: "Frittage multiphasé et évolution des particules d'électrode" },
+            feature4: { zh: "位错、晶界、相界和界面失稳", en: "Dislocations, grain boundaries, phase boundaries, and interface instability", fr: "Dislocations, joints de grains, interfaces de phases et instabilités interfaciales" },
+            feature5: { zh: "温度、应力、流体及电磁场耦合", en: "Coupled temperature, stress, fluid-flow, and electromagnetic fields", fr: "Couplage des champs de température, de contrainte, d'écoulement et électromagnétiques" }
+        },
+        service5: {
+            title: {
+                zh: "晶体塑性有限元",
+                en: "Crystal Plasticity Finite Element Analysis",
+                fr: "Éléments finis de plasticité cristalline"
+            },
+            description: {
+                zh: "针对材料微结构开展力学响应模拟，分析织构、晶粒和多相结构对性能的影响。",
+                en: "Simulate the mechanical response of material microstructures and assess how texture, grains, and multiphase structures affect performance.",
+                fr: "Simuler la réponse mécanique des microstructures et évaluer l'influence de la texture, des grains et des structures multiphasées sur les performances."
+            },
+            feature1: { zh: "单晶与多晶拉伸、剪切及循环加载", en: "Single-crystal and polycrystal tension, shear, and cyclic loading", fr: "Traction, cisaillement et chargement cyclique des monocristaux et polycristaux" },
+            feature2: { zh: "织构演化与材料各向异性", en: "Texture evolution and material anisotropy", fr: "Évolution de la texture et anisotropie des matériaux" },
+            feature3: { zh: "梯度晶粒、柱状晶及颗粒增强结构", en: "Gradient-grain, columnar-grain, and particle-reinforced structures", fr: "Structures à grains gradués, grains colonnaires et renforts particulaires" },
+            feature4: { zh: "微柱压缩、纳米压痕与硬度", en: "Micropillar compression, nanoindentation, and hardness", fr: "Compression de micropiliers, nano-indentation et dureté" },
+            feature5: { zh: "残余热应力、疲劳指标与裂纹分析", en: "Residual thermal stress, fatigue indicators, and crack analysis", fr: "Contraintes thermiques résiduelles, indicateurs de fatigue et analyse des fissures" }
+        },
+        service6: {
+            title: {
+                zh: "粘度与热导率计算",
+                en: "Viscosity & Thermal Conductivity Calculations",
+                fr: "Calculs de viscosité et de conductivité thermique"
+            },
+            description: {
+                zh: "计算粘度与热导率随成分、温度和微结构的变化，并开展模型参数优化与结果评估。",
+                en: "Calculate viscosity and thermal conductivity as functions of composition, temperature, and microstructure, with model-parameter optimization and result assessment.",
+                fr: "Calculer la viscosité et la conductivité thermique en fonction de la composition, de la température et de la microstructure, avec optimisation des paramètres du modèle et évaluation des résultats."
+            },
+            feature1: { zh: "金属、合金及氧化物液态粘度", en: "Liquid viscosity of metals, alloys, and oxides", fr: "Viscosité à l'état liquide des métaux, alliages et oxydes" },
+            feature2: { zh: "单相合金与多相材料热导率", en: "Thermal conductivity of single-phase alloys and multiphase materials", fr: "Conductivité thermique des alliages monophasés et matériaux multiphasés" },
+            feature3: { zh: "温度、成分及晶粒尺寸影响", en: "Effects of temperature, composition, and grain size", fr: "Effets de la température, de la composition et de la taille des grains" },
+            feature4: { zh: "相界热阻与模型参数评估", en: "Interphase thermal resistance and model-parameter assessment", fr: "Résistance thermique interfaciale et évaluation des paramètres du modèle" },
+            feature5: { zh: "粘度工艺窗口与热物性参数优化", en: "Viscosity process windows and thermophysical-parameter optimization", fr: "Fenêtres de procédé de viscosité et optimisation des paramètres thermophysiques" }
+        },
+        deliverables: {
+            kicker: { zh: "Deliverables", en: "Deliverables", fr: "Livrables" },
+            title: { zh: "项目交付成果", en: "Project Deliverables", fr: "Livrables du projet" },
+            description: {
+                zh: "交付范围在项目启动前确认，确保计算过程、结果表达和验收标准清晰一致。",
+                en: "The delivery scope is agreed before project launch so that the calculation process, result presentation, and acceptance criteria are clear and consistent.",
+                fr: "Le périmètre des livrables est convenu avant le lancement du projet afin de clarifier le processus de calcul, la présentation des résultats et les critères de réception."
+            },
+            item1: { zh: "计算方案与模型说明", en: "Calculation plan and model description", fr: "Plan de calcul et description du modèle" },
+            item2: { zh: "参数及边界条件说明", en: "Parameters and boundary-condition specification", fr: "Paramètres et conditions aux limites" },
+            item3: { zh: "原始计算数据", en: "Raw calculation data", fr: "Données brutes de calcul" },
+            item4: { zh: "高清图片与数据曲线", en: "High-resolution figures and data curves", fr: "Figures haute résolution et courbes de données" },
+            item5: { zh: "组织演化动画", en: "Microstructure-evolution animations", fr: "Animations de l'évolution des microstructures" },
+            item6: { zh: "结果分析与物理解释", en: "Result analysis and physical interpretation", fr: "Analyse des résultats et interprétation physique" },
+            item7: { zh: "完整技术报告", en: "Complete technical report", fr: "Rapport technique complet" },
+            item8: { zh: "项目答疑与验收支持", en: "Project Q&A and acceptance support", fr: "Réponses aux questions et assistance à la réception" }
+        },
+        request: {
+            kicker: { zh: "Submit Your Request", en: "Submit Your Request", fr: "Soumettre votre demande" },
+            title: { zh: "提交计算需求", en: "Submit a Simulation Request", fr: "Soumettre une demande de simulation" },
+            description: {
+                zh: "请尽量说明材料成分、温度、时间、载荷等条件，以及希望解决的问题。信息不完整也可以提交，我们会协助梳理。",
+                en: "Please describe the material composition, temperature, time, loading conditions, and the problem you want to solve. You may still submit an incomplete request; we will help clarify it.",
+                fr: "Veuillez préciser la composition du matériau, la température, la durée, les conditions de chargement et le problème à résoudre. Vous pouvez également soumettre une demande incomplète ; nous vous aiderons à la préciser."
+            },
+            contactTitle: { zh: "技术咨询", en: "Technical Enquiries", fr: "Renseignements techniques" },
+            privacy: {
+                zh: "涉及未公开研究或企业项目时，可在沟通后签署保密协议。",
+                en: "A confidentiality agreement can be signed after initial consultation for unpublished research or corporate projects.",
+                fr: "Un accord de confidentialité peut être signé après un premier échange pour les recherches non publiées ou les projets d'entreprise."
+            }
+        },
+        form: {
+            name: { zh: "联系人 *", en: "Contact Name *", fr: "Nom du contact *" },
+            organization: { zh: "单位", en: "Organization", fr: "Organisme / Entreprise" },
+            contact: { zh: "手机或邮箱 *", en: "Phone or Email *", fr: "Téléphone ou e-mail *" },
+            clientType: { zh: "客户类型", en: "Client Type", fr: "Type de client" },
+            clientUniversity: { zh: "高校", en: "University", fr: "Université" },
+            clientInstitute: { zh: "科研院所", en: "Research Institute", fr: "Institut de recherche" },
+            clientEnterprise: { zh: "企业", en: "Enterprise", fr: "Entreprise" },
+            clientOther: { zh: "其他", en: "Other", fr: "Autre" },
+            topic: { zh: "研究问题 *", en: "Research Topic *", fr: "Sujet de recherche *" },
+            select: { zh: "请选择", en: "Please select", fr: "Veuillez sélectionner" },
+            topic1: { zh: "合金成分设计", en: "Alloy composition design", fr: "Conception de la composition d'un alliage" },
+            topic2: { zh: "相图与热力学计算", en: "Phase diagrams and thermodynamics", fr: "Diagrammes de phases et thermodynamique" },
+            topic3: { zh: "凝固偏析分析", en: "Solidification and segregation analysis", fr: "Analyse de la solidification et de la ségrégation" },
+            topic4: { zh: "扩散与热处理", en: "Diffusion and heat treatment", fr: "Diffusion et traitements thermiques" },
+            topic5: { zh: "扩散与表面处理", en: "Diffusion and surface treatment", fr: "Diffusion et traitements de surface" },
+            topic6: { zh: "相场与组织演化", en: "Phase-field and microstructure evolution", fr: "Champ de phase et évolution des microstructures" },
+            topic7: { zh: "析出与组织演化", en: "Precipitation and microstructure evolution", fr: "Précipitation et évolution des microstructures" },
+            topic8: { zh: "晶体塑性有限元", en: "Crystal plasticity finite element analysis", fr: "Éléments finis de plasticité cristalline" },
+            topic9: { zh: "微结构力学性能", en: "Microstructure and mechanical properties", fr: "Microstructure et propriétés mécaniques" },
+            topic10: { zh: "粘度与热导率", en: "Viscosity and thermal conductivity", fr: "Viscosité et conductivité thermique" },
+            topic11: { zh: "材料数据库开发", en: "Materials database development", fr: "Développement de bases de données matériaux" },
+            topic12: { zh: "尚不确定", en: "Not sure yet", fr: "À définir" },
+            material: { zh: "材料体系或化学成分 *", en: "Material System or Chemical Composition *", fr: "Système matériau ou composition chimique *" },
+            materialPlaceholder: {
+                zh: "例如：Al-Mg-Si 合金，具体成分可在需求描述中填写",
+                en: "Example: Al-Mg-Si alloy; detailed composition can be included in the request description",
+                fr: "Exemple : alliage Al-Mg-Si ; la composition détaillée peut être indiquée dans la description"
+            },
+            detail: { zh: "需求描述 *", en: "Request Description *", fr: "Description de la demande *" },
+            detailPlaceholder: {
+                zh: "请说明研究目标、温度/时间/载荷等条件、已有数据和期望交付成果",
+                en: "Describe the research objective, temperature/time/loading conditions, available data, and expected deliverables",
+                fr: "Précisez l'objectif, les conditions de température/durée/chargement, les données disponibles et les livrables attendus"
+            },
+            deadline: { zh: "期望完成时间", en: "Desired Completion Date", fr: "Date de livraison souhaitée" },
+            confidential: { zh: "保密需求", en: "Confidentiality Requirements", fr: "Exigences de confidentialité" },
+            confidentialNone: { zh: "暂无特殊要求", en: "No special requirements", fr: "Aucune exigence particulière" },
+            confidentialNda: { zh: "需要签署保密协议", en: "Confidentiality agreement required", fr: "Accord de confidentialité requis" },
+            confidentialDiscuss: { zh: "沟通后确认", en: "To be confirmed after discussion", fr: "À confirmer après discussion" },
+            submit: { zh: "提交信息", en: "Submit Request", fr: "Envoyer la demande" }
+        },
+        status: {
+            submittingButton: { zh: "提交中...", en: "Submitting...", fr: "Envoi..." },
+            submitting: { zh: "正在提交，请稍候。", en: "Submitting, please wait.", fr: "Envoi en cours, veuillez patienter." },
+            success: { zh: "提交成功，我们会尽快与您联系。", en: "Submitted successfully. We will contact you shortly.", fr: "Votre demande a été envoyée. Nous vous contacterons prochainement." },
+            failed: {
+                zh: "提交失败，请稍后重试，或直接发送邮件至 rrui_info@163.com。",
+                en: "Submission failed. Please try again later or email rrui_info@163.com.",
+                fr: "L'envoi a échoué. Veuillez réessayer plus tard ou écrire à rrui_info@163.com."
+            },
+            network: {
+                zh: "网络异常，请稍后重试，或直接发送邮件至 rrui_info@163.com。",
+                en: "Network error. Please try again later or email rrui_info@163.com.",
+                fr: "Erreur réseau. Veuillez réessayer plus tard ou écrire à rrui_info@163.com."
+            }
         }
     },
     detailPage: {

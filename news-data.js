@@ -1,6 +1,21 @@
 const newsData = [
 
     {
+        date: "2026-09-02",
+        title: {
+            zh: "2026年热物性理论与计算讲习班在长沙成功举办",
+            en: "2026 Workshop on Thermophysical Property Theory and Computation Successfully Held in Changsha",
+            fr: "L'atelier 2026 sur la theorie et le calcul des proprietes thermophysiques s'est tenu avec succes a Changsha"
+        },
+        detailText: {
+            zh: "查看详情",
+            en: "Read More",
+            fr: "Lire la suite"
+        },
+        url: "news/2026-09-02.html"
+    },
+
+    {
         date: "2026-08-15",
         title: {
             zh: "2026年热物性理论与计算讲习班将于8月28日在长沙举办",

@@ -9,51 +9,51 @@ const newsDetailData = {
         body: {
             zh: `
 <p>2026年8月28日至31日，由长沙锐睿科技有限公司主办的“锐睿科技材料智能设计软件系列培训1——热物性理论与软件讲解”在湖南长沙通程麓山大酒店成功举办。来自全国18个省份的131位专家学者、高校教师、研究生及企业研发人员参加讲习班，围绕扩散动力学、热导率和粘度三类核心热物性参数，开展了为期三天的系统理论学习与软件实操。</p>
-<figure><img src="../assets/news-260902-img1.jpg" alt="2026年热物性理论与计算讲习班全体参会人员"><figcaption>培训班现场座无虚席</figcaption></figure>
+<figure><img src="../news-260902-img1.jpg" alt="2026年热物性理论与计算讲习班全体参会人员"><figcaption>培训班现场座无虚席</figcaption></figure>
 <h2>扩散动力学理论与前沿应用</h2>
 <p>8月29日，课程聚焦扩散动力学理论体系。刘钰玲老师从扩散的物理本质、微观机制与分类讲起，系统介绍热激活跳跃、扩散系数与温度的Arrhenius关系等基础内容；都昌发老师围绕Fick第一、第二定律及其工程应用，进一步讲解扩散系数、Kirkendall效应，以及化学势、活度和热力学因子等扩散热力学驱动力。</p>
-<figure><img src="../assets/news-260902-img2.jpg" alt="刘钰玲老师讲授扩散动力学理论"><figcaption>刘钰玲老师现场授课</figcaption></figure>
-<figure><img src="../assets/news-260902-img9.jpg" alt="都昌发老师讲授扩散动力学理论"><figcaption>都昌发老师现场授课</figcaption></figure>
+<figure><img src="../news-260902-img2.jpg" alt="刘钰玲老师讲授扩散动力学理论"><figcaption>刘钰玲老师现场授课</figcaption></figure>
+<figure><img src="../news-260902-img9.jpg" alt="都昌发老师讲授扩散动力学理论"><figcaption>都昌发老师现场授课</figcaption></figure>
 <p>下午，匈牙利科学院院士杜勇教授作“热物性计算在材料科学与工程中的前沿应用”报告，匈牙利科学院院士George Kaptay教授线上作“扩散动力学计算在材料科学与工程中的前沿应用”报告，向学员展示热物性计算在材料研究与工业研发中的应用前景。</p>
-<figure><img src="../assets/news-260902-img3.jpg" alt="杜勇教授作热物性计算前沿应用报告"><figcaption>杜勇教授现场授课</figcaption></figure>
-<figure><img src="../assets/news-260902-img4.jpg" alt="George Kaptay教授线上授课"><figcaption>George Kaptay教授线上授课</figcaption></figure>
+<figure><img src="../news-260902-img3.jpg" alt="杜勇教授作热物性计算前沿应用报告"><figcaption>杜勇教授现场授课</figcaption></figure>
+<figure><img src="../news-260902-img4.jpg" alt="George Kaptay教授线上授课"><figcaption>George Kaptay教授线上授课</figcaption></figure>
 <h2>CALTPP扩散模块实操</h2>
 <p>8月30日全天课程围绕CALTPP扩散模块展开。刘辉新老师通过两节基础课程带领学员熟悉软件界面、参数设置和基本计算流程；阳惠老师在此基础上讲解进阶功能与应用技巧，帮助学员提升运用软件处理复杂扩散计算任务的能力。课程设置了多轮答疑与讨论，学员使用自备电脑同步操作，现场交流活跃。</p>
-<figure><img src="../assets/news-260902-img5.jpg" alt="CALTPP扩散模块实操培训"><figcaption>CALTPP扩散模块教学与实操培训</figcaption></figure>
-<figure><img src="../assets/news-260902-img10.jpg" alt="阳惠老师讲授CALTPP扩散模块"><figcaption>阳惠老师现场授课</figcaption></figure>
+<figure><img src="../news-260902-img5.jpg" alt="CALTPP扩散模块实操培训"><figcaption>CALTPP扩散模块教学与实操培训</figcaption></figure>
+<figure><img src="../news-260902-img10.jpg" alt="阳惠老师讲授CALTPP扩散模块"><figcaption>阳惠老师现场授课</figcaption></figure>
 <h2>热导率与粘度理论及实操</h2>
 <p>8月31日，文诗艺老师系统讲解热传导微观机制以及热导率对温度、成分的依赖关系，并带领学员完成CALTPP热导率模块从参数输入到结果分析的完整计算流程。谭敬老师围绕多元合金和氧化物体系的密度、粘度建模理论展开教学，随后通过实际案例指导学员掌握CALTPP粘度模块的操作方法。</p>
-<figure><img src="../assets/news-260902-img6.jpg" alt="CALTPP热导率模块实操培训"><figcaption>CALTPP热导率模块教学与实操培训</figcaption></figure>
-<figure><img src="../assets/news-260902-img7.jpg" alt="谭敬老师讲授CALTPP粘度模块"><figcaption>谭敬老师现场授课</figcaption></figure>
-<figure><img src="../assets/news-260902-img11.jpg" alt="谭敬老师与学员现场交流"><figcaption>谭敬老师与学员现场交流</figcaption></figure>
+<figure><img src="../news-260902-img6.jpg" alt="CALTPP热导率模块实操培训"><figcaption>CALTPP热导率模块教学与实操培训</figcaption></figure>
+<figure><img src="../news-260902-img7.jpg" alt="谭敬老师讲授CALTPP粘度模块"><figcaption>谭敬老师现场授课</figcaption></figure>
+<figure><img src="../news-260902-img11.jpg" alt="谭敬老师与学员现场交流"><figcaption>谭敬老师与学员现场交流</figcaption></figure>
 <h2>圆满结班，系列培训持续推进</h2>
 <p>结班仪式上，杜勇教授表示，本次讲习班旨在推动热物性理论在集成计算材料工程中的广泛应用，进一步揭示材料“成分—工艺—组织—性能”的内在联系。培训期间，学员与授课专家在各教学环节深入互动，形成了浓厚的学术交流氛围。作为“材料智能设计软件系列培训”的开篇活动，本次讲习班取得圆满成功，未来还将继续举办系列培训，服务我国新材料研发与工业创新。</p>
-<figure><img src="../assets/news-260902-img8.jpg" alt="杜勇教授在结班仪式上发言"><figcaption>杜勇教授结班发言</figcaption></figure>
+<figure><img src="../news-260902-img8.jpg" alt="杜勇教授在结班仪式上发言"><figcaption>杜勇教授结班发言</figcaption></figure>
 <h2>关于CALTPP软件</h2>
 <p>本次培训重点使用的CALTPP（Calculation of ThermoPhysical Properties）软件由授课团队历时10年开发，是一款面向多元多相合金的热物性计算及应用工具。软件构建了热力学与热物性深度耦合的统一计算框架，集成扩散、粘度与热导率模块，并结合偏微分方程求解技术和多种优化算法，为热物性研究与材料设计提供计算支持。目前，中外科研院所研究人员已使用CALTPP发表SCI论文100余篇。</p>
 `,
             en: `
 <p>From August 28 to 31, 2026, the first session of RR-Tek's Materials Intelligent Design Software Training Series—Thermophysical Property Theory and Software—was successfully held at Tongcheng Lushan Hotel in Changsha, Hunan. The workshop brought together 131 experts, university faculty members, graduate students, and industrial R&amp;D professionals from 18 provinces across China for three days of systematic theory and hands-on software training in diffusion kinetics, thermal conductivity, and viscosity.</p>
-<figure><img src="../assets/news-260902-img1.jpg" alt="Participants at the 2026 thermophysical property workshop"><figcaption>Workshop venue</figcaption></figure>
+<figure><img src="../news-260902-img1.jpg" alt="Participants at the 2026 thermophysical property workshop"><figcaption>Workshop venue</figcaption></figure>
 <h2>Diffusion kinetics theory and frontier applications</h2>
 <p>On August 29, Liu Yuling introduced the physical foundations, microscopic mechanisms, classifications, and temperature dependence of diffusion. Du Changfa then explained Fick's first and second laws, diffusion coefficients, the Kirkendall effect, and thermodynamic driving forces including chemical potential, activity, and thermodynamic factors.</p>
-<figure><img src="../assets/news-260902-img2.jpg" alt="Liu Yuling teaching diffusion kinetics"><figcaption>Liu Yuling delivering a lecture</figcaption></figure>
-<figure><img src="../assets/news-260902-img9.jpg" alt="Du Changfa teaching diffusion kinetics"><figcaption>Du Changfa delivering a lecture</figcaption></figure>
+<figure><img src="../news-260902-img2.jpg" alt="Liu Yuling teaching diffusion kinetics"><figcaption>Liu Yuling delivering a lecture</figcaption></figure>
+<figure><img src="../news-260902-img9.jpg" alt="Du Changfa teaching diffusion kinetics"><figcaption>Du Changfa delivering a lecture</figcaption></figure>
 <p>In the afternoon, Professor Du Yong, a member of the Hungarian Academy of Sciences, presented frontier applications of thermophysical-property computation in materials science and engineering. Professor George Kaptay, also a member of the Hungarian Academy of Sciences, delivered an online report on frontier applications of diffusion-kinetics computation.</p>
-<figure><img src="../assets/news-260902-img3.jpg" alt="Professor Du Yong presenting frontier applications"><figcaption>Professor Du Yong delivering a lecture</figcaption></figure>
-<figure><img src="../assets/news-260902-img4.jpg" alt="Professor George Kaptay teaching online"><figcaption>Professor George Kaptay delivering an online lecture</figcaption></figure>
+<figure><img src="../news-260902-img3.jpg" alt="Professor Du Yong presenting frontier applications"><figcaption>Professor Du Yong delivering a lecture</figcaption></figure>
+<figure><img src="../news-260902-img4.jpg" alt="Professor George Kaptay teaching online"><figcaption>Professor George Kaptay delivering an online lecture</figcaption></figure>
 <h2>Hands-on CALTPP diffusion training</h2>
 <p>On August 30, the full-day program focused on the CALTPP diffusion module. Liu Huixin guided participants through the interface, parameter settings, and basic computational workflow, while Yang Hui covered advanced functions and application techniques. Participants practiced on their own laptops and discussed practical questions with the instructors.</p>
-<figure><img src="../assets/news-260902-img5.jpg" alt="Hands-on CALTPP diffusion training"><figcaption>CALTPP diffusion module training</figcaption></figure>
-<figure><img src="../assets/news-260902-img10.jpg" alt="Yang Hui teaching the CALTPP diffusion module"><figcaption>Yang Hui delivering a lecture</figcaption></figure>
+<figure><img src="../news-260902-img5.jpg" alt="Hands-on CALTPP diffusion training"><figcaption>CALTPP diffusion module training</figcaption></figure>
+<figure><img src="../news-260902-img10.jpg" alt="Yang Hui teaching the CALTPP diffusion module"><figcaption>Yang Hui delivering a lecture</figcaption></figure>
 <h2>Thermal conductivity and viscosity</h2>
 <p>On August 31, Wen Shiyi explained microscopic heat-transfer mechanisms and the dependence of thermal conductivity on temperature and composition, followed by hands-on CALTPP thermal-conductivity exercises. Tan Jing introduced modeling methods for density and viscosity in multicomponent alloys and oxide systems and guided participants through practical CALTPP viscosity calculations.</p>
-<figure><img src="../assets/news-260902-img6.jpg" alt="CALTPP thermal conductivity training"><figcaption>CALTPP thermal conductivity module training</figcaption></figure>
-<figure><img src="../assets/news-260902-img7.jpg" alt="Tan Jing teaching the CALTPP viscosity module"><figcaption>Tan Jing delivering a lecture</figcaption></figure>
-<figure><img src="../assets/news-260902-img11.jpg" alt="Tan Jing discussing with a participant"><figcaption>Tan Jing discussing with a participant</figcaption></figure>
+<figure><img src="../news-260902-img6.jpg" alt="CALTPP thermal conductivity training"><figcaption>CALTPP thermal conductivity module training</figcaption></figure>
+<figure><img src="../news-260902-img7.jpg" alt="Tan Jing teaching the CALTPP viscosity module"><figcaption>Tan Jing delivering a lecture</figcaption></figure>
+<figure><img src="../news-260902-img11.jpg" alt="Tan Jing discussing with a participant"><figcaption>Tan Jing discussing with a participant</figcaption></figure>
 <h2>Successful conclusion and future training</h2>
 <p>At the closing ceremony, Professor Du Yong emphasized that the workshop was designed to broaden the use of thermophysical-property theory in integrated computational materials engineering and deepen understanding of composition–process–microstructure–property relationships. As the opening event in RR-Tek's Materials Intelligent Design Software Training Series, the workshop concluded successfully, and further training sessions will follow.</p>
-<figure><img src="../assets/news-260902-img8.jpg" alt="Professor Du Yong speaking at the closing ceremony"><figcaption>Professor Du Yong at the closing ceremony</figcaption></figure>
+<figure><img src="../news-260902-img8.jpg" alt="Professor Du Yong speaking at the closing ceremony"><figcaption>Professor Du Yong at the closing ceremony</figcaption></figure>
 <h2>About CALTPP</h2>
 <p>CALTPP (Calculation of ThermoPhysical Properties), the software used throughout the workshop, was developed by the teaching team over ten years for thermophysical-property calculation and application in multicomponent, multiphase alloys. Its unified framework couples thermodynamics with diffusion, viscosity, and thermal conductivity models and integrates robust partial differential equation solvers and optimization algorithms. Researchers at institutions in China and abroad have used CALTPP in more than 100 SCI-indexed publications.</p>
 `

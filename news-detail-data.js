@@ -9,51 +9,51 @@ const newsDetailData = {
         body: {
             zh: `
 <p>2026年8月28日至31日，由长沙锐睿科技有限公司主办的“锐睿科技材料智能设计软件系列培训1——热物性理论与软件讲解”在湖南长沙通程麓山大酒店成功举办。来自全国18个省份的131位专家学者、高校教师、研究生及企业研发人员参加讲习班，围绕扩散动力学、热导率和粘度三类核心热物性参数，开展了为期三天的系统理论学习与软件实操。</p>
-<figure><img src="../news-260902-img1.jpg" alt="2026年热物性理论与计算讲习班全体参会人员"><figcaption>培训班现场座无虚席</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img1.jpg" alt="2026年热物性理论与计算讲习班全体参会人员"><figcaption>培训班现场座无虚席</figcaption></figure>
 <h2>扩散动力学理论与前沿应用</h2>
 <p>8月29日，课程聚焦扩散动力学理论体系。刘钰玲老师从扩散的物理本质、微观机制与分类讲起，系统介绍热激活跳跃、扩散系数与温度的Arrhenius关系等基础内容；都昌发老师围绕Fick第一、第二定律及其工程应用，进一步讲解扩散系数、Kirkendall效应，以及化学势、活度和热力学因子等扩散热力学驱动力。</p>
-<figure><img src="../news-260902-img2.jpg" alt="刘钰玲老师讲授扩散动力学理论"><figcaption>刘钰玲老师现场授课</figcaption></figure>
-<figure><img src="../news-260902-img9.jpg" alt="都昌发老师讲授扩散动力学理论"><figcaption>都昌发老师现场授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img2.jpg" alt="刘钰玲老师讲授扩散动力学理论"><figcaption>刘钰玲老师现场授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img9.jpg" alt="都昌发老师讲授扩散动力学理论"><figcaption>都昌发老师现场授课</figcaption></figure>
 <p>下午，匈牙利科学院院士杜勇教授作“热物性计算在材料科学与工程中的前沿应用”报告，匈牙利科学院院士George Kaptay教授线上作“扩散动力学计算在材料科学与工程中的前沿应用”报告，向学员展示热物性计算在材料研究与工业研发中的应用前景。</p>
-<figure><img src="../news-260902-img3.jpg" alt="杜勇教授作热物性计算前沿应用报告"><figcaption>杜勇教授现场授课</figcaption></figure>
-<figure><img src="../news-260902-img4.jpg" alt="George Kaptay教授线上授课"><figcaption>George Kaptay教授线上授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img3.jpg" alt="杜勇教授作热物性计算前沿应用报告"><figcaption>杜勇教授现场授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img4.jpg" alt="George Kaptay教授线上授课"><figcaption>George Kaptay教授线上授课</figcaption></figure>
 <h2>CALTPP扩散模块实操</h2>
 <p>8月30日全天课程围绕CALTPP扩散模块展开。刘辉新老师通过两节基础课程带领学员熟悉软件界面、参数设置和基本计算流程；阳惠老师在此基础上讲解进阶功能与应用技巧，帮助学员提升运用软件处理复杂扩散计算任务的能力。课程设置了多轮答疑与讨论，学员使用自备电脑同步操作，现场交流活跃。</p>
-<figure><img src="../news-260902-img5.jpg" alt="CALTPP扩散模块实操培训"><figcaption>CALTPP扩散模块教学与实操培训</figcaption></figure>
-<figure><img src="../news-260902-img10.jpg" alt="阳惠老师讲授CALTPP扩散模块"><figcaption>阳惠老师现场授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img5.jpg" alt="CALTPP扩散模块实操培训"><figcaption>CALTPP扩散模块教学与实操培训</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img10.jpg" alt="阳惠老师讲授CALTPP扩散模块"><figcaption>阳惠老师现场授课</figcaption></figure>
 <h2>热导率与粘度理论及实操</h2>
 <p>8月31日，文诗艺老师系统讲解热传导微观机制以及热导率对温度、成分的依赖关系，并带领学员完成CALTPP热导率模块从参数输入到结果分析的完整计算流程。谭敬老师围绕多元合金和氧化物体系的密度、粘度建模理论展开教学，随后通过实际案例指导学员掌握CALTPP粘度模块的操作方法。</p>
-<figure><img src="../news-260902-img6.jpg" alt="CALTPP热导率模块实操培训"><figcaption>CALTPP热导率模块教学与实操培训</figcaption></figure>
-<figure><img src="../news-260902-img7.jpg" alt="谭敬老师讲授CALTPP粘度模块"><figcaption>谭敬老师现场授课</figcaption></figure>
-<figure><img src="../news-260902-img11.jpg" alt="谭敬老师与学员现场交流"><figcaption>谭敬老师与学员现场交流</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img6.jpg" alt="CALTPP热导率模块实操培训"><figcaption>CALTPP热导率模块教学与实操培训</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img7.jpg" alt="谭敬老师讲授CALTPP粘度模块"><figcaption>谭敬老师现场授课</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img11.jpg" alt="谭敬老师与学员现场交流"><figcaption>谭敬老师与学员现场交流</figcaption></figure>
 <h2>圆满结班，系列培训持续推进</h2>
 <p>结班仪式上，杜勇教授表示，本次讲习班旨在推动热物性理论在集成计算材料工程中的广泛应用，进一步揭示材料“成分—工艺—组织—性能”的内在联系。培训期间，学员与授课专家在各教学环节深入互动，形成了浓厚的学术交流氛围。作为“材料智能设计软件系列培训”的开篇活动，本次讲习班取得圆满成功，未来还将继续举办系列培训，服务我国新材料研发与工业创新。</p>
-<figure><img src="../news-260902-img8.jpg" alt="杜勇教授在结班仪式上发言"><figcaption>杜勇教授结班发言</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img8.jpg" alt="杜勇教授在结班仪式上发言"><figcaption>杜勇教授结班发言</figcaption></figure>
 <h2>关于CALTPP软件</h2>
 <p>本次培训重点使用的CALTPP（Calculation of ThermoPhysical Properties）软件由授课团队历时10年开发，是一款面向多元多相合金的热物性计算及应用工具。软件构建了热力学与热物性深度耦合的统一计算框架，集成扩散、粘度与热导率模块，并结合偏微分方程求解技术和多种优化算法，为热物性研究与材料设计提供计算支持。目前，中外科研院所研究人员已使用CALTPP发表SCI论文100余篇。</p>
 `,
             en: `
 <p>From August 28 to 31, 2026, the first session of RR-Tek's Materials Intelligent Design Software Training Series—Thermophysical Property Theory and Software—was successfully held at Tongcheng Lushan Hotel in Changsha, Hunan. The workshop brought together 131 experts, university faculty members, graduate students, and industrial R&amp;D professionals from 18 provinces across China for three days of systematic theory and hands-on software training in diffusion kinetics, thermal conductivity, and viscosity.</p>
-<figure><img src="../news-260902-img1.jpg" alt="Participants at the 2026 thermophysical property workshop"><figcaption>Workshop venue</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img1.jpg" alt="Participants at the 2026 thermophysical property workshop"><figcaption>Workshop venue</figcaption></figure>
 <h2>Diffusion kinetics theory and frontier applications</h2>
 <p>On August 29, Liu Yuling introduced the physical foundations, microscopic mechanisms, classifications, and temperature dependence of diffusion. Du Changfa then explained Fick's first and second laws, diffusion coefficients, the Kirkendall effect, and thermodynamic driving forces including chemical potential, activity, and thermodynamic factors.</p>
-<figure><img src="../news-260902-img2.jpg" alt="Liu Yuling teaching diffusion kinetics"><figcaption>Liu Yuling delivering a lecture</figcaption></figure>
-<figure><img src="../news-260902-img9.jpg" alt="Du Changfa teaching diffusion kinetics"><figcaption>Du Changfa delivering a lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img2.jpg" alt="Liu Yuling teaching diffusion kinetics"><figcaption>Liu Yuling delivering a lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img9.jpg" alt="Du Changfa teaching diffusion kinetics"><figcaption>Du Changfa delivering a lecture</figcaption></figure>
 <p>In the afternoon, Professor Du Yong, a member of the Hungarian Academy of Sciences, presented frontier applications of thermophysical-property computation in materials science and engineering. Professor George Kaptay, also a member of the Hungarian Academy of Sciences, delivered an online report on frontier applications of diffusion-kinetics computation.</p>
-<figure><img src="../news-260902-img3.jpg" alt="Professor Du Yong presenting frontier applications"><figcaption>Professor Du Yong delivering a lecture</figcaption></figure>
-<figure><img src="../news-260902-img4.jpg" alt="Professor George Kaptay teaching online"><figcaption>Professor George Kaptay delivering an online lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img3.jpg" alt="Professor Du Yong presenting frontier applications"><figcaption>Professor Du Yong delivering a lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img4.jpg" alt="Professor George Kaptay teaching online"><figcaption>Professor George Kaptay delivering an online lecture</figcaption></figure>
 <h2>Hands-on CALTPP diffusion training</h2>
 <p>On August 30, the full-day program focused on the CALTPP diffusion module. Liu Huixin guided participants through the interface, parameter settings, and basic computational workflow, while Yang Hui covered advanced functions and application techniques. Participants practiced on their own laptops and discussed practical questions with the instructors.</p>
-<figure><img src="../news-260902-img5.jpg" alt="Hands-on CALTPP diffusion training"><figcaption>CALTPP diffusion module training</figcaption></figure>
-<figure><img src="../news-260902-img10.jpg" alt="Yang Hui teaching the CALTPP diffusion module"><figcaption>Yang Hui delivering a lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img5.jpg" alt="Hands-on CALTPP diffusion training"><figcaption>CALTPP diffusion module training</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img10.jpg" alt="Yang Hui teaching the CALTPP diffusion module"><figcaption>Yang Hui delivering a lecture</figcaption></figure>
 <h2>Thermal conductivity and viscosity</h2>
 <p>On August 31, Wen Shiyi explained microscopic heat-transfer mechanisms and the dependence of thermal conductivity on temperature and composition, followed by hands-on CALTPP thermal-conductivity exercises. Tan Jing introduced modeling methods for density and viscosity in multicomponent alloys and oxide systems and guided participants through practical CALTPP viscosity calculations.</p>
-<figure><img src="../news-260902-img6.jpg" alt="CALTPP thermal conductivity training"><figcaption>CALTPP thermal conductivity module training</figcaption></figure>
-<figure><img src="../news-260902-img7.jpg" alt="Tan Jing teaching the CALTPP viscosity module"><figcaption>Tan Jing delivering a lecture</figcaption></figure>
-<figure><img src="../news-260902-img11.jpg" alt="Tan Jing discussing with a participant"><figcaption>Tan Jing discussing with a participant</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img6.jpg" alt="CALTPP thermal conductivity training"><figcaption>CALTPP thermal conductivity module training</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img7.jpg" alt="Tan Jing teaching the CALTPP viscosity module"><figcaption>Tan Jing delivering a lecture</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img11.jpg" alt="Tan Jing discussing with a participant"><figcaption>Tan Jing discussing with a participant</figcaption></figure>
 <h2>Successful conclusion and future training</h2>
 <p>At the closing ceremony, Professor Du Yong emphasized that the workshop was designed to broaden the use of thermophysical-property theory in integrated computational materials engineering and deepen understanding of composition–process–microstructure–property relationships. As the opening event in RR-Tek's Materials Intelligent Design Software Training Series, the workshop concluded successfully, and further training sessions will follow.</p>
-<figure><img src="../news-260902-img8.jpg" alt="Professor Du Yong speaking at the closing ceremony"><figcaption>Professor Du Yong at the closing ceremony</figcaption></figure>
+<figure><img src="../assets/news/2026-09-02/news-260902-img8.jpg" alt="Professor Du Yong speaking at the closing ceremony"><figcaption>Professor Du Yong at the closing ceremony</figcaption></figure>
 <h2>About CALTPP</h2>
 <p>CALTPP (Calculation of ThermoPhysical Properties), the software used throughout the workshop, was developed by the teaching team over ten years for thermophysical-property calculation and application in multicomponent, multiphase alloys. Its unified framework couples thermodynamics with diffusion, viscosity, and thermal conductivity models and integrates robust partial differential equation solvers and optimization algorithms. Researchers at institutions in China and abroad have used CALTPP in more than 100 SCI-indexed publications.</p>
 `
@@ -110,14 +110,14 @@ const newsDetailData = {
         body: {
             zh: `
 <p>2026年5月17日至19日，第二届“硬质材料基础科学与关键技术”学术研讨会在长沙召开，汇聚了来自全国及港澳高校、科研院所和企业的260余位专家学者。中国科学院院士田永君、陈光、陈延峰及中国工程院院士赵中伟出席，共同探讨硬质材料前沿科学与关键技术。</p>
-<figure><img src="../assets/news-260518-img1.jpg" alt=""><figcaption>大会现场</figcaption></figure>
+<figure><img src="../assets/news/2026-05-18/news-260518-img1.jpg" alt=""><figcaption>大会现场</figcaption></figure>
 <p>长沙锐睿科技有限公司作为国内领先的材料智能设计软件企业，面向与会专家展示了包括ICALPHAD、CALTPP、MID-MESO等七款自主研发软件，覆盖相图热力学、微观结构演化、晶体塑性力学等材料研发全链条，实现核心算法自主可控。相关软件已服务华为、中国科学院、西北工业大学等33家企业与科研机构，助力合金设计、性能模拟及高通量研发，并累计支持发表SCI论文70余篇。</p>
 <p>研讨会聚焦航空航天、信息通信等领域对高性能硬质材料的战略需求。锐睿科技技术团队展示了在人工智能辅助设计、工艺优化及多尺度性能预测等方向的应用案例，获得专家高度关注与积极反馈。</p>
 <p>未来，长沙锐睿科技将继续推动材料智能设计软件发展，服务高端制造与国家科技自立，为硬质材料及高端制造领域创新贡献力量。</p>
 `,
             en: `
 <p>From May 17 to 19, 2026, the Second Academic Seminar on Basic Science and Key Technologies of Hard Materials was held in Changsha, bringing together more than 260 experts and scholars from universities, research institutes, and enterprises across China, including Hong Kong and Macao. Academicians Tian Yongjun, Chen Guang, Chen Yanfeng of the Chinese Academy of Sciences, and Zhao Zhongwei of the Chinese Academy of Engineering attended the seminar to discuss frontier science and key technologies for hard materials.</p>
-<figure><img src="../assets/news-260518-img1.jpg" alt=""><figcaption>Conference site</figcaption></figure>
+<figure><img src="../assets/news/2026-05-18/news-260518-img1.jpg" alt=""><figcaption>Conference site</figcaption></figure>
 <p>As a leading domestic materials intelligent design software company, Changsha RR-Tek Technology Co., Ltd. presented seven independently developed software products, including ICALPHAD, CALTPP, and MID-MESO. These tools cover the full materials R&D chain, including phase diagram thermodynamics, microstructure evolution, and crystal plasticity mechanics, with independently controllable core algorithms. The software has served 33 enterprises and research institutions, including Huawei, the Chinese Academy of Sciences, and Northwestern Polytechnical University, supporting alloy design, property simulation, high-throughput R&D, and more than 70 SCI publications.</p>
 <p>The seminar focused on strategic demand for high-performance hard materials in aerospace, information and communications, and related fields. RR-Tek's technical team presented application cases in AI-assisted design, process optimization, and multiscale property prediction, receiving strong attention and positive feedback from experts.</p>
 <p>In the future, RR-Tek will continue advancing materials intelligent design software, serving high-end manufacturing and national scientific and technological self-reliance, and contributing to innovation in hard materials and advanced manufacturing.</p>
@@ -134,21 +134,21 @@ const newsDetailData = {
         body: {
             zh: `
 <p>近日，中国稀土学会第七届青年学术会议在江西南昌召开。会议汇聚了稀土领域高校、科研院所及企业代表，围绕稀土材料、稀土永磁、稀土功能材料、绿色冶金与应用技术等方向开展学术交流。</p>
-<figure><img src="../assets/news-260517-img1.jpg" alt=""><figcaption>大会现场</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img1.jpg" alt=""><figcaption>大会现场</figcaption></figure>
 <p>公司两位技术人员受邀参加会议，并分别作邀请报告。其中，《稀土永磁体热力学数据库：从“经验试错”到“预测设计”》报告围绕稀土永磁材料研发中的热力学数据库建设与应用展开，介绍了基于热力学计算开展材料设计、组织调控及性能优化的方法与实践，展示了计算驱动材料研发在提升研发效率、降低试错成本方面的重要作用。</p>
 <p>另一场邀请报告《ICALPHAD软件：相图计算与智能热力学优化的集成平台》重点介绍了ICALPHAD软件在相图计算、热力学参数优化及智能化材料设计中的功能与应用进展，展示了公司在CALPHAD方法、热力学计算平台开发以及智能材料设计方向上的技术积累。</p>
-<figure><img src="../assets/news-260517-img2.jpg" alt=""><figcaption>公司技术人员作题为《稀土永磁体热力学数据库：从“经验试错”到“预测设计”》的邀请报告</figcaption></figure>
-<figure><img src="../assets/news-260517-img3.jpg" alt=""><figcaption>公司技术人员作题为《ICALPHAD软件：相图计算与智能热力学优化的集成平台》的邀请报告</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img2.jpg" alt=""><figcaption>公司技术人员作题为《稀土永磁体热力学数据库：从“经验试错”到“预测设计”》的邀请报告</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img3.jpg" alt=""><figcaption>公司技术人员作题为《ICALPHAD软件：相图计算与智能热力学优化的集成平台》的邀请报告</figcaption></figure>
 <p>会议期间，公司参会人员还与相关领域专家学者围绕稀土永磁材料设计、热力学数据库开发及产业应用等内容进行了深入交流，进一步了解行业前沿技术与发展趋势。</p>
 <p>此次受邀作报告，体现了行业对公司在稀土永磁材料热力学研究与计算辅助设计领域技术工作的认可。未来，公司将继续加强技术创新与产学研交流合作，持续提升核心技术能力，为稀土功能材料产业高质量发展贡献力量。</p>
 `,
             en: `
 <p>Recently, the 7th Youth Academic Conference of the Chinese Society of Rare Earths was held in Nanchang, Jiangxi. The conference brought together representatives from universities, research institutes, and enterprises in the rare-earth field for academic exchange on rare-earth materials, rare-earth permanent magnets, functional rare-earth materials, green metallurgy, and application technologies.</p>
-<figure><img src="../assets/news-260517-img1.jpg" alt=""><figcaption>Conference site</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img1.jpg" alt=""><figcaption>Conference site</figcaption></figure>
 <p>Two technical staff members from RR-Tek were invited to attend and deliver invited talks. The report titled "Rare-Earth Permanent Magnet Thermodynamic Database: From Empirical Trial-and-Error to Predictive Design" focused on thermodynamic database development and application in rare-earth permanent magnet R&D, introducing methods and practices for materials design, microstructure control, and property optimization based on thermodynamic calculations.</p>
 <p>Another invited talk, "ICALPHAD Software: An Integrated Platform for Phase Diagram Calculation and Intelligent Thermodynamic Optimization," introduced the functions and application progress of ICALPHAD in phase diagram calculation, thermodynamic parameter optimization, and intelligent materials design, demonstrating RR-Tek's technical accumulation in CALPHAD methods, thermodynamic computing platform development, and intelligent materials design.</p>
-<figure><img src="../assets/news-260517-img2.jpg" alt=""><figcaption>RR-Tek technical staff delivering the invited talk on rare-earth permanent magnet thermodynamic databases</figcaption></figure>
-<figure><img src="../assets/news-260517-img3.jpg" alt=""><figcaption>RR-Tek technical staff delivering the invited talk on ICALPHAD software</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img2.jpg" alt=""><figcaption>RR-Tek technical staff delivering the invited talk on rare-earth permanent magnet thermodynamic databases</figcaption></figure>
+<figure><img src="../assets/news/2026-05-17/news-260517-img3.jpg" alt=""><figcaption>RR-Tek technical staff delivering the invited talk on ICALPHAD software</figcaption></figure>
 <p>During the conference, RR-Tek participants also held in-depth exchanges with experts and scholars on rare-earth permanent magnet design, thermodynamic database development, and industrial applications, gaining further insight into industry frontiers and development trends.</p>
 <p>This invitation reflects industry recognition of RR-Tek's work in rare-earth permanent magnet thermodynamics and computation-assisted design. RR-Tek will continue strengthening technological innovation and industry-university-research collaboration to support high-quality development of rare-earth functional materials.</p>
 `
@@ -166,16 +166,16 @@ const newsDetailData = {
             en: `
 <p>On April 24, 2026, Changsha RR-Tek Technology Co., Ltd. successfully held the Materials Intelligent Design Software Product Launch Conference at Wyndham Garden Hotel in Yuelu University Town. The company officially released seven independently developed materials intelligent design software products for industry users, covering phase diagram thermodynamic calculation, thermophysical property calculation, diffusion kinetics, microstructure simulation, and crystal plasticity analysis. The release marks an important step toward a full-chain independent solution for materials computational industrial software in China.</p>
 <p>The conference brought together leaders, experts, and representatives from government, universities, research institutes, and industry. Several speakers noted that materials computation software has long depended on overseas products, often facing algorithmic black boxes and closed databases. RR-Tek's released software system makes progress in independent algorithms, self-developed databases, and engineering application, and is significant for high-end manufacturing and new materials development.</p>
-<figure><img src="../assets/news-260424-img1.jpg" alt=""><figcaption>Speech by Liu Weidong, First-Level Inspector of the Hunan Provincial Department of Industry and Information Technology</figcaption></figure>
-<figure><img src="../assets/news-260424-img2.jpg" alt=""><figcaption>Speech by Professor George Kaptay, Academician of the Hungarian Academy of Sciences</figcaption></figure>
-<figure><img src="../assets/news-260424-img3.jpg" alt=""><figcaption>Speech by Zhang Zhongjian, President of the Zhuzhou Cemented Carbide Association</figcaption></figure>
-<figure><img src="../assets/news-260424-img4.jpg" alt=""><figcaption>Speech by Professor Du Yong, Academician of the Hungarian Academy of Sciences</figcaption></figure>
-<figure><img src="../assets/news-260424-img5.jpg" alt=""><figcaption>Software launch ceremony</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img1.jpg" alt=""><figcaption>Speech by Liu Weidong, First-Level Inspector of the Hunan Provincial Department of Industry and Information Technology</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img2.jpg" alt=""><figcaption>Speech by Professor George Kaptay, Academician of the Hungarian Academy of Sciences</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img3.jpg" alt=""><figcaption>Speech by Zhang Zhongjian, President of the Zhuzhou Cemented Carbide Association</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img4.jpg" alt=""><figcaption>Speech by Professor Du Yong, Academician of the Hungarian Academy of Sciences</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img5.jpg" alt=""><figcaption>Software launch ceremony</figcaption></figure>
 <p>The seven released products build a complete technical system: ICALPHAD for phase diagrams and thermodynamics; CALTPP diffusion, viscosity, and thermal conductivity modules; MID-NANO for nanoscale microstructure simulation; MID-MESO for mesoscale multiphysics microstructure simulation; and CPCP for crystal plasticity finite element calculation.</p>
 <p>These products support tasks such as multicomponent phase diagram calculation, intelligent thermodynamic parameter optimization, diffusion and mobility calculation, liquid viscosity prediction, thermal conductivity calculation, phase-field simulation, and multiscale mechanics simulation. Together, they provide software support across composition design, process optimization, microstructure evolution, and performance prediction.</p>
-<figure><img src="../assets/news-260424-img6.jpg" alt=""><figcaption>Software demonstration and technical exchange</figcaption></figure>
-<figure><img src="../assets/news-260424-img7.jpg" alt=""><figcaption>Discussion with participating experts</figcaption></figure>
-<figure><img src="../assets/news-260424-img8.jpg" alt=""><figcaption>Conference participants</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img6.jpg" alt=""><figcaption>Software demonstration and technical exchange</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img7.jpg" alt=""><figcaption>Discussion with participating experts</figcaption></figure>
+<figure><img src="../assets/news/2026-04-24/news-260424-img8.jpg" alt=""><figcaption>Conference participants</figcaption></figure>
 <p>RR-Tek will continue focusing on core algorithm development, scientific database construction, and engineering application, helping materials R&D move from experience-driven trial-and-error toward computation-guided intelligent design.</p>
 `
         }

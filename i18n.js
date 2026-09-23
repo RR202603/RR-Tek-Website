@@ -1464,49 +1464,39 @@ const translations = {
             },
             functions: {
                 item1: {
-                    zh: "灵活自定义微结构建模",
-                    en: "Flexible custom microstructure modeling",
-                    fr: "Modelisation microstructurale personnalisee et flexible"
+                    zh: "微结构建模",
+                    en: "Microstructure modeling",
+                    fr: "Modelisation microstructurale"
                 },
                 item2: {
-                    zh: "晶格结构演化模拟",
-                    en: "Lattice structure evolution simulation",
-                    fr: "Simulation de l'evolution des structures de reseau"
+                    zh: "晶格结构演化",
+                    en: "Lattice structure evolution",
+                    fr: "Evolution des structures de reseau"
                 },
                 item3: {
-                    zh: "多元多相体系晶体相场求解",
-                    en: "Crystal phase-field solving for multicomponent multiphase systems",
-                    fr: "Resolution par champ de phase cristallin pour systemes multicomposants multiphases"
+                    zh: "晶体相场求解",
+                    en: "Crystal phase-field solving",
+                    fr: "Resolution par champ de phase cristallin"
                 },
                 item4: {
-                    zh: "温度场耦合演化求解",
-                    en: "Temperature-field coupled evolution solving",
-                    fr: "Resolution couplee avec champ de temperature"
+                    zh: "温度场、应力场耦合",
+                    en: "Temperature- and stress-field coupling",
+                    fr: "Couplage des champs de temperature et de contraintes"
                 },
                 item5: {
-                    zh: "应力场耦合演化求解",
-                    en: "Stress-field coupled evolution solving",
-                    fr: "Resolution couplee avec champ de contraintes"
+                    zh: "缺陷与位错演化",
+                    en: "Defect and dislocation evolution",
+                    fr: "Evolution des defauts et des dislocations"
                 },
                 item6: {
-                    zh: "缺陷结构表征与演化模拟",
-                    en: "Defect structure characterization and evolution simulation",
-                    fr: "Caracterisation et simulation de l'evolution des structures de defauts"
-                },
-                item7: {
-                    zh: "位错形成与运动模拟",
-                    en: "Dislocation formation and motion simulation",
-                    fr: "Simulation de la formation et du mouvement des dislocations"
-                },
-                item8: {
-                    zh: "界面迁移与界面失稳分析",
-                    en: "Interface migration and interface instability analysis",
+                    zh: "界面迁移与失稳分析",
+                    en: "Interface migration and instability analysis",
                     fr: "Analyse de la migration et de l'instabilite des interfaces"
                 },
-                item9: {
-                    zh: "AI 辅助求解加速方案",
-                    en: "AI-assisted solver acceleration solutions",
-                    fr: "Solutions d'acceleration de solveurs assistees par IA"
+                item7: {
+                    zh: "增材制造过程模拟",
+                    en: "Additive manufacturing process simulation",
+                    fr: "Simulation des procedes de fabrication additive"
                 }
             },
             demoTitle: {
@@ -1548,39 +1538,39 @@ const translations = {
             },
             advantages: {
                 item1: {
+                    zh: "向导式 GUI",
+                    en: "Guided GUI",
+                    fr: "Interface guidee"
+                },
+                item2: {
+                    zh: "操作流程清晰、学习成本低",
+                    en: "Clear workflow with a low learning curve",
+                    fr: "Processus clair et faible cout d'apprentissage"
+                },
+                item3: {
+                    zh: "结果可视化",
+                    en: "Result visualization",
+                    fr: "Visualisation des resultats"
+                },
+                item4: {
+                    zh: "数据分析与导出",
+                    en: "Data analysis and export",
+                    fr: "Analyse et export des donnees"
+                },
+                item5: {
+                    zh: "模块化架构",
+                    en: "Modular architecture",
+                    fr: "Architecture modulaire"
+                },
+                item6: {
                     zh: "多场求解器自主可控",
                     en: "Independently controllable multiphysics solvers",
                     fr: "Solveurs multiphysiques autonomes et controlables"
                 },
-                item2: {
-                    zh: "完全自主知识产权",
-                    en: "Fully independent intellectual property rights",
-                    fr: "Droits de propriete intellectuelle entierement independants"
-                },
-                item3: {
-                    zh: "模块化的软件开发框架",
-                    en: "Modular software development framework",
-                    fr: "Architecture logicielle modulaire"
-                },
-                item4: {
-                    zh: "图形化操作界面，用户友好",
-                    en: "Graphical and user-friendly interface",
-                    fr: "Interface graphique et conviviale"
-                },
-                item5: {
-                    zh: "完善的多尺度模拟方案",
-                    en: "Comprehensive multiscale simulation solutions",
-                    fr: "Solutions completes de simulation multi-echelle"
-                },
-                item6: {
-                    zh: "开放灵活的二次开发接口",
-                    en: "Open and flexible secondary development interfaces",
-                    fr: "Interfaces ouvertes et flexibles pour developpement secondaire"
-                },
                 item7: {
-                    zh: "面向晶体相场模型的专门化设计",
-                    en: "Specialized design for crystal phase-field models",
-                    fr: "Conception specialisee pour les modeles de champ de phase cristallin"
+                    zh: "开放的二次开发接口",
+                    en: "Open secondary development interfaces",
+                    fr: "Interfaces ouvertes de developpement secondaire"
                 }
             },
             applications: {
@@ -1609,6 +1599,59 @@ const translations = {
                     en: "Low-dimensional spinodal decomposition within interfaces",
                     fr: "Decomposition spinodale de basse dimension aux interfaces"
                 }
+            },
+            additiveTitle: {
+                zh: "增材制造模拟",
+                en: "Additive Manufacturing Simulation",
+                fr: "Simulation de la fabrication additive"
+            },
+            additiveIntro: {
+                zh: "面向选区激光烧结与激光熔融过程，模拟激光热输入、熔池演化、快速凝固及晶体组织形成，分析工艺参数对熔池稳定性、致密度和微观组织的影响。",
+                en: "Simulate selective laser sintering and laser melting, including laser heat input, melt-pool evolution, rapid solidification, and crystal-structure formation.",
+                fr: "Simulation du frittage laser sur lit de poudre et de la fusion laser, incluant l'apport thermique, l'evolution du bain de fusion et la solidification rapide."
+            },
+            additive: {
+                item1: { zh: "激光粉末床烧结与熔融过程模拟", en: "Laser powder-bed sintering and melting simulation", fr: "Simulation du frittage et de la fusion laser sur lit de poudre" },
+                item2: { zh: "激光功率、扫描速度与预热条件分析", en: "Analysis of laser power, scan speed, and preheating conditions", fr: "Analyse de la puissance laser, de la vitesse de balayage et du prechauffage" },
+                item3: { zh: "熔池温度场、深度与连续性预测", en: "Prediction of melt-pool temperature, depth, and continuity", fr: "Prediction de la temperature, de la profondeur et de la continuite du bain de fusion" },
+                item4: { zh: "烧结致密度与工艺窗口分析", en: "Sintering density and process-window analysis", fr: "Analyse de la densite de frittage et de la fenetre de procede" },
+                item5: { zh: "柱状晶与等轴晶竞争生长模拟", en: "Simulation of competitive columnar and equiaxed grain growth", fr: "Simulation de la croissance competitive des grains colonnaires et equiaxes" },
+                demos: {
+                    process: { zh: "激光粉末床烧结过程与温度场演化", en: "Laser powder-bed sintering and temperature-field evolution", fr: "Evolution du frittage laser et du champ de temperature" },
+                    window: { zh: "激光参数对熔池和烧结致密度的影响", en: "Effects of laser parameters on melt pools and sintering density", fr: "Effets des parametres laser sur le bain de fusion et la densite" },
+                    grains: { zh: "柱状晶与等轴晶竞争生长", en: "Competitive columnar and equiaxed grain growth", fr: "Croissance competitive des grains colonnaires et equiaxes" }
+                }
+            },
+            workflowTitle: { zh: "向导式 GUI 与结果可视化", en: "Guided GUI and Result Visualization", fr: "Interface guidee et visualisation des resultats" },
+            workflowIntro: { zh: "向导式 GUI 将复杂模拟流程拆解为五步，帮助用户完成参数设置、计算域定义、外力条件配置、演化模拟和结果分析。", en: "The guided GUI breaks complex simulations into five steps covering parameter setup, domain definition, external conditions, evolution simulation, and result analysis.", fr: "L'interface guidee divise les simulations complexes en cinq etapes." },
+            workflow: {
+                item1: { zh: "初始化参数", en: "Initialize parameters", fr: "Initialisation des parametres" },
+                item2: { zh: "计算域与晶格定义", en: "Define the computational domain and lattice", fr: "Definition du domaine de calcul et du reseau" },
+                item3: { zh: "外力条件配置", en: "Configure external conditions", fr: "Configuration des conditions externes" },
+                item4: { zh: "凝固演化模拟", en: "Simulate solidification evolution", fr: "Simulation de l'evolution de la solidification" },
+                item5: { zh: "结果可视化、分析与导出", en: "Visualize, analyze, and export results", fr: "Visualisation, analyse et export des resultats" }
+            },
+            rareEarthTitle: { zh: "稀土合金凝固案例", en: "Rare-Earth Alloy Solidification Case", fr: "Cas de solidification d'un alliage de terres rares" },
+            rareEarthIntro: { zh: "基于稀土热力学数据修正晶体相场模型，分析稀土合金凝固过程中的晶粒形貌、取向分布、尺寸演化及组织形成机制。", en: "Using rare-earth thermodynamic data to refine the crystal phase-field model, this case analyzes grain morphology, orientation distribution, size evolution, and microstructure formation.", fr: "Ce cas analyse la morphologie, l'orientation et la taille des grains lors de la solidification d'un alliage de terres rares." },
+            rareEarth: {
+                demos: {
+                    solidification: { zh: "稀土合金凝固过程与组织演化预测", en: "Rare-earth alloy solidification and microstructure evolution", fr: "Solidification et evolution microstructurale d'un alliage de terres rares" },
+                    morphology: { zh: "过冷度对晶粒形貌的影响", en: "Effect of undercooling on grain morphology", fr: "Effet du sous-refroidissement sur la morphologie des grains" },
+                    statistics: { zh: "晶粒数量、尺寸、取向与长宽比统计", en: "Statistics of grain count, size, orientation, and aspect ratio", fr: "Statistiques du nombre, de la taille, de l'orientation et du rapport d'aspect des grains" }
+                }
+            },
+            caseStudiesTitle: {
+                zh: "典型应用与计算案例",
+                en: "Typical Applications and Calculation Cases",
+                fr: "Applications typiques et cas de calcul"
+            },
+            caseStudies: {
+                additiveTitle: { zh: "增材制造过程模拟", en: "Additive Manufacturing Process Simulation", fr: "Simulation des procedes de fabrication additive" },
+                additiveIntro: { zh: "分析激光热输入、熔池演化、烧结致密度及快速凝固组织。", en: "Analyze laser heat input, melt-pool evolution, sintering density, and rapidly solidified microstructures.", fr: "Analyser l'apport thermique laser, l'evolution du bain de fusion, la densite de frittage et les microstructures solidifiees rapidement." },
+                rareEarthTitle: { zh: "合金凝固与组织预测", en: "Alloy Solidification and Microstructure Prediction", fr: "Solidification des alliages et prediction microstructurale" },
+                rareEarthIntro: { zh: "分析过冷度对晶粒形貌、取向分布和组织统计结果的影响。", en: "Analyze the effects of undercooling on grain morphology, orientation distribution, and quantitative microstructure statistics.", fr: "Analyser les effets du sous-refroidissement sur la morphologie, l'orientation et les statistiques quantitatives de la microstructure." },
+                nanoscaleTitle: { zh: "纳米结构与缺陷演化", en: "Nanoscale Structure and Defect Evolution", fr: "Evolution des structures et defauts a l'echelle nanometrique" },
+                nanoscaleIntro: { zh: "展示非晶—纳米晶形成、晶界析出与界面缺陷演化等纳观尺度结果。", en: "Show nanoscale results for amorphous-nanocrystalline formation, grain-boundary precipitation, and interfacial defect evolution.", fr: "Presenter des resultats nanometriques sur les structures amorphes-nanocristallines, la precipitation aux joints de grains et les defauts interfaciaux." }
             }
         },
         midMeso: {

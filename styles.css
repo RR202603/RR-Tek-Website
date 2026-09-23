@@ -856,6 +856,22 @@ footer p {
     margin-top: 26px;
 }
 
+.case-study + .case-study {
+    margin-top: 42px;
+    padding-top: 34px;
+    border-top: 1px solid var(--border);
+}
+
+.case-study h3 {
+    margin-bottom: 8px;
+    color: #1d4e96;
+    font-size: 1.12rem;
+}
+
+.case-study p {
+    margin-bottom: 14px;
+}
+
 .demo-card {
     overflow: hidden;
     border: 1px solid var(--border);

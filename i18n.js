@@ -7,6 +7,7 @@ const translations = {
         }
     },
     nav: {
+        training: { zh: "湘江·培训", en: "Xiangjiang Training" },
         home: {
             zh: "首页",
             en: "Home",
@@ -2837,7 +2838,7 @@ const translations = {
     }
 };
 
-const languageOrder = ["zh", "en", "fr"];
+const languageOrder = ["zh", "en"];
 const languageHtmlLang = {
     zh: "zh-CN",
     en: "en",
@@ -2852,6 +2853,7 @@ const brandNames = {
 let currentLanguage = localStorage.getItem("rrTekLanguage") || "zh";
 if (!languageOrder.includes(currentLanguage)) {
     currentLanguage = "zh";
+    localStorage.setItem("rrTekLanguage", currentLanguage);
 }
 
 function getTranslation(key, lang) {

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>湘江·培训 | 长沙锐睿科技有限公司</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="online-contact.css">
+<style>
+.training-page { --ink: #1f2937; --blue: #0d4fb3; --muted: #5b6472; --line: #e6edf5; }
+.training-page .wrap { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.training-page section.wrap { padding-top: 40px; }
+.training-page .heading { font-size: 28px; margin-bottom: 24px; color: var(--ink); }
+.training-page { padding-bottom: 64px; }
+.training-page .training-description { max-width: 760px; margin-top: 12px; line-height: 1.85; color: #e2ebff; }
+.training-page .detail-hero { padding-bottom: 40px; }
+.training-page .detail-hero h2 { color: white; margin-top: 16px; font-size: 22px; }
+.courses { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 28px; overflow-x: auto; }
+.courses li {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    align-content: start;
+    align-items: start;
+    column-gap: 10px;
+    row-gap: 12px;
+    min-height: 380px;
+    padding: 28px 22px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: #fff;
+}
+.number { grid-column: 1; grid-row: 1 / 3; font: 500 20px/1.5 "Songti SC", serif; color: var(--blue); }
+.courses h3 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    justify-self: start;
+    white-space: nowrap;
+}
+.event {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f6f9fd;
+}
+.event img { width: 100%; height: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center; display: block; }
+.event-copy { padding: clamp(24px, 3vw, 36px); align-self: center; }
+.event-copy p, .event-copy h3, .event-copy a {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--ink);
+    font-weight: 400;
+}
+.event-copy h3 { margin: 0 0 12px; font-weight: 600; }
+.event-copy a { display: inline-block; margin-top: 16px; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+@media (max-width: 730px) {
+    .wrap { width: calc(100% - 36px); }
+    .courses { gap: 16px; padding-bottom: 8px; }
+    .courses li { padding: 24px 18px; }
+    .event { grid-template-columns: 1fr; }
+    .event img { aspect-ratio: 16 / 10; }
+}
+html:not([lang^="zh"]) .courses h3 {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    white-space: normal;
+    font-size: 16px;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+}
+</style>
+</head>
+<body>
+<header>
+        <nav class="nav-container">
+            <a href="index.html#hero" class="brand" aria-label="长沙锐睿科技有限公司首页">
+                <img src="assets/logo.jpg" alt="长沙锐睿科技有限公司 Logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name" id="company-logo-text">长沙锐睿科技有限公司</span>
+                    <span class="brand-slogan" data-i18n="brand.slogan">专注科研软件、材料数据库与智能设计</span>
+                </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" data-i18n="nav.home">首页</a></li>
+                <li><a href="index.html#about" data-i18n="nav.about">关于我们</a></li>
+                <li><a href="index.html#products" data-i18n="nav.products">产品与服务</a></li>
+                <li><a href="index.html#news" data-i18n="nav.news">新闻动态</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">联系我们</a></li>
+                <li><a href="xiangjiang-training.html" aria-current="page" data-i18n="training.name">湘江·培训</a></li>
+                <li class="language-switcher" aria-label="Language selector">
+                    <button type="button" class="lang-option" data-lang="zh" onclick="setLanguage('zh')">中文</button>
+                    <button type="button" class="lang-option" data-lang="en" onclick="setLanguage('en')">English</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main id="top" class="detail-page training-page">
+<section class="detail-hero"><div class="container">
+<div><h1 data-i18n="training.name">湘江·培训</h1><h2 data-i18n="training.subtitle">材料智能设计软件培训</h2>
+<p class="training-description" data-i18n="training.intro">从计算原理讲起，结合典型算例开展软件实操。学员在老师指导下完成参数设置、运行计算和结果解读，掌握可用于科研与工程实践的计算方法。</p>
+</div>
+</div></section>
+<section class="wrap" id="courses" aria-labelledby="course-heading">
+<h2 class="heading" id="course-heading" data-i18n="training.courses">培训课程</h2>
+<ol class="courses">
+<li><span class="number" aria-hidden="true">壹</span><h3 data-i18n="training.course1">相图热力学理论及应用</h3></li>
+<li><span class="number" aria-hidden="true">贰</span><h3 data-i18n="training.course2">热物理性能理论及应用</h3></li>
+<li><span class="number" aria-hidden="true">叁</span><h3 data-i18n="training.course3">纳观及介观相场理论及应用</h3></li>
+<li><span class="number" aria-hidden="true">肆</span><h3 data-i18n="training.course4">晶体塑性有限元理论及应用</h3></li>
+<li><span class="number" aria-hidden="true">伍</span><h3 data-i18n="training.course5">人工智能理论及应用</h3></li>
+</ol></section>
+<section class="wrap" aria-labelledby="updates">
+<h2 class="heading" id="updates" data-i18n="training.updates">培训动态</h2>
+<article class="event">
+<img src="assets/news/2026-09-02/news-260902-img11.jpg" alt="讲习班授课教师与学员现场交流" loading="lazy">
+<div class="event-copy"><h3 data-i18n="training.event">已举办 · 2026年热物理性能理论及应用讲习班</h3><p data-i18n="training.date">2026 年 8 月 28–31 日 · 湖南长沙</p>
+<a href="news/2026-09-02.html" data-i18n="training.review">查看培训回顾 →</a></div>
+</article></section>
+</main>
+<footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-cn" data-i18n="footer.companyCn">长沙锐睿科技有限公司</p>
+                <p class="footer-en" data-i18n="footer.companyEn">Changsha RR-Tek Technology Co., Ltd.</p>
+            </div>
+            <p data-i18n="footer.text">© 2026 长沙锐睿科技有限公司 版权所有</p>
+        </div>
+    </footer>
+<script src="i18n.js"></script>
+<script>
+translations.training = {
+  "name": {
+    "zh": "湘江·培训",
+    "en": "Xiangjiang Training",
+    "fr": "Formation Xiangjiang"
+  },
+  "subtitle": {
+    "zh": "材料智能设计软件培训",
+    "en": "Training in Intelligent Materials Design Software",
+    "fr": "Formation aux logiciels de conception intelligente des matériaux"
+  },
+  "intro": {
+    "zh": "从计算原理讲起，结合典型算例开展软件实操。学员在老师指导下完成参数设置、运行计算和结果解读，掌握可用于科研与工程实践的计算方法。",
+    "en": "Starting with computational principles, participants work through representative examples in hands-on software sessions. Instructors guide parameter setup, calculations and result interpretation, helping participants develop methods for research and engineering practice.",
+    "fr": "À partir des principes de calcul, les participants réalisent des exercices pratiques sur des cas représentatifs. Les formateurs les accompagnent dans le paramétrage, les calculs et l’interprétation des résultats, afin de maîtriser des méthodes applicables à la recherche et à l’ingénierie."
+  },
+  "courses": {
+    "zh": "培训课程",
+    "en": "Training Courses",
+    "fr": "Formations"
+  },
+  "course1": {
+    "zh": "相图热力学理论及应用",
+    "en": "Phase Diagram Thermodynamics: Theory and Applications",
+    "fr": "Thermodynamique des diagrammes de phases : théorie et applications"
+  },
+  "course2": {
+    "zh": "热物理性能理论及应用",
+    "en": "Thermophysical Properties: Theory and Applications",
+    "fr": "Propriétés thermophysiques : théorie et applications"
+  },
+  "course3": {
+    "zh": "纳观及介观相场理论及应用",
+    "en": "Nano- and Mesoscale Phase-Field Methods: Theory and Applications",
+    "fr": "Méthodes de champ de phase aux échelles nanoscopique et mésoscopique : théorie et applications"
+  },
+  "course4": {
+    "zh": "晶体塑性有限元理论及应用",
+    "en": "Crystal Plasticity Finite Element Methods: Theory and Applications",
+    "fr": "Méthodes des éléments finis en plasticité cristalline : théorie et applications"
+  },
+  "course5": {
+    "zh": "人工智能理论及应用",
+    "en": "Artificial Intelligence: Theory and Applications",
+    "fr": "Intelligence artificielle : théorie et applications"
+  },
+  "updates": {
+    "zh": "培训动态",
+    "en": "Training News",
+    "fr": "Actualités des formations"
+  },
+  "event": {
+    "zh": "已举办 · 2026年热物理性能理论及应用讲习班",
+    "en": "Completed · 2026 Workshop on Thermophysical Properties: Theory and Applications",
+    "fr": "Formation passée · Atelier 2026 sur les propriétés thermophysiques : théorie et applications"
+  },
+  "date": {
+    "zh": "2026 年 8 月 28–31 日 · 湖南长沙",
+    "en": "28–31 August 2026 · Changsha, Hunan",
+    "fr": "28–31 août 2026 · Changsha, Hunan"
+  },
+  "review": {
+    "zh": "查看培训回顾 →",
+    "en": "Read the workshop recap →",
+    "fr": "Retour sur la formation →"
+  }
+};
+</script>
+<script src="online-contact.js"></script>
+</body></html>

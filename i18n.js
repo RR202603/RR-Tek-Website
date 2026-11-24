@@ -367,8 +367,8 @@ const translations = {
             fr: "Adresse"
         },
         address: {
-            zh: "地址：长沙市岳麓区奥克斯广场5栋806室",
-            en: "Address: Room 806, Building 5, Aux Plaza, Yuelu District, Changsha, China",
+            zh: "地址：长沙市岳麓区奥克斯广场5栋",
+            en: "Address: Building 5, Aux Plaza, Yuelu District, Changsha, China",
             fr: "Adresse : Salle 806, Batiment 5, Aux Plaza, district de Yuelu, Changsha, Chine"
         },
         emailTitle: {

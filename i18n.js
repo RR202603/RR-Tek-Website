@@ -245,13 +245,13 @@ const translations = {
                 fr: "Propose un accompagnement pour les dossiers, le conseil technique et la planification de solutions."
             },
             service4: {
-                zh: "会议与培训服务",
-                en: "Academic Conference & Technical Training Services",
+                zh: "湘江·培训",
+                en: "Xiangjiang Training",
                 fr: "Conferences academiques et formations techniques"
             },
             desc4: {
-                zh: "支持会议组织、专业培训及技术交流活动。",
-                en: "Supports conference organization, professional training, and technical exchange activities.",
+                zh: "开展材料智能设计软件原理与应用培训。",
+                en: "Training in the principles and applications of intelligent materials design software.",
                 fr: "Soutient l'organisation de conferences, la formation professionnelle et les echanges techniques."
             }
         }

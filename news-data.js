@@ -2,8 +2,8 @@ const newsData = [
 {
     "date": "2026-11-24",
     "title": {
-        "zh": "长沙锐睿科技亮相第二十一届全国相图学术会议，展示材料计算软件与数据库",
-        "en": "RR-Tek Presents Materials Calculation Software and Databases at the 21st National Conference on Phase Diagrams"
+        "zh": "长沙锐睿科技参加第二十一届全国相图学术会议",
+        "en": "RR-Tek Participates in the 21st National Conference on Phase Diagrams"
     },
     "detailText": {
         "zh": "查看详情",
